@@ -1,0 +1,4 @@
+dictpath=../data/dict.txt
+cachepath=../data/cache.txt
+indexpath=../data/index.txt
+yuliaopath=../data/yuliao1.txt

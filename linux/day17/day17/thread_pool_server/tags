@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARGS_CHECK	include/head.h	34;"	d
+ARGS_CHECK	src/head.h	34;"	d
+CC	src/Makefile	/^CC:=gcc$/;"	m
+CFLAGS	src/Makefile	/^CFLAGS:=-Wall -I..\/include$/;"	m
+ELF	src/Makefile	/^ELF:=server$/;"	m
+ERROR_CHECK	include/head.h	35;"	d
+ERROR_CHECK	src/head.h	35;"	d
+FILENAME	src/factory.h	16;"	d
+Factory_t	include/factory.h	/^}Factory_t,*pFactory_t;$/;"	t	typeref:struct:__anon1
+Factory_t	src/factory.h	/^}Factory_t,*pFactory_t;$/;"	t	typeref:struct:__anon3
+Node_t	include/work_que.h	/^}Node_t,*pNode_t;$/;"	t	typeref:struct:tag_node
+Node_t	src/work_que.h	/^}Node_t,*pNode_t;$/;"	t	typeref:struct:tag_node
+OBJS	src/Makefile	/^OBJS:=$(patsubst %.c,%.o,$(SRCS))$/;"	m
+Que_t	include/work_que.h	/^}Que_t,*pQue_t;$/;"	t	typeref:struct:__anon2
+Que_t	src/work_que.h	/^}Que_t,*pQue_t;$/;"	t	typeref:struct:__anon5
+SRCS	src/Makefile	/^SRCS:=$(wildcard *.c)$/;"	m
+THREAD_ERROR_CHECK	include/head.h	36;"	d
+THREAD_ERROR_CHECK	src/head.h	36;"	d
+_GNU_SOURCE	include/head.h	3;"	d
+_GNU_SOURCE	src/head.h	3;"	d
+__FACTORY_H__	include/factory.h	2;"	d
+__FACTORY_H__	src/factory.h	2;"	d
+__HEAD_H__	include/head.h	2;"	d
+__HEAD_H__	src/head.h	2;"	d
+__WORK_QUE__	include/work_que.h	2;"	d
+__WORK_QUE__	src/work_que.h	2;"	d
+buf	src/factory.h	/^    char buf[1000];$/;"	m	struct:__anon4
+capacity	include/work_que.h	/^    int capacity;$/;"	m	struct:__anon2
+capacity	src/work_que.h	/^    int capacity;$/;"	m	struct:__anon5
+cond	include/factory.h	/^    pthread_cond_t cond;$/;"	m	struct:__anon1
+cond	src/factory.h	/^    pthread_cond_t cond;$/;"	m	struct:__anon3
+dataLen	src/factory.h	/^    int dataLen;\/\/代表后面存储的数据长度$/;"	m	struct:__anon4
+factoryInit	src/factory.c	/^int factoryInit(pFactory_t pf,int threadNum,int capacity)$/;"	f
+factoryStart	src/factory.c	/^int factoryStart(pFactory_t pf)$/;"	f
+main	src/main.c	/^int main(int argc,char *argv[])$/;"	f
+mutex	include/work_que.h	/^    pthread_mutex_t mutex;$/;"	m	struct:__anon2
+mutex	src/work_que.h	/^    pthread_mutex_t mutex;$/;"	m	struct:__anon5
+newFd	include/work_que.h	/^    int newFd;$/;"	m	struct:tag_node
+newFd	src/work_que.h	/^    int newFd;$/;"	m	struct:tag_node
+pFactory_t	include/factory.h	/^}Factory_t,*pFactory_t;$/;"	t	typeref:struct:__anon1
+pFactory_t	src/factory.h	/^}Factory_t,*pFactory_t;$/;"	t	typeref:struct:__anon3
+pNext	include/work_que.h	/^    struct tag_node *pNext;$/;"	m	struct:tag_node	typeref:struct:tag_node::tag_node
+pNext	src/work_que.h	/^    struct tag_node *pNext;$/;"	m	struct:tag_node	typeref:struct:tag_node::tag_node
+pNode_t	include/work_que.h	/^}Node_t,*pNode_t;$/;"	t	typeref:struct:tag_node
+pNode_t	src/work_que.h	/^}Node_t,*pNode_t;$/;"	t	typeref:struct:tag_node
+pQue_t	include/work_que.h	/^}Que_t,*pQue_t;$/;"	t	typeref:struct:__anon2
+pQue_t	src/work_que.h	/^}Que_t,*pQue_t;$/;"	t	typeref:struct:__anon5
+pthid	include/factory.h	/^    pthread_t *pthid;$/;"	m	struct:__anon1
+pthid	src/factory.h	/^    pthread_t *pthid;$/;"	m	struct:__anon3
+que	include/factory.h	/^    Que_t que;$/;"	m	struct:__anon1
+que	src/factory.h	/^    Que_t que;$/;"	m	struct:__anon3
+queGet	src/work_que.c	/^int queGet(pQue_t pq,pNode_t* pGet)$/;"	f
+queHead	include/work_que.h	/^    pNode_t queHead,queTail;$/;"	m	struct:__anon2
+queHead	src/work_que.h	/^    pNode_t queHead,queTail;$/;"	m	struct:__anon5
+queInit	src/work_que.c	/^void queInit(pQue_t pq,int capacity)$/;"	f
+queInsert	src/work_que.c	/^void queInsert(pQue_t pq,pNode_t pNew)$/;"	f
+queTail	include/work_que.h	/^    pNode_t queHead,queTail;$/;"	m	struct:__anon2
+queTail	src/work_que.h	/^    pNode_t queHead,queTail;$/;"	m	struct:__anon5
+size	include/work_que.h	/^    int size;$/;"	m	struct:__anon2
+size	src/work_que.h	/^    int size;$/;"	m	struct:__anon5
+startFlag	include/factory.h	/^    int startFlag;$/;"	m	struct:__anon1
+startFlag	src/factory.h	/^    int startFlag;$/;"	m	struct:__anon3
+tag_node	include/work_que.h	/^typedef struct tag_node{$/;"	s
+tag_node	src/work_que.h	/^typedef struct tag_node{$/;"	s
+tcpInit	src/tcp_init.c	/^int tcpInit(int *sFd,char* ip,char* port)$/;"	f
+threadFunc	src/factory.c	/^void *threadFunc(void *p)$/;"	f
+threadNum	include/factory.h	/^    int threadNum;$/;"	m	struct:__anon1
+threadNum	src/factory.h	/^    int threadNum;$/;"	m	struct:__anon3
+train_t	src/factory.h	/^}train_t;$/;"	t	typeref:struct:__anon4
+tranFile	src/tran_file.c	/^int tranFile(int newFd)$/;"	f

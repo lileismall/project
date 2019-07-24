@@ -1,0 +1,323 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Acceptor	Acceptor.cc	/^Acceptor::Acceptor(const string & ip, unsigned short port)$/;"	f	class:ll::Acceptor
+Acceptor	Acceptor.cc	/^Acceptor::Acceptor(unsigned short port)$/;"	f	class:ll::Acceptor
+Acceptor	Acceptor.h	/^class Acceptor$/;"	c	namespace:ll
+CXX	Makefile	/^CXX:=g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS:= -w -g  $(addprefix -I, $(INC_DIR)) $(LIBS) $/;"	m
+CacheManager	temp/LRUCache.h	/^class CacheManager$/;"	c	namespace:ll
+CacheNode	temp/LRUCache.h	/^		CacheNode(string s, int indexx)$/;"	f	struct:ll::LRUCache::CacheNode
+CacheNode	temp/LRUCache.h	/^	struct CacheNode$/;"	s	class:ll::LRUCache
+Condition	Condition.cc	/^Condition::Condition(MutexLock & mutex)$/;"	f	class:ll::Condition
+Condition	Condition.h	/^class Condition$/;"	c	namespace:ll
+Configuration	Configuration.h	/^    Configuration(const string &filepath)$/;"	f	class:Configuration
+Configuration	Configuration.h	/^class Configuration$/;"	c
+CppJieba	SplitTool.h	/^    CppJieba()$/;"	f	class:ll::CppJieba
+CppJieba	SplitTool.h	/^class CppJieba$/;"	c	namespace:ll
+DictProducer	DictProducer.cc	/^DictProducer::DictProducer(Configuration &conf)$/;"	f	class:ll::DictProducer
+DictProducer	DictProducer.h	/^class DictProducer$/;"	c	namespace:ll
+DictProducer	temp/DictProducer.cc	/^DictProducer::DictProducer(Configuration &conf)$/;"	f	class:ll::DictProducer
+DictProducer	temp/DictProducer.h	/^class DictProducer$/;"	c	namespace:ll
+ERR_EXIT	server.c	11;"	d	file:
+EXE	Makefile	/^EXE:=.\/aproject.exe$/;"	m
+EchoServer	testThread.cc	/^    EchoServer(int i,int j,string str,int n)$/;"	f	class:ll::EchoServer
+EchoServer	testThread.cc	/^class EchoServer$/;"	c	namespace:ll	file:
+EditDis	nBtyte.cc	/^int EditDis(string a,string b)$/;"	f	namespace:ll
+EditDis	temp/nBtyte.cc	/^int EditDis(string a,string b)$/;"	f	namespace:ll
+EventLoop	EventLoop.cc	/^EventLoop::EventLoop(Acceptor & acceptor)$/;"	f	class:ll::EventLoop
+EventLoop	EventLoop.h	/^class EventLoop$/;"	c	namespace:ll
+INC_DIR	Makefile	/^INC_DIR:= .\/$/;"	m
+INF	nBtyte.cc	5;"	d	file:
+INF	nBtyte.h	8;"	d
+INF	temp/nBtyte.cc	5;"	d	file:
+INF	temp/nBtyte.h	8;"	d
+InetAddress	InetAddress.cc	/^InetAddress::InetAddress(const string & ip, unsigned short port)$/;"	f	class:ll::InetAddress
+InetAddress	InetAddress.cc	/^InetAddress::InetAddress(const struct sockaddr_in & addr)$/;"	f	class:ll::InetAddress
+InetAddress	InetAddress.cc	/^InetAddress::InetAddress(unsigned short port)$/;"	f	class:ll::InetAddress
+InetAddress	InetAddress.h	/^class InetAddress$/;"	c	namespace:ll
+LIBS	Makefile	/^LIBS:= -lpthread$/;"	m
+LRUCache	temp/LRUCache.h	/^	LRUCache(int capacity = 10)$/;"	f	class:ll::LRUCache
+LRUCache	temp/LRUCache.h	/^class LRUCache$/;"	c	namespace:ll
+MAXEVENTS	server.c	16;"	d	file:
+MutexLock	MutexLock.cc	/^MutexLock::MutexLock()$/;"	f	class:ll::MutexLock
+MutexLock	MutexLock.h	/^class MutexLock$/;"	c	namespace:ll
+MutexLockGuard	MutexLock.h	/^	MutexLockGuard(MutexLock & mutex)$/;"	f	class:ll::MutexLockGuard
+MutexLockGuard	MutexLock.h	/^class MutexLockGuard$/;"	c	namespace:ll
+Noncopyable	Noncopyable.h	/^	Noncopyable() {}$/;"	f	class:ll::Noncopyable
+Noncopyable	Noncopyable.h	/^class Noncopyable$/;"	c	namespace:ll
+OBJS	Makefile	/^OBJS:= $(patsubst %.cc, %.o, $(SRCS))$/;"	m
+SRCS	Makefile	/^SRCS:=$(wildcard *.cc)$/;"	m
+SRC_DIR	Makefile	/^SRC_DIR:= .\/$/;"	m
+Socket	Socket.cc	/^Socket::Socket()$/;"	f	class:ll::Socket
+Socket	Socket.cc	/^Socket::Socket(int fd)$/;"	f	class:ll::Socket
+Socket	Socket.h	/^class Socket$/;"	c	namespace:ll
+SocketIO	SocketIO.cc	/^SocketIO::SocketIO(int fd)$/;"	f	class:ll::SocketIO
+SocketIO	SocketIO.h	/^class SocketIO$/;"	c	namespace:ll
+SplitTool	SplitTool.h	/^    SplitTool() {}$/;"	f	class:ll::SplitTool
+SplitTool	SplitTool.h	/^class SplitTool$/;"	c	namespace:ll
+TaskQueue	TaskQueue.cc	/^TaskQueue::TaskQueue(size_t sz)$/;"	f	class:ll::TaskQueue
+TaskQueue	TaskQueue.h	/^class TaskQueue$/;"	c	namespace:ll
+TcpConnection	TcpConnection.cc	/^TcpConnection::TcpConnection(int fd, EventLoop * loop)$/;"	f	class:ll::TcpConnection
+TcpConnection	TcpConnection.h	/^class TcpConnection$/;"	c	namespace:ll
+TcpServer	TcpServer.cc	/^TcpServer::TcpServer(const string & ip, unsigned short port)$/;"	f	class:ll::TcpServer
+TcpServer	TcpServer.h	/^class TcpServer$/;"	c	namespace:ll
+Thread	Thread.h	/^	Thread(ThreadCallback && cb)$/;"	f	class:ll::Thread
+Thread	Thread.h	/^class Thread$/;"	c	namespace:ll
+Threadpool	Threadpool.cc	/^Threadpool::Threadpool(size_t threadNum, size_t queSize)$/;"	f	class:ll::Threadpool
+Threadpool	Threadpool.h	/^class Threadpool$/;"	c	namespace:ll
+TimerThread	TimerThread.h	/^	TimerThread(int initialTime, int intervalTime, TimerCallback && cb)$/;"	f	class:ll::TimerThread
+TimerThread	TimerThread.h	/^class TimerThread$/;"	c	namespace:ll
+Timerfd	Timerfd.cc	/^Timerfd::Timerfd(int initialTime, int intervalTime, TimerCallback && cb)$/;"	f	class:ll::Timerfd
+Timerfd	Timerfd.h	/^class Timerfd$/;"	c	namespace:ll
+__WD_ACCEPTOR_H__	Acceptor.h	8;"	d
+__WD_CONDITION_H__	Condition.h	9;"	d
+__WD_EVENTLOOP_H__	EventLoop.h	8;"	d
+__WD_INETADDRESS_H__	InetAddress.h	8;"	d
+__WD_MUTEXLOCK_H__	MutexLock.h	8;"	d
+__WD_SOCKETIO_H__	SocketIO.h	8;"	d
+__WD_SOCKET_H__	Socket.h	8;"	d
+__WD_TASKQUEUE_H__	TaskQueue.h	8;"	d
+__WD_TCPCONNECTION_H__	TcpConnection.h	8;"	d
+__WD_TCPSERVER_H__	TcpServer.h	8;"	d
+__WD_THREADPOOL_H__	Threadpool.h	8;"	d
+_acceptor	EventLoop.h	/^	Acceptor & _acceptor;$/;"	m	class:ll::EventLoop
+_acceptor	TcpServer.h	/^	Acceptor _acceptor;$/;"	m	class:ll::TcpServer
+_addr	Acceptor.h	/^	InetAddress _addr;$/;"	m	class:ll::Acceptor
+_addr	InetAddress.h	/^	struct sockaddr_in _addr;$/;"	m	class:ll::InetAddress	typeref:struct:ll::InetAddress::sockaddr_in
+_cacheVec	temp/LRUCache.h	/^    static vector<LRUCache> _cacheVec;  \/\/缓存数量与线程保持一致,0位置存的是总缓存$/;"	m	class:ll::CacheManager
+_capacity	temp/LRUCache.h	/^	int _capacity;  \/\/缓存大小$/;"	m	class:ll::LRUCache
+_cb	Thread.h	/^	ThreadCallback _cb;$/;"	m	class:ll::Thread
+_cb	Timerfd.h	/^	TimerCallback _cb;$/;"	m	class:ll::Timerfd
+_cond	Condition.h	/^	pthread_cond_t _cond;$/;"	m	class:ll::Condition
+_conf	DictProducer.h	/^    Configuration &_conf;$/;"	m	class:ll::DictProducer
+_conf	temp/DictProducer.h	/^    Configuration &_conf;$/;"	m	class:ll::DictProducer
+_configMap	Configuration.h	/^    map<string,string> _configMap;$/;"	m	class:Configuration
+_conn	testThread.cc	/^    ll::TcpConnectionPtr _conn;$/;"	m	class:ll::myTask	file:
+_conns	EventLoop.h	/^	map<int, TcpConnectionPtr> _conns;$/;"	m	class:ll::EventLoop
+_dict	DictProducer.h	/^    map<string,int> _dict;   \/\/词典$/;"	m	class:ll::DictProducer
+_dict	temp/DictProducer.h	/^    map<string,int> _dict;   \/\/词典$/;"	m	class:ll::DictProducer
+_dir	temp/DictProducer.h	/^    string _dir;  \/\/语料库存放路径$/;"	m	class:ll::DictProducer
+_efd	EventLoop.h	/^	int _efd;$/;"	m	class:ll::EventLoop
+_eventList	EventLoop.h	/^	vector<struct epoll_event> _eventList;$/;"	m	class:ll::EventLoop
+_eventfd	EventLoop.h	/^	int _eventfd;$/;"	m	class:ll::EventLoop
+_fd	Socket.h	/^	int _fd;$/;"	m	class:ll::Socket
+_fd	SocketIO.h	/^	int _fd;$/;"	m	class:ll::SocketIO
+_fd	Timerfd.h	/^	int _fd;$/;"	m	class:ll::Timerfd
+_filepath	Configuration.h	/^    string _filepath;$/;"	m	class:Configuration
+_flag	TaskQueue.h	/^	bool _flag;$/;"	m	class:ll::TaskQueue
+_harhmap	temp/LRUCache.h	/^    unordered_map<string,string> _harhmap; \/\/存放缓存数据$/;"	m	class:ll::LRUCache
+_index	DictProducer.h	/^    map<string,set<string>> _index;$/;"	m	class:ll::DictProducer
+_index	temp/DictProducer.h	/^    map<string,set<string>> _index;$/;"	m	class:ll::DictProducer
+_initialTime	Timerfd.h	/^	int _initialTime;$/;"	m	class:ll::Timerfd
+_intervalTime	Timerfd.h	/^	int _intervalTime;$/;"	m	class:ll::Timerfd
+_isExit	Threadpool.h	/^	bool _isExit;$/;"	m	class:ll::Threadpool
+_isLocking	MutexLock.h	/^	bool _isLocking;$/;"	m	class:ll::MutexLock
+_isLooping	EventLoop.h	/^	bool _isLooping;$/;"	m	class:ll::EventLoop
+_isRunning	Thread.h	/^	bool _isRunning;$/;"	m	class:ll::Thread
+_isShutdwonWrite	TcpConnection.h	/^	bool _isShutdwonWrite;$/;"	m	class:ll::TcpConnection
+_isStarted	Timerfd.h	/^	bool _isStarted;$/;"	m	class:ll::Timerfd
+_jieba	SplitTool.h	/^        Jieba *_jieba;$/;"	m	class:ll::CppJieba
+_keys	temp/LRUCache.h	/^	unordered_map<string, list<CacheNode>::iterator> _keys; \/\/记录数据在list中的位置$/;"	m	class:ll::LRUCache
+_listensock	Acceptor.h	/^	Socket _listensock;$/;"	m	class:ll::Acceptor
+_localAddr	TcpConnection.h	/^	InetAddress _localAddr;$/;"	m	class:ll::TcpConnection
+_loop	TcpConnection.h	/^	EventLoop * _loop;$/;"	m	class:ll::TcpConnection
+_loop	TcpServer.h	/^	EventLoop _loop;$/;"	m	class:ll::TcpServer
+_msg	testThread.cc	/^    string _msg;$/;"	m	class:ll::myTask	file:
+_mutex	Condition.h	/^	MutexLock & _mutex;$/;"	m	class:ll::Condition
+_mutex	EventLoop.h	/^	MutexLock _mutex;$/;"	m	class:ll::EventLoop
+_mutex	MutexLock.h	/^	MutexLock & _mutex;$/;"	m	class:ll::MutexLockGuard
+_mutex	MutexLock.h	/^	pthread_mutex_t _mutex;$/;"	m	class:ll::MutexLock
+_mutex	TaskQueue.h	/^	MutexLock _mutex;$/;"	m	class:ll::TaskQueue
+_nodes	temp/LRUCache.h	/^	list<CacheNode> _nodes; \/\/用以淘汰$/;"	m	class:ll::LRUCache
+_notEmpty	TaskQueue.h	/^	Condition _notEmpty;$/;"	m	class:ll::TaskQueue
+_notFull	TaskQueue.h	/^	Condition _notFull;$/;"	m	class:ll::TaskQueue
+_onClose	EventLoop.h	/^	TcpConnectionCallback _onClose;$/;"	m	class:ll::EventLoop
+_onClose	TcpConnection.h	/^	TcpConnectionCallback _onClose;$/;"	m	class:ll::TcpConnection
+_onConnection	EventLoop.h	/^	TcpConnectionCallback _onConnection;$/;"	m	class:ll::EventLoop
+_onConnection	TcpConnection.h	/^	TcpConnectionCallback _onConnection;$/;"	m	class:ll::TcpConnection
+_onMessage	EventLoop.h	/^	TcpConnectionCallback _onMessage;$/;"	m	class:ll::EventLoop
+_onMessage	TcpConnection.h	/^	TcpConnectionCallback _onMessage;$/;"	m	class:ll::TcpConnection
+_peerAddr	TcpConnection.h	/^	InetAddress _peerAddr;$/;"	m	class:ll::TcpConnection
+_pendingFunctors	EventLoop.h	/^	vector<Functor> _pendingFunctors;$/;"	m	class:ll::EventLoop
+_pthid	Thread.h	/^	pthread_t _pthid;$/;"	m	class:ll::Thread
+_que	TaskQueue.h	/^	queue<ElemType> _que;$/;"	m	class:ll::TaskQueue
+_que	Threadpool.h	/^	TaskQueue _que;$/;"	m	class:ll::Threadpool
+_queSize	Threadpool.h	/^	size_t _queSize;$/;"	m	class:ll::Threadpool
+_server	testThread.cc	/^	TcpServer _server;$/;"	m	class:ll::EchoServer	file:
+_sock	TcpConnection.h	/^	Socket _sock;$/;"	m	class:ll::TcpConnection
+_socketIo	TcpConnection.h	/^	SocketIO _socketIo;$/;"	m	class:ll::TcpConnection
+_splitTool	DictProducer.h	/^    SplitTool * _splitTool;  \/\/initrd.img分词工具$/;"	m	class:ll::DictProducer
+_splitTool	temp/DictProducer.h	/^    SplitTool * _splitTool;  \/\/initrd.img分词工具$/;"	m	class:ll::DictProducer
+_sz	TaskQueue.h	/^	size_t _sz;$/;"	m	class:ll::TaskQueue
+_thread	TimerThread.h	/^	Thread _thread;$/;"	m	class:ll::TimerThread
+_threadNum	Threadpool.h	/^	size_t _threadNum;$/;"	m	class:ll::Threadpool
+_threadpool	testThread.cc	/^	Threadpool _threadpool;$/;"	m	class:ll::EchoServer	file:
+_threads	Threadpool.h	/^	vector<unique_ptr<Thread>> _threads;$/;"	m	class:ll::Threadpool
+_timer	TimerThread.h	/^	Timerfd _timer;$/;"	m	class:ll::TimerThread
+accept	Acceptor.cc	/^int Acceptor::accept()$/;"	f	class:ll::Acceptor
+addElement	temp/LRUCache.h	/^	void addElement(string s, int index)$/;"	f	class:ll::LRUCache
+addEpollFdRead	EventLoop.cc	/^void EventLoop::addEpollFdRead(int fd)$/;"	f	class:ll::EventLoop
+addTask	Threadpool.cc	/^void Threadpool::addTask(Task && task)$/;"	f	class:ll::Threadpool
+bind	Acceptor.cc	/^void Acceptor::bind()$/;"	f	class:ll::Acceptor
+bulid_cn_dict	DictProducer.cc	/^void DictProducer::bulid_cn_dict()$/;"	f	class:ll::DictProducer
+bulid_cn_dict	temp/DictProducer.cc	/^void DictProducer::bulid_cn_dict()$/;"	f	class:ll::DictProducer
+bulid_index	DictProducer.cc	/^void DictProducer::bulid_index()$/;"	f	class:ll::DictProducer
+bulid_index	temp/DictProducer.cc	/^void DictProducer::bulid_index()$/;"	f	class:ll::DictProducer
+createEpollFd	EventLoop.cc	/^int EventLoop::createEpollFd()$/;"	f	class:ll::EventLoop
+createEventFd	EventLoop.cc	/^int EventLoop::createEventFd()$/;"	f	class:ll::EventLoop
+createTimerfd	Timerfd.cc	/^int Timerfd::createTimerfd()$/;"	f	class:ll::Timerfd
+delEpollFdRead	EventLoop.cc	/^void EventLoop::delEpollFdRead(int fd)$/;"	f	class:ll::EventLoop
+doPendingFunctors	EventLoop.cc	/^void EventLoop::doPendingFunctors()$/;"	f	class:ll::EventLoop
+empty	TaskQueue.cc	/^bool TaskQueue::empty() const$/;"	f	class:ll::TaskQueue
+fd	Acceptor.h	/^	int fd() const {	return _listensock.fd(); }$/;"	f	class:ll::Acceptor
+fd	Socket.cc	/^int Socket::fd() const {	return _fd;	}$/;"	f	class:ll::Socket
+full	TaskQueue.cc	/^bool TaskQueue::full() const$/;"	f	class:ll::TaskQueue
+get	temp/LRUCache.h	/^	int get(string s) \/\/尝试在cache中找单词，如果找到返回在字典中位置，如果没找到，返回-1$/;"	f	class:ll::LRUCache
+getCache	temp/LRUCache.cc	/^LRUCache CacheManager::getCache(size_t idx) \/\/获取某个缓存$/;"	f	class:ll::CacheManager
+getConfigMap	Configuration.h	/^    map<string,string> &getConfigMap()$/;"	f	class:Configuration
+getInetAddressPtr	InetAddress.h	/^	struct sockaddr_in * getInetAddressPtr() {	return &_addr;	}$/;"	f	class:ll::InetAddress
+getLocalAddr	TcpConnection.cc	/^InetAddress TcpConnection::getLocalAddr(int fd)$/;"	f	class:ll::TcpConnection
+getMutexLockPtr	MutexLock.h	/^	pthread_mutex_t * getMutexLockPtr() {	return &_mutex;	}$/;"	f	class:ll::MutexLock
+getPeerAddr	TcpConnection.cc	/^InetAddress TcpConnection::getPeerAddr(int fd)$/;"	f	class:ll::TcpConnection
+getTask	Threadpool.cc	/^Task Threadpool::getTask()$/;"	f	class:ll::Threadpool
+getindex	DictProducer.h	/^    map<string,set<string>> &getindex()$/;"	f	class:ll::DictProducer
+getindex	temp/DictProducer.h	/^    map<string,set<string>> &getindex()$/;"	f	class:ll::DictProducer
+handleCloseCallback	TcpConnection.cc	/^void TcpConnection::handleCloseCallback()$/;"	f	class:ll::TcpConnection
+handleConnectionCallback	TcpConnection.cc	/^void TcpConnection::handleConnectionCallback()$/;"	f	class:ll::TcpConnection
+handleMessage	EventLoop.cc	/^void EventLoop::handleMessage(int fd)$/;"	f	class:ll::EventLoop
+handleMessageCallback	TcpConnection.cc	/^void TcpConnection::handleMessageCallback()$/;"	f	class:ll::TcpConnection
+handleNewConnection	EventLoop.cc	/^void EventLoop::handleNewConnection()$/;"	f	class:ll::EventLoop
+handleRead	EventLoop.cc	/^void EventLoop::handleRead()$/;"	f	class:ll::EventLoop
+handleRead	Timerfd.cc	/^void Timerfd::handleRead()$/;"	f	class:ll::Timerfd
+index	temp/LRUCache.h	/^		int index; \/\/在字典vector中的位置下标$/;"	m	struct:ll::LRUCache::CacheNode
+initCache	temp/LRUCache.cc	/^void CacheManager::initCache(size_t cacheNum,string filename)$/;"	f	class:ll::CacheManager
+ip	InetAddress.cc	/^string InetAddress::ip() const$/;"	f	class:ll::InetAddress
+isConnectionClosed	EventLoop.cc	/^bool EventLoop::isConnectionClosed(int fd)$/;"	f	class:ll::EventLoop
+join	Thread.cc	/^void Thread::join()$/;"	f	class:ll::Thread
+lenth	nBtyte.cc	/^int lenth(const string str)$/;"	f	namespace:ll
+lenth	temp/nBtyte.cc	/^int lenth(const string str)$/;"	f	namespace:ll
+listen	Acceptor.cc	/^void Acceptor::listen()$/;"	f	class:ll::Acceptor
+ll	Acceptor.cc	/^namespace ll$/;"	n	file:
+ll	Acceptor.h	/^namespace ll$/;"	n
+ll	Condition.cc	/^namespace ll$/;"	n	file:
+ll	Condition.h	/^namespace ll$/;"	n
+ll	DictProducer.cc	/^namespace ll$/;"	n	file:
+ll	DictProducer.h	/^namespace ll$/;"	n
+ll	EventLoop.cc	/^namespace ll$/;"	n	file:
+ll	EventLoop.h	/^namespace ll$/;"	n
+ll	InetAddress.cc	/^namespace ll$/;"	n	file:
+ll	InetAddress.h	/^namespace ll$/;"	n
+ll	MutexLock.cc	/^namespace ll$/;"	n	file:
+ll	MutexLock.h	/^namespace ll$/;"	n
+ll	Noncopyable.h	/^namespace ll$/;"	n
+ll	Socket.cc	/^namespace ll$/;"	n	file:
+ll	Socket.h	/^namespace ll$/;"	n
+ll	SocketIO.cc	/^namespace ll$/;"	n	file:
+ll	SocketIO.h	/^namespace ll$/;"	n
+ll	SplitTool.h	/^namespace ll$/;"	n
+ll	TaskQueue.cc	/^namespace ll$/;"	n	file:
+ll	TaskQueue.h	/^namespace ll$/;"	n
+ll	TcpConnection.cc	/^namespace ll$/;"	n	file:
+ll	TcpConnection.h	/^namespace ll$/;"	n
+ll	TcpServer.cc	/^namespace ll$/;"	n	file:
+ll	TcpServer.h	/^namespace ll$/;"	n
+ll	Thread.cc	/^namespace ll$/;"	n	file:
+ll	Thread.h	/^namespace ll$/;"	n
+ll	Threadpool.cc	/^namespace ll $/;"	n	file:
+ll	Threadpool.h	/^namespace ll$/;"	n
+ll	TimerThread.h	/^namespace ll$/;"	n
+ll	Timerfd.cc	/^namespace ll$/;"	n	file:
+ll	Timerfd.h	/^namespace ll$/;"	n
+ll	nBtyte.cc	/^namespace ll$/;"	n	file:
+ll	nBtyte.h	/^namespace ll$/;"	n
+ll	temp/DictProducer.cc	/^namespace ll$/;"	n	file:
+ll	temp/DictProducer.h	/^namespace ll$/;"	n
+ll	temp/LRUCache.cc	/^namespace ll$/;"	n	file:
+ll	temp/LRUCache.h	/^namespace ll$/;"	n
+ll	temp/nBtyte.cc	/^namespace ll$/;"	n	file:
+ll	temp/nBtyte.h	/^namespace ll$/;"	n
+ll	testThread.cc	/^namespace ll$/;"	n	file:
+lock	MutexLock.cc	/^void MutexLock::lock()$/;"	f	class:ll::MutexLock
+loop	EventLoop.cc	/^void EventLoop::loop()$/;"	f	class:ll::EventLoop
+main	server.c	/^int main(int argc, const char *argv[])$/;"	f
+main	testThread.cc	/^int main(void)$/;"	f
+myTask	testThread.cc	/^    myTask(const string & msg,$/;"	f	class:ll::myTask
+myTask	testThread.cc	/^class myTask$/;"	c	namespace:ll	file:
+nByteCode	nBtyte.cc	/^size_t nByteCode(const char ch)$/;"	f	namespace:ll
+nByteCode	temp/nBtyte.cc	/^size_t nByteCode(const char ch)$/;"	f	namespace:ll
+notify	Condition.cc	/^void Condition::notify()$/;"	f	class:ll::Condition
+notifyAll	Condition.cc	/^void Condition::notifyAll()$/;"	f	class:ll::Condition
+onClose	testThread.cc	/^void EchoServer::onClose(const ll::TcpConnectionPtr & conn)$/;"	f	class:ll::EchoServer
+onConnection	testThread.cc	/^void EchoServer::onConnection(const ll::TcpConnectionPtr & conn)$/;"	f	class:ll::EchoServer
+onMessage	testThread.cc	/^void EchoServer::onMessage(const ll::TcpConnectionPtr & conn)$/;"	f	class:ll::EchoServer
+periodicUpdateCaches	temp/LRUCache.cc	/^void CacheManager::periodicUpdateCaches()  \/\/定时更新缓存中数据$/;"	f	class:ll::CacheManager
+pop	TaskQueue.cc	/^ElemType TaskQueue::pop()$/;"	f	class:ll::TaskQueue
+port	InetAddress.cc	/^unsigned short InetAddress::port() const$/;"	f	class:ll::InetAddress
+process	testThread.cc	/^    void process()$/;"	f	class:ll::myTask
+process	testThread.cc	/^void EchoServer::process()$/;"	f	class:ll::EchoServer
+push	TaskQueue.cc	/^void TaskQueue::push(ElemType elem)$/;"	f	class:ll::TaskQueue
+readFromFile	temp/LRUCache.h	/^    void readFromFile(const string & filename)  \/\/从文件里读取缓存数据$/;"	f	class:ll::LRUCache
+readline	SocketIO.cc	/^int SocketIO::readline(char * buff, int maxlen)$/;"	f	class:ll::SocketIO
+readn	SocketIO.cc	/^int SocketIO::readn(char * buff, int len)$/;"	f	class:ll::SocketIO
+ready	Acceptor.cc	/^void Acceptor::ready()$/;"	f	class:ll::Acceptor
+receive	TcpConnection.cc	/^string TcpConnection::receive()$/;"	f	class:ll::TcpConnection
+recvPeek	SocketIO.cc	/^int SocketIO::recvPeek(char * buff, int len)$/;"	f	class:ll::SocketIO
+runInLoop	EventLoop.cc	/^void EventLoop::runInLoop(Functor && cb)$/;"	f	class:ll::EventLoop
+send	TcpConnection.cc	/^void TcpConnection::send(const string & msg)$/;"	f	class:ll::TcpConnection
+sendInLoop	TcpConnection.cc	/^void TcpConnection::sendInLoop(const string & msg)$/;"	f	class:ll::TcpConnection
+setCloseCallback	EventLoop.h	/^	void setCloseCallback(TcpConnectionCallback && cb)$/;"	f	class:ll::EventLoop
+setCloseCallback	TcpConnection.cc	/^void TcpConnection::setCloseCallback(const TcpConnectionCallback & cb)$/;"	f	class:ll::TcpConnection
+setCloseCallback	TcpServer.cc	/^void TcpServer::setCloseCallback(TcpConnectionCallback && cb)$/;"	f	class:ll::TcpServer
+setConnectionCallback	EventLoop.h	/^	void setConnectionCallback(TcpConnectionCallback && cb)$/;"	f	class:ll::EventLoop
+setConnectionCallback	TcpConnection.cc	/^void TcpConnection::setConnectionCallback(const TcpConnectionCallback & cb)$/;"	f	class:ll::TcpConnection
+setConnectionCallback	TcpServer.cc	/^void TcpServer::setConnectionCallback(TcpConnectionCallback && cb)$/;"	f	class:ll::TcpServer
+setMessageCallback	EventLoop.h	/^	void setMessageCallback(TcpConnectionCallback && cb)$/;"	f	class:ll::EventLoop
+setMessageCallback	TcpConnection.cc	/^void TcpConnection::setMessageCallback(const TcpConnectionCallback & cb)$/;"	f	class:ll::TcpConnection
+setMessageCallback	TcpServer.cc	/^void TcpServer::setMessageCallback(TcpConnectionCallback && cb)$/;"	f	class:ll::TcpServer
+setReuseAddr	Acceptor.cc	/^void Acceptor::setReuseAddr(bool on)$/;"	f	class:ll::Acceptor
+setReusePort	Acceptor.cc	/^void Acceptor::setReusePort(bool on)$/;"	f	class:ll::Acceptor
+setTimerfd	Timerfd.cc	/^void Timerfd::setTimerfd(int initialTime, int intervalTime)$/;"	f	class:ll::Timerfd
+shutdown	TcpConnection.cc	/^void TcpConnection::shutdown()$/;"	f	class:ll::TcpConnection
+shutdownWrite	Socket.cc	/^void Socket::shutdownWrite()$/;"	f	class:ll::Socket
+start	TcpServer.cc	/^void TcpServer::start()$/;"	f	class:ll::TcpServer
+start	Thread.cc	/^void Thread::start()$/;"	f	class:ll::Thread
+start	Threadpool.cc	/^void Threadpool::start()$/;"	f	class:ll::Threadpool
+start	TimerThread.h	/^	void start()$/;"	f	class:ll::TimerThread
+start	Timerfd.cc	/^void Timerfd::start()$/;"	f	class:ll::Timerfd
+start	testThread.cc	/^void EchoServer::start()$/;"	f	class:ll::EchoServer
+stop	Threadpool.cc	/^void Threadpool::stop()$/;"	f	class:ll::Threadpool
+stop	TimerThread.h	/^	void stop()$/;"	f	class:ll::TimerThread
+stop	Timerfd.cc	/^void Timerfd::stop()$/;"	f	class:ll::Timerfd
+stop	testThread.cc	/^void EchoServer::stop()$/;"	f	class:ll::EchoServer
+store_dict	DictProducer.cc	/^void DictProducer::store_dict()$/;"	f	class:ll::DictProducer
+store_dict	temp/DictProducer.cc	/^void DictProducer::store_dict()$/;"	f	class:ll::DictProducer
+store_index	DictProducer.cc	/^void DictProducer::store_index()$/;"	f	class:ll::DictProducer
+store_index	temp/DictProducer.cc	/^void DictProducer::store_index()$/;"	f	class:ll::DictProducer
+str	temp/LRUCache.h	/^        string str; \/\/单词$/;"	m	struct:ll::LRUCache::CacheNode
+threadFunc	Threadpool.cc	/^void Threadpool::threadFunc()$/;"	f	class:ll::Threadpool
+threadfunc	Thread.cc	/^void * Thread::threadfunc(void * arg)$/;"	f	class:ll::Thread
+toString	TcpConnection.cc	/^string TcpConnection::toString() const$/;"	f	class:ll::TcpConnection
+unlock	MutexLock.cc	/^void MutexLock::unlock()$/;"	f	class:ll::MutexLock
+unloop	EventLoop.cc	/^void EventLoop::unloop()$/;"	f	class:ll::EventLoop
+wait	Condition.cc	/^void Condition::wait()$/;"	f	class:ll::Condition
+waitEpollFd	EventLoop.cc	/^void EventLoop::waitEpollFd()$/;"	f	class:ll::EventLoop
+wakeup	EventLoop.cc	/^void EventLoop::wakeup()$/;"	f	class:ll::EventLoop
+wakeup	TaskQueue.cc	/^void TaskQueue::wakeup()$/;"	f	class:ll::TaskQueue
+writeToFile	temp/LRUCache.h	/^    void writeToFile(const string & filename)$/;"	f	class:ll::LRUCache
+writen	SocketIO.cc	/^int SocketIO::writen(const char * buff, int len)$/;"	f	class:ll::SocketIO
+~Condition	Condition.cc	/^Condition::~Condition()$/;"	f	class:ll::Condition
+~Configuration	Configuration.h	/^    ~Configuration() {}$/;"	f	class:Configuration
+~CppJieba	SplitTool.h	/^    ~CppJieba() {}$/;"	f	class:ll::CppJieba
+~DictProducer	DictProducer.h	/^    ~DictProducer() {}$/;"	f	class:ll::DictProducer
+~DictProducer	temp/DictProducer.h	/^    ~DictProducer() {}$/;"	f	class:ll::DictProducer
+~MutexLock	MutexLock.cc	/^MutexLock::~MutexLock()$/;"	f	class:ll::MutexLock
+~MutexLockGuard	MutexLock.h	/^	~MutexLockGuard()$/;"	f	class:ll::MutexLockGuard
+~Noncopyable	Noncopyable.h	/^	~Noncopyable() {}$/;"	f	class:ll::Noncopyable
+~Socket	Socket.cc	/^Socket::~Socket()$/;"	f	class:ll::Socket
+~SplitTool	SplitTool.h	/^    ~SplitTool() {}$/;"	f	class:ll::SplitTool
+~TcpConnection	TcpConnection.cc	/^TcpConnection::~TcpConnection()$/;"	f	class:ll::TcpConnection
+~Thread	Thread.cc	/^Thread::~Thread()$/;"	f	class:ll::Thread

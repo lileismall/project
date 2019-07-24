@@ -1,0 +1,8 @@
+1561188223 ERROR sub1 : sub1 error
+1561188223 WARN sub1 : sub1 warn
+1561188223 ERROR sub1 : Streamed sub1 error
+1561188223 WARN sub1 : Streamed sub1 warn
+1561188400 ERROR sub1 : sub1 error
+1561188400 WARN sub1 : sub1 warn
+1561188400 ERROR sub1 : Streamed sub1 error
+1561188400 WARN sub1 : Streamed sub1 warn

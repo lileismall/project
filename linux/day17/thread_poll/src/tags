@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARGS_CHECK	head.h	39;"	d
+CC	Makefile	/^CC:=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS:=-Wall -I..\/include$/;"	m
+ELF	Makefile	/^ELF:=server$/;"	m
+ERROR_CHECK	head.h	41;"	d
+FILENAME	factory.h	5;"	d
+Factory_t	factory.h	/^}Factory_t;$/;"	t	typeref:struct:__anon1
+OBJS	Makefile	/^OBJS:=$(patsubst %.c,%.o,$(SRCS))$/;"	m
+SRCS	Makefile	/^SRCS:=$(wildcard *.c)$/;"	m
+THREAD_ERROR_CHECK	head.h	43;"	d
+_GNU_SOURCE	head.h	3;"	d
+__FACTORY_H__	factory.h	2;"	d
+__HEAD_H__	head.h	2;"	d
+__WORK_QUE__	work_que.h	2;"	d
+buf	factory.h	/^    char buf[1000];$/;"	m	struct:__anon2
+cond	factory.h	/^    pthread_cond_t cond;$/;"	m	struct:__anon1
+dataLen	factory.h	/^    int dataLen;$/;"	m	struct:__anon2
+factory_init	factory.c	/^int factory_init(Factory_t *data,int threadNum,int capacity)$/;"	f
+factory_start	factory.c	/^int factory_start(Factory_t* QueData)$/;"	f
+handle_func	factory.c	/^void* handle_func(void* QueData)$/;"	f
+main	main.c	/^int main(int argc,char* argv[])$/;"	f
+newFd	work_que.h	/^    int newFd;$/;"	m	struct:tag_node
+pNext	work_que.h	/^    struct tag_node *pNext;$/;"	m	struct:tag_node	typeref:struct:tag_node::tag_node
+pthid	factory.h	/^    pthread_t *pthid;$/;"	m	struct:__anon1
+que	factory.h	/^    que_t que;$/;"	m	struct:__anon1
+que_capacity	work_que.h	/^    int que_capacity;$/;"	m	struct:tag_que
+que_get	work_que.c	/^int que_get(que_t *que,tag_node **pCur)$/;"	f
+que_head	work_que.h	/^    tag_node *que_head,*que_tail;$/;"	m	struct:tag_que
+que_init	work_que.c	/^int que_init(que_t *pq,int capacity)$/;"	f
+que_mutex	work_que.h	/^    pthread_mutex_t que_mutex;$/;"	m	struct:tag_que
+que_size	work_que.h	/^    int que_size;$/;"	m	struct:tag_que
+que_t	work_que.h	/^}que_t;$/;"	t	typeref:struct:tag_que
+que_tail	work_que.h	/^    tag_node *que_head,*que_tail;$/;"	m	struct:tag_que
+startFlag	factory.h	/^    short startFlag;$/;"	m	struct:__anon1
+tag_node	work_que.h	/^typedef struct tag_node{$/;"	s
+tag_node	work_que.h	/^}tag_node;$/;"	t	typeref:struct:tag_node
+tag_que	work_que.h	/^typedef struct tag_que$/;"	s
+tcpInit	tcp_init.c	/^int tcpInit(int *sFd,char* ip,char* port)$/;"	f
+threadNum	factory.h	/^    int threadNum;$/;"	m	struct:__anon1
+train_t	factory.h	/^}train_t;$/;"	t	typeref:struct:__anon2
+tran_file	tran_file.c	/^int tran_file(int newFd)$/;"	f

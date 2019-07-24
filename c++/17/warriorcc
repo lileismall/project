@@ -1,0 +1,83 @@
+
+#include "OpenJudge.h"
+#include "Headquarters.h"
+
+
+/* void Warrior::sentElementsToHeadquarters(int elements) */
+/* { */
+/*     _headquarters->setElements(getEarnElements() + elements); //将司令部总生命元加上element */
+/* } */
+
+#if 0
+void Dragon::march()
+{
+    GameConfig *conf = GameConfig::getInstance();
+    if(_cityId < conf->cityCount()) 
+    {
+        _cityId++;
+        if(_cityId == conf->cityCount())
+        {
+
+        }
+    }
+}
+
+void Dragon::attack(WarriorPtr warrior)
+{
+    GameConfig *conf = GameConfig::getInstance();
+    int hp = warrior->getHp();
+    warrior->setHp(hp-conf->warriorInitalAttack(warrior->getType()));
+}
+
+void Dragon::defense(WarriorPtr warrior)
+{
+    GameConfig *conf = GameConfig::getInstance();
+    int hp = warrior->getHp();
+    warrior->setHp(hp-conf->warriorInitalAttack(warrior->getType())/2);
+}
+
+void Warrior::beRewarded()
+{
+    // 被奖励，从司令部获得8个生命元,司令部减去8个
+    _hp += 8;
+    
+}
+#endif
+
+#if 0
+void test0()
+{
+    GameTime *test =  GameTime::getInstance();
+    test->updateTime();
+    test->showTime();
+    cout << endl;
+}
+
+void test1()
+{
+    GameConfig *test = GameConfig::getInstance();
+    test->readFromFile("file");
+}
+
+void test2()
+{
+    GameConfig *conf = GameConfig::getInstance();
+
+    conf->warriorInitalLife(DRAGON_TYPE);
+    conf->warriorInitalLife(NINJA_TYPE);
+}
+
+int main()
+{
+    test1();
+    test2();
+    while(1)
+    {
+        sleep(1);
+        test0();
+    }
+
+
+    return 0;
+}
+#endif

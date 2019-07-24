@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC:=g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS:=-Wall $/;"	m
+ELF	Makefile	/^ELF:=testThread$/;"	m
+NonCopy	NonCopy.h	/^    NonCopy() {}$/;"	f	class:ll::NonCopy
+NonCopy	NonCopy.h	/^class NonCopy$/;"	c	namespace:ll
+OBJS	Makefile	/^OBJS:=$(patsubst %.cc,%.o,$(SRC))$/;"	m
+SRC	Makefile	/^SRC:=$(wildcard *.cc)$/;"	m
+Thread	Thread.cc	/^Thread::Thread()$/;"	f	class:ll::Thread
+Thread	Thread.h	/^class Thread$/;"	c	namespace:ll
+_isRunning	Thread.h	/^    bool _isRunning;$/;"	m	class:ll::Thread
+_pthid	Thread.h	/^    pthread_t _pthid;$/;"	m	class:ll::Thread
+join	Thread.cc	/^void Thread::join()$/;"	f	class:ll::Thread
+ll	NonCopy.h	/^namespace ll$/;"	n
+ll	Thread.cc	/^namespace ll$/;"	n	file:
+ll	Thread.h	/^namespace ll$/;"	n
+main	testThread.cc	/^int main()$/;"	f
+myThread	testThread.cc	/^class myThread$/;"	c	file:
+run	testThread.cc	/^    void run()$/;"	f	class:myThread	file:
+star	Thread.cc	/^void Thread::star()$/;"	f	class:ll::Thread
+threadfunc	Thread.cc	/^void *Thread::threadfunc(void *arg)$/;"	f	class:ll::Thread
+~NonCopy	NonCopy.h	/^    ~NonCopy() {}$/;"	f	class:ll::NonCopy
+~Thread	Thread.cc	/^Thread::~Thread()$/;"	f	class:ll::Thread

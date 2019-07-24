@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Configuration	Configuration.h	/^    Configuration(const string &filepath)$/;"	f	class:Configuration
+Configuration	Configuration.h	/^class Configuration$/;"	c
+CppJieba	SplitTool.h	/^    CppJieba(){}$/;"	f	class:ll::CppJieba
+CppJieba	SplitTool.h	/^class CppJieba$/;"	c	namespace:ll
+DICT_PATH	SplitTool.h	/^        const char *DICT_PATH = "..\/include\/cppjieba\/dict\/jieba.dict.utf8";$/;"	m	class:ll::CppJieba
+DictProducer	DictProducer.cc	/^DictProducer::DictProducer(const string &dir)$/;"	f	class:DictProducer
+DictProducer	DictProducer.h	/^class DictProducer$/;"	c	namespace:ll
+HMM_PATH	SplitTool.h	/^        const char* const HMM_PATH = "..\/include\/cppjieba\/dict\/hmm_model.utf8";$/;"	m	class:ll::CppJieba
+IDF_PATH	SplitTool.h	/^        const char* const IDF_PATH = "..\/include\/cppjieba\/dict\/idf.utf8";$/;"	m	class:ll::CppJieba
+STOP_WORD_PATH	SplitTool.h	/^        const char* const STOP_WORD_PATH = "..\/include\/cppjieba\/dict\/stop_words.utf8";$/;"	m	class:ll::CppJieba
+SplitTool	SplitTool.h	/^    SplitTool() {}$/;"	f	class:ll::SplitTool
+SplitTool	SplitTool.h	/^class SplitTool$/;"	c	namespace:ll
+USER_DICT_PATH	SplitTool.h	/^        const char* const USER_DICT_PATH = "..\/include\/cppjieba\/dict\/user.dict.utf8";$/;"	m	class:ll::CppJieba
+_configMap	Configuration.h	/^    map<string,string> _configMap;$/;"	m	class:Configuration
+_dict	DictProducer.h	/^    map<string,int> _dict;   \/\/词典$/;"	m	class:ll::DictProducer
+_dir	DictProducer.h	/^    string _dir;  \/\/语料库存放路径$/;"	m	class:ll::DictProducer
+_filepath	Configuration.h	/^    string _filepath;$/;"	m	class:Configuration
+_splitTool	DictProducer.h	/^    SplitTool * _splitTool;  \/\/initrd.img分词工具$/;"	m	class:ll::DictProducer
+bulid_cn_dict	DictProducer.cc	/^void DictProducer::bulid_cn_dict()$/;"	f	class:DictProducer
+getConfigMap	Configuration.h	/^    map<string,string> &getConfigMap()$/;"	f	class:Configuration
+ll	DictProducer.h	/^namespace ll$/;"	n
+ll	SplitTool.h	/^namespace ll$/;"	n
+main	test.cc	/^int main()$/;"	f
+store_dict	DictProducer.cc	/^void DictProducer::store_dict(const string filepath)$/;"	f	class:DictProducer
+test	test.cc	/^void test()$/;"	f
+test1	test.cc	/^void test1()$/;"	f
+test2	test.cc	/^void test2()$/;"	f
+test3	test.cc	/^void test3()$/;"	f
+test4	test.cc	/^void test4()$/;"	f
+~Configuration	Configuration.h	/^    ~Configuration() {}$/;"	f	class:Configuration
+~CppJieba	SplitTool.h	/^    ~CppJieba() {}$/;"	f	class:ll::CppJieba
+~DictProducer	DictProducer.h	/^    ~DictProducer() {}$/;"	f	class:ll::DictProducer
+~SplitTool	SplitTool.h	/^    ~SplitTool() {}$/;"	f	class:ll::SplitTool

@@ -1,0 +1,97 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC := g++$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS := -std=c++11 -g $/;"	m
+CPP_FILE	Makefile	/^CPP_FILE :=  $(wildcard .\/*.cc) $/;"	m
+Condition	Condition.h	/^	Condition(MutexLock & mutex)$/;"	f	class:ll::Condition
+Condition	Condition.h	/^class Condition$/;"	c	namespace:ll
+INC_DIR	Makefile	/^INC_DIR :=  .\/$/;"	m
+INC_FILE	Makefile	/^INC_FILE := $(addprefix -I, $(INC_DIR))$/;"	m
+LIBS	Makefile	/^LIBS := -lpthread$/;"	m
+MutexLock	MutexLock.h	/^	MutexLock()$/;"	f	class:ll::MutexLock
+MutexLock	MutexLock.h	/^class MutexLock$/;"	c	namespace:ll
+MutexLockGuard	MutexLock.h	/^	MutexLockGuard(MutexLock & mutex)$/;"	f	class:ll::MutexLockGuard
+MutexLockGuard	MutexLock.h	/^class MutexLockGuard$/;"	c	namespace:ll
+MyTask	testThreadpoll.cc	/^class MyTask$/;"	c	file:
+NonCopy	NonCopy.h	/^    NonCopy() {}$/;"	f	class:ll::NonCopy
+NonCopy	NonCopy.h	/^class NonCopy$/;"	c	namespace:ll
+OBJS	Makefile	/^OBJS := $(patsubst %.cc, %.o, $(CPP_FILE))$/;"	m
+SRC_DIR	Makefile	/^SRC_DIR = .\/$/;"	m
+TARGET	Makefile	/^TARGET := pc.exe$/;"	m
+Task	Task.h	/^    Task() {}$/;"	f	class:ll::Task
+Task	Task.h	/^class Task$/;"	c	namespace:ll
+TaskQueue	TaskQueue.cc	/^TaskQueue::TaskQueue(size_t queSize)$/;"	f	class:ll::TaskQueue
+TaskQueue	TaskQueue.h	/^class TaskQueue$/;"	c	namespace:ll
+Thread	Thread.cc	/^Thread::Thread()$/;"	f	class:ll::Thread
+Thread	Thread.h	/^class Thread$/;"	c	namespace:ll
+Threadpoll	Threadpoll.cc	/^Threadpoll::Threadpoll(size_t threadNum,size_t queSize)$/;"	f	class:ll::Threadpoll
+Threadpoll	Threadpoll.h	/^class Threadpoll$/;"	c	namespace:ll
+WorkThread	WorkThread.h	/^    WorkThread(Threadpoll &threadpoll) $/;"	f	class:ll::WorkThread
+WorkThread	WorkThread.h	/^class WorkThread$/;"	c	namespace:ll
+_cond	Condition.h	/^	pthread_cond_t _cond;$/;"	m	class:ll::Condition
+_flag	TaskQueue.h	/^    bool _flag;$/;"	m	class:ll::TaskQueue
+_isExit	Threadpoll.h	/^    bool _isExit;$/;"	m	class:ll::Threadpoll
+_isLocking	MutexLock.h	/^	bool _isLocking;$/;"	m	class:ll::MutexLock
+_isRunning	Thread.h	/^    bool _isRunning;$/;"	m	class:ll::Thread
+_mutex	Condition.h	/^	MutexLock & _mutex;$/;"	m	class:ll::Condition
+_mutex	MutexLock.h	/^	MutexLock & _mutex;$/;"	m	class:ll::MutexLockGuard
+_mutex	MutexLock.h	/^	pthread_mutex_t _mutex;$/;"	m	class:ll::MutexLock
+_mutex	TaskQueue.h	/^    MutexLock _mutex;$/;"	m	class:ll::TaskQueue
+_notEmpty	TaskQueue.h	/^    Condition _notEmpty;$/;"	m	class:ll::TaskQueue
+_notFull	TaskQueue.h	/^    Condition _notFull;$/;"	m	class:ll::TaskQueue
+_pthid	Thread.h	/^    pthread_t _pthid;$/;"	m	class:ll::Thread
+_que	TaskQueue.h	/^    queue<ElemType> _que;$/;"	m	class:ll::TaskQueue
+_queSize	TaskQueue.h	/^    size_t _queSize;$/;"	m	class:ll::TaskQueue
+_queSize	Threadpoll.h	/^    size_t _queSize;$/;"	m	class:ll::Threadpoll
+_taskQue	Threadpoll.h	/^    TaskQueue _taskQue;$/;"	m	class:ll::Threadpoll
+_threadNum	Threadpoll.h	/^    size_t _threadNum;$/;"	m	class:ll::Threadpoll
+_threadpoll	WorkThread.h	/^    Threadpoll &_threadpoll;$/;"	m	class:ll::WorkThread
+_threads	Threadpoll.h	/^    vector<unique_ptr<Thread>> _threads;$/;"	m	class:ll::Threadpoll
+addTask	Threadpoll.cc	/^void Threadpoll::addTask(Task *task)$/;"	f	class:ll::Threadpoll
+empty	TaskQueue.cc	/^bool TaskQueue::empty()$/;"	f	class:ll::TaskQueue
+full	TaskQueue.cc	/^bool TaskQueue::full()$/;"	f	class:ll::TaskQueue
+getMutexLockPtr	MutexLock.h	/^	pthread_mutex_t * getMutexLockPtr()$/;"	f	class:ll::MutexLock
+getTask	Threadpoll.cc	/^Task* Threadpoll::getTask()$/;"	f	class:ll::Threadpoll
+isLocking	MutexLock.h	/^	bool isLocking() const$/;"	f	class:ll::MutexLock
+join	Thread.cc	/^void Thread::join()$/;"	f	class:ll::Thread
+ll	Condition.h	/^namespace ll$/;"	n
+ll	MutexLock.h	/^namespace ll$/;"	n
+ll	NonCopy.h	/^namespace ll$/;"	n
+ll	Task.h	/^namespace ll$/;"	n
+ll	TaskQueue.cc	/^namespace ll$/;"	n	file:
+ll	TaskQueue.h	/^namespace ll$/;"	n
+ll	Thread.cc	/^namespace ll$/;"	n	file:
+ll	Thread.h	/^namespace ll$/;"	n
+ll	Threadpoll.cc	/^namespace ll$/;"	n	file:
+ll	Threadpoll.h	/^namespace ll$/;"	n
+ll	WorkThread.h	/^namespace ll$/;"	n
+lock	MutexLock.h	/^	void lock()$/;"	f	class:ll::MutexLock
+main	testThreadpoll.cc	/^int main()$/;"	f
+notify	Condition.h	/^	void notify()$/;"	f	class:ll::Condition
+notifyAll	Condition.h	/^	void notifyAll()$/;"	f	class:ll::Condition
+objs	Makefile	/^objs:=$(addsuffix \/*.o, $(SRC_DIR))$/;"	m
+pop	TaskQueue.cc	/^TaskQueue::ElemType TaskQueue::pop()$/;"	f	class:ll::TaskQueue
+process	testThreadpoll.cc	/^    void process()$/;"	f	class:MyTask
+push	TaskQueue.cc	/^void TaskQueue::push(ElemType elem)$/;"	f	class:ll::TaskQueue
+run	WorkThread.h	/^    void run()$/;"	f	class:ll::WorkThread
+star	Thread.cc	/^void Thread::star()$/;"	f	class:ll::Thread
+start	Threadpoll.cc	/^void Threadpoll::start()$/;"	f	class:ll::Threadpoll
+stop	Threadpoll.cc	/^void Threadpoll::stop()$/;"	f	class:ll::Threadpoll
+threadfunc	Thread.cc	/^void *Thread::threadfunc(void *arg)$/;"	f	class:ll::Thread
+threadfunc	Threadpoll.cc	/^void Threadpoll::threadfunc()$/;"	f	class:ll::Threadpoll
+unlock	MutexLock.h	/^	void unlock()$/;"	f	class:ll::MutexLock
+wait	Condition.h	/^	void wait()$/;"	f	class:ll::Condition
+wakeup	TaskQueue.cc	/^void TaskQueue::wakeup()$/;"	f	class:ll::TaskQueue
+~Condition	Condition.h	/^	~Condition()$/;"	f	class:ll::Condition
+~MutexLock	MutexLock.h	/^	~MutexLock()$/;"	f	class:ll::MutexLock
+~MutexLockGuard	MutexLock.h	/^	~MutexLockGuard()$/;"	f	class:ll::MutexLockGuard
+~NonCopy	NonCopy.h	/^    ~NonCopy() {}$/;"	f	class:ll::NonCopy
+~Task	Task.h	/^    ~Task() {}$/;"	f	class:ll::Task
+~TaskQueue	TaskQueue.cc	/^TaskQueue::~TaskQueue()$/;"	f	class:ll::TaskQueue
+~Thread	Thread.cc	/^Thread::~Thread()$/;"	f	class:ll::Thread
+~Threadpoll	Threadpoll.h	/^    ~Threadpoll() {}$/;"	f	class:ll::Threadpoll
+~WorkThread	WorkThread.h	/^    ~WorkThread() {}$/;"	f	class:ll::WorkThread

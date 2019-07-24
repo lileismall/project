@@ -1,0 +1,224 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLUE	OpenJudge.h	/^    BLUE,$/;"	e	enum:Color
+BattleView	view.h	/^    BattleView(WarriorPtr warrior1, WarriorPtr warrior2)$/;"	f	class:BattleView
+BattleView	view.h	/^class BattleView$/;"	c
+BlueHeadquarters	Headquarters.h	/^    BlueHeadquarters(int elements)$/;"	f	class:BlueHeadquarters
+BlueHeadquarters	Headquarters.h	/^class BlueHeadquarters$/;"	c
+CC	Makefile	/^CC:=g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS:=-Wall$/;"	m
+City	city.h	/^    City(size_t id, size_t elements = 0)$/;"	f	class:City
+City	city.h	/^class City$/;"	c
+CityView	view.h	/^    CityView(City * city) : _city(city) {}$/;"	f	class:CityView
+CityView	view.h	/^class CityView$/;"	c
+Color	OpenJudge.h	/^enum Color {$/;"	g
+DRAGON_TYPE	OpenJudge.h	/^    DRAGON_TYPE,$/;"	e	enum:WarriorType
+Dragon	OpenJudge.h	/^    Dragon(){}$/;"	f	class:Dragon
+Dragon	OpenJudge.h	/^    Dragon(Color color, int id, int hp, int forces, float$/;"	f	class:Dragon
+Dragon	OpenJudge.h	/^class Dragon$/;"	c
+DragonView	view.h	/^    DragonView(WarriorPtr warrior)$/;"	f	class:DragonView
+DragonView	view.h	/^class DragonView$/;"	c
+ELF	Makefile	/^ELF:=asmoshou$/;"	m
+GameConfig	OpenJudge.h	/^    GameConfig() : _currentGroupId(0){ cout << "GameConfig()" <<$/;"	f	class:GameConfig
+GameConfig	OpenJudge.h	/^class GameConfig$/;"	c
+GameTime	OpenJudge.h	/^    GameTime(int hour = 0, int minute = 0)$/;"	f	class:GameTime
+GameTime	OpenJudge.h	/^class GameTime$/;"	c
+HEAD	OpenJudge.h	23;"	d
+Headquarters	Headquarters.h	/^    Headquarters(Color color, int elements)$/;"	f	class:Headquarters
+Headquarters	Headquarters.h	/^class Headquarters$/;"	c
+HeadquartersView	view.h	/^    HeadquartersView(Headquarters *headquarters) : _headquarters(headquarters) {}$/;"	f	class:HeadquartersView
+HeadquartersView	view.h	/^class HeadquartersView$/;"	c
+ICEMAN_TYPE	OpenJudge.h	/^    ICEMAN_TYPE,$/;"	e	enum:WarriorType
+Iceman	OpenJudge.h	/^    Iceman(Color color, int id, int hp, int forces)$/;"	f	class:Iceman
+Iceman	OpenJudge.h	/^class Iceman$/;"	c
+InitData	OpenJudge.h	/^    struct InitData$/;"	s	class:GameConfig
+LION_TYPE	OpenJudge.h	/^    LION_TYPE,$/;"	e	enum:WarriorType
+Lion	OpenJudge.h	/^    Lion(Color color, int id, int hp, int forces, int loyalty)$/;"	f	class:Lion
+Lion	OpenJudge.h	/^class Lion$/;"	c
+NINJA_TYPE	OpenJudge.h	/^    NINJA_TYPE,$/;"	e	enum:WarriorType
+NOTSET	OpenJudge.h	/^    NOTSET$/;"	e	enum:Color
+Ninja	OpenJudge.h	/^    Ninja(Color color, int id, int hp, int forces)$/;"	f	class:Ninja
+Ninja	OpenJudge.h	/^class Ninja$/;"	c
+OBJS	Makefile	/^OBJS:=$(patsubst %.cc,%.o,$(SRC))$/;"	m
+RED	OpenJudge.h	/^    RED,$/;"	e	enum:Color
+RedHeadquarters	Headquarters.h	/^    RedHeadquarters(int elements)$/;"	f	class:RedHeadquarters
+RedHeadquarters	Headquarters.h	/^class RedHeadquarters$/;"	c
+SRC	Makefile	/^SRC:=$(wildcard *.cc)$/;"	m
+TIME	OpenJudge.h	18;"	d
+WARRIOR	OpenJudge.h	22;"	d
+WOLF_TYPE	OpenJudge.h	/^    WOLF_TYPE$/;"	e	enum:WarriorType
+WarcraftWorld	controller.h	/^        WarcraftWorld()$/;"	f	class:WarcraftWorld
+WarcraftWorld	controller.h	/^class WarcraftWorld$/;"	c
+Warrior	OpenJudge.h	/^    Warrior(){}$/;"	f	class:Warrior
+Warrior	OpenJudge.h	/^    Warrior(Color color,$/;"	f	class:Warrior
+Warrior	OpenJudge.h	/^class Warrior$/;"	c
+WarriorPtr	OpenJudge.h	20;"	d
+WarriorType	OpenJudge.h	/^enum WarriorType {$/;"	g
+WarriorView	view.h	/^    WarriorView(WarriorPtr warrior)$/;"	f	class:WarriorView
+WarriorView	view.h	/^class WarriorView$/;"	c
+Wolf	OpenJudge.h	/^    Wolf(Color color, int id, int hp, int forces)$/;"	f	class:Wolf
+Wolf	OpenJudge.h	/^class Wolf$/;"	c
+_blueHeadquarters	controller.h	/^    BlueHeadquarters * _blueHeadquarters;\/\/蓝色司令部$/;"	m	class:WarcraftWorld
+_blueWarriors	city.h	/^    vector<WarriorPtr> _blueWarriors;$/;"	m	class:City
+_blueWinCount	city.h	/^    size_t _blueWinCount;\/\/蓝魔军连续胜利次数$/;"	m	class:City
+_cities	controller.h	/^    vector<City> _cities;\/\/所有的城市,其中 0号代表红色司令部， size - 1 代表蓝色司令部$/;"	m	class:WarcraftWorld
+_city	view.h	/^    City * _city;$/;"	m	class:CityView
+_cityCount	OpenJudge.h	/^        int _cityCount;$/;"	m	struct:GameConfig::InitData
+_cityId	OpenJudge.h	/^    int _cityId;\/\/位于某个城市$/;"	m	class:Warrior
+_color	Headquarters.h	/^    Color _color;\/\/红或者蓝$/;"	m	class:Headquarters
+_color	OpenJudge.h	/^    Color _color = RED;$/;"	m	class:Warrior
+_currentGroupId	OpenJudge.h	/^    int _currentGroupId;\/\/当前正在测试的一组数据$/;"	m	class:GameConfig
+_earnElements	Headquarters.h	/^    int _earnElements;\/\/一次战斗时刻结束后，所有武士获取的生命元$/;"	m	class:Headquarters
+_earnElements	OpenJudge.h	/^    int _earnElements;\/\/从某个城市中获取的生命元$/;"	m	class:Warrior
+_elements	Headquarters.h	/^    int _elements;\/\/当前司令部所剩的生命元$/;"	m	class:Headquarters
+_elements	city.h	/^    size_t _elements;\/\/城市生命元$/;"	m	class:City
+_end	OpenJudge.h	/^    long _end = time(NULL);$/;"	m	class:GameTime
+_flag	city.h	/^    Color _flag;\/\/城市旗子的颜色$/;"	m	class:City
+_forces	OpenJudge.h	/^    int _forces;\/\/攻击力$/;"	m	class:Warrior
+_groups	OpenJudge.h	/^    vector<InitData> _groups;\/\/N组数据$/;"	m	class:GameConfig
+_groupsNum	OpenJudge.h	/^    int _groupsNum; \/\/一共测试组数$/;"	m	class:GameConfig
+_headquarters	OpenJudge.h	/^    Headquarters *_headquarters;$/;"	m	class:Warrior
+_headquarters	view.h	/^    Headquarters *_headquarters;$/;"	m	class:HeadquartersView
+_hour	OpenJudge.h	/^    int _hour;$/;"	m	class:GameTime
+_hp	OpenJudge.h	/^    int _hp;\/\/生命值$/;"	m	class:Warrior
+_id	Headquarters.h	/^    int _id = 1;\/\/编号, 0代表红色司令部, N+1 代表蓝色司令部$/;"	m	class:Headquarters
+_id	OpenJudge.h	/^    int _id;\/\/编号$/;"	m	class:Warrior
+_id	city.h	/^    size_t _id;\/\/城市编号$/;"	m	class:City
+_initAttacks	OpenJudge.h	/^        map<WarriorType, int> _initAttacks;$/;"	m	struct:GameConfig::InitData
+_initElements	OpenJudge.h	/^        int _initElements;$/;"	m	struct:GameConfig::InitData
+_initLifes	OpenJudge.h	/^        map<WarriorType, int> _initLifes;$/;"	m	struct:GameConfig::InitData
+_initWarriorOrder	OpenJudge.h	/^    vector<WarriorType> _initWarriorOrder;\/\/输入时武士的生命值和攻击力的设置顺序$/;"	m	class:GameConfig
+_killTimes	OpenJudge.h	/^    int _killTimes;\/\/击杀次数$/;"	m	class:Wolf
+_loyalty	OpenJudge.h	/^    int _loyalty;$/;"	m	class:Lion
+_minute	OpenJudge.h	/^    int _minute;$/;"	m	class:GameTime
+_minutes	OpenJudge.h	/^        int _minutes;$/;"	m	struct:GameConfig::InitData
+_morale	OpenJudge.h	/^    float _morale;$/;"	m	class:Dragon
+_name	OpenJudge.h	/^    string _name = "test";$/;"	m	class:Warrior
+_nextWarriorIndex	Headquarters.h	/^    int _nextWarriorIndex;\/\/下次带生产的武士下标$/;"	m	class:Headquarters
+_pInstance	OpenJudge.cc	/^GameConfig *GameConfig::_pInstance = getInstance();$/;"	m	class:GameConfig	file:
+_pInstance	OpenJudge.cc	/^GameTime *GameTime::_pInstance = getInstance(); \/\/饱汗模式$/;"	m	class:GameTime	file:
+_pInstance	OpenJudge.h	/^    static GameConfig * _pInstance;$/;"	m	class:GameConfig
+_pInstance	OpenJudge.h	/^    static GameTime * _pInstance;$/;"	m	class:GameTime
+_redHeadquarters	controller.h	/^    RedHeadquarters * _redHeadquarters;\/\/红色司令部$/;"	m	class:WarcraftWorld
+_redWarriors	city.h	/^    vector<WarriorPtr> _redWarriors; \/\/存放进入城市的武士$/;"	m	class:City
+_redWinCount	city.h	/^    size_t _redWinCount;\/\/红魔军连续胜利次数$/;"	m	class:City
+_start	OpenJudge.h	/^    long _start = time(NULL); \/\/用来控制多长时间刷新一次$/;"	m	class:GameTime
+_steps	OpenJudge.h	/^        int _steps;\/\/前进的步数$/;"	m	class:Iceman
+_time	controller.h	/^    GameTime *_time;$/;"	m	class:WarcraftWorld
+_tokenerCount	Headquarters.h	/^    int _tokenerCount; \/\/已经占领的武士数$/;"	m	class:Headquarters
+_type	OpenJudge.h	/^    WarriorType _type = DRAGON_TYPE;$/;"	m	class:Warrior
+_warrior	view.h	/^    WarriorPtr _warrior;$/;"	m	class:WarriorView
+_warrior1	view.h	/^    WarriorPtr _warrior1; \/\/主动攻击者$/;"	m	class:BattleView
+_warrior2	view.h	/^    WarriorPtr _warrior2; \/\/反击者$/;"	m	class:BattleView
+_warriorCreatingOrder	Headquarters.h	/^    vector<WarriorType> _warriorCreatingOrder;\/\/武士生产顺序$/;"	m	class:Headquarters
+_warriorId	Headquarters.h	/^    int _warriorId;  \/\/制造的武士的编号$/;"	m	class:Headquarters
+_warriorTypeAmounts	Headquarters.h	/^    unordered_map<WarriorType, int> _warriorTypeAmounts;$/;"	m	class:Headquarters
+_warriors	Headquarters.h	/^    vector<WarriorPtr> _warriors;\/\/生产的所有武士$/;"	m	class:Headquarters
+_winer	city.h	/^    WarriorPtr _winer = 0;  \/\/ 胜利者,或者城市只有一个武士$/;"	m	class:City
+_winners	Headquarters.h	/^        _winners;$/;"	m	class:Headquarters
+addTokenerCount	Headquarters.h	/^    void addTokenerCount() { _tokenerCount++; }$/;"	f	class:Headquarters
+addwarriorId	Headquarters.h	/^    void addwarriorId() { _warriorId++; }$/;"	f	class:Headquarters
+attach	city.cc	/^void City::attach(WarriorPtr warrior)$/;"	f	class:City
+attack	OpenJudge.cc	/^void Dragon::attack(WarriorPtr warrior)$/;"	f	class:Dragon
+attack	OpenJudge.h	/^    virtual void attack(WarriorPtr warrior){}\/\/攻击另一个武士$/;"	f	class:Warrior
+battle	controller.cc	/^void WarcraftWorld::battle()$/;"	f	class:WarcraftWorld
+beRewarded	OpenJudge.cc	/^void Warrior::beRewarded()$/;"	f	class:Warrior
+bluemarch	OpenJudge.cc	/^bool Dragon::bluemarch()$/;"	f	class:Dragon
+checkBlueHeadquartersBeTaken	controller.cc	/^bool WarcraftWorld::checkBlueHeadquartersBeTaken()$/;"	f	class:WarcraftWorld
+checkRedHeadquartersBeTaken	controller.cc	/^bool WarcraftWorld::checkRedHeadquartersBeTaken()$/;"	f	class:WarcraftWorld
+cityCount	OpenJudge.cc	/^int GameConfig::cityCount()const$/;"	f	class:GameConfig
+cityProduceElements	controller.cc	/^void WarcraftWorld::cityProduceElements()$/;"	f	class:WarcraftWorld
+create	Headquarters.cc	/^WarriorPtr Headquarters::create()$/;"	f	class:Headquarters
+createDragon	Headquarters.cc	/^WarriorPtr Headquarters::createDragon(int id, int hp, int forces)$/;"	f	class:Headquarters
+createWarrior	controller.cc	/^void WarcraftWorld::createWarrior()$/;"	f	class:WarcraftWorld
+currentGroupId	OpenJudge.h	/^    int currentGroupId() const { return _currentGroupId;  }$/;"	f	class:GameConfig
+defense	OpenJudge.cc	/^void Dragon::defense(WarriorPtr warrior)$/;"	f	class:Dragon
+defense	OpenJudge.h	/^    virtual void defense(WarriorPtr warrior){}\/\/反击另一个武士$/;"	f	class:Warrior
+destroy	OpenJudge.cc	/^void GameConfig::destroy()$/;"	f	class:GameConfig
+destroy	OpenJudge.cc	/^void GameTime::destroy()$/;"	f	class:GameTime
+detach	city.cc	/^void City::detach()$/;"	f	class:City
+getBlueWarriors	city.h	/^    vector<WarriorPtr> & getBlueWarriors() { return _blueWarriors;$/;"	f	class:City
+getCityId	OpenJudge.h	/^    int getCityId() const { return _cityId;  }$/;"	f	class:Warrior
+getColor	Headquarters.h	/^    Color getColor() const { return _color;  }$/;"	f	class:Headquarters
+getColor	OpenJudge.h	/^    Color getColor() const { return _color;  }$/;"	f	class:Warrior
+getEarnElements	OpenJudge.h	/^    int &getEarnElements() { return _earnElements;  }$/;"	f	class:Warrior
+getElements	Headquarters.h	/^    int getElements() const { return _elements;  }$/;"	f	class:Headquarters
+getFlag	city.h	/^    Color getFlag() const { return _flag;  }$/;"	f	class:City
+getForces	OpenJudge.h	/^    int getForces() const { return _forces;  }$/;"	f	class:Warrior
+getHp	OpenJudge.h	/^    int getHp() const { return _hp;  }$/;"	f	class:Warrior
+getId	Headquarters.h	/^    int getId() const { return _id;  }$/;"	f	class:Headquarters
+getId	OpenJudge.h	/^    int getId() const { return _id;  }$/;"	f	class:Warrior
+getId	city.h	/^    size_t getId() const { return _id;  }$/;"	f	class:City
+getInstance	OpenJudge.cc	/^GameConfig *GameConfig::getInstance()$/;"	f	class:GameConfig
+getInstance	OpenJudge.cc	/^GameTime *GameTime::getInstance()$/;"	f	class:GameTime
+getLoyalty	OpenJudge.h	/^    int getLoyalty() const { return _loyalty;  }$/;"	f	class:Lion
+getMorale	OpenJudge.h	/^    float getMorale() const { return _morale;  }$/;"	f	class:Dragon
+getName	OpenJudge.h	/^    string getName() { return _name;  }$/;"	f	class:Warrior
+getNextWarriorType	Headquarters.h	/^    WarriorType getNextWarriorType()$/;"	f	class:Headquarters
+getRedWarriors	city.h	/^    vector<WarriorPtr> & getRedWarriors() { return _redWarriors;  }$/;"	f	class:City
+getTokenerCount	Headquarters.h	/^    int getTokenerCount() { return _tokenerCount; }$/;"	f	class:Headquarters
+getType	OpenJudge.h	/^    WarriorType getType() const { return _type;  }$/;"	f	class:Warrior
+getWarriorAmount	city.h	/^    size_t getWarriorAmount() const \/\/用来判断是否决斗$/;"	f	class:City
+getWarriors	Headquarters.h	/^    vector<WarriorPtr> & getWarriors() { return _warriors;  }$/;"	f	class:Headquarters
+getWarriorsId	Headquarters.h	/^    int getWarriorsId() { return _warriorId; }$/;"	f	class:Headquarters
+getWinner	city.h	/^    WarriorPtr &getWinner() { return _winer;  }$/;"	f	class:City
+getelement	city.h	/^    int getelement() { int tmp = _elements;_elements = 0;$/;"	f	class:City
+groups	OpenJudge.h	/^    int groups() const { return _groups.size();  }$/;"	f	class:GameConfig
+headquartersInitialElements	OpenJudge.cc	/^int GameConfig::headquartersInitialElements()const$/;"	f	class:GameConfig
+headquartersReportElements	controller.cc	/^void WarcraftWorld::headquartersReportElements()$/;"	f	class:WarcraftWorld
+increaseElements	Headquarters.h	/^    void increaseElements(int elements) { _elements +=$/;"	f	class:Headquarters
+init	controller.cc	/^void WarcraftWorld::init()$/;"	f	class:WarcraftWorld
+main	testmain.cc	/^int main()$/;"	f
+nextGroupId	OpenJudge.h	/^    void nextGroupId() { ++_currentGroupId;  }\/\/测试下一组数据$/;"	f	class:GameConfig
+nextWarriorType	Headquarters.h	/^    void nextWarriorType() { _nextWarriorIndex = (_nextWarriorIndex+1)%5; }$/;"	f	class:Headquarters
+override	OpenJudge.h	/^    virtual void attack(WarriorPtr warrior) override;$/;"	m	class:Wolf
+produceElements	city.cc	/^void City::produceElements()$/;"	f	class:City
+readFromConsole	OpenJudge.cc	/^void GameConfig::readFromConsole()$/;"	f	class:GameConfig
+readFromFile	OpenJudge.cc	/^void GameConfig::readFromFile(const string &filename)$/;"	f	class:GameConfig
+redmarch	OpenJudge.cc	/^bool Dragon::redmarch()$/;"	f	class:Dragon
+reset	OpenJudge.h	/^    void reset() { _hour = 0; _minute = 0;  }$/;"	f	class:GameTime
+reward	Headquarters.h	/^    void reward() { _elements -= 8;} \/\/司令部减8个生命元，被奖赏者加8生命值$/;"	f	class:Headquarters
+sentElementsToHeadquarters	OpenJudge.cc	/^void Warrior::sentElementsToHeadquarters()$/;"	f	class:Warrior
+setCity	OpenJudge.h	/^    void setCity(int id) { _cityId = id;  }$/;"	f	class:Warrior
+setEarnelement	OpenJudge.h	/^    void setEarnelement(int earn) { _earnElements = earn; }$/;"	f	class:Warrior
+setElements	Headquarters.h	/^    void setElements(int elements) { _elements = elements;  }$/;"	f	class:Headquarters
+setHeadquarters	OpenJudge.h	/^    void setHeadquarters(Headquarters * headquarters)$/;"	f	class:Warrior
+setHp	OpenJudge.h	/^    void setHp(int hp) { _hp = hp;  }$/;"	f	class:Warrior
+setId	Headquarters.h	/^    void setId(int id) { _id = id;  }$/;"	f	class:Headquarters
+setOrder	Headquarters.h	/^    void setOrder(vector<WarriorType> order)$/;"	f	class:Headquarters
+setOrder	OpenJudge.h	/^    void setOrder(vector<WarriorType> order) $/;"	f	class:GameConfig
+setWarriorCreatingOrder	Headquarters.h	/^        void setWarriorCreatingOrder(Iterator beg, Iterator end)$/;"	f	class:Headquarters
+show	OpenJudge.h	/^    void show()$/;"	f	class:Dragon
+show	OpenJudge.h	/^    void show()$/;"	f	class:Warrior
+showAttack	view.cc	/^void BattleView::showAttack() const$/;"	f	class:BattleView
+showBeTaken	view.cc	/^void HeadquartersView::showBeTaken() const$/;"	f	class:HeadquartersView
+showBorn	view.cc	/^void WarriorView::showBorn() const$/;"	f	class:WarriorView
+showDeath	view.cc	/^void WarriorView::showDeath() const$/;"	f	class:WarriorView
+showDefense	view.cc	/^void BattleView::showDefense() const$/;"	f	class:BattleView
+showEarnElements	view.cc	/^void WarriorView::showEarnElements() const$/;"	f	class:WarriorView
+showFlag	view.cc	/^void CityView::showFlag() const$/;"	f	class:CityView
+showLeftElements	view.cc	/^void HeadquartersView::showLeftElements() const$/;"	f	class:HeadquartersView
+showMarch	view.cc	/^void WarriorView::showMarch() const$/;"	f	class:WarriorView
+showReachDestination	view.cc	/^void WarriorView::showReachDestination() const$/;"	f	class:WarriorView
+showTime	OpenJudge.cc	/^void GameTime::showTime() const$/;"	f	class:GameTime
+showTime	controller.h	/^    void showTime() { _time->showTime(); }$/;"	f	class:WarcraftWorld
+showYell	view.cc	/^void DragonView::showYell() const$/;"	f	class:DragonView
+start	controller.h	/^    void start()\/\/游戏开始$/;"	f	class:WarcraftWorld
+startBattle	city.cc	/^void City::startBattle()$/;"	f	class:City
+takeCityElements	controller.cc	/^void WarcraftWorld::takeCityElements()$/;"	f	class:WarcraftWorld
+toString	OpenJudge.h	/^inline string toString(Color color)$/;"	f
+toString	OpenJudge.h	/^inline string toString(WarriorType type)$/;"	f
+updateTime	OpenJudge.cc	/^void GameTime::updateTime()$/;"	f	class:GameTime
+updateTime	controller.h	/^    void updateTime() { _time->updateTime(); }$/;"	f	class:WarcraftWorld
+warriorInitalAttack	OpenJudge.cc	/^int GameConfig::warriorInitalAttack(WarriorType key)$/;"	f	class:GameConfig
+warriorInitalLife	OpenJudge.cc	/^int GameConfig::warriorInitalLife(WarriorType key) $/;"	f	class:GameConfig
+warriorMarch	controller.cc	/^bool WarcraftWorld::warriorMarch()$/;"	f	class:WarcraftWorld
+~GameConfig	OpenJudge.h	/^    ~GameConfig(){ cout << "~GameConfig()" << endl;  }$/;"	f	class:GameConfig
+~Headquarters	Headquarters.h	/^    virtual ~Headquarters() { }$/;"	f	class:Headquarters
+~HeadquartersView	view.h	/^    ~HeadquartersView() {}$/;"	f	class:HeadquartersView
+~WarcraftWorld	controller.h	/^    ~WarcraftWorld()$/;"	f	class:WarcraftWorld
+~Warrior	OpenJudge.h	/^    virtual ~Warrior(){ }$/;"	f	class:Warrior

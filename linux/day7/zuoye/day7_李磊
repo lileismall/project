@@ -1,0 +1,124 @@
+#include <func.h>
+
+int main(int argc,char* argv[])
+{
+    ARGS_CHECK(argc,3);
+    int a=atoi(argv[1]);
+    int b=atoi(argv[2]);
+    printf("%d +%d = %d\n",a,b,a+b);
+    return 0;
+}
+
+#include <func.h>
+
+int main(int argc,char* argv[])
+{
+    execl("./add","add",argv[1],argv[2],NULL);  //最后一个参数一定要是NULL，以此判断为结束的
+    return 0;
+}
+
+#include <func.h>
+
+int main(int argc,char* argv[])
+{
+    int f=fork();
+    if(f==0)//进入子进程
+    {
+        while(1);
+    }else{
+        while(1);
+    }
+}
+
+#include <func.h>
+
+int main(int argc,char* argv[])
+{
+    printf("真实用户ID：%d\n真实组ID:%d\n有效用户ID：%d\n有效组ID：%d\n", \
+           getuid(),getgid(),geteuid(),getegid());
+    return 0;
+}
+
+#include <func.h>
+
+int main(int argc,char* argv[])
+{
+    int pid=fork();
+    if(!pid)
+    {
+        exit(0);
+    }
+    setsid();   //自己成为组长，脱离控制端
+    umask(0);
+    for(int i=0;i<10;i++)//关闭继承来的文件，这里主要是标准输入输出0，1，2
+    {
+        close(i);
+    }
+    chdir("/");     //将目录更改为根目录
+    int fd=open("./tmp/log",O_WRONLY);
+    ERROR_CHECK(fd,-1,"open");
+    while(1)
+    {
+        sleep(5);
+        write(fd,"wohenshuai\n",11);
+    }
+    return 0;
+}
+
+#include <func.h>
+
+int main(int argc,char* argv[])
+{
+    int pid=fork();
+    if(pid==0)
+    {
+        while(1);
+    }else{
+        exit(0);
+    }
+}
+
+#include <func.h>
+
+int main(int argc,char* argv[])
+{
+   int fd=open("file",O_RDWR);
+   ERROR_CHECK(fd,-1,"open");         //file文件对普通用户是没有写入权限的
+   write(fd,argv[1],strlen(argv[1]));  //直接将命令行的参数写入文件
+   return 0;
+}
+
+#include <func.h>
+
+int main(int argc,char* argv[])
+{
+    int pid=fork();
+    if(pid==0)
+    {
+        sleep(3);
+        exit(1);
+    }else{
+        int status;
+        pid=wait(&status);   //statu是传出参数
+        if(WIFEXITED(status))  //根据返回状态，子进程正常退出，返回非零值
+        {
+            printf("子进程的退出码是：%d\n",WEXITSTATUS(status));
+        }else{
+            printf("crash\n");
+        }
+    }
+}
+
+#include <func.h>
+
+int main(int argc,char* argv[])
+{
+    int pid=fork();
+    if(pid==0)
+    {
+        exit(10);
+    }else{
+        sleep(20);
+    }
+}
+

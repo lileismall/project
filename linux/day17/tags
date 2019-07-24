@@ -1,0 +1,183 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARGS_CHECK	day17/process_pool_server_mmap2/process_pool.h	31;"	d
+ARGS_CHECK	day17/process_pool_server_mmap2_exit1/process_pool.h	31;"	d
+ARGS_CHECK	day17/process_pool_server_mmap2_exit2/process_pool.h	31;"	d
+ARGS_CHECK	day17/thread_pool_server/include/head.h	34;"	d
+ARGS_CHECK	day17/thread_pool_server/src/head.h	34;"	d
+CC	day17/client_size_mmap1/Makefile	/^CC:=gcc$/;"	m
+CC	day17/client_size_mmap2/Makefile	/^CC:=gcc$/;"	m
+CC	day17/process_pool_server_mmap2/Makefile	/^CC:=gcc$/;"	m
+CC	day17/process_pool_server_mmap2_exit1/Makefile	/^CC:=gcc$/;"	m
+CC	day17/process_pool_server_mmap2_exit2/Makefile	/^CC:=gcc$/;"	m
+CC	day17/thread_pool_server/src/Makefile	/^CC:=gcc$/;"	m
+CFLAGS	day17/client_size_mmap1/Makefile	/^CFLAGS:=-Wall$/;"	m
+CFLAGS	day17/client_size_mmap2/Makefile	/^CFLAGS:=-Wall$/;"	m
+CFLAGS	day17/process_pool_server_mmap2/Makefile	/^CFLAGS:=-Wall$/;"	m
+CFLAGS	day17/process_pool_server_mmap2_exit1/Makefile	/^CFLAGS:=-Wall$/;"	m
+CFLAGS	day17/process_pool_server_mmap2_exit2/Makefile	/^CFLAGS:=-Wall$/;"	m
+CFLAGS	day17/thread_pool_server/src/Makefile	/^CFLAGS:=-Wall -I..\/include$/;"	m
+ELF	day17/client_size_mmap1/Makefile	/^ELF:=client$/;"	m
+ELF	day17/client_size_mmap2/Makefile	/^ELF:=client$/;"	m
+ELF	day17/process_pool_server_mmap2/Makefile	/^ELF:=server$/;"	m
+ELF	day17/process_pool_server_mmap2_exit1/Makefile	/^ELF:=server$/;"	m
+ELF	day17/process_pool_server_mmap2_exit2/Makefile	/^ELF:=server$/;"	m
+ELF	day17/thread_pool_server/src/Makefile	/^ELF:=server$/;"	m
+ERROR_CHECK	day17/process_pool_server_mmap2/process_pool.h	32;"	d
+ERROR_CHECK	day17/process_pool_server_mmap2_exit1/process_pool.h	32;"	d
+ERROR_CHECK	day17/process_pool_server_mmap2_exit2/process_pool.h	32;"	d
+ERROR_CHECK	day17/thread_pool_server/include/head.h	35;"	d
+ERROR_CHECK	day17/thread_pool_server/src/head.h	35;"	d
+FILENAME	day17/process_pool_server_mmap2/process_pool.h	44;"	d
+FILENAME	day17/process_pool_server_mmap2_exit1/process_pool.h	44;"	d
+FILENAME	day17/process_pool_server_mmap2_exit2/process_pool.h	44;"	d
+FILENAME	day17/thread_pool_server/src/factory.h	16;"	d
+Factory_t	day17/thread_pool_server/include/factory.h	/^}Factory_t,*pFactory_t;$/;"	t	typeref:struct:__anon1
+Factory_t	day17/thread_pool_server/src/factory.h	/^}Factory_t,*pFactory_t;$/;"	t	typeref:struct:__anon3
+Node_t	day17/thread_pool_server/include/work_que.h	/^}Node_t,*pNode_t;$/;"	t	typeref:struct:tag_node
+Node_t	day17/thread_pool_server/src/work_que.h	/^}Node_t,*pNode_t;$/;"	t	typeref:struct:tag_node
+OBJS	day17/client_size_mmap1/Makefile	/^OBJS:=$(patsubst %.c,%.o,$(SRCS))$/;"	m
+OBJS	day17/client_size_mmap2/Makefile	/^OBJS:=$(patsubst %.c,%.o,$(SRCS))$/;"	m
+OBJS	day17/process_pool_server_mmap2/Makefile	/^OBJS:=$(patsubst %.c,%.o,$(SRCS))$/;"	m
+OBJS	day17/process_pool_server_mmap2_exit1/Makefile	/^OBJS:=$(patsubst %.c,%.o,$(SRCS))$/;"	m
+OBJS	day17/process_pool_server_mmap2_exit2/Makefile	/^OBJS:=$(patsubst %.c,%.o,$(SRCS))$/;"	m
+OBJS	day17/thread_pool_server/src/Makefile	/^OBJS:=$(patsubst %.c,%.o,$(SRCS))$/;"	m
+ProcessData_t	day17/process_pool_server_mmap2/process_pool.h	/^}ProcessData_t,*pProcessData_t;$/;"	t	typeref:struct:__anon8
+ProcessData_t	day17/process_pool_server_mmap2_exit1/process_pool.h	/^}ProcessData_t,*pProcessData_t;$/;"	t	typeref:struct:__anon6
+ProcessData_t	day17/process_pool_server_mmap2_exit2/process_pool.h	/^}ProcessData_t,*pProcessData_t;$/;"	t	typeref:struct:__anon10
+Que_t	day17/thread_pool_server/include/work_que.h	/^}Que_t,*pQue_t;$/;"	t	typeref:struct:__anon2
+Que_t	day17/thread_pool_server/src/work_que.h	/^}Que_t,*pQue_t;$/;"	t	typeref:struct:__anon5
+SRCS	day17/client_size_mmap1/Makefile	/^SRCS:=$(wildcard *.c)$/;"	m
+SRCS	day17/client_size_mmap2/Makefile	/^SRCS:=$(wildcard *.c)$/;"	m
+SRCS	day17/process_pool_server_mmap2/Makefile	/^SRCS:=$(wildcard *.c)$/;"	m
+SRCS	day17/process_pool_server_mmap2_exit1/Makefile	/^SRCS:=$(wildcard *.c)$/;"	m
+SRCS	day17/process_pool_server_mmap2_exit2/Makefile	/^SRCS:=$(wildcard *.c)$/;"	m
+SRCS	day17/thread_pool_server/src/Makefile	/^SRCS:=$(wildcard *.c)$/;"	m
+THREAD_ERROR_CHECK	day17/process_pool_server_mmap2/process_pool.h	33;"	d
+THREAD_ERROR_CHECK	day17/process_pool_server_mmap2_exit1/process_pool.h	33;"	d
+THREAD_ERROR_CHECK	day17/process_pool_server_mmap2_exit2/process_pool.h	33;"	d
+THREAD_ERROR_CHECK	day17/thread_pool_server/include/head.h	36;"	d
+THREAD_ERROR_CHECK	day17/thread_pool_server/src/head.h	36;"	d
+_GNU_SOURCE	day17/thread_pool_server/include/head.h	3;"	d
+_GNU_SOURCE	day17/thread_pool_server/src/head.h	3;"	d
+__FACTORY_H__	day17/thread_pool_server/include/factory.h	2;"	d
+__FACTORY_H__	day17/thread_pool_server/src/factory.h	2;"	d
+__HEAD_H__	day17/thread_pool_server/include/head.h	2;"	d
+__HEAD_H__	day17/thread_pool_server/src/head.h	2;"	d
+__WORK_QUE__	day17/thread_pool_server/include/work_que.h	2;"	d
+__WORK_QUE__	day17/thread_pool_server/src/work_que.h	2;"	d
+buf	day17/process_pool_server_mmap2/process_pool.h	/^    char buf[1000];$/;"	m	struct:__anon9
+buf	day17/process_pool_server_mmap2_exit1/process_pool.h	/^    char buf[1000];$/;"	m	struct:__anon7
+buf	day17/process_pool_server_mmap2_exit2/process_pool.h	/^    char buf[1000];$/;"	m	struct:__anon11
+buf	day17/thread_pool_server/src/factory.h	/^    char buf[1000];$/;"	m	struct:__anon4
+busy	day17/process_pool_server_mmap2/process_pool.h	/^    short busy;\/\/是否忙碌，0就是非忙碌，1就是忙碌$/;"	m	struct:__anon8
+busy	day17/process_pool_server_mmap2_exit1/process_pool.h	/^    short busy;\/\/是否忙碌，0就是非忙碌，1就是忙碌$/;"	m	struct:__anon6
+busy	day17/process_pool_server_mmap2_exit2/process_pool.h	/^    short busy;\/\/是否忙碌，0就是非忙碌，1就是忙碌$/;"	m	struct:__anon10
+capacity	day17/thread_pool_server/include/work_que.h	/^    int capacity;$/;"	m	struct:__anon2
+capacity	day17/thread_pool_server/src/work_que.h	/^    int capacity;$/;"	m	struct:__anon5
+childHandle	day17/process_pool_server_mmap2/child.c	/^int childHandle(int pipeFd)$/;"	f
+childHandle	day17/process_pool_server_mmap2_exit1/child.c	/^int childHandle(int pipeFd)$/;"	f
+childHandle	day17/process_pool_server_mmap2_exit2/child.c	/^int childHandle(int pipeFd)$/;"	f
+cond	day17/thread_pool_server/include/factory.h	/^    pthread_cond_t cond;$/;"	m	struct:__anon1
+cond	day17/thread_pool_server/src/factory.h	/^    pthread_cond_t cond;$/;"	m	struct:__anon3
+dataLen	day17/process_pool_server_mmap2/process_pool.h	/^    int dataLen;\/\/代表后面存储的数据长度$/;"	m	struct:__anon9
+dataLen	day17/process_pool_server_mmap2_exit1/process_pool.h	/^    int dataLen;\/\/代表后面存储的数据长度$/;"	m	struct:__anon7
+dataLen	day17/process_pool_server_mmap2_exit2/process_pool.h	/^    int dataLen;\/\/代表后面存储的数据长度$/;"	m	struct:__anon11
+dataLen	day17/thread_pool_server/src/factory.h	/^    int dataLen;\/\/代表后面存储的数据长度$/;"	m	struct:__anon4
+epollAdd	day17/process_pool_server_mmap2/main.c	/^int epollAdd(int epfd,int fd)$/;"	f
+epollAdd	day17/process_pool_server_mmap2_exit1/main.c	/^int epollAdd(int epfd,int fd)$/;"	f
+epollAdd	day17/process_pool_server_mmap2_exit2/main.c	/^int epollAdd(int epfd,int fd)$/;"	f
+exitFds	day17/process_pool_server_mmap2/main.c	/^int exitFds[2];\/\/全局管道$/;"	v
+exitFds	day17/process_pool_server_mmap2_exit1/main.c	/^int exitFds[2];$/;"	v
+exitFds	day17/process_pool_server_mmap2_exit2/main.c	/^int exitFds[2];$/;"	v
+factoryInit	day17/thread_pool_server/src/factory.c	/^int factoryInit(pFactory_t pf,int threadNum,int capacity)$/;"	f
+factoryStart	day17/thread_pool_server/src/factory.c	/^int factoryStart(pFactory_t pf)$/;"	f
+fds	day17/process_pool_server_mmap2/process_pool.h	/^    int fds;\/\/全双工管道$/;"	m	struct:__anon8
+fds	day17/process_pool_server_mmap2_exit1/process_pool.h	/^    int fds;\/\/全双工管道$/;"	m	struct:__anon6
+fds	day17/process_pool_server_mmap2_exit2/process_pool.h	/^    int fds;\/\/全双工管道$/;"	m	struct:__anon10
+main	day17/client_size_mmap1/downfile_client.c	/^int main(int argc,char* argv[])$/;"	f
+main	day17/client_size_mmap2/downfile_client.c	/^int main(int argc,char* argv[])$/;"	f
+main	day17/process_pool_server_mmap2/main.c	/^int main(int argc,char *argv[])$/;"	f
+main	day17/process_pool_server_mmap2/send_fd/send_fd.c	/^int main()$/;"	f
+main	day17/process_pool_server_mmap2/send_fd/writev.c	/^int main()$/;"	f
+main	day17/process_pool_server_mmap2_exit1/main.c	/^int main(int argc,char *argv[])$/;"	f
+main	day17/process_pool_server_mmap2_exit1/send_fd/send_fd.c	/^int main()$/;"	f
+main	day17/process_pool_server_mmap2_exit1/send_fd/writev.c	/^int main()$/;"	f
+main	day17/process_pool_server_mmap2_exit2/main.c	/^int main(int argc,char *argv[])$/;"	f
+main	day17/process_pool_server_mmap2_exit2/send_fd/send_fd.c	/^int main()$/;"	f
+main	day17/process_pool_server_mmap2_exit2/send_fd/writev.c	/^int main()$/;"	f
+main	day17/thread_pool_server/src/main.c	/^int main(int argc,char *argv[])$/;"	f
+makeChild	day17/process_pool_server_mmap2/child.c	/^int makeChild(pProcessData_t p,int processNum)$/;"	f
+makeChild	day17/process_pool_server_mmap2_exit1/child.c	/^int makeChild(pProcessData_t p,int processNum)$/;"	f
+makeChild	day17/process_pool_server_mmap2_exit2/child.c	/^int makeChild(pProcessData_t p,int processNum)$/;"	f
+mutex	day17/thread_pool_server/include/work_que.h	/^    pthread_mutex_t mutex;$/;"	m	struct:__anon2
+mutex	day17/thread_pool_server/src/work_que.h	/^    pthread_mutex_t mutex;$/;"	m	struct:__anon5
+newFd	day17/thread_pool_server/include/work_que.h	/^    int newFd;$/;"	m	struct:tag_node
+newFd	day17/thread_pool_server/src/work_que.h	/^    int newFd;$/;"	m	struct:tag_node
+pFactory_t	day17/thread_pool_server/include/factory.h	/^}Factory_t,*pFactory_t;$/;"	t	typeref:struct:__anon1
+pFactory_t	day17/thread_pool_server/src/factory.h	/^}Factory_t,*pFactory_t;$/;"	t	typeref:struct:__anon3
+pNext	day17/thread_pool_server/include/work_que.h	/^    struct tag_node *pNext;$/;"	m	struct:tag_node	typeref:struct:tag_node::tag_node
+pNext	day17/thread_pool_server/src/work_que.h	/^    struct tag_node *pNext;$/;"	m	struct:tag_node	typeref:struct:tag_node::tag_node
+pNode_t	day17/thread_pool_server/include/work_que.h	/^}Node_t,*pNode_t;$/;"	t	typeref:struct:tag_node
+pNode_t	day17/thread_pool_server/src/work_que.h	/^}Node_t,*pNode_t;$/;"	t	typeref:struct:tag_node
+pProcessData_t	day17/process_pool_server_mmap2/process_pool.h	/^}ProcessData_t,*pProcessData_t;$/;"	t	typeref:struct:__anon8
+pProcessData_t	day17/process_pool_server_mmap2_exit1/process_pool.h	/^}ProcessData_t,*pProcessData_t;$/;"	t	typeref:struct:__anon6
+pProcessData_t	day17/process_pool_server_mmap2_exit2/process_pool.h	/^}ProcessData_t,*pProcessData_t;$/;"	t	typeref:struct:__anon10
+pQue_t	day17/thread_pool_server/include/work_que.h	/^}Que_t,*pQue_t;$/;"	t	typeref:struct:__anon2
+pQue_t	day17/thread_pool_server/src/work_que.h	/^}Que_t,*pQue_t;$/;"	t	typeref:struct:__anon5
+pid	day17/process_pool_server_mmap2/process_pool.h	/^    pid_t pid;$/;"	m	struct:__anon8
+pid	day17/process_pool_server_mmap2_exit1/process_pool.h	/^    pid_t pid;$/;"	m	struct:__anon6
+pid	day17/process_pool_server_mmap2_exit2/process_pool.h	/^    pid_t pid;$/;"	m	struct:__anon10
+pthid	day17/thread_pool_server/include/factory.h	/^    pthread_t *pthid;$/;"	m	struct:__anon1
+pthid	day17/thread_pool_server/src/factory.h	/^    pthread_t *pthid;$/;"	m	struct:__anon3
+que	day17/thread_pool_server/include/factory.h	/^    Que_t que;$/;"	m	struct:__anon1
+que	day17/thread_pool_server/src/factory.h	/^    Que_t que;$/;"	m	struct:__anon3
+queGet	day17/thread_pool_server/src/work_que.c	/^int queGet(pQue_t pq,pNode_t* pGet)$/;"	f
+queHead	day17/thread_pool_server/include/work_que.h	/^    pNode_t queHead,queTail;$/;"	m	struct:__anon2
+queHead	day17/thread_pool_server/src/work_que.h	/^    pNode_t queHead,queTail;$/;"	m	struct:__anon5
+queInit	day17/thread_pool_server/src/work_que.c	/^void queInit(pQue_t pq,int capacity)$/;"	f
+queInsert	day17/thread_pool_server/src/work_que.c	/^void queInsert(pQue_t pq,pNode_t pNew)$/;"	f
+queTail	day17/thread_pool_server/include/work_que.h	/^    pNode_t queHead,queTail;$/;"	m	struct:__anon2
+queTail	day17/thread_pool_server/src/work_que.h	/^    pNode_t queHead,queTail;$/;"	m	struct:__anon5
+recvCycle	day17/client_size_mmap1/tran_n.c	/^int recvCycle(int sfd,void* pStart,int recvLen)$/;"	f
+recvCycle	day17/client_size_mmap2/tran_n.c	/^int recvCycle(int sfd,void* pStart,int recvLen)$/;"	f
+recvFd	day17/process_pool_server_mmap2/send_fd.c	/^int recvFd(int fds,int *fd)$/;"	f
+recvFd	day17/process_pool_server_mmap2/send_fd/send_fd.c	/^int recvFd(int fds,int *fd)$/;"	f
+recvFd	day17/process_pool_server_mmap2_exit1/send_fd.c	/^int recvFd(int fds,int *fd)$/;"	f
+recvFd	day17/process_pool_server_mmap2_exit1/send_fd/send_fd.c	/^int recvFd(int fds,int *fd)$/;"	f
+recvFd	day17/process_pool_server_mmap2_exit2/send_fd.c	/^int recvFd(int fds,int *fd,int *exitFlag)$/;"	f
+recvFd	day17/process_pool_server_mmap2_exit2/send_fd/send_fd.c	/^int recvFd(int fds,int *fd)$/;"	f
+sendFd	day17/process_pool_server_mmap2/send_fd.c	/^int sendFd(int fds,int fd)$/;"	f
+sendFd	day17/process_pool_server_mmap2/send_fd/send_fd.c	/^int sendFd(int fds,int fd)$/;"	f
+sendFd	day17/process_pool_server_mmap2_exit1/send_fd.c	/^int sendFd(int fds,int fd)$/;"	f
+sendFd	day17/process_pool_server_mmap2_exit1/send_fd/send_fd.c	/^int sendFd(int fds,int fd)$/;"	f
+sendFd	day17/process_pool_server_mmap2_exit2/send_fd.c	/^int sendFd(int fds,int fd,int exitFlag)$/;"	f
+sendFd	day17/process_pool_server_mmap2_exit2/send_fd/send_fd.c	/^int sendFd(int fds,int fd)$/;"	f
+sigExitFunc	day17/process_pool_server_mmap2/main.c	/^void sigExitFunc(int signum)$/;"	f
+sigExitFunc	day17/process_pool_server_mmap2_exit1/main.c	/^void sigExitFunc(int signum)$/;"	f
+sigExitFunc	day17/process_pool_server_mmap2_exit2/main.c	/^void sigExitFunc(int signum)$/;"	f
+size	day17/thread_pool_server/include/work_que.h	/^    int size;$/;"	m	struct:__anon2
+size	day17/thread_pool_server/src/work_que.h	/^    int size;$/;"	m	struct:__anon5
+startFlag	day17/thread_pool_server/include/factory.h	/^    int startFlag;$/;"	m	struct:__anon1
+startFlag	day17/thread_pool_server/src/factory.h	/^    int startFlag;$/;"	m	struct:__anon3
+tag_node	day17/thread_pool_server/include/work_que.h	/^typedef struct tag_node{$/;"	s
+tag_node	day17/thread_pool_server/src/work_que.h	/^typedef struct tag_node{$/;"	s
+tcpInit	day17/process_pool_server_mmap2/tcp_init.c	/^int tcpInit(int *sFd,char* ip,char* port)$/;"	f
+tcpInit	day17/process_pool_server_mmap2_exit1/tcp_init.c	/^int tcpInit(int *sFd,char* ip,char* port)$/;"	f
+tcpInit	day17/process_pool_server_mmap2_exit2/tcp_init.c	/^int tcpInit(int *sFd,char* ip,char* port)$/;"	f
+tcpInit	day17/thread_pool_server/src/tcp_init.c	/^int tcpInit(int *sFd,char* ip,char* port)$/;"	f
+threadFunc	day17/thread_pool_server/src/factory.c	/^void *threadFunc(void *p)$/;"	f
+threadNum	day17/thread_pool_server/include/factory.h	/^    int threadNum;$/;"	m	struct:__anon1
+threadNum	day17/thread_pool_server/src/factory.h	/^    int threadNum;$/;"	m	struct:__anon3
+train_t	day17/process_pool_server_mmap2/process_pool.h	/^}train_t;$/;"	t	typeref:struct:__anon9
+train_t	day17/process_pool_server_mmap2_exit1/process_pool.h	/^}train_t;$/;"	t	typeref:struct:__anon7
+train_t	day17/process_pool_server_mmap2_exit2/process_pool.h	/^}train_t;$/;"	t	typeref:struct:__anon11
+train_t	day17/thread_pool_server/src/factory.h	/^}train_t;$/;"	t	typeref:struct:__anon4
+tranFile	day17/process_pool_server_mmap2/tran_file.c	/^int tranFile(int newFd)$/;"	f
+tranFile	day17/process_pool_server_mmap2_exit1/tran_file.c	/^int tranFile(int newFd)$/;"	f
+tranFile	day17/process_pool_server_mmap2_exit2/tran_file.c	/^int tranFile(int newFd)$/;"	f
+tranFile	day17/thread_pool_server/src/tran_file.c	/^int tranFile(int newFd)$/;"	f

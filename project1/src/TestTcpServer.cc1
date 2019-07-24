@@ -1,0 +1,134 @@
+///
+/// @file    TestAcceptor.cc
+/// @author  lemon(haohb13@gmail.com)
+/// @date    2019-05-07 15:42:14
+///
+
+#include "Threadpool.h"
+#include "TcpServer.h"
+#include "Configuration.h"
+#include "DictProducer.h"
+
+#include <unistd.h>
+#include <stdio.h>
+#include <string.h>
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::string;
+using namespace ll;
+
+ll::Threadpool * gThreadpool = nullptr;
+
+class Task
+{
+public:
+    Task(const string & msg,
+         const ll::TcpConnectionPtr & conn)
+        : _msg(msg)
+          , _conn(conn)
+    {}
+
+    //运行在线程池的某一个子线程中
+    void process()
+    {
+        Configuration conf("../conf/conf");   
+        DictProducer test(conf);
+        test.bulid_index();
+        vector<string> singstr;
+        string s;
+        int i=0;
+        //将词语中的字符提取出来
+        while(_msg[i])
+        {
+            int nBytes = nByteCode(_msg[i]);
+            s = _msg.substr(i,nBytes);
+            singstr.push_back(s);
+            i += nBytes;
+        }
+        map<string,set<string>> mapp = test.getindex();
+        ostringstream oss;
+        for(size_t i=0;i<singstr.size();i++)
+        {
+            auto s = mapp[singstr[i]];
+            for(auto &ss : s)
+            {
+                oss << ss << "-->" << _msg
+                    << " : "<< EditDis(ss,_msg) << endl ;
+            }
+        }
+        //decode
+        //compute
+        //encode
+        string response = oss.str();//要返回给客户端的消息
+        //_conn->send(response);//由线程池的线程(计算线程)完成数据的发送,在设计上来说，是不合理的
+        //数据发送的工作要交还给IO线程(Reactor所在的线程)完成
+        //将send的函数的执行延迟到IO线程取操作
+        _conn->sendInLoop(response);
+    }
+private:
+    string _msg;
+    ll::TcpConnectionPtr _conn;
+};
+
+//回调函数体现了扩展性
+void onConnection(const ll::TcpConnectionPtr & conn)
+{
+    cout << conn->toString() << " has connected!" << endl;
+    conn->send("welcome to server.");
+}
+
+void onMessage(const ll::TcpConnectionPtr & conn)
+{
+    cout << "onMessage...." << endl;
+    string msg = conn->receive();
+    cout << ">> receive msg from client: " << msg << endl;
+    //业务逻辑的处理要交给线程池处理
+    //decode
+    //compute
+    //encode
+    //::sleep(2);//碰到需要长时间的处理时，响应速度会降下来
+    //conn->send(msg);
+    ::Task task(msg, conn);
+
+    gThreadpool->addTask(std::bind(&::Task::process, task));
+}
+
+void onClose(const ll::TcpConnectionPtr & conn)
+{
+    cout << "onClose...." << endl;
+    cout << conn->toString() << " has closed!" << endl;
+}
+
+//using namespace ll;
+//class EchoServer
+//{
+//public:
+//	void onConnection(const TcpConnectionPtr & conn);
+//	void onMessage(const TcpConnectionPtr & conn);
+//	void onClose(const TcpConnectionPtr & conn);
+//
+//	void process();//业务逻辑的处理
+//
+//private:
+//	Threadpool _threadpool;
+//	TcpServer _server;
+//};
+
+int main(void)
+{
+    ll::Threadpool threadpool(4, 10); 
+    threadpool.start();
+
+    gThreadpool = &threadpool;
+
+    ll::TcpServer server("192.168.204.135", 8888);
+
+    server.setConnectionCallback(onConnection);
+    server.setMessageCallback(onMessage);
+    server.setCloseCallback(onClose);
+
+    server.start();
+
+    return 0;
+}

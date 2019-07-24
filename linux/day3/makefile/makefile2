@@ -1,0 +1,11 @@
+OBJS:=main.o print.o
+ELF:=main
+$(ELF):$(OBJS)
+	gcc $^ -o $@
+main.o:main.c
+	gcc -c main.c
+print.o:print.c
+	gcc -c print.c
+.PYONY:clean
+clean:
+	rm -rf $(OBJS) $(ELF)
