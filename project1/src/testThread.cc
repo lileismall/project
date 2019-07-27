@@ -10,22 +10,43 @@
 #include "DictProducer.h"
 #include "nBtyte.h"
 #include "LRUCache.h"
+#include "RedisTool.h"
+#include "RedisConfig.h"
 
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
 #include <iostream>
+#include <queue>
+#include <jsoncpp/json/json.h>
+#include <stdlib.h>
+#include <stdio.h>
 using std::cout;
 using std::endl;
 using std::string;
 
-
+using namespace Json;
 using namespace std;
 
 /* ll::Threadpool * gThreadpool = nullptr; */
 
 namespace ll
 {
+
+/* struct cmp */
+/* { */
+/*     bool operator()(string l,string r) */ 
+/*     { */
+/*         return */ 
+/*     } */
+/* } */
+
+typedef struct MyResult
+{
+    string _word;
+    int *_ifreq;
+    int *_idist;
+}myResult;
 
 class myTask
 {
@@ -42,13 +63,15 @@ public:
     void process()
     {
         cout << "sub thread:"<< pthread_self() <<" threadNum:" << current_thread::threadNum << endl;
-        LRUCache cache = _threadpool.getCache(current_thread::threadNum);      
+        /* LRUCache cache = _threadpool.getCache(current_thread::threadNum); */      
         cout << "获得Cache前: " << _msg <<endl;
         _msg.pop_back();
         cout << _msg.size() << endl;
-        set<string> setstr = cache.tryGet(_msg);
-        cache.showCache();
-        if(setstr.size())
+        RedisTool redis;
+        string setstr = redis.getString(_msg);
+        /* set<string> setstr = cache.tryGet(_msg); */
+        /* cache.showCache(); */
+        if(!setstr.empty())
         {
             //for(auto &s : setstr)
             //{
@@ -61,15 +84,15 @@ public:
             //    oss << s << "-->" << _msg
             //        << " : "<< EditDis(s,_msg) << endl ;
             //}
-            string response;// = oss.str();//要返回给客户端的消息
+            string response = setstr;// = oss.str();//要返回给客户端的消息
             //cout << response << __LINE__ << endl;
+            cout << "经Redis缓存找到的" << endl;
             if(!response.size())
             {
                 response = "没有与之相似的！";
             }
-            sleep(1);
+            /* sleep(1); */
             _conn->sendInLoop(response);
-            cout << "要发送hou" <<endl;
         }
         else
         {
@@ -88,6 +111,7 @@ public:
                 i += nBytes;
             }
             map<string,set<string>> mapp = test.getindex();
+            map<string,int> dis;  //候选词的编辑距离
             ostringstream oss;
             cout << "要发送前" <<endl;
             for(size_t i=0;i<singstr.size();i++)
@@ -97,13 +121,56 @@ public:
                 {
                     oss << ss << "-->" << _msg
                         << " : "<< EditDis(ss,_msg) << endl ;
+                    dis[ss] = EditDis(ss,_msg);
                 }
             }
-            string response = oss.str();//要返回给客户端的消息
-            cout << response.size() << endl;
-            if(!response.size())
+            for(auto &s : dis)
+            {
+                if(s.first.size())
+                    cout << s.first << ":" << s.second;
+            }
+            cout << endl;
+            /* myResult result; */
+            /* result._word = _msg; */
+            map<string,int> idct = test.getIdct();
+            auto cmp = [](pair<string,int> l,pair<string,int> r) { 
+                return l.second > r.second; };
+            priority_queue<pair<string,int>,
+                vector<pair<string,int>>,decltype(cmp)> disque(cmp);
+            auto iter = dis.begin();
+            while(iter != dis.end())
+            {
+                disque.push(*iter);
+                /* cout << (*iter).first << endl; */
+                iter++;
+            }
+            oss.str(""); 
+            Value val;
+            StyledWriter style;
+            if(!disque.empty())
+            {
+                for(size_t i =0;i< disque.size() && i < 3;i++)
+                {
+                    oss << disque.top().first<< " ";
+                    val[to_string(i+1)] = disque.top().first;
+                    disque.pop();
+                }
+            }
+
+
+            cout << "经查词典找到的-----------" << endl;
+            /* string response = oss.str();//要返回给客户端的消息 */
+            string response = oss.str();
+            if(response.empty())
             {
                 response = "没有与之相似的！";
+            }else
+            {
+                response = style.write(val);
+                cout << response << endl;
+                RedisTool redis;
+                redis.setString(_msg,response);
+                cout << response.size() << endl;
             }
             _conn->sendInLoop(response);
         }

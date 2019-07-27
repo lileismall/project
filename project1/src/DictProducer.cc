@@ -7,8 +7,6 @@ using namespace std;
 namespace ll
 {
 
-
-
 DictProducer::DictProducer(Configuration &conf)
 : _conf(conf)
 {}
@@ -85,6 +83,16 @@ void DictProducer::store_index()
         ofs << endl;
     }
     ofs.close();
+}
+
+int DictProducer::getCipin(string str)
+{
+    return _dict[str];
+}
+
+map<string,int> &DictProducer::getIdct()
+{
+    return _dict;
 }
 
 }

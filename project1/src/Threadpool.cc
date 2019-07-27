@@ -6,6 +6,7 @@
  
 #include "Threadpool.h"
 #include "Thread.h"
+#include "TimerThread.h"
 #include "Configuration.h"
 
 #include <unistd.h>
@@ -27,14 +28,19 @@ Threadpool::Threadpool(size_t threadNumber, size_t queSize)
 }
 
 
+void testfunc()
+{
+    cout << "this is testfunc" <<endl;
+}
+
 void Threadpool::start()
 {
     //初始化cache
     _cachesManager.initCache(_threadNumber + 1,"cache.txt");  //加1是因为还有一个管理线程
     //创建线程
-	for(size_t idx = 0; idx != _threadNumber; ++idx) {
+	for(size_t idx = 1; idx != _threadNumber; ++idx) {
 		unique_ptr<Thread> thread(new Thread(
-			std::bind(&Threadpool::threadFunc, this),idx+1
+			std::bind(&Threadpool::threadFunc, this),idx  //线程编号和Cache一致
 		));
 		_threads.push_back(std::move(thread));
 	}
@@ -42,7 +48,17 @@ void Threadpool::start()
 	for(auto & thread : _threads) {
 		thread->start();
 	}
+
+    //创建管理线程
+    /* unique_ptr<Thread> managerThread(new Thread( */
+    /*          std::bind(&Threadpool::managerFunc,this),0  //0号线程代表管理线程 */
+                    /* )); */
+    /* managerThread->start(); */
+    
+    TimerThread *tfd = new TimerThread(1,3,0,std::bind(&Threadpool::managerFunc,this));
+    tfd->start();
 }
+
 
 void Threadpool::stop()
 {
@@ -82,6 +98,15 @@ void Threadpool::threadFunc()
 			task();
 		}
 	}
+}
+
+void Threadpool::managerFunc()
+{
+    /* while(! _isExit) */
+    /* { */
+        /* sleep(2); */
+        _cachesManager.periodicUpdateCaches();
+    /* } */
 }
 
 LRUCache Threadpool::getCache(size_t num)

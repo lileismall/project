@@ -78,8 +78,9 @@ void Timerfd::setTimerfd(int initialTime, int intervalTime)
 	value.it_interval.tv_sec = intervalTime;
 	value.it_interval.tv_nsec = 0;
 
-	int ret = ::timerfd_settime(_fd, 0, &value, nullptr);
+	int ret = ::timerfd_settime(_fd, 0, &value, NULL);
 	if(ret == -1) {
+
 		perror(">> timerfd_settime");
 	}
 }

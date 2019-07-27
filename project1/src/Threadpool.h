@@ -34,6 +34,7 @@ public:
 
 private:
 	void threadFunc();
+    void managerFunc();
 	Task getTask();
     
 private:

@@ -105,6 +105,10 @@ set<string> LRUCache::tryGet(string s) //尝试在cache中找单词，如果找�
         _keys[s] = _nodes.begin();
         //这里要将在索引中找的的结果加进缓存，_harhmap
         //_harhmap[s] = set<string>;
+        /* set<string> test; */
+        /* test.insert("test"); */
+        /* return set<string>(); */
+        /* return test; */
         return _harhmap[s];
     }
 }
@@ -148,6 +152,7 @@ void CacheManager::periodicUpdateCaches()  //定时更新缓存中数据
 {      
     for(size_t i=1;i < _cacheVec.size() ;i++)
     {
+        cout << "zhengzaigengxin"<<endl;
         _cacheVec[i].update(_cacheVec[0]); //将总的cache附给每个线程的cache
     }
 }

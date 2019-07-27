@@ -42,7 +42,7 @@ InetAddress	InetAddress.cc	/^InetAddress::InetAddress(const string & ip, unsigne
 InetAddress	InetAddress.cc	/^InetAddress::InetAddress(const struct sockaddr_in & addr)$/;"	f	class:ll::InetAddress
 InetAddress	InetAddress.cc	/^InetAddress::InetAddress(unsigned short port)$/;"	f	class:ll::InetAddress
 InetAddress	InetAddress.h	/^class InetAddress$/;"	c	namespace:ll
-LIBS	Makefile	/^LIBS:= -lpthread$/;"	m
+LIBS	Makefile	/^LIBS:= -lpthread -lhiredis$/;"	m
 LRUCache	LRUCache.h	/^	LRUCache(int capacity = 10)$/;"	f	class:ll::LRUCache
 LRUCache	LRUCache.h	/^class LRUCache$/;"	c	namespace:ll
 LRUCache	temp/LRUCache.h	/^	LRUCache(int capacity = 10)$/;"	f	class:ll::LRUCache
@@ -55,6 +55,10 @@ MutexLockGuard	MutexLock.h	/^class MutexLockGuard$/;"	c	namespace:ll
 Noncopyable	Noncopyable.h	/^	Noncopyable() {}$/;"	f	class:ll::Noncopyable
 Noncopyable	Noncopyable.h	/^class Noncopyable$/;"	c	namespace:ll
 OBJS	Makefile	/^OBJS:= $(patsubst %.cc, %.o, $(SRCS))$/;"	m
+RedisConfig	RedisConfig.h	/^    RedisConfig() {}$/;"	f	class:ll::RedisConfig
+RedisConfig	RedisConfig.h	/^class RedisConfig$/;"	c	namespace:ll
+RedisTool	RedisTool.cc	/^RedisTool::RedisTool()$/;"	f	class:ll::RedisTool
+RedisTool	RedisTool.h	/^class RedisTool$/;"	c	namespace:ll
 SRCS	Makefile	/^SRCS:=$(wildcard *.cc)$/;"	m
 SRC_DIR	Makefile	/^SRC_DIR:= .\/$/;"	m
 Socket	Socket.cc	/^Socket::Socket()$/;"	f	class:ll::Socket
@@ -76,10 +80,11 @@ ThreadData	Thread.cc	/^    ThreadData(size_t num,ThreadCallback &&cb)$/;"	f	stru
 ThreadData	Thread.cc	/^struct ThreadData$/;"	s	namespace:ll	file:
 Threadpool	Threadpool.cc	/^Threadpool::Threadpool(size_t threadNumber, size_t queSize)$/;"	f	class:ll::Threadpool
 Threadpool	Threadpool.h	/^class Threadpool$/;"	c	namespace:ll
-TimerThread	TimerThread.h	/^	TimerThread(int initialTime, int intervalTime, TimerCallback && cb)$/;"	f	class:ll::TimerThread
+TimerThread	TimerThread.h	/^	TimerThread(int initialTime, int intervalTime,int thnum, TimerCallback && cb)$/;"	f	class:ll::TimerThread
 TimerThread	TimerThread.h	/^class TimerThread$/;"	c	namespace:ll
 Timerfd	Timerfd.cc	/^Timerfd::Timerfd(int initialTime, int intervalTime, TimerCallback && cb)$/;"	f	class:ll::Timerfd
 Timerfd	Timerfd.h	/^class Timerfd$/;"	c	namespace:ll
+_H_REDIS_TOOLS_	RedisTool.h	2;"	d
 __WD_ACCEPTOR_H__	Acceptor.h	8;"	d
 __WD_CONDITION_H__	Condition.h	9;"	d
 __WD_EVENTLOOP_H__	EventLoop.h	8;"	d
@@ -200,9 +205,13 @@ getCache	Threadpool.cc	/^LRUCache Threadpool::getCache(size_t num)$/;"	f	class:l
 getCache	temp/LRUCache.cc	/^LRUCache &CacheManager::getCache(size_t idx) \/\/获取某个缓存$/;"	f	class:ll::CacheManager
 getConfigMap	Configuration.h	/^    map<string,string> &getConfigMap()$/;"	f	class:Configuration
 getInetAddressPtr	InetAddress.h	/^	struct sockaddr_in * getInetAddressPtr() {	return &_addr;	}$/;"	f	class:ll::InetAddress
+getList	RedisTool.cc	/^vector<int> RedisTool::getList(string key)$/;"	f	class:ll::RedisTool
 getLocalAddr	TcpConnection.cc	/^InetAddress TcpConnection::getLocalAddr(int fd)$/;"	f	class:ll::TcpConnection
 getMutexLockPtr	MutexLock.h	/^	pthread_mutex_t * getMutexLockPtr() {	return &_mutex;	}$/;"	f	class:ll::MutexLock
 getPeerAddr	TcpConnection.cc	/^InetAddress TcpConnection::getPeerAddr(int fd)$/;"	f	class:ll::TcpConnection
+getRedisIP	RedisConfig.h	/^    std::string getRedisIP()$/;"	f	class:ll::RedisConfig
+getRedisPort	RedisConfig.h	/^    int getRedisPort()$/;"	f	class:ll::RedisConfig
+getString	RedisTool.cc	/^string RedisTool::getString(string key)$/;"	f	class:ll::RedisTool
 getTask	Threadpool.cc	/^Task Threadpool::getTask()$/;"	f	class:ll::Threadpool
 getindex	DictProducer.h	/^    map<string,set<string>> &getindex()$/;"	f	class:ll::DictProducer
 getindex	temp/DictProducer.h	/^    map<string,set<string>> &getindex()$/;"	f	class:ll::DictProducer
@@ -215,6 +224,7 @@ handleRead	EventLoop.cc	/^void EventLoop::handleRead()$/;"	f	class:ll::EventLoop
 handleRead	Timerfd.cc	/^void Timerfd::handleRead()$/;"	f	class:ll::Timerfd
 index	LRUCache.h	/^		int index; \/\/在字典vector中的位置下标$/;"	m	struct:ll::LRUCache::CacheNode
 index	temp/LRUCache.h	/^		int index; \/\/在字典vector中的位置下标$/;"	m	struct:ll::LRUCache::CacheNode
+init	RedisTool.cc	/^void RedisTool::init()$/;"	f	class:ll::RedisTool
 initCache	LRUCache.cc	/^void CacheManager::initCache(size_t cacheNum,string filename)$/;"	f	class:ll::CacheManager
 initCache	temp/LRUCache.cc	/^void CacheManager::initCache(size_t cacheNum,string filename)$/;"	f	class:ll::CacheManager
 ip	InetAddress.cc	/^string InetAddress::ip() const$/;"	f	class:ll::InetAddress
@@ -238,6 +248,9 @@ ll	LRUCache.h	/^namespace ll$/;"	n
 ll	MutexLock.cc	/^namespace ll$/;"	n	file:
 ll	MutexLock.h	/^namespace ll$/;"	n
 ll	Noncopyable.h	/^namespace ll$/;"	n
+ll	RedisConfig.h	/^namespace ll$/;"	n
+ll	RedisTool.cc	/^namespace ll$/;"	n	file:
+ll	RedisTool.h	/^namespace ll$/;"	n
 ll	Socket.cc	/^namespace ll$/;"	n	file:
 ll	Socket.h	/^namespace ll$/;"	n
 ll	SocketIO.cc	/^namespace ll$/;"	n	file:
@@ -267,9 +280,12 @@ ll	temp/nBtyte.h	/^namespace ll$/;"	n
 ll	testThread.cc	/^namespace ll$/;"	n	file:
 lock	MutexLock.cc	/^void MutexLock::lock()$/;"	f	class:ll::MutexLock
 loop	EventLoop.cc	/^void EventLoop::loop()$/;"	f	class:ll::EventLoop
+m_config	RedisTool.h	/^    RedisConfig m_config;$/;"	m	class:ll::RedisTool
+m_redis	RedisTool.h	/^    redisContext *m_redis;$/;"	m	class:ll::RedisTool
 main	server.c	/^int main(int argc, const char *argv[])$/;"	f
 main	temp/testCache.cc	/^int main()$/;"	f
 main	testThread.cc	/^int main(void)$/;"	f
+managerFunc	Threadpool.cc	/^void Threadpool::managerFunc()$/;"	f	class:ll::Threadpool
 myTask	testThread.cc	/^    myTask(const string & msg,$/;"	f	class:ll::myTask
 myTask	testThread.cc	/^class myTask$/;"	c	namespace:ll	file:
 nByteCode	nBtyte.cc	/^size_t nByteCode(const char ch)$/;"	f	namespace:ll
@@ -304,11 +320,13 @@ setCloseCallback	TcpServer.cc	/^void TcpServer::setCloseCallback(TcpConnectionCa
 setConnectionCallback	EventLoop.h	/^	void setConnectionCallback(TcpConnectionCallback && cb)$/;"	f	class:ll::EventLoop
 setConnectionCallback	TcpConnection.cc	/^void TcpConnection::setConnectionCallback(const TcpConnectionCallback & cb)$/;"	f	class:ll::TcpConnection
 setConnectionCallback	TcpServer.cc	/^void TcpServer::setConnectionCallback(TcpConnectionCallback && cb)$/;"	f	class:ll::TcpServer
+setList	RedisTool.cc	/^int RedisTool::setList(string key,vector<int> value)$/;"	f	class:ll::RedisTool
 setMessageCallback	EventLoop.h	/^	void setMessageCallback(TcpConnectionCallback && cb)$/;"	f	class:ll::EventLoop
 setMessageCallback	TcpConnection.cc	/^void TcpConnection::setMessageCallback(const TcpConnectionCallback & cb)$/;"	f	class:ll::TcpConnection
 setMessageCallback	TcpServer.cc	/^void TcpServer::setMessageCallback(TcpConnectionCallback && cb)$/;"	f	class:ll::TcpServer
 setReuseAddr	Acceptor.cc	/^void Acceptor::setReuseAddr(bool on)$/;"	f	class:ll::Acceptor
 setReusePort	Acceptor.cc	/^void Acceptor::setReusePort(bool on)$/;"	f	class:ll::Acceptor
+setString	RedisTool.cc	/^int RedisTool::setString(string key, string value)$/;"	f	class:ll::RedisTool
 setTimerfd	Timerfd.cc	/^void Timerfd::setTimerfd(int initialTime, int intervalTime)$/;"	f	class:ll::Timerfd
 showCache	LRUCache.cc	/^void LRUCache::showCache()$/;"	f	class:ll::LRUCache
 showCache	temp/LRUCache.cc	/^void LRUCache::showCache()$/;"	f	class:ll::LRUCache
@@ -330,12 +348,13 @@ store_index	DictProducer.cc	/^void DictProducer::store_index()$/;"	f	class:ll::D
 store_index	temp/DictProducer.cc	/^void DictProducer::store_index()$/;"	f	class:ll::DictProducer
 str	LRUCache.h	/^        string str; \/\/单词$/;"	m	struct:ll::LRUCache::CacheNode
 str	temp/LRUCache.h	/^        string str; \/\/单词$/;"	m	struct:ll::LRUCache::CacheNode
+testfunc	Threadpool.cc	/^void testfunc()$/;"	f	namespace:ll
 threadFunc	Threadpool.cc	/^void Threadpool::threadFunc()$/;"	f	class:ll::Threadpool
 threadNum	Thread.cc	/^__thread size_t current_thread::threadNum = 0;$/;"	m	class:ll::current_thread	file:
 threadfunc	Thread.cc	/^void * Thread::threadfunc(void * arg)$/;"	f	class:ll::Thread
 threadnum	Thread.h	21;"	d
 toString	TcpConnection.cc	/^string TcpConnection::toString() const$/;"	f	class:ll::TcpConnection
-tryGet	LRUCache.cc	/^set<string> *LRUCache::tryGet(string s) \/\/尝试在cache中找单词，如果找到返回在字典中位置，如果没找到$/;"	f	class:ll::LRUCache
+tryGet	LRUCache.cc	/^set<string> LRUCache::tryGet(string s) \/\/尝试在cache中找单词，如果找到返回在字典中位置，如果没找到$/;"	f	class:ll::LRUCache
 tryGet	temp/LRUCache.cc	/^set<string> *LRUCache::tryGet(string s) \/\/尝试在cache中找单词，如果找到返回在字典中位置，如果没找到$/;"	f	class:ll::LRUCache
 unlock	MutexLock.cc	/^void MutexLock::unlock()$/;"	f	class:ll::MutexLock
 unloop	EventLoop.cc	/^void EventLoop::unloop()$/;"	f	class:ll::EventLoop
@@ -356,7 +375,10 @@ writen	SocketIO.cc	/^int SocketIO::writen(const char * buff, int len)$/;"	f	clas
 ~MutexLock	MutexLock.cc	/^MutexLock::~MutexLock()$/;"	f	class:ll::MutexLock
 ~MutexLockGuard	MutexLock.h	/^	~MutexLockGuard()$/;"	f	class:ll::MutexLockGuard
 ~Noncopyable	Noncopyable.h	/^	~Noncopyable() {}$/;"	f	class:ll::Noncopyable
+~RedisConfig	RedisConfig.h	/^    ~RedisConfig() {}$/;"	f	class:ll::RedisConfig
+~RedisTool	RedisTool.cc	/^RedisTool::~RedisTool()$/;"	f	class:ll::RedisTool
 ~Socket	Socket.cc	/^Socket::~Socket()$/;"	f	class:ll::Socket
 ~SplitTool	SplitTool.h	/^    ~SplitTool() {}$/;"	f	class:ll::SplitTool
 ~TcpConnection	TcpConnection.cc	/^TcpConnection::~TcpConnection()$/;"	f	class:ll::TcpConnection
 ~Thread	Thread.cc	/^Thread::~Thread()$/;"	f	class:ll::Thread
+~ThreadData	Thread.cc	/^    ~ThreadData() $/;"	f	struct:ll::ThreadData

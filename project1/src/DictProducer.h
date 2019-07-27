@@ -24,6 +24,8 @@ public:
     void store_dict(); //写入磁盘
     void bulid_index();
     void store_index();
+    int getCipin(string str);
+    map<string,int> &getIdct();
     map<string,set<string>> &getindex()
     {
         return _index;
