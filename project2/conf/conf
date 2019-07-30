@@ -1,0 +1,8 @@
+dictpath=../data/dict.txt
+cachepath=../data/cache.txt
+indexpath=../data/index.txt
+yuliaopath=../data/yuliao1.txt
+datapath=../data/data.lib
+pdatapath=../data/pdata.lib
+stopwordpath=../data/stop_words.utf8
+invertpath=../data/invertindexlib

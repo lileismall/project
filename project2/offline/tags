@@ -1,0 +1,1647 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ATTRIBUTE_NAME	tinyxml2.h	/^        ATTRIBUTE_NAME		            = 0,$/;"	e	enum:tinyxml2::StrPair::__anon1
+ATTRIBUTE_VALUE	tinyxml2.h	/^        ATTRIBUTE_VALUE		            = NEEDS_ENTITY_PROCESSING | NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
+ATTRIBUTE_VALUE_LEAVE_ENTITIES	tinyxml2.h	/^        ATTRIBUTE_VALUE_LEAVE_ENTITIES  = NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
+Accept	tinyxml2.cc	/^bool XMLComment::Accept( XMLVisitor* visitor ) const$/;"	f	class:tinyxml2::XMLComment
+Accept	tinyxml2.cc	/^bool XMLDeclaration::Accept( XMLVisitor* visitor ) const$/;"	f	class:tinyxml2::XMLDeclaration
+Accept	tinyxml2.cc	/^bool XMLDocument::Accept( XMLVisitor* visitor ) const$/;"	f	class:tinyxml2::XMLDocument
+Accept	tinyxml2.cc	/^bool XMLElement::Accept( XMLVisitor* visitor ) const$/;"	f	class:tinyxml2::XMLElement
+Accept	tinyxml2.cc	/^bool XMLText::Accept( XMLVisitor* visitor ) const$/;"	f	class:tinyxml2::XMLText
+Accept	tinyxml2.cc	/^bool XMLUnknown::Accept( XMLVisitor* visitor ) const$/;"	f	class:tinyxml2::XMLUnknown
+Add	simhash/cppjieba/limonp/ThreadPool.hpp	/^  void Add(ClosureInterface* task) {$/;"	f	class:limonp::ThreadPool
+Add	simhash/limonp/ThreadPool.hpp	/^  void Add(ClosureInterface* task) {$/;"	f	class:limonp::ThreadPool
+Alloc	tinyxml2.h	/^    virtual void* Alloc() {$/;"	f	class:tinyxml2::MemPoolT
+ArgvContext	simhash/cppjieba/limonp/ArgvContext.hpp	/^  ArgvContext(int argc, const char* const * argv) {$/;"	f	class:limonp::ArgvContext
+ArgvContext	simhash/cppjieba/limonp/ArgvContext.hpp	/^class ArgvContext {$/;"	c	namespace:limonp
+ArgvContext	simhash/limonp/ArgvContext.hpp	/^  ArgvContext(int argc, const char* const * argv) {$/;"	f	class:limonp::ArgvContext
+ArgvContext	simhash/limonp/ArgvContext.hpp	/^class ArgvContext {$/;"	c	namespace:limonp
+Attribute	tinyxml2.cc	/^const char* XMLElement::Attribute( const char* name, const char* value ) const$/;"	f	class:tinyxml2::XMLElement
+B	simhash/cppjieba/HMMModel.hpp	/^  enum {B = 0, E = 1, M = 2, S = 3, STATUS_SUM = 4};$/;"	e	enum:cppjieba::HMMModel::__anon9
+BITS_LENGTH	simhash/Simhasher.hpp	/^            enum{BITS_LENGTH = 64};$/;"	e	enum:simhash::Simhasher::__anon7
+BLACK	simhash/cppjieba/limonp/Colors.hpp	/^  BLACK = 30,$/;"	e	enum:limonp::Color
+BLACK	simhash/limonp/Colors.hpp	/^  BLACK = 30,$/;"	e	enum:limonp::Color
+BLUE	simhash/cppjieba/limonp/Colors.hpp	/^  BLUE,$/;"	e	enum:limonp::Color
+BLUE	simhash/limonp/Colors.hpp	/^  BLUE,$/;"	e	enum:limonp::Color
+BUF_SIZE	tinyxml2.h	/^        BUF_SIZE = 200$/;"	e	enum:tinyxml2::XMLPrinter::__anon6
+BUF_SIZE	tinyxml2.h	/^    enum { BUF_SIZE = 200 };$/;"	e	enum:tinyxml2::XMLAttribute::__anon4
+BUF_SIZE	tinyxml2.h	/^    enum { BUF_SIZE = 200 };$/;"	e	enum:tinyxml2::XMLElement::__anon5
+BYTE	simhash/cppjieba/limonp/Md5.hpp	/^typedef unsigned char BYTE ;$/;"	t	namespace:limonp
+BYTE	simhash/limonp/Md5.hpp	/^typedef unsigned char BYTE ;$/;"	t	namespace:limonp
+Block	tinyxml2.h	/^    struct Block {$/;"	s	class:tinyxml2::MemPoolT
+BlockingQueue	simhash/cppjieba/limonp/BlockingQueue.hpp	/^  BlockingQueue()$/;"	f	class:limonp::BlockingQueue
+BlockingQueue	simhash/cppjieba/limonp/BlockingQueue.hpp	/^class BlockingQueue: NonCopyable {$/;"	c	namespace:limonp
+BlockingQueue	simhash/limonp/BlockingQueue.hpp	/^  BlockingQueue()$/;"	f	class:limonp::BlockingQueue
+BlockingQueue	simhash/limonp/BlockingQueue.hpp	/^class BlockingQueue: NonCopyable {$/;"	c	namespace:limonp
+BoolAttribute	tinyxml2.cc	/^bool XMLElement::BoolAttribute(const char* name, bool defaultValue) const$/;"	f	class:tinyxml2::XMLElement
+BoolText	tinyxml2.cc	/^bool XMLElement::BoolText(bool defaultValue) const$/;"	f	class:tinyxml2::XMLElement
+BoolValue	tinyxml2.h	/^    bool	 BoolValue() const				{$/;"	f	class:tinyxml2::XMLAttribute
+BoundedBlockingQueue	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^  explicit BoundedBlockingQueue(size_t maxSize)$/;"	f	class:limonp::BoundedBlockingQueue
+BoundedBlockingQueue	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^class BoundedBlockingQueue : NonCopyable {$/;"	c	namespace:limonp
+BoundedBlockingQueue	simhash/limonp/BoundedBlockingQueue.hpp	/^  explicit BoundedBlockingQueue(size_t maxSize)$/;"	f	class:limonp::BoundedBlockingQueue
+BoundedBlockingQueue	simhash/limonp/BoundedBlockingQueue.hpp	/^class BoundedBlockingQueue : NonCopyable {$/;"	c	namespace:limonp
+BoundedQueue	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  explicit BoundedQueue(size_t capacity): capacity_(capacity), circular_buffer_(capacity) {$/;"	f	class:limonp::BoundedQueue
+BoundedQueue	simhash/cppjieba/limonp/BoundedQueue.hpp	/^class BoundedQueue {$/;"	c	namespace:limonp
+BoundedQueue	simhash/limonp/BoundedQueue.hpp	/^  explicit BoundedQueue(size_t capacity): capacity_(capacity), circular_buffer_(capacity) {$/;"	f	class:limonp::BoundedQueue
+BoundedQueue	simhash/limonp/BoundedQueue.hpp	/^class BoundedQueue {$/;"	c	namespace:limonp
+CARRIAGE_RETURN	tinyxml2.cc	/^static const char CARRIAGE_RETURN		= (char)0x0d;			\/\/ CR gets filtered out$/;"	v	file:
+CData	tinyxml2.h	/^    bool CData() const						{$/;"	f	class:tinyxml2::XMLText
+CLOSED	tinyxml2.h	/^        CLOSED,		\/\/ <foo\/>$/;"	e	enum:tinyxml2::XMLElement::ElementClosingType
+CLOSING	tinyxml2.h	/^        CLOSING		\/\/ <\/foo>$/;"	e	enum:tinyxml2::XMLElement::ElementClosingType
+COLLAPSE_WHITESPACE	tinyxml2.h	/^    COLLAPSE_WHITESPACE$/;"	e	enum:tinyxml2::Whitespace
+COMMENT	tinyxml2.h	/^        COMMENT							= NEEDS_NEWLINE_NORMALIZATION$/;"	e	enum:tinyxml2::StrPair::__anon1
+CPPJIBEA_HMMSEGMENT_H	simhash/cppjieba/HMMSegment.hpp	2;"	d
+CPPJIEAB_JIEBA_H	simhash/cppjieba/Jieba.hpp	2;"	d
+CPPJIEBA_DICT_TRIE_HPP	simhash/cppjieba/DictTrie.hpp	2;"	d
+CPPJIEBA_FULLSEGMENT_H	simhash/cppjieba/FullSegment.hpp	2;"	d
+CPPJIEBA_HMMMODEL_H	simhash/cppjieba/HMMModel.hpp	2;"	d
+CPPJIEBA_KEYWORD_EXTRACTOR_H	simhash/cppjieba/KeywordExtractor.hpp	2;"	d
+CPPJIEBA_LEVELSEGMENT_H	simhash/cppjieba/LevelSegment.hpp	2;"	d
+CPPJIEBA_MIXSEGMENT_H	simhash/cppjieba/MixSegment.hpp	2;"	d
+CPPJIEBA_MPSEGMENT_H	simhash/cppjieba/MPSegment.hpp	2;"	d
+CPPJIEBA_POS_TAGGING_H	simhash/cppjieba/PosTagger.hpp	2;"	d
+CPPJIEBA_PRE_FILTER_H	simhash/cppjieba/PreFilter.hpp	2;"	d
+CPPJIEBA_QUERYSEGMENT_H	simhash/cppjieba/QuerySegment.hpp	2;"	d
+CPPJIEBA_SEGMENTBASE_H	simhash/cppjieba/SegmentBase.hpp	2;"	d
+CPPJIEBA_TRANSCODE_H	simhash/cppjieba/TransCode.hpp	6;"	d
+CPPJIEBA_TRIE_HPP	simhash/cppjieba/Trie.hpp	2;"	d
+CR	tinyxml2.cc	/^static const char CR = CARRIAGE_RETURN;$/;"	v	file:
+CStr	tinyxml2.h	/^    const char* CStr() const {$/;"	f	class:tinyxml2::XMLPrinter
+CStrSize	tinyxml2.h	/^    int CStrSize() const {$/;"	f	class:tinyxml2::XMLPrinter
+CXX	Makefile	/^CXX:=g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS:= -w -g  $(addprefix -I, $(INC_DIR)) $(LIBS) $/;"	m
+CalcDP	simhash/cppjieba/MPSegment.hpp	/^  void CalcDP(vector<Dag>& dags) const {$/;"	f	class:cppjieba::MPSegment
+CalculateWeight	simhash/cppjieba/DictTrie.hpp	/^  void CalculateWeight(vector<DictUnit>& node_infos) const {$/;"	f	class:cppjieba::DictTrie
+Capacity	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  size_t Capacity() const {$/;"	f	class:limonp::BoundedQueue
+Capacity	simhash/limonp/BoundedQueue.hpp	/^  size_t Capacity() const {$/;"	f	class:limonp::BoundedQueue
+Capacity	tinyxml2.h	/^    int Capacity() const				{$/;"	f	class:tinyxml2::DynArray
+Clear	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  void Clear() {$/;"	f	class:limonp::BoundedQueue
+Clear	simhash/limonp/BoundedQueue.hpp	/^  void Clear() {$/;"	f	class:limonp::BoundedQueue
+Clear	tinyxml2.cc	/^void XMLDocument::Clear()$/;"	f	class:tinyxml2::XMLDocument
+Clear	tinyxml2.h	/^    void Clear() {$/;"	f	class:tinyxml2::DynArray
+Clear	tinyxml2.h	/^    void Clear() {$/;"	f	class:tinyxml2::MemPoolT
+ClearBuffer	tinyxml2.h	/^    void ClearBuffer() {$/;"	f	class:tinyxml2::XMLPrinter
+ClearError	tinyxml2.h	/^    void ClearError() {$/;"	f	class:tinyxml2::XMLDocument
+Close	simhash/cppjieba/limonp/FileLock.hpp	/^  void Close() {$/;"	f	class:limonp::FileLock
+Close	simhash/limonp/FileLock.hpp	/^  void Close() {$/;"	f	class:limonp::FileLock
+CloseElement	tinyxml2.cc	/^void XMLPrinter::CloseElement( bool compactMode )$/;"	f	class:tinyxml2::XMLPrinter
+ClosingType	tinyxml2.h	/^    ElementClosingType ClosingType() const {$/;"	f	class:tinyxml2::XMLElement
+Closure0	simhash/cppjieba/limonp/Closure.hpp	/^  Closure0(Funct fun) {$/;"	f	class:limonp::Closure0
+Closure0	simhash/cppjieba/limonp/Closure.hpp	/^class Closure0: public ClosureInterface {$/;"	c	namespace:limonp
+Closure0	simhash/limonp/Closure.hpp	/^  Closure0(Funct fun) {$/;"	f	class:limonp::Closure0
+Closure0	simhash/limonp/Closure.hpp	/^class Closure0: public ClosureInterface {$/;"	c	namespace:limonp
+Closure1	simhash/cppjieba/limonp/Closure.hpp	/^  Closure1(Funct fun, Arg1 arg1) {$/;"	f	class:limonp::Closure1
+Closure1	simhash/cppjieba/limonp/Closure.hpp	/^class Closure1: public ClosureInterface {$/;"	c	namespace:limonp
+Closure1	simhash/limonp/Closure.hpp	/^  Closure1(Funct fun, Arg1 arg1) {$/;"	f	class:limonp::Closure1
+Closure1	simhash/limonp/Closure.hpp	/^class Closure1: public ClosureInterface {$/;"	c	namespace:limonp
+Closure2	simhash/cppjieba/limonp/Closure.hpp	/^  Closure2(Funct fun, Arg1 arg1, Arg2 arg2) {$/;"	f	class:limonp::Closure2
+Closure2	simhash/cppjieba/limonp/Closure.hpp	/^class Closure2: public ClosureInterface {$/;"	c	namespace:limonp
+Closure2	simhash/limonp/Closure.hpp	/^  Closure2(Funct fun, Arg1 arg1, Arg2 arg2) {$/;"	f	class:limonp::Closure2
+Closure2	simhash/limonp/Closure.hpp	/^class Closure2: public ClosureInterface {$/;"	c	namespace:limonp
+Closure3	simhash/cppjieba/limonp/Closure.hpp	/^  Closure3(Funct fun, Arg1 arg1, Arg2 arg2, Arg3 arg3) {$/;"	f	class:limonp::Closure3
+Closure3	simhash/cppjieba/limonp/Closure.hpp	/^class Closure3: public ClosureInterface {$/;"	c	namespace:limonp
+Closure3	simhash/limonp/Closure.hpp	/^  Closure3(Funct fun, Arg1 arg1, Arg2 arg2, Arg3 arg3) {$/;"	f	class:limonp::Closure3
+Closure3	simhash/limonp/Closure.hpp	/^class Closure3: public ClosureInterface {$/;"	c	namespace:limonp
+ClosureInterface	simhash/cppjieba/limonp/Closure.hpp	/^class ClosureInterface {$/;"	c	namespace:limonp
+ClosureInterface	simhash/limonp/Closure.hpp	/^class ClosureInterface {$/;"	c	namespace:limonp
+CollapseWhitespace	tinyxml2.cc	/^void StrPair::CollapseWhitespace()$/;"	f	class:tinyxml2::StrPair
+Color	simhash/cppjieba/limonp/Colors.hpp	/^enum Color {$/;"	g	namespace:limonp
+Color	simhash/limonp/Colors.hpp	/^enum Color {$/;"	g	namespace:limonp
+ColorPrintln	simhash/cppjieba/limonp/Colors.hpp	/^static void ColorPrintln(enum Color color, const char * fmt, ...) {$/;"	f	namespace:limonp
+ColorPrintln	simhash/limonp/Colors.hpp	/^static void ColorPrintln(enum Color color, const char * fmt, ...) {$/;"	f	namespace:limonp
+CompactMode	tinyxml2.h	/^	virtual bool CompactMode( const XMLElement& )	{ return _compactMode; }$/;"	f	class:tinyxml2::XMLPrinter
+Compare	simhash/cppjieba/KeywordExtractor.hpp	/^  static bool Compare(const pair<string, double>& lhs, const pair<string, double>& rhs) {$/;"	f	class:cppjieba::KeywordExtractor
+Condition	simhash/cppjieba/limonp/Condition.hpp	/^  explicit Condition(MutexLock& mutex)$/;"	f	class:limonp::Condition
+Condition	simhash/cppjieba/limonp/Condition.hpp	/^class Condition : NonCopyable {$/;"	c	namespace:limonp
+Condition	simhash/limonp/Condition.hpp	/^  explicit Condition(MutexLock& mutex)$/;"	f	class:limonp::Condition
+Condition	simhash/limonp/Condition.hpp	/^class Condition : NonCopyable {$/;"	c	namespace:limonp
+Config	simhash/cppjieba/limonp/Config.hpp	/^  explicit Config(const string& filePath) {$/;"	f	class:limonp::Config
+Config	simhash/cppjieba/limonp/Config.hpp	/^class Config {$/;"	c	namespace:limonp
+Config	simhash/limonp/Config.hpp	/^  explicit Config(const string& filePath) {$/;"	f	class:limonp::Config
+Config	simhash/limonp/Config.hpp	/^class Config {$/;"	c	namespace:limonp
+Configuration	Configuration.hpp	/^    Configuration(const string &filepath)$/;"	f	class:ll::Configuration
+Configuration	Configuration.hpp	/^class Configuration$/;"	c	namespace:ll
+ConvertUTF32ToUTF8	tinyxml2.cc	/^void XMLUtil::ConvertUTF32ToUTF8( unsigned long input, char* output, int* length )$/;"	f	class:tinyxml2::XMLUtil
+CppJieba	SplitTool.h	/^    CppJieba()$/;"	f	class:ll::CppJieba
+CppJieba	SplitTool.h	/^class CppJieba$/;"	c	namespace:ll
+CreateAttribute	tinyxml2.cc	/^XMLAttribute* XMLElement::CreateAttribute()$/;"	f	class:tinyxml2::XMLElement
+CreateTrie	simhash/cppjieba/DictTrie.hpp	/^  void CreateTrie(const vector<DictUnit>& dictUnits) {$/;"	f	class:cppjieba::DictTrie
+CreateTrie	simhash/cppjieba/Trie.hpp	/^  void CreateTrie(const vector<Unicode>& keys, const vector<const DictUnit*>& valuePointers) {$/;"	f	class:cppjieba::Trie
+CreateUnlinkedNode	tinyxml2.h	/^inline NodeType* XMLDocument::CreateUnlinkedNode( MemPoolT<PoolElementSize>& pool )$/;"	f	class:tinyxml2::XMLDocument
+CurrentAllocs	tinyxml2.h	/^    int CurrentAllocs() const		{$/;"	f	class:tinyxml2::MemPoolT
+Cut	simhash/cppjieba/FullSegment.hpp	/^  void Cut(Unicode::const_iterator begin, $/;"	f	class:cppjieba::FullSegment
+Cut	simhash/cppjieba/FullSegment.hpp	/^  void Cut(const string& sentence, $/;"	f	class:cppjieba::FullSegment
+Cut	simhash/cppjieba/HMMSegment.hpp	/^  void Cut(Unicode::const_iterator begin, Unicode::const_iterator end, vector<Unicode>& res) const {$/;"	f	class:cppjieba::HMMSegment
+Cut	simhash/cppjieba/HMMSegment.hpp	/^  void Cut(const string& sentence, $/;"	f	class:cppjieba::HMMSegment
+Cut	simhash/cppjieba/Jieba.hpp	/^  void Cut(const string& sentence, vector<string>& words, bool hmm = true) const {$/;"	f	class:cppjieba::Jieba
+Cut	simhash/cppjieba/LevelSegment.hpp	/^  bool Cut(const string& sentence, $/;"	f	class:cppjieba::LevelSegment
+Cut	simhash/cppjieba/LevelSegment.hpp	/^  void Cut(Unicode::const_iterator begin,$/;"	f	class:cppjieba::LevelSegment
+Cut	simhash/cppjieba/LevelSegment.hpp	/^  void Cut(const string& sentence, $/;"	f	class:cppjieba::LevelSegment
+Cut	simhash/cppjieba/MPSegment.hpp	/^  void Cut(Unicode::const_iterator begin,$/;"	f	class:cppjieba::MPSegment
+Cut	simhash/cppjieba/MPSegment.hpp	/^  void Cut(const string& sentence, $/;"	f	class:cppjieba::MPSegment
+Cut	simhash/cppjieba/MixSegment.hpp	/^  void Cut(Unicode::const_iterator begin, Unicode::const_iterator end, vector<Unicode>& res, bool hmm) const {$/;"	f	class:cppjieba::MixSegment
+Cut	simhash/cppjieba/MixSegment.hpp	/^  void Cut(const string& sentence, vector<string>& words, bool hmm = true) const {$/;"	f	class:cppjieba::MixSegment
+Cut	simhash/cppjieba/QuerySegment.hpp	/^  void Cut(Unicode::const_iterator begin, Unicode::const_iterator end, vector<Unicode>& res, bool hmm) const {$/;"	f	class:cppjieba::QuerySegment
+Cut	simhash/cppjieba/QuerySegment.hpp	/^  void Cut(const string& sentence, vector<string>& words, bool hmm = true) const {$/;"	f	class:cppjieba::QuerySegment
+CutAll	simhash/cppjieba/Jieba.hpp	/^  void CutAll(const string& sentence, vector<string>& words) const {$/;"	f	class:cppjieba::Jieba
+CutByDag	simhash/cppjieba/MPSegment.hpp	/^  void CutByDag(const vector<Dag>& dags, $/;"	f	class:cppjieba::MPSegment
+CutForSearch	simhash/cppjieba/Jieba.hpp	/^  void CutForSearch(const string& sentence, vector<string>& words, bool hmm = true) const {$/;"	f	class:cppjieba::Jieba
+CutHMM	simhash/cppjieba/Jieba.hpp	/^  void CutHMM(const string& sentence, vector<string>& words) const {$/;"	f	class:cppjieba::Jieba
+CutLevel	simhash/cppjieba/Jieba.hpp	/^  void CutLevel(const string& sentence, vector<pair<string, size_t> >& words) const {$/;"	f	class:cppjieba::Jieba
+CutLevel	simhash/cppjieba/Jieba.hpp	/^  void CutLevel(const string& sentence, vector<string>& words) const {$/;"	f	class:cppjieba::Jieba
+CutSmall	simhash/cppjieba/Jieba.hpp	/^  void CutSmall(const string& sentence, vector<string>& words, size_t max_word_len) const {$/;"	f	class:cppjieba::Jieba
+DICT_COLUMN_NUM	simhash/cppjieba/DictTrie.hpp	/^const size_t DICT_COLUMN_NUM = 3;$/;"	m	namespace:cppjieba
+DOUBLE_QUOTE	tinyxml2.cc	/^static const char DOUBLE_QUOTE			= '\\"';$/;"	v	file:
+Dag	simhash/cppjieba/Trie.hpp	/^  Dag():rune(0), pInfo(NULL), weight(0.0), nextPos(0) {$/;"	f	struct:cppjieba::Dag
+Dag	simhash/cppjieba/Trie.hpp	/^struct Dag {$/;"	s	namespace:cppjieba
+Decode	simhash/cppjieba/TransCode.hpp	/^inline Unicode Decode(const string& str) {$/;"	f	namespace:cppjieba::TransCode
+Decode	simhash/cppjieba/TransCode.hpp	/^inline bool Decode(const string& str, Unicode& res) {$/;"	f	namespace:cppjieba::TransCode
+Decode	simhash/cppjieba/limonp/Md5.hpp	/^  static void Decode( UINT4 *output, unsigned char *input, unsigned int len ) {$/;"	f	class:limonp::MD5
+Decode	simhash/limonp/Md5.hpp	/^  static void Decode( UINT4 *output, unsigned char *input, unsigned int len ) {$/;"	f	class:limonp::MD5
+DeepClone	tinyxml2.cc	/^XMLNode* XMLNode::DeepClone(XMLDocument* target) const$/;"	f	class:tinyxml2::XMLNode
+DeepCopy	tinyxml2.cc	/^void XMLDocument::DeepCopy(XMLDocument* target) const$/;"	f	class:tinyxml2::XMLDocument
+DeleteAttribute	tinyxml2.cc	/^void XMLElement::DeleteAttribute( XMLAttribute* attribute )$/;"	f	class:tinyxml2::XMLElement
+DeleteAttribute	tinyxml2.cc	/^void XMLElement::DeleteAttribute( const char* name )$/;"	f	class:tinyxml2::XMLElement
+DeleteChild	tinyxml2.cc	/^void XMLNode::DeleteChild( XMLNode* node )$/;"	f	class:tinyxml2::XMLNode
+DeleteChildren	tinyxml2.cc	/^void XMLNode::DeleteChildren()$/;"	f	class:tinyxml2::XMLNode
+DeleteNode	simhash/cppjieba/Trie.hpp	/^  void DeleteNode(TrieNode* node) {$/;"	f	class:cppjieba::Trie
+DeleteNode	tinyxml2.cc	/^\/*static*\/ void XMLNode::DeleteNode( XMLNode* node )$/;"	f	class:tinyxml2::XMLNode
+DeleteNode	tinyxml2.cc	/^void XMLDocument::DeleteNode( XMLNode* node )	{$/;"	f	class:tinyxml2::XMLDocument
+DepthTracker	tinyxml2.h	/^		explicit DepthTracker(XMLDocument * document) {$/;"	f	class:tinyxml2::XMLDocument::DepthTracker
+DepthTracker	tinyxml2.h	/^	class DepthTracker {$/;"	c	class:tinyxml2::XMLDocument
+DictTrie	simhash/cppjieba/DictTrie.hpp	/^  DictTrie(const string& dict_path, const string& user_dict_paths = "", UserWordWeightOption user_word_weight_opt = WordWeightMedian) {$/;"	f	class:cppjieba::DictTrie
+DictTrie	simhash/cppjieba/DictTrie.hpp	/^class DictTrie {$/;"	c	namespace:cppjieba
+DictUnit	simhash/cppjieba/Trie.hpp	/^struct DictUnit {$/;"	s	namespace:cppjieba
+DoubleAttribute	tinyxml2.cc	/^double XMLElement::DoubleAttribute(const char* name, double defaultValue) const$/;"	f	class:tinyxml2::XMLElement
+DoubleText	tinyxml2.cc	/^double XMLElement::DoubleText(double defaultValue) const$/;"	f	class:tinyxml2::XMLElement
+DoubleValue	tinyxml2.h	/^    double 	 DoubleValue() const			{$/;"	f	class:tinyxml2::XMLAttribute
+DynArray	tinyxml2.h	/^    DynArray() :$/;"	f	class:tinyxml2::DynArray
+DynArray	tinyxml2.h	/^class DynArray$/;"	c	namespace:tinyxml2
+E	simhash/cppjieba/HMMModel.hpp	/^  enum {B = 0, E = 1, M = 2, S = 3, STATUS_SUM = 4};$/;"	e	enum:cppjieba::HMMModel::__anon9
+ENTITY_RANGE	tinyxml2.h	/^        ENTITY_RANGE = 64,$/;"	e	enum:tinyxml2::XMLPrinter::__anon6
+EXE	Makefile	/^EXE:=.\/aproject.exe$/;"	m
+ElementClosingType	tinyxml2.h	/^    enum ElementClosingType {$/;"	g	class:tinyxml2::XMLElement
+EmitProbMap	simhash/cppjieba/HMMModel.hpp	/^typedef unordered_map<Rune, double> EmitProbMap;$/;"	t	namespace:cppjieba
+Empty	simhash/cppjieba/limonp/BlockingQueue.hpp	/^  bool Empty() const {$/;"	f	class:limonp::BlockingQueue
+Empty	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^  bool Empty() const {$/;"	f	class:limonp::BoundedBlockingQueue
+Empty	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  bool Empty() const {$/;"	f	class:limonp::BoundedQueue
+Empty	simhash/limonp/BlockingQueue.hpp	/^  bool Empty() const {$/;"	f	class:limonp::BlockingQueue
+Empty	simhash/limonp/BoundedBlockingQueue.hpp	/^  bool Empty() const {$/;"	f	class:limonp::BoundedBlockingQueue
+Empty	simhash/limonp/BoundedQueue.hpp	/^  bool Empty() const {$/;"	f	class:limonp::BoundedQueue
+Empty	tinyxml2.h	/^    bool Empty() const					{$/;"	f	class:tinyxml2::DynArray
+Empty	tinyxml2.h	/^    bool Empty() const {$/;"	f	class:tinyxml2::StrPair
+Encode	simhash/cppjieba/TransCode.hpp	/^inline string Encode(Unicode::const_iterator begin, Unicode::const_iterator end) {$/;"	f	namespace:cppjieba::TransCode
+Encode	simhash/cppjieba/TransCode.hpp	/^inline string Encode(const Unicode& unicode) {$/;"	f	namespace:cppjieba::TransCode
+Encode	simhash/cppjieba/TransCode.hpp	/^inline void Encode(Unicode::const_iterator begin, Unicode::const_iterator end, string& res) {$/;"	f	namespace:cppjieba::TransCode
+Encode	simhash/cppjieba/TransCode.hpp	/^inline void Encode(const Unicode& uni, string& res) {$/;"	f	namespace:cppjieba::TransCode
+Encode	simhash/cppjieba/TransCode.hpp	/^inline void Encode(const vector<Unicode>& input, vector<string>& output) {$/;"	f	namespace:cppjieba::TransCode
+Encode	simhash/cppjieba/limonp/Md5.hpp	/^  static void Encode( unsigned char *output, UINT4 *input, unsigned int len ) {$/;"	f	class:limonp::MD5
+Encode	simhash/limonp/Md5.hpp	/^  static void Encode( unsigned char *output, UINT4 *input, unsigned int len ) {$/;"	f	class:limonp::MD5
+EndsWith	simhash/cppjieba/limonp/StringUtil.hpp	/^inline bool EndsWith(const string& str, const string& suffix) {$/;"	f	namespace:limonp
+EndsWith	simhash/limonp/StringUtil.hpp	/^inline bool EndsWith(const string& str, const string& suffix) {$/;"	f	namespace:limonp
+EnsureCapacity	tinyxml2.h	/^    void EnsureCapacity( int cap ) {$/;"	f	class:tinyxml2::DynArray
+Entity	tinyxml2.cc	/^struct Entity {$/;"	s	namespace:tinyxml2	file:
+Error	simhash/cppjieba/limonp/FileLock.hpp	/^  string Error() const {$/;"	f	class:limonp::FileLock
+Error	simhash/limonp/FileLock.hpp	/^  string Error() const {$/;"	f	class:limonp::FileLock
+Error	tinyxml2.h	/^    bool Error() const {$/;"	f	class:tinyxml2::XMLDocument
+ErrorID	tinyxml2.h	/^    XMLError  ErrorID() const {$/;"	f	class:tinyxml2::XMLDocument
+ErrorIDToName	tinyxml2.cc	/^\/*static*\/ const char* XMLDocument::ErrorIDToName(XMLError errorID)$/;"	f	class:tinyxml2::XMLDocument
+ErrorLineNum	tinyxml2.h	/^    int ErrorLineNum() const$/;"	f	class:tinyxml2::XMLDocument
+ErrorName	tinyxml2.cc	/^const char* XMLDocument::ErrorName() const$/;"	f	class:tinyxml2::XMLDocument
+ErrorStr	tinyxml2.cc	/^const char* XMLDocument::ErrorStr() const$/;"	f	class:tinyxml2::XMLDocument
+Extract	simhash/cppjieba/KeywordExtractor.hpp	/^  bool Extract(const string& sentence, vector<pair<string, double> >& keywords, size_t topN) const {$/;"	f	class:cppjieba::KeywordExtractor
+Extract	simhash/cppjieba/KeywordExtractor.hpp	/^  bool Extract(const string& sentence, vector<string>& keywords, size_t topN) const {$/;"	f	class:cppjieba::KeywordExtractor
+F	simhash/cppjieba/limonp/Md5.hpp	57;"	d
+F	simhash/limonp/Md5.hpp	57;"	d
+FF	simhash/cppjieba/limonp/Md5.hpp	67;"	d
+FF	simhash/limonp/Md5.hpp	67;"	d
+FileLock	simhash/cppjieba/limonp/FileLock.hpp	/^  FileLock() : fd_(-1), ok_(true) {$/;"	f	class:limonp::FileLock
+FileLock	simhash/cppjieba/limonp/FileLock.hpp	/^class FileLock {$/;"	c	namespace:limonp
+FileLock	simhash/limonp/FileLock.hpp	/^  FileLock() : fd_(-1), ok_(true) {$/;"	f	class:limonp::FileLock
+FileLock	simhash/limonp/FileLock.hpp	/^class FileLock {$/;"	c	namespace:limonp
+Final	simhash/cppjieba/limonp/Md5.hpp	/^  void Final() {$/;"	f	class:limonp::MD5
+Final	simhash/limonp/Md5.hpp	/^  void Final() {$/;"	f	class:limonp::MD5
+Find	simhash/cppjieba/DictTrie.hpp	/^  const DictUnit* Find(Unicode::const_iterator begin, Unicode::const_iterator end) const {$/;"	f	class:cppjieba::DictTrie
+Find	simhash/cppjieba/DictTrie.hpp	/^  void Find(Unicode::const_iterator begin, $/;"	f	class:cppjieba::DictTrie
+Find	simhash/cppjieba/Trie.hpp	/^  const DictUnit* Find(Unicode::const_iterator begin, Unicode::const_iterator end) const {$/;"	f	class:cppjieba::Trie
+Find	simhash/cppjieba/Trie.hpp	/^  void Find(Unicode::const_iterator begin, $/;"	f	class:cppjieba::Trie
+FindAttribute	tinyxml2.cc	/^const XMLAttribute* XMLElement::FindAttribute( const char* name ) const$/;"	f	class:tinyxml2::XMLElement
+FindOrCreateAttribute	tinyxml2.cc	/^XMLAttribute* XMLElement::FindOrCreateAttribute( const char* name )$/;"	f	class:tinyxml2::XMLElement
+FirstAttribute	tinyxml2.h	/^    const XMLAttribute* FirstAttribute() const {$/;"	f	class:tinyxml2::XMLElement
+FirstChild	tinyxml2.h	/^    XMLHandle FirstChild() 													{$/;"	f	class:tinyxml2::XMLHandle
+FirstChild	tinyxml2.h	/^    XMLNode*		FirstChild()			{$/;"	f	class:tinyxml2::XMLNode
+FirstChild	tinyxml2.h	/^    const XMLConstHandle FirstChild() const											{$/;"	f	class:tinyxml2::XMLConstHandle
+FirstChild	tinyxml2.h	/^    const XMLNode*  FirstChild() const		{$/;"	f	class:tinyxml2::XMLNode
+FirstChildElement	tinyxml2.cc	/^const XMLElement* XMLNode::FirstChildElement( const char* name ) const$/;"	f	class:tinyxml2::XMLNode
+FirstChildElement	tinyxml2.h	/^    XMLElement* FirstChildElement( const char* name = 0 )	{$/;"	f	class:tinyxml2::XMLNode
+FirstChildElement	tinyxml2.h	/^    XMLHandle FirstChildElement( const char* name = 0 )						{$/;"	f	class:tinyxml2::XMLHandle
+FirstChildElement	tinyxml2.h	/^    const XMLConstHandle FirstChildElement( const char* name = 0 ) const				{$/;"	f	class:tinyxml2::XMLConstHandle
+Fits	tinyxml2.cc	/^    static bool Fits( unsigned long )$/;"	f	struct:tinyxml2::LongFitsIntoSizeTMinusOne
+FloatAttribute	tinyxml2.cc	/^float XMLElement::FloatAttribute(const char* name, float defaultValue) const$/;"	f	class:tinyxml2::XMLElement
+FloatText	tinyxml2.cc	/^float XMLElement::FloatText(float defaultValue) const$/;"	f	class:tinyxml2::XMLElement
+FloatValue	tinyxml2.h	/^    float	 FloatValue() const				{$/;"	f	class:tinyxml2::XMLAttribute
+Free	tinyxml2.h	/^    virtual void Free( void* mem ) {$/;"	f	class:tinyxml2::MemPoolT
+Full	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^  bool Full() const {$/;"	f	class:limonp::BoundedBlockingQueue
+Full	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  bool Full() const {$/;"	f	class:limonp::BoundedQueue
+Full	simhash/limonp/BoundedBlockingQueue.hpp	/^  bool Full() const {$/;"	f	class:limonp::BoundedBlockingQueue
+Full	simhash/limonp/BoundedQueue.hpp	/^  bool Full() const {$/;"	f	class:limonp::BoundedQueue
+FullSegment	simhash/cppjieba/FullSegment.hpp	/^  FullSegment(const DictTrie* dictTrie)$/;"	f	class:cppjieba::FullSegment
+FullSegment	simhash/cppjieba/FullSegment.hpp	/^  FullSegment(const string& dictPath) {$/;"	f	class:cppjieba::FullSegment
+FullSegment	simhash/cppjieba/FullSegment.hpp	/^class FullSegment: public SegmentBase {$/;"	c	namespace:cppjieba
+G	simhash/cppjieba/limonp/Md5.hpp	58;"	d
+G	simhash/limonp/Md5.hpp	58;"	d
+GBKTrans	simhash/cppjieba/limonp/StringUtil.hpp	/^bool GBKTrans(const char* const str, size_t len, Uint16Container& vec) {$/;"	f	namespace:limonp
+GBKTrans	simhash/cppjieba/limonp/StringUtil.hpp	/^bool GBKTrans(const string& str, Uint16Container& vec) {$/;"	f	namespace:limonp
+GBKTrans	simhash/cppjieba/limonp/StringUtil.hpp	/^void GBKTrans(Uint16ContainerConIter begin, Uint16ContainerConIter end, string& res) {$/;"	f	namespace:limonp
+GBKTrans	simhash/limonp/StringUtil.hpp	/^bool GBKTrans(const char* const str, size_t len, Uint16Container& vec) {$/;"	f	namespace:limonp
+GBKTrans	simhash/limonp/StringUtil.hpp	/^bool GBKTrans(const string& str, Uint16Container& vec) {$/;"	f	namespace:limonp
+GBKTrans	simhash/limonp/StringUtil.hpp	/^void GBKTrans(Uint16ContainerConIter begin, Uint16ContainerConIter end, string& res) {$/;"	f	namespace:limonp
+GG	simhash/cppjieba/limonp/Md5.hpp	72;"	d
+GG	simhash/limonp/Md5.hpp	72;"	d
+GREEN	simhash/cppjieba/limonp/Colors.hpp	/^  GREEN,$/;"	e	enum:limonp::Color
+GREEN	simhash/limonp/Colors.hpp	/^  GREEN,$/;"	e	enum:limonp::Color
+Get	simhash/cppjieba/limonp/Config.hpp	/^  int Get(const string& key, int defaultvalue) const {$/;"	f	class:limonp::Config
+Get	simhash/cppjieba/limonp/Config.hpp	/^  string Get(const string& key, const string& defaultvalue) const {$/;"	f	class:limonp::Config
+Get	simhash/limonp/Config.hpp	/^  int Get(const string& key, int defaultvalue) const {$/;"	f	class:limonp::Config
+Get	simhash/limonp/Config.hpp	/^  string Get(const string& key, const string& defaultvalue) const {$/;"	f	class:limonp::Config
+GetCharacterRef	tinyxml2.cc	/^const char* XMLUtil::GetCharacterRef( const char* p, char* value, int* length )$/;"	f	class:tinyxml2::XMLUtil
+GetConfigInfo	simhash/cppjieba/limonp/Config.hpp	/^  string GetConfigInfo() const {$/;"	f	class:limonp::Config
+GetConfigInfo	simhash/limonp/Config.hpp	/^  string GetConfigInfo() const {$/;"	f	class:limonp::Config
+GetDictTrie	simhash/cppjieba/Jieba.hpp	/^  const DictTrie* GetDictTrie() const {$/;"	f	class:cppjieba::Jieba
+GetDictTrie	simhash/cppjieba/MPSegment.hpp	/^  const DictTrie* GetDictTrie() const {$/;"	f	class:cppjieba::MPSegment
+GetDictTrie	simhash/cppjieba/MixSegment.hpp	/^  const DictTrie* GetDictTrie() const {$/;"	f	class:cppjieba::MixSegment
+GetDocument	tinyxml2.h	/^    XMLDocument* GetDocument()				{$/;"	f	class:tinyxml2::XMLNode
+GetDocument	tinyxml2.h	/^    const XMLDocument* GetDocument() const	{$/;"	f	class:tinyxml2::XMLNode
+GetEmitProb	simhash/cppjieba/HMMModel.hpp	/^  double GetEmitProb(const EmitProbMap* ptMp, Rune key, $/;"	f	struct:cppjieba::HMMModel
+GetHMMModel	simhash/cppjieba/Jieba.hpp	/^  const HMMModel* GetHMMModel() const {$/;"	f	class:cppjieba::Jieba
+GetLine	simhash/cppjieba/HMMModel.hpp	/^  bool GetLine(ifstream& ifile, string& line) {$/;"	f	struct:cppjieba::HMMModel
+GetLineNum	tinyxml2.h	/^    int GetLineNum() const { return _parseLineNum; }$/;"	f	class:tinyxml2::XMLAttribute
+GetLineNum	tinyxml2.h	/^    int GetLineNum() const { return _parseLineNum; }$/;"	f	class:tinyxml2::XMLNode
+GetMaxWordLen	simhash/cppjieba/QuerySegment.hpp	/^  size_t GetMaxWordLen() const {$/;"	f	class:cppjieba::QuerySegment
+GetMinWeight	simhash/cppjieba/DictTrie.hpp	/^  double GetMinWeight() const {$/;"	f	class:cppjieba::DictTrie
+GetPthreadMutex	simhash/cppjieba/limonp/MutexLock.hpp	/^  pthread_mutex_t* GetPthreadMutex() {$/;"	f	class:limonp::MutexLock
+GetPthreadMutex	simhash/limonp/MutexLock.hpp	/^  pthread_mutex_t* GetPthreadMutex() {$/;"	f	class:limonp::MutexLock
+GetStr	tinyxml2.cc	/^const char* StrPair::GetStr()$/;"	f	class:tinyxml2::StrPair
+GetText	tinyxml2.cc	/^const char* XMLElement::GetText() const$/;"	f	class:tinyxml2::XMLElement
+GetTime	simhash/cppjieba/limonp/StringUtil.hpp	/^inline void GetTime(const string& format, string&  timeStr) {$/;"	f	namespace:limonp
+GetTime	simhash/limonp/StringUtil.hpp	/^inline void GetTime(const string& format, string&  timeStr) {$/;"	f	namespace:limonp
+GetUserData	tinyxml2.h	/^	void* GetUserData() const			{ return _userData; }$/;"	f	class:tinyxml2::XMLNode
+H	simhash/cppjieba/limonp/Md5.hpp	59;"	d
+H	simhash/limonp/Md5.hpp	59;"	d
+HASH_BIG_ENDIAN	simhash/jenkins.h	80;"	d
+HASH_BIG_ENDIAN	simhash/jenkins.h	85;"	d
+HASH_BIG_ENDIAN	simhash/jenkins.h	88;"	d
+HASH_LITTLE_ENDIAN	simhash/jenkins.h	79;"	d
+HASH_LITTLE_ENDIAN	simhash/jenkins.h	84;"	d
+HASH_LITTLE_ENDIAN	simhash/jenkins.h	87;"	d
+HH	simhash/cppjieba/limonp/Md5.hpp	77;"	d
+HH	simhash/limonp/Md5.hpp	77;"	d
+HMMModel	simhash/cppjieba/HMMModel.hpp	/^  HMMModel(const string& modelPath) {$/;"	f	struct:cppjieba::HMMModel
+HMMModel	simhash/cppjieba/HMMModel.hpp	/^struct HMMModel {$/;"	s	namespace:cppjieba
+HMMSegment	simhash/cppjieba/HMMSegment.hpp	/^  HMMSegment(const HMMModel* model) $/;"	f	class:cppjieba::HMMSegment
+HMMSegment	simhash/cppjieba/HMMSegment.hpp	/^  HMMSegment(const string& filePath)$/;"	f	class:cppjieba::HMMSegment
+HMMSegment	simhash/cppjieba/HMMSegment.hpp	/^class HMMSegment: public SegmentBase {$/;"	c	namespace:cppjieba
+HasBOM	tinyxml2.h	/^    bool HasBOM() const {$/;"	f	class:tinyxml2::XMLDocument
+HasKey	simhash/cppjieba/limonp/ArgvContext.hpp	/^  bool HasKey(const string& key) const {$/;"	f	class:limonp::ArgvContext
+HasKey	simhash/limonp/ArgvContext.hpp	/^  bool HasKey(const string& key) const {$/;"	f	class:limonp::ArgvContext
+HasNext	simhash/cppjieba/PreFilter.hpp	/^  bool HasNext() const {$/;"	f	class:cppjieba::PreFilter
+I	simhash/cppjieba/limonp/Md5.hpp	60;"	d
+I	simhash/limonp/Md5.hpp	60;"	d
+II	simhash/cppjieba/limonp/Md5.hpp	82;"	d
+II	simhash/limonp/Md5.hpp	82;"	d
+INC_DIR	Makefile	/^INC_DIR:= .\/$/;"	m
+ITEMS_PER_BLOCK	tinyxml2.h	/^    enum { ITEMS_PER_BLOCK = (4 * 1024) \/ ITEM_SIZE };$/;"	e	enum:tinyxml2::MemPoolT::__anon3
+IThread	simhash/cppjieba/limonp/Thread.hpp	/^  IThread(): isStarted(false), isJoined(false) {$/;"	f	class:limonp::IThread
+IThread	simhash/cppjieba/limonp/Thread.hpp	/^class IThread: NonCopyable {$/;"	c	namespace:limonp
+IThread	simhash/limonp/Thread.hpp	/^  IThread(): isStarted(false), isJoined(false) {$/;"	f	class:limonp::IThread
+IThread	simhash/limonp/Thread.hpp	/^class IThread: NonCopyable {$/;"	c	namespace:limonp
+Identify	tinyxml2.cc	/^char* XMLDocument::Identify( char* p, XMLNode** node )$/;"	f	class:tinyxml2::XMLDocument
+Init	simhash/cppjieba/DictTrie.hpp	/^  void Init(const string& dict_path, const string& user_dict_paths, UserWordWeightOption user_word_weight_opt) {$/;"	f	class:cppjieba::DictTrie
+Init	simhash/cppjieba/limonp/Md5.hpp	/^  void Init() {$/;"	f	class:limonp::MD5
+Init	simhash/limonp/Md5.hpp	/^  void Init() {$/;"	f	class:limonp::MD5
+InitConfigMap	Configuration.hpp	/^    void InitConfigMap()$/;"	f	class:ll::Configuration
+InsertAfterChild	tinyxml2.cc	/^XMLNode* XMLNode::InsertAfterChild( XMLNode* afterThis, XMLNode* addThis )$/;"	f	class:tinyxml2::XMLNode
+InsertChildPreamble	tinyxml2.cc	/^void XMLNode::InsertChildPreamble( XMLNode* insertThis ) const$/;"	f	class:tinyxml2::XMLNode
+InsertEndChild	tinyxml2.cc	/^XMLNode* XMLNode::InsertEndChild( XMLNode* addThis )$/;"	f	class:tinyxml2::XMLNode
+InsertFirstChild	tinyxml2.cc	/^XMLNode* XMLNode::InsertFirstChild( XMLNode* addThis )$/;"	f	class:tinyxml2::XMLNode
+InsertNode	simhash/cppjieba/Trie.hpp	/^  void InsertNode(const Unicode& key, const DictUnit* ptValue) {$/;"	f	class:cppjieba::Trie
+InsertUserWord	simhash/cppjieba/DictTrie.hpp	/^  bool InsertUserWord(const string& word, const string& tag = UNKNOWN_TAG) {$/;"	f	class:cppjieba::DictTrie
+InsertUserWord	simhash/cppjieba/Jieba.hpp	/^  bool InsertUserWord(const string& word, const string& tag = UNKNOWN_TAG) {$/;"	f	class:cppjieba::Jieba
+Int64Attribute	tinyxml2.cc	/^int64_t XMLElement::Int64Attribute(const char* name, int64_t defaultValue) const$/;"	f	class:tinyxml2::XMLElement
+Int64Text	tinyxml2.cc	/^int64_t XMLElement::Int64Text(int64_t defaultValue) const$/;"	f	class:tinyxml2::XMLElement
+Int64Value	tinyxml2.h	/^	int64_t Int64Value() const {$/;"	f	class:tinyxml2::XMLAttribute
+IntAttribute	tinyxml2.cc	/^int XMLElement::IntAttribute(const char* name, int defaultValue) const$/;"	f	class:tinyxml2::XMLElement
+IntText	tinyxml2.cc	/^int XMLElement::IntText(int defaultValue) const$/;"	f	class:tinyxml2::XMLElement
+IntValue	tinyxml2.h	/^	int	IntValue() const {$/;"	f	class:tinyxml2::XMLAttribute
+InternalCut	simhash/cppjieba/HMMSegment.hpp	/^  void InternalCut(Unicode::const_iterator begin, Unicode::const_iterator end, vector<Unicode>& res) const {$/;"	f	class:cppjieba::HMMSegment
+IsAllAscii	simhash/cppjieba/QuerySegment.hpp	/^  bool IsAllAscii(const Unicode& s) const {$/;"	f	class:cppjieba::QuerySegment
+IsIn	simhash/cppjieba/limonp/StdExtension.hpp	/^bool IsIn(const ContainType& contain, const KeyType& key) {$/;"	f	namespace:std
+IsIn	simhash/limonp/StdExtension.hpp	/^bool IsIn(const ContainType& contain, const KeyType& key) {$/;"	f	namespace:std
+IsInStr	simhash/cppjieba/limonp/StringUtil.hpp	/^inline bool IsInStr(const string& str, char ch) {$/;"	f	namespace:limonp
+IsInStr	simhash/limonp/StringUtil.hpp	/^inline bool IsInStr(const string& str, char ch) {$/;"	f	namespace:limonp
+IsNameChar	tinyxml2.h	/^    inline static bool IsNameChar( unsigned char ch ) {$/;"	f	class:tinyxml2::XMLUtil
+IsNameStartChar	tinyxml2.h	/^    inline static bool IsNameStartChar( unsigned char ch ) {$/;"	f	class:tinyxml2::XMLUtil
+IsSingleWord	simhash/cppjieba/KeywordExtractor.hpp	/^  bool IsSingleWord(const string& str) const {$/;"	f	class:cppjieba::KeywordExtractor
+IsSpace	simhash/cppjieba/limonp/StringUtil.hpp	/^inline bool IsSpace(unsigned c) {$/;"	f	namespace:limonp
+IsSpace	simhash/limonp/StringUtil.hpp	/^inline bool IsSpace(unsigned c) {$/;"	f	namespace:limonp
+IsUTF8Continuation	tinyxml2.h	/^    inline static bool IsUTF8Continuation( char p ) {$/;"	f	class:tinyxml2::XMLUtil
+IsUserDictSingleChineseWord	simhash/cppjieba/DictTrie.hpp	/^  bool IsUserDictSingleChineseWord(const Rune& word) const {$/;"	f	class:cppjieba::DictTrie
+IsUserDictSingleChineseWord	simhash/cppjieba/MPSegment.hpp	/^  bool IsUserDictSingleChineseWord(const Rune& value) const {$/;"	f	class:cppjieba::MPSegment
+IsWhiteSpace	tinyxml2.h	/^    static bool IsWhiteSpace( char p )					{$/;"	f	class:tinyxml2::XMLUtil
+Item	tinyxml2.h	/^    union Item {$/;"	u	class:tinyxml2::MemPoolT
+ItemSize	tinyxml2.h	/^    virtual int ItemSize() const	{$/;"	f	class:tinyxml2::MemPoolT
+Jieba	simhash/cppjieba/Jieba.hpp	/^  Jieba(const string& dict_path, const string& model_path, const string& user_dict_path) $/;"	f	class:cppjieba::Jieba
+Jieba	simhash/cppjieba/Jieba.hpp	/^class Jieba {$/;"	c	namespace:cppjieba
+Join	simhash/cppjieba/limonp/StringUtil.hpp	/^string Join(T begin, T end, const string& connector) {$/;"	f	namespace:limonp
+Join	simhash/cppjieba/limonp/StringUtil.hpp	/^void Join(T begin, T end, string& res, const string& connector) {$/;"	f	namespace:limonp
+Join	simhash/cppjieba/limonp/Thread.hpp	/^  void Join() {$/;"	f	class:limonp::IThread
+Join	simhash/limonp/StringUtil.hpp	/^string Join(T begin, T end, const string& connector) {$/;"	f	namespace:limonp
+Join	simhash/limonp/StringUtil.hpp	/^void Join(T begin, T end, string& res, const string& connector) {$/;"	f	namespace:limonp
+Join	simhash/limonp/Thread.hpp	/^  void Join() {$/;"	f	class:limonp::IThread
+KeywordExtractor	simhash/cppjieba/KeywordExtractor.hpp	/^  KeywordExtractor(const DictTrie* dictTrie, $/;"	f	class:cppjieba::KeywordExtractor
+KeywordExtractor	simhash/cppjieba/KeywordExtractor.hpp	/^  KeywordExtractor(const Jieba& jieba, $/;"	f	class:cppjieba::KeywordExtractor
+KeywordExtractor	simhash/cppjieba/KeywordExtractor.hpp	/^  KeywordExtractor(const string& dictPath, $/;"	f	class:cppjieba::KeywordExtractor
+KeywordExtractor	simhash/cppjieba/KeywordExtractor.hpp	/^class KeywordExtractor {$/;"	c	namespace:cppjieba
+LF	tinyxml2.cc	/^static const char LF = LINE_FEED;$/;"	v	file:
+LIBS	Makefile	/^LIBS:= -lpthread -lhiredis -ljsoncpp$/;"	m
+LIMONP_ARGV_FUNCTS_H	simhash/cppjieba/limonp/ArgvContext.hpp	7;"	d
+LIMONP_ARGV_FUNCTS_H	simhash/limonp/ArgvContext.hpp	7;"	d
+LIMONP_BLOCKINGQUEUE_HPP	simhash/cppjieba/limonp/BlockingQueue.hpp	2;"	d
+LIMONP_BLOCKINGQUEUE_HPP	simhash/limonp/BlockingQueue.hpp	2;"	d
+LIMONP_BOUNDED_BLOCKING_QUEUE_HPP	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	2;"	d
+LIMONP_BOUNDED_BLOCKING_QUEUE_HPP	simhash/limonp/BoundedBlockingQueue.hpp	2;"	d
+LIMONP_BOUNDED_QUEUE_HPP	simhash/cppjieba/limonp/BoundedQueue.hpp	2;"	d
+LIMONP_BOUNDED_QUEUE_HPP	simhash/limonp/BoundedQueue.hpp	2;"	d
+LIMONP_CLOSURE_HPP	simhash/cppjieba/limonp/Closure.hpp	2;"	d
+LIMONP_CLOSURE_HPP	simhash/limonp/Closure.hpp	2;"	d
+LIMONP_COLOR_PRINT_HPP	simhash/cppjieba/limonp/Colors.hpp	2;"	d
+LIMONP_COLOR_PRINT_HPP	simhash/limonp/Colors.hpp	2;"	d
+LIMONP_CONDITION_HPP	simhash/cppjieba/limonp/Condition.hpp	2;"	d
+LIMONP_CONDITION_HPP	simhash/limonp/Condition.hpp	2;"	d
+LIMONP_CONFIG_H	simhash/cppjieba/limonp/Config.hpp	6;"	d
+LIMONP_CONFIG_H	simhash/limonp/Config.hpp	6;"	d
+LIMONP_FILELOCK_HPP	simhash/cppjieba/limonp/FileLock.hpp	2;"	d
+LIMONP_FILELOCK_HPP	simhash/limonp/FileLock.hpp	2;"	d
+LIMONP_FORCE_PUBLIC_H	simhash/cppjieba/limonp/ForcePublic.hpp	2;"	d
+LIMONP_FORCE_PUBLIC_H	simhash/limonp/ForcePublic.hpp	2;"	d
+LIMONP_LOCAL_VECTOR_HPP	simhash/cppjieba/limonp/LocalVector.hpp	2;"	d
+LIMONP_LOCAL_VECTOR_HPP	simhash/limonp/LocalVector.hpp	2;"	d
+LIMONP_LOGGING_HPP	simhash/cppjieba/limonp/Logging.hpp	2;"	d
+LIMONP_LOGGING_HPP	simhash/limonp/Logging.hpp	2;"	d
+LIMONP_MUTEX_LOCK_HPP	simhash/cppjieba/limonp/MutexLock.hpp	2;"	d
+LIMONP_MUTEX_LOCK_HPP	simhash/limonp/MutexLock.hpp	2;"	d
+LIMONP_NONCOPYABLE_H	simhash/cppjieba/limonp/NonCopyable.hpp	4;"	d
+LIMONP_NONCOPYABLE_H	simhash/limonp/NonCopyable.hpp	4;"	d
+LIMONP_STD_EXTEMSION_HPP	simhash/cppjieba/limonp/StdExtension.hpp	2;"	d
+LIMONP_STD_EXTEMSION_HPP	simhash/limonp/StdExtension.hpp	2;"	d
+LIMONP_STR_FUNCTS_H	simhash/cppjieba/limonp/StringUtil.hpp	6;"	d
+LIMONP_STR_FUNCTS_H	simhash/limonp/StringUtil.hpp	6;"	d
+LIMONP_THREAD_HPP	simhash/cppjieba/limonp/Thread.hpp	2;"	d
+LIMONP_THREAD_HPP	simhash/limonp/Thread.hpp	2;"	d
+LIMONP_THREAD_POOL_HPP	simhash/cppjieba/limonp/ThreadPool.hpp	2;"	d
+LIMONP_THREAD_POOL_HPP	simhash/limonp/ThreadPool.hpp	2;"	d
+LINE_FEED	tinyxml2.cc	/^static const char LINE_FEED				= (char)0x0a;			\/\/ all line endings are normalized to LF$/;"	v	file:
+LL_DEBUG	simhash/cppjieba/limonp/Logging.hpp	/^  LL_DEBUG = 0, $/;"	e	enum:limonp::__anon10
+LL_DEBUG	simhash/limonp/Logging.hpp	/^  LL_DEBUG = 0, $/;"	e	enum:limonp::__anon8
+LL_ERROR	simhash/cppjieba/limonp/Logging.hpp	/^  LL_ERROR = 3, $/;"	e	enum:limonp::__anon10
+LL_ERROR	simhash/limonp/Logging.hpp	/^  LL_ERROR = 3, $/;"	e	enum:limonp::__anon8
+LL_FATAL	simhash/cppjieba/limonp/Logging.hpp	/^  LL_FATAL = 4,$/;"	e	enum:limonp::__anon10
+LL_FATAL	simhash/limonp/Logging.hpp	/^  LL_FATAL = 4,$/;"	e	enum:limonp::__anon8
+LL_INFO	simhash/cppjieba/limonp/Logging.hpp	/^  LL_INFO = 1, $/;"	e	enum:limonp::__anon10
+LL_INFO	simhash/limonp/Logging.hpp	/^  LL_INFO = 1, $/;"	e	enum:limonp::__anon8
+LL_WARNING	simhash/cppjieba/limonp/Logging.hpp	/^  LL_WARNING = 2, $/;"	e	enum:limonp::__anon10
+LL_WARNING	simhash/limonp/Logging.hpp	/^  LL_WARNING = 2, $/;"	e	enum:limonp::__anon8
+LOCAL_VECTOR_BUFFER_SIZE	simhash/cppjieba/limonp/LocalVector.hpp	/^const size_t LOCAL_VECTOR_BUFFER_SIZE = 16;$/;"	m	namespace:limonp
+LOCAL_VECTOR_BUFFER_SIZE	simhash/limonp/LocalVector.hpp	/^const size_t LOCAL_VECTOR_BUFFER_SIZE = 16;$/;"	m	namespace:limonp
+LOG_LEVEL_ARRAY	simhash/cppjieba/limonp/Logging.hpp	/^static const char * LOG_LEVEL_ARRAY[] = {"DEBUG","INFO","WARN","ERROR","FATAL"};$/;"	m	namespace:limonp
+LOG_LEVEL_ARRAY	simhash/limonp/Logging.hpp	/^static const char * LOG_LEVEL_ARRAY[] = {"DEBUG","INFO","WARN","ERROR","FATAL"};$/;"	m	namespace:limonp
+LOG_TIME_FORMAT	simhash/cppjieba/limonp/Logging.hpp	/^static const char * LOG_TIME_FORMAT = "%Y-%m-%d %H:%M:%S";$/;"	m	namespace:limonp
+LOG_TIME_FORMAT	simhash/limonp/Logging.hpp	/^static const char * LOG_TIME_FORMAT = "%Y-%m-%d %H:%M:%S";$/;"	m	namespace:limonp
+LTrim	simhash/cppjieba/limonp/StringUtil.hpp	/^inline std::string& LTrim(std::string & s, char x) {$/;"	f	namespace:limonp
+LTrim	simhash/cppjieba/limonp/StringUtil.hpp	/^inline std::string& LTrim(std::string &s) {$/;"	f	namespace:limonp
+LTrim	simhash/limonp/StringUtil.hpp	/^inline std::string& LTrim(std::string & s, char x) {$/;"	f	namespace:limonp
+LTrim	simhash/limonp/StringUtil.hpp	/^inline std::string& LTrim(std::string &s) {$/;"	f	namespace:limonp
+LastChild	tinyxml2.h	/^    XMLHandle LastChild()													{$/;"	f	class:tinyxml2::XMLHandle
+LastChild	tinyxml2.h	/^    XMLNode*		LastChild()								{$/;"	f	class:tinyxml2::XMLNode
+LastChild	tinyxml2.h	/^    const XMLConstHandle LastChild()	const										{$/;"	f	class:tinyxml2::XMLConstHandle
+LastChild	tinyxml2.h	/^    const XMLNode*	LastChild() const						{$/;"	f	class:tinyxml2::XMLNode
+LastChildElement	tinyxml2.cc	/^const XMLElement* XMLNode::LastChildElement( const char* name ) const$/;"	f	class:tinyxml2::XMLNode
+LastChildElement	tinyxml2.h	/^    XMLElement* LastChildElement( const char* name = 0 )	{$/;"	f	class:tinyxml2::XMLNode
+LastChildElement	tinyxml2.h	/^    XMLHandle LastChildElement( const char* name = 0 )						{$/;"	f	class:tinyxml2::XMLHandle
+LastChildElement	tinyxml2.h	/^    const XMLConstHandle LastChildElement( const char* name = 0 ) const				{$/;"	f	class:tinyxml2::XMLConstHandle
+LevelSegment	simhash/cppjieba/LevelSegment.hpp	/^  LevelSegment(const DictTrie* dictTrie) $/;"	f	class:cppjieba::LevelSegment
+LevelSegment	simhash/cppjieba/LevelSegment.hpp	/^  LevelSegment(const string& dictPath, $/;"	f	class:cppjieba::LevelSegment
+LevelSegment	simhash/cppjieba/LevelSegment.hpp	/^class LevelSegment: public SegmentBase{$/;"	c	namespace:cppjieba
+LinkEndChild	tinyxml2.h	/^    XMLNode* LinkEndChild( XMLNode* addThis )	{$/;"	f	class:tinyxml2::XMLNode
+LoadDict	simhash/cppjieba/DictTrie.hpp	/^  void LoadDict(const string& filePath) {$/;"	f	class:cppjieba::DictTrie
+LoadEmitProb	simhash/cppjieba/HMMModel.hpp	/^  bool LoadEmitProb(const string& line, EmitProbMap& mp) {$/;"	f	struct:cppjieba::HMMModel
+LoadFile	simhash/cppjieba/limonp/Config.hpp	/^  void LoadFile(const string& filePath) {$/;"	f	class:limonp::Config
+LoadFile	simhash/limonp/Config.hpp	/^  void LoadFile(const string& filePath) {$/;"	f	class:limonp::Config
+LoadFile	tinyxml2.cc	/^XMLError XMLDocument::LoadFile( FILE* fp )$/;"	f	class:tinyxml2::XMLDocument
+LoadFile	tinyxml2.cc	/^XMLError XMLDocument::LoadFile( const char* filename )$/;"	f	class:tinyxml2::XMLDocument
+LoadIdfDict	simhash/cppjieba/KeywordExtractor.hpp	/^  void LoadIdfDict(const string& idfPath) {$/;"	f	class:cppjieba::KeywordExtractor
+LoadModel	simhash/cppjieba/HMMModel.hpp	/^  void LoadModel(const string& filePath) {$/;"	f	struct:cppjieba::HMMModel
+LoadSpecialSymbols	simhash/cppjieba/SegmentBase.hpp	/^  void LoadSpecialSymbols() {$/;"	f	class:cppjieba::SegmentBase
+LoadStopWordDict	simhash/cppjieba/KeywordExtractor.hpp	/^  void LoadStopWordDict(const string& filePath) {$/;"	f	class:cppjieba::KeywordExtractor
+LoadUserDict	simhash/cppjieba/DictTrie.hpp	/^  void LoadUserDict(const string& filePaths) {$/;"	f	class:cppjieba::DictTrie
+LocWord	simhash/cppjieba/Jieba.hpp	/^  struct LocWord {$/;"	s	class:cppjieba::Jieba
+LocalVector	simhash/cppjieba/limonp/LocalVector.hpp	/^  LocalVector() {$/;"	f	class:limonp::LocalVector
+LocalVector	simhash/cppjieba/limonp/LocalVector.hpp	/^  LocalVector(const LocalVector<T>& vec) {$/;"	f	class:limonp::LocalVector
+LocalVector	simhash/cppjieba/limonp/LocalVector.hpp	/^  LocalVector(const_iterator  begin, const_iterator end) { \/\/ TODO: make it faster$/;"	f	class:limonp::LocalVector
+LocalVector	simhash/cppjieba/limonp/LocalVector.hpp	/^  LocalVector(size_t size, const T& t) { \/\/ TODO: make it faster$/;"	f	class:limonp::LocalVector
+LocalVector	simhash/cppjieba/limonp/LocalVector.hpp	/^class LocalVector {$/;"	c	namespace:limonp
+LocalVector	simhash/limonp/LocalVector.hpp	/^  LocalVector() {$/;"	f	class:limonp::LocalVector
+LocalVector	simhash/limonp/LocalVector.hpp	/^  LocalVector(const LocalVector<T>& vec) {$/;"	f	class:limonp::LocalVector
+LocalVector	simhash/limonp/LocalVector.hpp	/^  LocalVector(const_iterator  begin, const_iterator end) { \/\/ TODO: make it faster$/;"	f	class:limonp::LocalVector
+LocalVector	simhash/limonp/LocalVector.hpp	/^  LocalVector(size_t size, const T& t) { \/\/ TODO: make it faster$/;"	f	class:limonp::LocalVector
+LocalVector	simhash/limonp/LocalVector.hpp	/^class LocalVector {$/;"	c	namespace:limonp
+Locate	simhash/cppjieba/Jieba.hpp	/^  void Locate(const vector<string>& words, vector<LocWord>& loc_words) const {$/;"	f	class:cppjieba::Jieba
+Lock	simhash/cppjieba/limonp/FileLock.hpp	/^  void Lock() {$/;"	f	class:limonp::FileLock
+Lock	simhash/cppjieba/limonp/MutexLock.hpp	/^  void Lock() {$/;"	f	class:limonp::MutexLock
+Lock	simhash/limonp/FileLock.hpp	/^  void Lock() {$/;"	f	class:limonp::FileLock
+Lock	simhash/limonp/MutexLock.hpp	/^  void Lock() {$/;"	f	class:limonp::MutexLock
+LockOrUnlock	simhash/cppjieba/limonp/FileLock.hpp	/^  static int LockOrUnlock(int fd, bool lock) {$/;"	f	class:limonp::FileLock
+LockOrUnlock	simhash/limonp/FileLock.hpp	/^  static int LockOrUnlock(int fd, bool lock) {$/;"	f	class:limonp::FileLock
+Logger	simhash/cppjieba/limonp/Logging.hpp	/^  Logger(size_t level, const char* filename, int lineno)$/;"	f	class:limonp::Logger
+Logger	simhash/cppjieba/limonp/Logging.hpp	/^class Logger {$/;"	c	namespace:limonp
+Logger	simhash/limonp/Logging.hpp	/^  Logger(size_t level, const char* filename, int lineno)$/;"	f	class:limonp::Logger
+Logger	simhash/limonp/Logging.hpp	/^class Logger {$/;"	c	namespace:limonp
+LongFitsIntoSizeTMinusOne	tinyxml2.cc	/^struct LongFitsIntoSizeTMinusOne<false> {$/;"	s	namespace:tinyxml2	file:
+Lower	simhash/cppjieba/limonp/StringUtil.hpp	/^inline string& Lower(string& str) {$/;"	f	namespace:limonp
+Lower	simhash/limonp/StringUtil.hpp	/^inline string& Lower(string& str) {$/;"	f	namespace:limonp
+M	simhash/cppjieba/HMMModel.hpp	/^  enum {B = 0, E = 1, M = 2, S = 3, STATUS_SUM = 4};$/;"	e	enum:cppjieba::HMMModel::__anon9
+MAX_DOUBLE	simhash/cppjieba/DictTrie.hpp	/^const double MAX_DOUBLE = 3.14e+100;$/;"	m	namespace:cppjieba
+MAX_STR_LEN	readfile.h	/^int const MAX_STR_LEN = 200;$/;"	v
+MAX_WORD_LENGTH	simhash/cppjieba/Trie.hpp	/^const size_t MAX_WORD_LENGTH = 512;$/;"	m	namespace:cppjieba
+MD5	simhash/cppjieba/limonp/Md5.hpp	/^  MD5() {$/;"	f	class:limonp::MD5
+MD5	simhash/cppjieba/limonp/Md5.hpp	/^class MD5 {$/;"	c	namespace:limonp
+MD5	simhash/limonp/Md5.hpp	/^  MD5() {$/;"	f	class:limonp::MD5
+MD5	simhash/limonp/Md5.hpp	/^class MD5 {$/;"	c	namespace:limonp
+MD5Transform	simhash/cppjieba/limonp/Md5.hpp	/^  static void MD5Transform( UINT4 state[4], unsigned char block[64] ) {$/;"	f	class:limonp::MD5
+MD5Transform	simhash/limonp/Md5.hpp	/^  static void MD5Transform( UINT4 state[4], unsigned char block[64] ) {$/;"	f	class:limonp::MD5
+MIN_DOUBLE	simhash/cppjieba/DictTrie.hpp	/^const double MIN_DOUBLE = -3.14e+100;$/;"	m	namespace:cppjieba
+MPSegment	simhash/cppjieba/MPSegment.hpp	/^  MPSegment(const DictTrie* dictTrie)$/;"	f	class:cppjieba::MPSegment
+MPSegment	simhash/cppjieba/MPSegment.hpp	/^  MPSegment(const string& dictPath, const string& userDictPath = "")$/;"	f	class:cppjieba::MPSegment
+MPSegment	simhash/cppjieba/MPSegment.hpp	/^class MPSegment: public SegmentBase {$/;"	c	namespace:cppjieba
+MakeNodeInfo	simhash/cppjieba/DictTrie.hpp	/^  bool MakeNodeInfo(DictUnit& node_info,$/;"	f	class:cppjieba::DictTrie
+MarkInUse	tinyxml2.cc	/^void XMLDocument::MarkInUse(XMLNode* node)$/;"	f	class:tinyxml2::XMLDocument
+Mem	tinyxml2.h	/^    T* Mem() {$/;"	f	class:tinyxml2::DynArray
+Mem	tinyxml2.h	/^    const T* Mem() const				{$/;"	f	class:tinyxml2::DynArray
+MemPool	tinyxml2.h	/^    MemPool() {}$/;"	f	class:tinyxml2::MemPool
+MemPool	tinyxml2.h	/^class MemPool$/;"	c	namespace:tinyxml2
+MemPoolT	tinyxml2.h	/^    MemPoolT() : _blockPtrs(), _root(0), _currentAllocs(0), _nAllocs(0), _maxAllocs(0), _nUntracked(0)	{}$/;"	f	class:tinyxml2::MemPoolT
+MemPoolT	tinyxml2.h	/^class MemPoolT : public MemPool$/;"	c	namespace:tinyxml2
+MixSegment	simhash/cppjieba/MixSegment.hpp	/^  MixSegment(const DictTrie* dictTrie, const HMMModel* model) $/;"	f	class:cppjieba::MixSegment
+MixSegment	simhash/cppjieba/MixSegment.hpp	/^  MixSegment(const string& mpSegDict, const string& hmmSegDict, $/;"	f	class:cppjieba::MixSegment
+MixSegment	simhash/cppjieba/MixSegment.hpp	/^class MixSegment: public SegmentBase {$/;"	c	namespace:cppjieba
+MutexLock	simhash/cppjieba/limonp/MutexLock.hpp	/^  MutexLock() {$/;"	f	class:limonp::MutexLock
+MutexLock	simhash/cppjieba/limonp/MutexLock.hpp	/^class MutexLock: NonCopyable {$/;"	c	namespace:limonp
+MutexLock	simhash/limonp/MutexLock.hpp	/^  MutexLock() {$/;"	f	class:limonp::MutexLock
+MutexLock	simhash/limonp/MutexLock.hpp	/^class MutexLock: NonCopyable {$/;"	c	namespace:limonp
+MutexLockGuard	simhash/cppjieba/limonp/MutexLock.hpp	/^  explicit MutexLockGuard(MutexLock & mutex)$/;"	f	class:limonp::MutexLockGuard
+MutexLockGuard	simhash/cppjieba/limonp/MutexLock.hpp	/^class MutexLockGuard: NonCopyable {$/;"	c	namespace:limonp
+MutexLockGuard	simhash/cppjieba/limonp/MutexLock.hpp	47;"	d
+MutexLockGuard	simhash/limonp/MutexLock.hpp	/^  explicit MutexLockGuard(MutexLock & mutex)$/;"	f	class:limonp::MutexLockGuard
+MutexLockGuard	simhash/limonp/MutexLock.hpp	/^class MutexLockGuard: NonCopyable {$/;"	c	namespace:limonp
+MutexLockGuard	simhash/limonp/MutexLock.hpp	47;"	d
+NEEDS_DELETE	tinyxml2.h	/^        NEEDS_DELETE = 0x200$/;"	e	enum:tinyxml2::StrPair::__anon2
+NEEDS_ENTITY_PROCESSING	tinyxml2.h	/^        NEEDS_ENTITY_PROCESSING			= 0x01,$/;"	e	enum:tinyxml2::StrPair::__anon1
+NEEDS_FLUSH	tinyxml2.h	/^        NEEDS_FLUSH = 0x100,$/;"	e	enum:tinyxml2::StrPair::__anon2
+NEEDS_NEWLINE_NORMALIZATION	tinyxml2.h	/^        NEEDS_NEWLINE_NORMALIZATION		= 0x02,$/;"	e	enum:tinyxml2::StrPair::__anon1
+NEEDS_WHITESPACE_COLLAPSING	tinyxml2.h	/^        NEEDS_WHITESPACE_COLLAPSING     = 0x04,$/;"	e	enum:tinyxml2::StrPair::__anon1
+NUM_ENTITIES	tinyxml2.cc	/^static const int NUM_ENTITIES = 5;$/;"	m	namespace:tinyxml2	file:
+Name	tinyxml2.cc	/^const char* XMLAttribute::Name() const$/;"	f	class:tinyxml2::XMLAttribute
+Name	tinyxml2.h	/^    const char* Name() const		{$/;"	f	class:tinyxml2::XMLElement
+NewClosure	simhash/cppjieba/limonp/Closure.hpp	/^ClosureInterface* NewClosure(Obj* obj, R (Obj::* fun)()) {$/;"	f	namespace:limonp
+NewClosure	simhash/cppjieba/limonp/Closure.hpp	/^ClosureInterface* NewClosure(Obj* obj, R (Obj::* fun)(Arg1), Arg1 arg1) {$/;"	f	namespace:limonp
+NewClosure	simhash/cppjieba/limonp/Closure.hpp	/^ClosureInterface* NewClosure(Obj* obj, R (Obj::* fun)(Arg1, Arg2), Arg1 arg1, Arg2 arg2) {$/;"	f	namespace:limonp
+NewClosure	simhash/cppjieba/limonp/Closure.hpp	/^ClosureInterface* NewClosure(Obj* obj, R (Obj::* fun)(Arg1, Arg2, Arg3), Arg1 arg1, Arg2 arg2, Arg3 arg3) {$/;"	f	namespace:limonp
+NewClosure	simhash/cppjieba/limonp/Closure.hpp	/^ClosureInterface* NewClosure(R (*fun)()) {$/;"	f	namespace:limonp
+NewClosure	simhash/cppjieba/limonp/Closure.hpp	/^ClosureInterface* NewClosure(R (*fun)(Arg1), Arg1 arg1) {$/;"	f	namespace:limonp
+NewClosure	simhash/cppjieba/limonp/Closure.hpp	/^ClosureInterface* NewClosure(R (*fun)(Arg1, Arg2), Arg1 arg1, Arg2 arg2) {$/;"	f	namespace:limonp
+NewClosure	simhash/cppjieba/limonp/Closure.hpp	/^ClosureInterface* NewClosure(R (*fun)(Arg1, Arg2, Arg3), Arg1 arg1, Arg2 arg2, Arg3 arg3) {$/;"	f	namespace:limonp
+NewClosure	simhash/limonp/Closure.hpp	/^ClosureInterface* NewClosure(Obj* obj, R (Obj::* fun)()) {$/;"	f	namespace:limonp
+NewClosure	simhash/limonp/Closure.hpp	/^ClosureInterface* NewClosure(Obj* obj, R (Obj::* fun)(Arg1), Arg1 arg1) {$/;"	f	namespace:limonp
+NewClosure	simhash/limonp/Closure.hpp	/^ClosureInterface* NewClosure(Obj* obj, R (Obj::* fun)(Arg1, Arg2), Arg1 arg1, Arg2 arg2) {$/;"	f	namespace:limonp
+NewClosure	simhash/limonp/Closure.hpp	/^ClosureInterface* NewClosure(Obj* obj, R (Obj::* fun)(Arg1, Arg2, Arg3), Arg1 arg1, Arg2 arg2, Arg3 arg3) {$/;"	f	namespace:limonp
+NewClosure	simhash/limonp/Closure.hpp	/^ClosureInterface* NewClosure(R (*fun)()) {$/;"	f	namespace:limonp
+NewClosure	simhash/limonp/Closure.hpp	/^ClosureInterface* NewClosure(R (*fun)(Arg1), Arg1 arg1) {$/;"	f	namespace:limonp
+NewClosure	simhash/limonp/Closure.hpp	/^ClosureInterface* NewClosure(R (*fun)(Arg1, Arg2), Arg1 arg1, Arg2 arg2) {$/;"	f	namespace:limonp
+NewClosure	simhash/limonp/Closure.hpp	/^ClosureInterface* NewClosure(R (*fun)(Arg1, Arg2, Arg3), Arg1 arg1, Arg2 arg2, Arg3 arg3) {$/;"	f	namespace:limonp
+NewComment	tinyxml2.cc	/^XMLComment* XMLDocument::NewComment( const char* str )$/;"	f	class:tinyxml2::XMLDocument
+NewDeclaration	tinyxml2.cc	/^XMLDeclaration* XMLDocument::NewDeclaration( const char* str )$/;"	f	class:tinyxml2::XMLDocument
+NewElement	tinyxml2.cc	/^XMLElement* XMLDocument::NewElement( const char* name )$/;"	f	class:tinyxml2::XMLDocument
+NewText	tinyxml2.cc	/^XMLText* XMLDocument::NewText( const char* str )$/;"	f	class:tinyxml2::XMLDocument
+NewUnknown	tinyxml2.cc	/^XMLUnknown* XMLDocument::NewUnknown( const char* str )$/;"	f	class:tinyxml2::XMLDocument
+Next	simhash/cppjieba/PreFilter.hpp	/^  Range Next() {$/;"	f	class:cppjieba::PreFilter
+Next	tinyxml2.h	/^    const XMLAttribute* Next() const {$/;"	f	class:tinyxml2::XMLAttribute
+NextMap	simhash/cppjieba/Trie.hpp	/^  typedef unordered_map<TrieKey, TrieNode*> NextMap;$/;"	t	class:cppjieba::TrieNode
+NextSibling	tinyxml2.h	/^    XMLHandle NextSibling()													{$/;"	f	class:tinyxml2::XMLHandle
+NextSibling	tinyxml2.h	/^    XMLNode*	NextSibling()								{$/;"	f	class:tinyxml2::XMLNode
+NextSibling	tinyxml2.h	/^    const XMLConstHandle NextSibling() const										{$/;"	f	class:tinyxml2::XMLConstHandle
+NextSibling	tinyxml2.h	/^    const XMLNode*	NextSibling() const						{$/;"	f	class:tinyxml2::XMLNode
+NextSiblingElement	tinyxml2.cc	/^const XMLElement* XMLNode::NextSiblingElement( const char* name ) const$/;"	f	class:tinyxml2::XMLNode
+NextSiblingElement	tinyxml2.h	/^    XMLElement*	NextSiblingElement( const char* name = 0 )	{$/;"	f	class:tinyxml2::XMLNode
+NextSiblingElement	tinyxml2.h	/^    XMLHandle NextSiblingElement( const char* name = 0 )					{$/;"	f	class:tinyxml2::XMLHandle
+NextSiblingElement	tinyxml2.h	/^    const XMLConstHandle NextSiblingElement( const char* name = 0 ) const			{$/;"	f	class:tinyxml2::XMLConstHandle
+NoChildren	tinyxml2.h	/^    bool NoChildren() const					{$/;"	f	class:tinyxml2::XMLNode
+NonCopyable	simhash/cppjieba/limonp/NonCopyable.hpp	/^  NonCopyable() {$/;"	f	class:limonp::NonCopyable
+NonCopyable	simhash/cppjieba/limonp/NonCopyable.hpp	/^class NonCopyable {$/;"	c	namespace:limonp
+NonCopyable	simhash/limonp/NonCopyable.hpp	/^  NonCopyable() {$/;"	f	class:limonp::NonCopyable
+NonCopyable	simhash/limonp/NonCopyable.hpp	/^class NonCopyable {$/;"	c	namespace:limonp
+Notify	simhash/cppjieba/limonp/Condition.hpp	/^  void Notify() {$/;"	f	class:limonp::Condition
+Notify	simhash/limonp/Condition.hpp	/^  void Notify() {$/;"	f	class:limonp::Condition
+NotifyAll	simhash/cppjieba/limonp/Condition.hpp	/^  void NotifyAll() {$/;"	f	class:limonp::Condition
+NotifyAll	simhash/limonp/Condition.hpp	/^  void NotifyAll() {$/;"	f	class:limonp::Condition
+NumbersRule	simhash/cppjieba/HMMSegment.hpp	/^  Unicode::const_iterator NumbersRule(Unicode::const_iterator begin, Unicode::const_iterator end) const {$/;"	f	class:cppjieba::HMMSegment
+OBJS	Makefile	/^OBJS:= $(patsubst %.cc, %.o, $(SRCS))$/;"	m
+OPEN	tinyxml2.h	/^        OPEN,		\/\/ <foo>$/;"	e	enum:tinyxml2::XMLElement::ElementClosingType
+ObjClosure0	simhash/cppjieba/limonp/Closure.hpp	/^  ObjClosure0(Obj* p, Funct fun) {$/;"	f	class:limonp::ObjClosure0
+ObjClosure0	simhash/cppjieba/limonp/Closure.hpp	/^class ObjClosure0: public ClosureInterface {$/;"	c	namespace:limonp
+ObjClosure0	simhash/limonp/Closure.hpp	/^  ObjClosure0(Obj* p, Funct fun) {$/;"	f	class:limonp::ObjClosure0
+ObjClosure0	simhash/limonp/Closure.hpp	/^class ObjClosure0: public ClosureInterface {$/;"	c	namespace:limonp
+ObjClosure1	simhash/cppjieba/limonp/Closure.hpp	/^  ObjClosure1(Obj* p, Funct fun, Arg1 arg1) {$/;"	f	class:limonp::ObjClosure1
+ObjClosure1	simhash/cppjieba/limonp/Closure.hpp	/^class ObjClosure1: public ClosureInterface {$/;"	c	namespace:limonp
+ObjClosure1	simhash/limonp/Closure.hpp	/^  ObjClosure1(Obj* p, Funct fun, Arg1 arg1) {$/;"	f	class:limonp::ObjClosure1
+ObjClosure1	simhash/limonp/Closure.hpp	/^class ObjClosure1: public ClosureInterface {$/;"	c	namespace:limonp
+ObjClosure2	simhash/cppjieba/limonp/Closure.hpp	/^  ObjClosure2(Obj* p, Funct fun, Arg1 arg1, Arg2 arg2) {$/;"	f	class:limonp::ObjClosure2
+ObjClosure2	simhash/cppjieba/limonp/Closure.hpp	/^class ObjClosure2: public ClosureInterface {$/;"	c	namespace:limonp
+ObjClosure2	simhash/limonp/Closure.hpp	/^  ObjClosure2(Obj* p, Funct fun, Arg1 arg1, Arg2 arg2) {$/;"	f	class:limonp::ObjClosure2
+ObjClosure2	simhash/limonp/Closure.hpp	/^class ObjClosure2: public ClosureInterface {$/;"	c	namespace:limonp
+ObjClosure3	simhash/cppjieba/limonp/Closure.hpp	/^  ObjClosure3(Obj* p, Funct fun, Arg1 arg1, Arg2 arg2, Arg3 arg3) {$/;"	f	class:limonp::ObjClosure3
+ObjClosure3	simhash/cppjieba/limonp/Closure.hpp	/^class ObjClosure3: public ClosureInterface {$/;"	c	namespace:limonp
+ObjClosure3	simhash/limonp/Closure.hpp	/^  ObjClosure3(Obj* p, Funct fun, Arg1 arg1, Arg2 arg2, Arg3 arg3) {$/;"	f	class:limonp::ObjClosure3
+ObjClosure3	simhash/limonp/Closure.hpp	/^class ObjClosure3: public ClosureInterface {$/;"	c	namespace:limonp
+Ok	simhash/cppjieba/limonp/FileLock.hpp	/^  bool Ok() const {$/;"	f	class:limonp::FileLock
+Ok	simhash/limonp/FileLock.hpp	/^  bool Ok() const {$/;"	f	class:limonp::FileLock
+Open	simhash/cppjieba/limonp/FileLock.hpp	/^  void Open(const string& fname) {$/;"	f	class:limonp::FileLock
+Open	simhash/limonp/FileLock.hpp	/^  void Open(const string& fname) {$/;"	f	class:limonp::FileLock
+OpenElement	tinyxml2.cc	/^void XMLPrinter::OpenElement( const char* name, bool compactMode )$/;"	f	class:tinyxml2::XMLPrinter
+PADDING	simhash/cppjieba/limonp/Md5.hpp	/^static unsigned char PADDING[64] = {$/;"	m	namespace:limonp
+PADDING	simhash/limonp/Md5.hpp	/^static unsigned char PADDING[64] = {$/;"	m	namespace:limonp
+POINTER	simhash/cppjieba/limonp/Md5.hpp	/^typedef unsigned char *POINTER;$/;"	t	namespace:limonp
+POINTER	simhash/limonp/Md5.hpp	/^typedef unsigned char *POINTER;$/;"	t	namespace:limonp
+POS_ENG	simhash/cppjieba/PosTagger.hpp	/^static const char* const POS_ENG = "eng";$/;"	m	namespace:cppjieba
+POS_M	simhash/cppjieba/PosTagger.hpp	/^static const char* const POS_M = "m";$/;"	m	namespace:cppjieba
+POS_X	simhash/cppjieba/PosTagger.hpp	/^static const char* const POS_X = "x";$/;"	m	namespace:cppjieba
+PRESERVE_WHITESPACE	tinyxml2.h	/^    PRESERVE_WHITESPACE,$/;"	e	enum:tinyxml2::Whitespace
+PURPLE	simhash/cppjieba/limonp/Colors.hpp	/^  PURPLE$/;"	e	enum:limonp::Color
+PURPLE	simhash/limonp/Colors.hpp	/^  PURPLE$/;"	e	enum:limonp::Color
+PageLib	pageLib.hpp	/^    PageLib(Configuration &conf)$/;"	f	class:PageLib
+PageLib	pageLib.hpp	/^class PageLib$/;"	c
+PageLibPreprocessor	PageLibPreprocessor.h	/^    PageLibPreprocessor(Configuration &conf)$/;"	f	class:ll::PageLibPreprocessor
+PageLibPreprocessor	PageLibPreprocessor.h	/^class PageLibPreprocessor$/;"	c	namespace:ll
+Parent	tinyxml2.h	/^    XMLNode* Parent()						{$/;"	f	class:tinyxml2::XMLNode
+Parent	tinyxml2.h	/^    const XMLNode*	Parent() const			{$/;"	f	class:tinyxml2::XMLNode
+Parse	tinyxml2.cc	/^XMLError XMLDocument::Parse( const char* p, size_t len )$/;"	f	class:tinyxml2::XMLDocument
+Parse	tinyxml2.cc	/^void XMLDocument::Parse()$/;"	f	class:tinyxml2::XMLDocument
+ParseAttributes	tinyxml2.cc	/^char* XMLElement::ParseAttributes( char* p, int* curLineNumPtr )$/;"	f	class:tinyxml2::XMLElement
+ParseDeep	tinyxml2.cc	/^char* XMLAttribute::ParseDeep( char* p, bool processEntities, int* curLineNumPtr )$/;"	f	class:tinyxml2::XMLAttribute
+ParseDeep	tinyxml2.cc	/^char* XMLComment::ParseDeep( char* p, StrPair*, int* curLineNumPtr )$/;"	f	class:tinyxml2::XMLComment
+ParseDeep	tinyxml2.cc	/^char* XMLDeclaration::ParseDeep( char* p, StrPair*, int* curLineNumPtr )$/;"	f	class:tinyxml2::XMLDeclaration
+ParseDeep	tinyxml2.cc	/^char* XMLElement::ParseDeep( char* p, StrPair* parentEndTag, int* curLineNumPtr )$/;"	f	class:tinyxml2::XMLElement
+ParseDeep	tinyxml2.cc	/^char* XMLNode::ParseDeep( char* p, StrPair* parentEndTag, int* curLineNumPtr )$/;"	f	class:tinyxml2::XMLNode
+ParseDeep	tinyxml2.cc	/^char* XMLText::ParseDeep( char* p, StrPair*, int* curLineNumPtr )$/;"	f	class:tinyxml2::XMLText
+ParseDeep	tinyxml2.cc	/^char* XMLUnknown::ParseDeep( char* p, StrPair*, int* curLineNumPtr )$/;"	f	class:tinyxml2::XMLUnknown
+ParseName	tinyxml2.cc	/^char* StrPair::ParseName( char* p )$/;"	f	class:tinyxml2::StrPair
+ParseText	tinyxml2.cc	/^char* StrPair::ParseText( char* p, const char* endTag, int strFlags, int* curLineNumPtr )$/;"	f	class:tinyxml2::StrPair
+PathJoin	simhash/cppjieba/limonp/StringUtil.hpp	/^inline string PathJoin(const string& path1, const string& path2) {$/;"	f	namespace:limonp
+PathJoin	simhash/limonp/StringUtil.hpp	/^inline string PathJoin(const string& path1, const string& path2) {$/;"	f	namespace:limonp
+PeekTop	tinyxml2.h	/^    const T& PeekTop() const            {$/;"	f	class:tinyxml2::DynArray
+Pop	simhash/cppjieba/limonp/BlockingQueue.hpp	/^  T Pop() {$/;"	f	class:limonp::BlockingQueue
+Pop	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^  T Pop() {$/;"	f	class:limonp::BoundedBlockingQueue
+Pop	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  T Pop() {$/;"	f	class:limonp::BoundedQueue
+Pop	simhash/limonp/BlockingQueue.hpp	/^  T Pop() {$/;"	f	class:limonp::BlockingQueue
+Pop	simhash/limonp/BoundedBlockingQueue.hpp	/^  T Pop() {$/;"	f	class:limonp::BoundedBlockingQueue
+Pop	simhash/limonp/BoundedQueue.hpp	/^  T Pop() {$/;"	f	class:limonp::BoundedQueue
+Pop	tinyxml2.h	/^    T Pop() {$/;"	f	class:tinyxml2::DynArray
+PopArr	tinyxml2.h	/^    void PopArr( int count ) {$/;"	f	class:tinyxml2::DynArray
+PopDepth	tinyxml2.cc	/^void XMLDocument::PopDepth()$/;"	f	class:tinyxml2::XMLDocument
+PosTagger	simhash/cppjieba/PosTagger.hpp	/^  PosTagger(const DictTrie* dictTrie, const HMMModel* model) $/;"	f	class:cppjieba::PosTagger
+PosTagger	simhash/cppjieba/PosTagger.hpp	/^  PosTagger(const string& dictPath,$/;"	f	class:cppjieba::PosTagger
+PosTagger	simhash/cppjieba/PosTagger.hpp	/^class PosTagger {$/;"	c	namespace:cppjieba
+PreFilter	simhash/cppjieba/PreFilter.hpp	/^  PreFilter(const unordered_set<Rune>& symbols, $/;"	f	class:cppjieba::PreFilter
+PreFilter	simhash/cppjieba/PreFilter.hpp	/^class PreFilter {$/;"	c	namespace:cppjieba
+PreviousSibling	tinyxml2.h	/^    XMLHandle PreviousSibling()												{$/;"	f	class:tinyxml2::XMLHandle
+PreviousSibling	tinyxml2.h	/^    XMLNode*	PreviousSibling()							{$/;"	f	class:tinyxml2::XMLNode
+PreviousSibling	tinyxml2.h	/^    const XMLConstHandle PreviousSibling() const									{$/;"	f	class:tinyxml2::XMLConstHandle
+PreviousSibling	tinyxml2.h	/^    const XMLNode*	PreviousSibling() const					{$/;"	f	class:tinyxml2::XMLNode
+PreviousSiblingElement	tinyxml2.cc	/^const XMLElement* XMLNode::PreviousSiblingElement( const char* name ) const$/;"	f	class:tinyxml2::XMLNode
+PreviousSiblingElement	tinyxml2.h	/^    XMLElement*	PreviousSiblingElement( const char* name = 0 ) {$/;"	f	class:tinyxml2::XMLNode
+PreviousSiblingElement	tinyxml2.h	/^    XMLHandle PreviousSiblingElement( const char* name = 0 )				{$/;"	f	class:tinyxml2::XMLHandle
+PreviousSiblingElement	tinyxml2.h	/^    const XMLConstHandle PreviousSiblingElement( const char* name = 0 ) const		{$/;"	f	class:tinyxml2::XMLConstHandle
+Print	tinyxml2.cc	/^void XMLDocument::Print( XMLPrinter* streamer ) const$/;"	f	class:tinyxml2::XMLDocument
+Print	tinyxml2.cc	/^void XMLPrinter::Print( const char* format, ... )$/;"	f	class:tinyxml2::XMLPrinter
+PrintError	tinyxml2.cc	/^void XMLDocument::PrintError() const$/;"	f	class:tinyxml2::XMLDocument
+PrintSpace	tinyxml2.cc	/^void XMLPrinter::PrintSpace( int depth )$/;"	f	class:tinyxml2::XMLPrinter
+PrintString	tinyxml2.cc	/^void XMLPrinter::PrintString( const char* p, bool restricted )$/;"	f	class:tinyxml2::XMLPrinter
+ProcessEntities	tinyxml2.h	/^    bool ProcessEntities() const		{$/;"	f	class:tinyxml2::XMLDocument
+Push	simhash/cppjieba/limonp/BlockingQueue.hpp	/^  void Push(const T& x) {$/;"	f	class:limonp::BlockingQueue
+Push	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^  void Push(const T& x) {$/;"	f	class:limonp::BoundedBlockingQueue
+Push	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  void Push(const T& t) {$/;"	f	class:limonp::BoundedQueue
+Push	simhash/limonp/BlockingQueue.hpp	/^  void Push(const T& x) {$/;"	f	class:limonp::BlockingQueue
+Push	simhash/limonp/BoundedBlockingQueue.hpp	/^  void Push(const T& x) {$/;"	f	class:limonp::BoundedBlockingQueue
+Push	simhash/limonp/BoundedQueue.hpp	/^  void Push(const T& t) {$/;"	f	class:limonp::BoundedQueue
+Push	tinyxml2.h	/^    void Push( T t ) {$/;"	f	class:tinyxml2::DynArray
+PushArr	tinyxml2.h	/^    T* PushArr( int count ) {$/;"	f	class:tinyxml2::DynArray
+PushAttribute	tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, bool v )$/;"	f	class:tinyxml2::XMLPrinter
+PushAttribute	tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, const char* value )$/;"	f	class:tinyxml2::XMLPrinter
+PushAttribute	tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, double v )$/;"	f	class:tinyxml2::XMLPrinter
+PushAttribute	tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, int v )$/;"	f	class:tinyxml2::XMLPrinter
+PushAttribute	tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, unsigned v )$/;"	f	class:tinyxml2::XMLPrinter
+PushAttribute	tinyxml2.cc	/^void XMLPrinter::PushAttribute(const char* name, int64_t v)$/;"	f	class:tinyxml2::XMLPrinter
+PushComment	tinyxml2.cc	/^void XMLPrinter::PushComment( const char* comment )$/;"	f	class:tinyxml2::XMLPrinter
+PushDeclaration	tinyxml2.cc	/^void XMLPrinter::PushDeclaration( const char* value )$/;"	f	class:tinyxml2::XMLPrinter
+PushDepth	tinyxml2.cc	/^void XMLDocument::PushDepth()$/;"	f	class:tinyxml2::XMLDocument
+PushHeader	tinyxml2.cc	/^void XMLPrinter::PushHeader( bool writeBOM, bool writeDec )$/;"	f	class:tinyxml2::XMLPrinter
+PushText	tinyxml2.cc	/^void XMLPrinter::PushText( bool value )$/;"	f	class:tinyxml2::XMLPrinter
+PushText	tinyxml2.cc	/^void XMLPrinter::PushText( const char* text, bool cdata )$/;"	f	class:tinyxml2::XMLPrinter
+PushText	tinyxml2.cc	/^void XMLPrinter::PushText( double value )$/;"	f	class:tinyxml2::XMLPrinter
+PushText	tinyxml2.cc	/^void XMLPrinter::PushText( float value )$/;"	f	class:tinyxml2::XMLPrinter
+PushText	tinyxml2.cc	/^void XMLPrinter::PushText( int value )$/;"	f	class:tinyxml2::XMLPrinter
+PushText	tinyxml2.cc	/^void XMLPrinter::PushText( int64_t value )$/;"	f	class:tinyxml2::XMLPrinter
+PushText	tinyxml2.cc	/^void XMLPrinter::PushText( unsigned value )$/;"	f	class:tinyxml2::XMLPrinter
+PushUnknown	tinyxml2.cc	/^void XMLPrinter::PushUnknown( const char* value )$/;"	f	class:tinyxml2::XMLPrinter
+Putc	tinyxml2.cc	/^void XMLPrinter::Putc( char ch )$/;"	f	class:tinyxml2::XMLPrinter
+QueryAttribute	tinyxml2.h	/^	XMLError QueryAttribute( const char* name, bool* value ) const {$/;"	f	class:tinyxml2::XMLElement
+QueryAttribute	tinyxml2.h	/^	XMLError QueryAttribute( const char* name, double* value ) const {$/;"	f	class:tinyxml2::XMLElement
+QueryAttribute	tinyxml2.h	/^	XMLError QueryAttribute( const char* name, float* value ) const {$/;"	f	class:tinyxml2::XMLElement
+QueryAttribute	tinyxml2.h	/^	XMLError QueryAttribute( const char* name, int* value ) const {$/;"	f	class:tinyxml2::XMLElement
+QueryAttribute	tinyxml2.h	/^	XMLError QueryAttribute( const char* name, unsigned int* value ) const {$/;"	f	class:tinyxml2::XMLElement
+QueryAttribute	tinyxml2.h	/^	XMLError QueryAttribute(const char* name, int64_t* value) const {$/;"	f	class:tinyxml2::XMLElement
+QueryBoolAttribute	tinyxml2.h	/^    XMLError QueryBoolAttribute( const char* name, bool* value ) const				{$/;"	f	class:tinyxml2::XMLElement
+QueryBoolText	tinyxml2.cc	/^XMLError XMLElement::QueryBoolText( bool* bval ) const$/;"	f	class:tinyxml2::XMLElement
+QueryBoolValue	tinyxml2.cc	/^XMLError XMLAttribute::QueryBoolValue( bool* value ) const$/;"	f	class:tinyxml2::XMLAttribute
+QueryDoubleAttribute	tinyxml2.h	/^    XMLError QueryDoubleAttribute( const char* name, double* value ) const			{$/;"	f	class:tinyxml2::XMLElement
+QueryDoubleText	tinyxml2.cc	/^XMLError XMLElement::QueryDoubleText( double* dval ) const$/;"	f	class:tinyxml2::XMLElement
+QueryDoubleValue	tinyxml2.cc	/^XMLError XMLAttribute::QueryDoubleValue( double* value ) const$/;"	f	class:tinyxml2::XMLAttribute
+QueryFloatAttribute	tinyxml2.h	/^    XMLError QueryFloatAttribute( const char* name, float* value ) const			{$/;"	f	class:tinyxml2::XMLElement
+QueryFloatText	tinyxml2.cc	/^XMLError XMLElement::QueryFloatText( float* fval ) const$/;"	f	class:tinyxml2::XMLElement
+QueryFloatValue	tinyxml2.cc	/^XMLError XMLAttribute::QueryFloatValue( float* value ) const$/;"	f	class:tinyxml2::XMLAttribute
+QueryInt64Attribute	tinyxml2.h	/^	XMLError QueryInt64Attribute(const char* name, int64_t* value) const {$/;"	f	class:tinyxml2::XMLElement
+QueryInt64Text	tinyxml2.cc	/^XMLError XMLElement::QueryInt64Text(int64_t* ival) const$/;"	f	class:tinyxml2::XMLElement
+QueryInt64Value	tinyxml2.cc	/^XMLError XMLAttribute::QueryInt64Value(int64_t* value) const$/;"	f	class:tinyxml2::XMLAttribute
+QueryIntAttribute	tinyxml2.h	/^    XMLError QueryIntAttribute( const char* name, int* value ) const				{$/;"	f	class:tinyxml2::XMLElement
+QueryIntText	tinyxml2.cc	/^XMLError XMLElement::QueryIntText( int* ival ) const$/;"	f	class:tinyxml2::XMLElement
+QueryIntValue	tinyxml2.cc	/^XMLError XMLAttribute::QueryIntValue( int* value ) const$/;"	f	class:tinyxml2::XMLAttribute
+QuerySegment	simhash/cppjieba/QuerySegment.hpp	/^  QuerySegment(const DictTrie* dictTrie, const HMMModel* model, size_t maxWordLen = 4)$/;"	f	class:cppjieba::QuerySegment
+QuerySegment	simhash/cppjieba/QuerySegment.hpp	/^  QuerySegment(const string& dict, const string& model, const string& userDict = "", size_t maxWordLen = 4)$/;"	f	class:cppjieba::QuerySegment
+QuerySegment	simhash/cppjieba/QuerySegment.hpp	/^class QuerySegment: public SegmentBase {$/;"	c	namespace:cppjieba
+QueryStringAttribute	tinyxml2.h	/^	XMLError QueryStringAttribute(const char* name, const char** value) const {$/;"	f	class:tinyxml2::XMLElement
+QueryUnsignedAttribute	tinyxml2.h	/^    XMLError QueryUnsignedAttribute( const char* name, unsigned int* value ) const	{$/;"	f	class:tinyxml2::XMLElement
+QueryUnsignedText	tinyxml2.cc	/^XMLError XMLElement::QueryUnsignedText( unsigned* uval ) const$/;"	f	class:tinyxml2::XMLElement
+QueryUnsignedValue	tinyxml2.cc	/^XMLError XMLAttribute::QueryUnsignedValue( unsigned int* value ) const$/;"	f	class:tinyxml2::XMLAttribute
+RED	simhash/cppjieba/limonp/Colors.hpp	/^  RED,$/;"	e	enum:limonp::Color
+RED	simhash/limonp/Colors.hpp	/^  RED,$/;"	e	enum:limonp::Color
+ROTATE_LEFT	simhash/cppjieba/limonp/Md5.hpp	63;"	d
+ROTATE_LEFT	simhash/limonp/Md5.hpp	63;"	d
+RTrim	simhash/cppjieba/limonp/StringUtil.hpp	/^inline std::string& RTrim(std::string & s, char x) {$/;"	f	namespace:limonp
+RTrim	simhash/cppjieba/limonp/StringUtil.hpp	/^inline std::string& RTrim(std::string &s) {$/;"	f	namespace:limonp
+RTrim	simhash/limonp/StringUtil.hpp	/^inline std::string& RTrim(std::string & s, char x) {$/;"	f	namespace:limonp
+RTrim	simhash/limonp/StringUtil.hpp	/^inline std::string& RTrim(std::string &s) {$/;"	f	namespace:limonp
+Range	simhash/cppjieba/PreFilter.hpp	/^  struct Range {$/;"	s	class:cppjieba::PreFilter
+ReadBOM	tinyxml2.cc	/^const char* XMLUtil::ReadBOM( const char* p, bool* bom )$/;"	f	class:tinyxml2::XMLUtil
+ReadLib	testDelete.cc	/^    ReadLib()$/;"	f	class:ReadLib
+ReadLib	testDelete.cc	/^class ReadLib$/;"	c	file:
+Reset	tinyxml2.cc	/^void StrPair::Reset()$/;"	f	class:tinyxml2::StrPair
+RootElement	tinyxml2.h	/^    XMLElement* RootElement()				{$/;"	f	class:tinyxml2::XMLDocument
+RootElement	tinyxml2.h	/^    const XMLElement* RootElement() const	{$/;"	f	class:tinyxml2::XMLDocument
+Run	simhash/cppjieba/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::Closure0
+Run	simhash/cppjieba/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::Closure1
+Run	simhash/cppjieba/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::Closure2
+Run	simhash/cppjieba/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::Closure3
+Run	simhash/cppjieba/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::ObjClosure0
+Run	simhash/cppjieba/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::ObjClosure1
+Run	simhash/cppjieba/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::ObjClosure2
+Run	simhash/cppjieba/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::ObjClosure3
+Run	simhash/cppjieba/limonp/ThreadPool.hpp	/^    virtual void Run() {$/;"	f	class:limonp::ThreadPool::Worker
+Run	simhash/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::Closure0
+Run	simhash/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::Closure1
+Run	simhash/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::Closure2
+Run	simhash/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::Closure3
+Run	simhash/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::ObjClosure0
+Run	simhash/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::ObjClosure1
+Run	simhash/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::ObjClosure2
+Run	simhash/limonp/Closure.hpp	/^  virtual void Run() {$/;"	f	class:limonp::ObjClosure3
+Run	simhash/limonp/ThreadPool.hpp	/^    virtual void Run() {$/;"	f	class:limonp::ThreadPool::Worker
+Rune	simhash/cppjieba/TransCode.hpp	/^typedef uint32_t Rune;$/;"	t	namespace:cppjieba
+S	simhash/cppjieba/HMMModel.hpp	/^  enum {B = 0, E = 1, M = 2, S = 3, STATUS_SUM = 4};$/;"	e	enum:cppjieba::HMMModel::__anon9
+S11	simhash/cppjieba/limonp/Md5.hpp	38;"	d
+S11	simhash/limonp/Md5.hpp	38;"	d
+S12	simhash/cppjieba/limonp/Md5.hpp	39;"	d
+S12	simhash/limonp/Md5.hpp	39;"	d
+S13	simhash/cppjieba/limonp/Md5.hpp	40;"	d
+S13	simhash/limonp/Md5.hpp	40;"	d
+S14	simhash/cppjieba/limonp/Md5.hpp	41;"	d
+S14	simhash/limonp/Md5.hpp	41;"	d
+S21	simhash/cppjieba/limonp/Md5.hpp	42;"	d
+S21	simhash/limonp/Md5.hpp	42;"	d
+S22	simhash/cppjieba/limonp/Md5.hpp	43;"	d
+S22	simhash/limonp/Md5.hpp	43;"	d
+S23	simhash/cppjieba/limonp/Md5.hpp	44;"	d
+S23	simhash/limonp/Md5.hpp	44;"	d
+S24	simhash/cppjieba/limonp/Md5.hpp	45;"	d
+S24	simhash/limonp/Md5.hpp	45;"	d
+S31	simhash/cppjieba/limonp/Md5.hpp	46;"	d
+S31	simhash/limonp/Md5.hpp	46;"	d
+S32	simhash/cppjieba/limonp/Md5.hpp	47;"	d
+S32	simhash/limonp/Md5.hpp	47;"	d
+S33	simhash/cppjieba/limonp/Md5.hpp	48;"	d
+S33	simhash/limonp/Md5.hpp	48;"	d
+S34	simhash/cppjieba/limonp/Md5.hpp	49;"	d
+S34	simhash/limonp/Md5.hpp	49;"	d
+S41	simhash/cppjieba/limonp/Md5.hpp	50;"	d
+S41	simhash/limonp/Md5.hpp	50;"	d
+S42	simhash/cppjieba/limonp/Md5.hpp	51;"	d
+S42	simhash/limonp/Md5.hpp	51;"	d
+S43	simhash/cppjieba/limonp/Md5.hpp	52;"	d
+S43	simhash/limonp/Md5.hpp	52;"	d
+S44	simhash/cppjieba/limonp/Md5.hpp	53;"	d
+S44	simhash/limonp/Md5.hpp	53;"	d
+SIMHASH_HASHES_JENKINS_H	simhash/jenkins.h	2;"	d
+SIMHASH_SIMHASHER_HPP	simhash/Simhasher.hpp	2;"	d
+SINGLE_QUOTE	tinyxml2.cc	/^static const char SINGLE_QUOTE			= '\\'';$/;"	v	file:
+SPECIAL_SYMBOL	simhash/cppjieba/SegmentBase.hpp	/^const Rune SPECIAL_SYMBOL[] = {32u, 9u, 10u, 65292u, 12290u};$/;"	m	namespace:cppjieba
+SRCS	Makefile	/^SRCS:=$(wildcard *.cc)$/;"	m
+SRC_DIR	Makefile	/^SRC_DIR:= .\/$/;"	m
+STATUS_SUM	simhash/cppjieba/HMMModel.hpp	/^  enum {B = 0, E = 1, M = 2, S = 3, STATUS_SUM = 4};$/;"	e	enum:cppjieba::HMMModel::__anon9
+SaveFile	tinyxml2.cc	/^XMLError XMLDocument::SaveFile( FILE* fp, bool compact )$/;"	f	class:tinyxml2::XMLDocument
+SaveFile	tinyxml2.cc	/^XMLError XMLDocument::SaveFile( const char* filename, bool compact )$/;"	f	class:tinyxml2::XMLDocument
+SealElementIfJustOpened	tinyxml2.cc	/^void XMLPrinter::SealElementIfJustOpened()$/;"	f	class:tinyxml2::XMLPrinter
+SegmentBase	simhash/cppjieba/SegmentBase.hpp	/^  SegmentBase() {$/;"	f	class:cppjieba::SegmentBase
+SegmentBase	simhash/cppjieba/SegmentBase.hpp	/^class SegmentBase {$/;"	c	namespace:cppjieba
+SequentialLetterRule	simhash/cppjieba/HMMSegment.hpp	/^  Unicode::const_iterator SequentialLetterRule(Unicode::const_iterator begin, Unicode::const_iterator end) const {$/;"	f	class:cppjieba::HMMSegment
+Set	tinyxml2.h	/^    void Set( char* start, char* end, int flags ) {$/;"	f	class:tinyxml2::StrPair
+SetAttribute	tinyxml2.cc	/^void XMLAttribute::SetAttribute( bool v )$/;"	f	class:tinyxml2::XMLAttribute
+SetAttribute	tinyxml2.cc	/^void XMLAttribute::SetAttribute( const char* v )$/;"	f	class:tinyxml2::XMLAttribute
+SetAttribute	tinyxml2.cc	/^void XMLAttribute::SetAttribute( double v )$/;"	f	class:tinyxml2::XMLAttribute
+SetAttribute	tinyxml2.cc	/^void XMLAttribute::SetAttribute( float v )$/;"	f	class:tinyxml2::XMLAttribute
+SetAttribute	tinyxml2.cc	/^void XMLAttribute::SetAttribute( int v )$/;"	f	class:tinyxml2::XMLAttribute
+SetAttribute	tinyxml2.cc	/^void XMLAttribute::SetAttribute( unsigned v )$/;"	f	class:tinyxml2::XMLAttribute
+SetAttribute	tinyxml2.cc	/^void XMLAttribute::SetAttribute(int64_t v)$/;"	f	class:tinyxml2::XMLAttribute
+SetAttribute	tinyxml2.h	/^	void SetAttribute(const char* name, int64_t value) {$/;"	f	class:tinyxml2::XMLElement
+SetAttribute	tinyxml2.h	/^    void SetAttribute( const char* name, bool value )			{$/;"	f	class:tinyxml2::XMLElement
+SetAttribute	tinyxml2.h	/^    void SetAttribute( const char* name, const char* value )	{$/;"	f	class:tinyxml2::XMLElement
+SetAttribute	tinyxml2.h	/^    void SetAttribute( const char* name, double value )		{$/;"	f	class:tinyxml2::XMLElement
+SetAttribute	tinyxml2.h	/^    void SetAttribute( const char* name, float value )		{$/;"	f	class:tinyxml2::XMLElement
+SetAttribute	tinyxml2.h	/^    void SetAttribute( const char* name, int value )			{$/;"	f	class:tinyxml2::XMLElement
+SetAttribute	tinyxml2.h	/^    void SetAttribute( const char* name, unsigned value )		{$/;"	f	class:tinyxml2::XMLElement
+SetBOM	tinyxml2.h	/^    void SetBOM( bool useBOM ) {$/;"	f	class:tinyxml2::XMLDocument
+SetBoolSerialization	tinyxml2.cc	/^void XMLUtil::SetBoolSerialization(const char* writeTrue, const char* writeFalse)$/;"	f	class:tinyxml2::XMLUtil
+SetCData	tinyxml2.h	/^    void SetCData( bool isCData )			{$/;"	f	class:tinyxml2::XMLText
+SetError	tinyxml2.cc	/^void XMLDocument::SetError( XMLError error, int lineNum, const char* format, ... )$/;"	f	class:tinyxml2::XMLDocument
+SetInternedStr	tinyxml2.h	/^    void SetInternedStr( const char* str ) {$/;"	f	class:tinyxml2::StrPair
+SetMaxWordLen	simhash/cppjieba/QuerySegment.hpp	/^  void SetMaxWordLen(size_t len) {$/;"	f	class:cppjieba::QuerySegment
+SetName	tinyxml2.cc	/^void XMLAttribute::SetName( const char* n )$/;"	f	class:tinyxml2::XMLAttribute
+SetName	tinyxml2.h	/^    void SetName( const char* str, bool staticMem=false )	{$/;"	f	class:tinyxml2::XMLElement
+SetQuerySegmentThreshold	simhash/cppjieba/Jieba.hpp	/^  void SetQuerySegmentThreshold(size_t len) {$/;"	f	class:cppjieba::Jieba
+SetStaticWordWeights	simhash/cppjieba/DictTrie.hpp	/^  void SetStaticWordWeights(UserWordWeightOption option) {$/;"	f	class:cppjieba::DictTrie
+SetStr	tinyxml2.cc	/^void StrPair::SetStr( const char* str, int flags )$/;"	f	class:tinyxml2::StrPair
+SetText	tinyxml2.cc	/^void	XMLElement::SetText( const char* inText )$/;"	f	class:tinyxml2::XMLElement
+SetText	tinyxml2.cc	/^void XMLElement::SetText( bool v )$/;"	f	class:tinyxml2::XMLElement
+SetText	tinyxml2.cc	/^void XMLElement::SetText( double v )$/;"	f	class:tinyxml2::XMLElement
+SetText	tinyxml2.cc	/^void XMLElement::SetText( float v )$/;"	f	class:tinyxml2::XMLElement
+SetText	tinyxml2.cc	/^void XMLElement::SetText( int v )$/;"	f	class:tinyxml2::XMLElement
+SetText	tinyxml2.cc	/^void XMLElement::SetText( unsigned v )$/;"	f	class:tinyxml2::XMLElement
+SetText	tinyxml2.cc	/^void XMLElement::SetText(int64_t v)$/;"	f	class:tinyxml2::XMLElement
+SetTracked	tinyxml2.h	/^    void SetTracked() {$/;"	f	class:tinyxml2::MemPoolT
+SetUserData	tinyxml2.h	/^	void SetUserData(void* userData)	{ _userData = userData; }$/;"	f	class:tinyxml2::XMLNode
+SetValue	tinyxml2.cc	/^void XMLNode::SetValue( const char* str, bool staticMem )$/;"	f	class:tinyxml2::XMLNode
+ShallowClone	tinyxml2.cc	/^XMLNode* XMLComment::ShallowClone( XMLDocument* doc ) const$/;"	f	class:tinyxml2::XMLComment
+ShallowClone	tinyxml2.cc	/^XMLNode* XMLDeclaration::ShallowClone( XMLDocument* doc ) const$/;"	f	class:tinyxml2::XMLDeclaration
+ShallowClone	tinyxml2.cc	/^XMLNode* XMLElement::ShallowClone( XMLDocument* doc ) const$/;"	f	class:tinyxml2::XMLElement
+ShallowClone	tinyxml2.cc	/^XMLNode* XMLText::ShallowClone( XMLDocument* doc ) const$/;"	f	class:tinyxml2::XMLText
+ShallowClone	tinyxml2.cc	/^XMLNode* XMLUnknown::ShallowClone( XMLDocument* doc ) const$/;"	f	class:tinyxml2::XMLUnknown
+ShallowClone	tinyxml2.h	/^    virtual XMLNode* ShallowClone( XMLDocument* \/*document*\/ ) const	{$/;"	f	class:tinyxml2::XMLDocument
+ShallowEqual	tinyxml2.cc	/^bool XMLComment::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:tinyxml2::XMLComment
+ShallowEqual	tinyxml2.cc	/^bool XMLDeclaration::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:tinyxml2::XMLDeclaration
+ShallowEqual	tinyxml2.cc	/^bool XMLElement::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:tinyxml2::XMLElement
+ShallowEqual	tinyxml2.cc	/^bool XMLText::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:tinyxml2::XMLText
+ShallowEqual	tinyxml2.cc	/^bool XMLUnknown::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:tinyxml2::XMLUnknown
+ShallowEqual	tinyxml2.h	/^    virtual bool ShallowEqual( const XMLNode* \/*compare*\/ ) const	{$/;"	f	class:tinyxml2::XMLDocument
+Shrink	simhash/cppjieba/DictTrie.hpp	/^  void Shrink(vector<DictUnit>& units) const {$/;"	f	class:cppjieba::DictTrie
+SimHarh	judgeEqual.h	/^    SimHarh(size_t topN = 5)$/;"	f	class:SimHarh
+SimHarh	judgeEqual.h	/^class SimHarh$/;"	c
+Simhasher	simhash/Simhasher.hpp	/^            Simhasher(const string& dictPath, const string& modelPath, const string& idfPath, const string& stopWords): _extractor(dictPath, modelPath, idfPath, stopWords)$/;"	f	class:simhash::Simhasher
+Simhasher	simhash/Simhasher.hpp	/^    class Simhasher$/;"	c	namespace:simhash
+Size	simhash/cppjieba/limonp/BlockingQueue.hpp	/^  size_t Size() const {$/;"	f	class:limonp::BlockingQueue
+Size	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  size_t Size() const {$/;"	f	class:limonp::BoundedQueue
+Size	simhash/limonp/BlockingQueue.hpp	/^  size_t Size() const {$/;"	f	class:limonp::BlockingQueue
+Size	simhash/limonp/BoundedQueue.hpp	/^  size_t Size() const {$/;"	f	class:limonp::BoundedQueue
+Size	tinyxml2.h	/^    int Size() const					{$/;"	f	class:tinyxml2::DynArray
+SkipWhiteSpace	tinyxml2.h	/^    static char* SkipWhiteSpace( char* p, int* curLineNumPtr )				{$/;"	f	class:tinyxml2::XMLUtil
+SkipWhiteSpace	tinyxml2.h	/^    static const char* SkipWhiteSpace( const char* p, int* curLineNumPtr )	{$/;"	f	class:tinyxml2::XMLUtil
+SpecialRule	simhash/cppjieba/PosTagger.hpp	/^  const char* SpecialRule(const Unicode& unicode) const {$/;"	f	class:cppjieba::PosTagger
+Split	simhash/cppjieba/limonp/StringUtil.hpp	/^inline vector<string> Split(const string& src, const string& pattern, size_t maxsplit = string::npos) {$/;"	f	namespace:limonp
+Split	simhash/cppjieba/limonp/StringUtil.hpp	/^inline void Split(const string& src, vector<string>& res, const string& pattern, size_t maxsplit = string::npos) {$/;"	f	namespace:limonp
+Split	simhash/limonp/StringUtil.hpp	/^inline vector<string> Split(const string& src, const string& pattern, size_t maxsplit = string::npos) {$/;"	f	namespace:limonp
+Split	simhash/limonp/StringUtil.hpp	/^inline void Split(const string& src, vector<string>& res, const string& pattern, size_t maxsplit = string::npos) {$/;"	f	namespace:limonp
+SplitTool	SplitTool.h	/^    SplitTool() {}$/;"	f	class:ll::SplitTool
+SplitTool	SplitTool.h	/^class SplitTool$/;"	c	namespace:ll
+Start	simhash/cppjieba/limonp/Thread.hpp	/^  void Start() {$/;"	f	class:limonp::IThread
+Start	simhash/cppjieba/limonp/ThreadPool.hpp	/^  void Start() {$/;"	f	class:limonp::ThreadPool
+Start	simhash/limonp/Thread.hpp	/^  void Start() {$/;"	f	class:limonp::IThread
+Start	simhash/limonp/ThreadPool.hpp	/^  void Start() {$/;"	f	class:limonp::ThreadPool
+StartsWith	simhash/cppjieba/limonp/StringUtil.hpp	/^inline bool StartsWith(const string& str, const string& prefix) {$/;"	f	namespace:limonp
+StartsWith	simhash/limonp/StringUtil.hpp	/^inline bool StartsWith(const string& str, const string& prefix) {$/;"	f	namespace:limonp
+Stop	simhash/cppjieba/limonp/ThreadPool.hpp	/^  void Stop() {$/;"	f	class:limonp::ThreadPool
+Stop	simhash/limonp/ThreadPool.hpp	/^  void Stop() {$/;"	f	class:limonp::ThreadPool
+StrPair	tinyxml2.h	/^    StrPair() : _flags( 0 ), _start( 0 ), _end( 0 ) {}$/;"	f	class:tinyxml2::StrPair
+StrPair	tinyxml2.h	/^class TINYXML2_LIB StrPair$/;"	c	namespace:tinyxml2
+Stream	simhash/cppjieba/limonp/Logging.hpp	/^  std::ostream& Stream() {$/;"	f	class:limonp::Logger
+Stream	simhash/limonp/Logging.hpp	/^  std::ostream& Stream() {$/;"	f	class:limonp::Logger
+StringEqual	tinyxml2.h	/^    inline static bool StringEqual( const char* p, const char* q, int nChar=INT_MAX )  {$/;"	f	class:tinyxml2::XMLUtil
+StringFormat	simhash/cppjieba/limonp/StringUtil.hpp	/^inline string StringFormat(const char* fmt, ...) {$/;"	f	namespace:limonp
+StringFormat	simhash/limonp/StringUtil.hpp	/^inline string StringFormat(const char* fmt, ...) {$/;"	f	namespace:limonp
+SwapRemove	tinyxml2.h	/^	void SwapRemove(int i) {$/;"	f	class:tinyxml2::DynArray
+TEXT_ELEMENT	tinyxml2.h	/^        TEXT_ELEMENT		            = NEEDS_ENTITY_PROCESSING | NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
+TEXT_ELEMENT_LEAVE_ENTITIES	tinyxml2.h	/^        TEXT_ELEMENT_LEAVE_ENTITIES		= NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
+TINYXML2_DEBUG	tinyxml2.h	58;"	d
+TINYXML2_INCLUDED	tinyxml2.h	25;"	d
+TINYXML2_LIB	tinyxml2.h	69;"	d
+TINYXML2_LIB	tinyxml2.h	71;"	d
+TINYXML2_LIB	tinyxml2.h	73;"	d
+TINYXML2_LIB	tinyxml2.h	76;"	d
+TINYXML2_LIB	tinyxml2.h	78;"	d
+TINYXML2_MAJOR_VERSION	tinyxml2.h	105;"	d
+TINYXML2_MAX_ELEMENT_DEPTH	tinyxml2.h	/^static const int TINYXML2_MAX_ELEMENT_DEPTH = 100;$/;"	v
+TINYXML2_MINOR_VERSION	tinyxml2.h	106;"	d
+TINYXML2_PATCH_VERSION	tinyxml2.h	107;"	d
+TIXML2_MAJOR_VERSION	tinyxml2.h	/^static const int TIXML2_MAJOR_VERSION = 7;$/;"	v
+TIXML2_MINOR_VERSION	tinyxml2.h	/^static const int TIXML2_MINOR_VERSION = 0;$/;"	v
+TIXML2_PATCH_VERSION	tinyxml2.h	/^static const int TIXML2_PATCH_VERSION = 1;$/;"	v
+TIXMLASSERT	tinyxml2.h	85;"	d
+TIXMLASSERT	tinyxml2.h	88;"	d
+TIXMLASSERT	tinyxml2.h	91;"	d
+TIXMLASSERT	tinyxml2.h	94;"	d
+TIXML_SNPRINTF	tinyxml2.cc	/^	static inline int TIXML_SNPRINTF( char* buffer, size_t size, const char* format, ... )$/;"	f	file:
+TIXML_SNPRINTF	tinyxml2.cc	63;"	d	file:
+TIXML_SNPRINTF	tinyxml2.cc	92;"	d	file:
+TIXML_SSCANF	tinyxml2.cc	100;"	d	file:
+TIXML_SSCANF	tinyxml2.cc	60;"	d	file:
+TIXML_SSCANF	tinyxml2.cc	65;"	d	file:
+TIXML_UTF_LEAD_0	tinyxml2.cc	/^static const unsigned char TIXML_UTF_LEAD_0 = 0xefU;$/;"	v	file:
+TIXML_UTF_LEAD_1	tinyxml2.cc	/^static const unsigned char TIXML_UTF_LEAD_1 = 0xbbU;$/;"	v	file:
+TIXML_UTF_LEAD_2	tinyxml2.cc	/^static const unsigned char TIXML_UTF_LEAD_2 = 0xbfU;$/;"	v	file:
+TIXML_VSCPRINTF	tinyxml2.cc	/^		static inline int TIXML_VSCPRINTF( const char* format, va_list va )$/;"	f	file:
+TIXML_VSCPRINTF	tinyxml2.cc	/^	static inline int TIXML_VSCPRINTF( const char* format, va_list va )$/;"	f	file:
+TIXML_VSCPRINTF	tinyxml2.cc	59;"	d	file:
+TIXML_VSCPRINTF	tinyxml2.cc	68;"	d	file:
+TIXML_VSNPRINTF	tinyxml2.cc	/^	static inline int TIXML_VSNPRINTF( char* buffer, size_t size, const char* format, va_list va )$/;"	f	file:
+TIXML_VSNPRINTF	tinyxml2.cc	64;"	d	file:
+TIXML_VSNPRINTF	tinyxml2.cc	93;"	d	file:
+TOPK_NUMBER	PageLibPreprocessor.h	/^    const static int TOPK_NUMBER = 20;  $/;"	m	class:ll::WebPage
+Tag	simhash/cppjieba/Jieba.hpp	/^  void Tag(const string& sentence, vector<pair<string, string> >& words) const {$/;"	f	class:cppjieba::Jieba
+Tag	simhash/cppjieba/PosTagger.hpp	/^  bool Tag(const string& src, vector<pair<string, string> >& res) const {$/;"	f	class:cppjieba::PosTagger
+ThreadPool	simhash/cppjieba/limonp/ThreadPool.hpp	/^  ThreadPool(size_t thread_num)$/;"	f	class:limonp::ThreadPool
+ThreadPool	simhash/cppjieba/limonp/ThreadPool.hpp	/^class ThreadPool: NonCopyable {$/;"	c	namespace:limonp
+ThreadPool	simhash/limonp/ThreadPool.hpp	/^  ThreadPool(size_t thread_num)$/;"	f	class:limonp::ThreadPool
+ThreadPool	simhash/limonp/ThreadPool.hpp	/^class ThreadPool: NonCopyable {$/;"	c	namespace:limonp
+ToBool	tinyxml2.cc	/^bool XMLUtil::ToBool( const char* str, bool* value )$/;"	f	class:tinyxml2::XMLUtil
+ToComment	tinyxml2.h	/^    virtual XMLComment*		ToComment()		{$/;"	f	class:tinyxml2::XMLNode
+ToComment	tinyxml2.h	/^    virtual XMLComment*	ToComment()					{$/;"	f	class:tinyxml2::XMLComment
+ToComment	tinyxml2.h	/^    virtual const XMLComment*		ToComment() const		{$/;"	f	class:tinyxml2::XMLNode
+ToComment	tinyxml2.h	/^    virtual const XMLComment* ToComment() const		{$/;"	f	class:tinyxml2::XMLComment
+ToDeclaration	tinyxml2.h	/^    XMLDeclaration* ToDeclaration() 			{$/;"	f	class:tinyxml2::XMLHandle
+ToDeclaration	tinyxml2.h	/^    const XMLDeclaration* ToDeclaration() const	{$/;"	f	class:tinyxml2::XMLConstHandle
+ToDeclaration	tinyxml2.h	/^    virtual XMLDeclaration*	ToDeclaration()					{$/;"	f	class:tinyxml2::XMLDeclaration
+ToDeclaration	tinyxml2.h	/^    virtual XMLDeclaration*	ToDeclaration()	{$/;"	f	class:tinyxml2::XMLNode
+ToDeclaration	tinyxml2.h	/^    virtual const XMLDeclaration*	ToDeclaration() const	{$/;"	f	class:tinyxml2::XMLNode
+ToDeclaration	tinyxml2.h	/^    virtual const XMLDeclaration* ToDeclaration() const		{$/;"	f	class:tinyxml2::XMLDeclaration
+ToDocument	tinyxml2.h	/^    virtual XMLDocument*	ToDocument()	{$/;"	f	class:tinyxml2::XMLNode
+ToDocument	tinyxml2.h	/^    virtual XMLDocument* ToDocument()				{$/;"	f	class:tinyxml2::XMLDocument
+ToDocument	tinyxml2.h	/^    virtual const XMLDocument*		ToDocument() const		{$/;"	f	class:tinyxml2::XMLNode
+ToDocument	tinyxml2.h	/^    virtual const XMLDocument* ToDocument() const	{$/;"	f	class:tinyxml2::XMLDocument
+ToDouble	tinyxml2.cc	/^bool XMLUtil::ToDouble( const char* str, double* value )$/;"	f	class:tinyxml2::XMLUtil
+ToElement	tinyxml2.h	/^    XMLElement* ToElement() 					{$/;"	f	class:tinyxml2::XMLHandle
+ToElement	tinyxml2.h	/^    const XMLElement* ToElement() const			{$/;"	f	class:tinyxml2::XMLConstHandle
+ToElement	tinyxml2.h	/^    virtual XMLElement*		ToElement()		{$/;"	f	class:tinyxml2::XMLNode
+ToElement	tinyxml2.h	/^    virtual XMLElement* ToElement()				{$/;"	f	class:tinyxml2::XMLElement
+ToElement	tinyxml2.h	/^    virtual const XMLElement*		ToElement() const		{$/;"	f	class:tinyxml2::XMLNode
+ToElement	tinyxml2.h	/^    virtual const XMLElement* ToElement() const {$/;"	f	class:tinyxml2::XMLElement
+ToElementWithName	tinyxml2.cc	/^const XMLElement* XMLNode::ToElementWithName( const char* name ) const$/;"	f	class:tinyxml2::XMLNode
+ToFloat	tinyxml2.cc	/^bool XMLUtil::ToFloat( const char* str, float* value )$/;"	f	class:tinyxml2::XMLUtil
+ToInt	tinyxml2.cc	/^bool XMLUtil::ToInt( const char* str, int* value )$/;"	f	class:tinyxml2::XMLUtil
+ToInt64	tinyxml2.cc	/^bool XMLUtil::ToInt64(const char* str, int64_t* value)$/;"	f	class:tinyxml2::XMLUtil
+ToNode	tinyxml2.h	/^    XMLNode* ToNode()							{$/;"	f	class:tinyxml2::XMLHandle
+ToNode	tinyxml2.h	/^    const XMLNode* ToNode() const				{$/;"	f	class:tinyxml2::XMLConstHandle
+ToStr	tinyxml2.cc	/^void XMLUtil::ToStr( bool v, char* buffer, int bufferSize )$/;"	f	class:tinyxml2::XMLUtil
+ToStr	tinyxml2.cc	/^void XMLUtil::ToStr( double v, char* buffer, int bufferSize )$/;"	f	class:tinyxml2::XMLUtil
+ToStr	tinyxml2.cc	/^void XMLUtil::ToStr( float v, char* buffer, int bufferSize )$/;"	f	class:tinyxml2::XMLUtil
+ToStr	tinyxml2.cc	/^void XMLUtil::ToStr( int v, char* buffer, int bufferSize )$/;"	f	class:tinyxml2::XMLUtil
+ToStr	tinyxml2.cc	/^void XMLUtil::ToStr( unsigned v, char* buffer, int bufferSize )$/;"	f	class:tinyxml2::XMLUtil
+ToStr	tinyxml2.cc	/^void XMLUtil::ToStr(int64_t v, char* buffer, int bufferSize)$/;"	f	class:tinyxml2::XMLUtil
+ToText	tinyxml2.h	/^    XMLText* ToText() 							{$/;"	f	class:tinyxml2::XMLHandle
+ToText	tinyxml2.h	/^    const XMLText* ToText() const				{$/;"	f	class:tinyxml2::XMLConstHandle
+ToText	tinyxml2.h	/^    virtual XMLText*		ToText()		{$/;"	f	class:tinyxml2::XMLNode
+ToText	tinyxml2.h	/^    virtual XMLText* ToText()			{$/;"	f	class:tinyxml2::XMLText
+ToText	tinyxml2.h	/^    virtual const XMLText*			ToText() const			{$/;"	f	class:tinyxml2::XMLNode
+ToText	tinyxml2.h	/^    virtual const XMLText* ToText() const	{$/;"	f	class:tinyxml2::XMLText
+ToUnknown	tinyxml2.h	/^    XMLUnknown* ToUnknown() 					{$/;"	f	class:tinyxml2::XMLHandle
+ToUnknown	tinyxml2.h	/^    const XMLUnknown* ToUnknown() const			{$/;"	f	class:tinyxml2::XMLConstHandle
+ToUnknown	tinyxml2.h	/^    virtual XMLUnknown*		ToUnknown()		{$/;"	f	class:tinyxml2::XMLNode
+ToUnknown	tinyxml2.h	/^    virtual XMLUnknown*	ToUnknown()					{$/;"	f	class:tinyxml2::XMLUnknown
+ToUnknown	tinyxml2.h	/^    virtual const XMLUnknown*		ToUnknown() const		{$/;"	f	class:tinyxml2::XMLNode
+ToUnknown	tinyxml2.h	/^    virtual const XMLUnknown* ToUnknown() const		{$/;"	f	class:tinyxml2::XMLUnknown
+ToUnsigned	tinyxml2.cc	/^bool XMLUtil::ToUnsigned( const char* str, unsigned *value )$/;"	f	class:tinyxml2::XMLUtil
+Trace	tinyxml2.h	/^    void Trace( const char* name ) {$/;"	f	class:tinyxml2::MemPoolT
+TransCode	simhash/cppjieba/TransCode.hpp	/^namespace TransCode {$/;"	n	namespace:cppjieba
+TransferTo	tinyxml2.cc	/^void StrPair::TransferTo( StrPair* other )$/;"	f	class:tinyxml2::StrPair
+Trie	simhash/cppjieba/Trie.hpp	/^  Trie(const vector<Unicode>& keys, const vector<const DictUnit*>& valuePointers)$/;"	f	class:cppjieba::Trie
+Trie	simhash/cppjieba/Trie.hpp	/^class Trie {$/;"	c	namespace:cppjieba
+TrieKey	simhash/cppjieba/Trie.hpp	/^typedef Rune TrieKey;$/;"	t	namespace:cppjieba
+TrieNode	simhash/cppjieba/Trie.hpp	/^  TrieNode(): next(NULL), ptValue(NULL) {$/;"	f	class:cppjieba::TrieNode
+TrieNode	simhash/cppjieba/Trie.hpp	/^class TrieNode {$/;"	c	namespace:cppjieba
+Trim	simhash/cppjieba/limonp/StringUtil.hpp	/^inline std::string& Trim(std::string &s) {$/;"	f	namespace:limonp
+Trim	simhash/cppjieba/limonp/StringUtil.hpp	/^inline std::string& Trim(std::string &s, char x) {$/;"	f	namespace:limonp
+Trim	simhash/limonp/StringUtil.hpp	/^inline std::string& Trim(std::string &s) {$/;"	f	namespace:limonp
+Trim	simhash/limonp/StringUtil.hpp	/^inline std::string& Trim(std::string &s, char x) {$/;"	f	namespace:limonp
+TwocharToUint16	simhash/cppjieba/limonp/StringUtil.hpp	/^inline uint16_t TwocharToUint16(char high, char low) {$/;"	f	namespace:limonp
+TwocharToUint16	simhash/limonp/StringUtil.hpp	/^inline uint16_t TwocharToUint16(char high, char low) {$/;"	f	namespace:limonp
+UINT2	simhash/cppjieba/limonp/Md5.hpp	/^typedef unsigned short int UINT2;$/;"	t	namespace:limonp
+UINT2	simhash/limonp/Md5.hpp	/^typedef unsigned short int UINT2;$/;"	t	namespace:limonp
+UINT4	simhash/cppjieba/limonp/Md5.hpp	/^typedef unsigned int UINT4;$/;"	t	namespace:limonp
+UINT4	simhash/limonp/Md5.hpp	/^typedef unsigned int UINT4;$/;"	t	namespace:limonp
+UNKNOWN_TAG	simhash/cppjieba/DictTrie.hpp	/^const char* const UNKNOWN_TAG = "";$/;"	m	namespace:cppjieba
+UnLock	simhash/cppjieba/limonp/FileLock.hpp	/^  void UnLock() {$/;"	f	class:limonp::FileLock
+UnLock	simhash/limonp/FileLock.hpp	/^  void UnLock() {$/;"	f	class:limonp::FileLock
+Unicode	simhash/cppjieba/TransCode.hpp	/^typedef limonp::LocalVector<Rune> Unicode;$/;"	t	namespace:cppjieba
+Unicode32ToUtf8	simhash/cppjieba/limonp/StringUtil.hpp	/^void Unicode32ToUtf8(Uint32ContainerConIter begin, Uint32ContainerConIter end, string& res) {$/;"	f	namespace:limonp
+Unicode32ToUtf8	simhash/limonp/StringUtil.hpp	/^void Unicode32ToUtf8(Uint32ContainerConIter begin, Uint32ContainerConIter end, string& res) {$/;"	f	namespace:limonp
+UnicodeToUtf8	simhash/cppjieba/limonp/StringUtil.hpp	/^void UnicodeToUtf8(Uint16ContainerConIter begin, Uint16ContainerConIter end, string& res) {$/;"	f	namespace:limonp
+UnicodeToUtf8	simhash/limonp/StringUtil.hpp	/^void UnicodeToUtf8(Uint16ContainerConIter begin, Uint16ContainerConIter end, string& res) {$/;"	f	namespace:limonp
+Unlink	tinyxml2.cc	/^void XMLNode::Unlink( XMLNode* child )$/;"	f	class:tinyxml2::XMLNode
+Unlock	simhash/cppjieba/limonp/MutexLock.hpp	/^  void Unlock() {$/;"	f	class:limonp::MutexLock
+Unlock	simhash/limonp/MutexLock.hpp	/^  void Unlock() {$/;"	f	class:limonp::MutexLock
+UnsignedAttribute	tinyxml2.cc	/^unsigned XMLElement::UnsignedAttribute(const char* name, unsigned defaultValue) const$/;"	f	class:tinyxml2::XMLElement
+UnsignedText	tinyxml2.cc	/^unsigned XMLElement::UnsignedText(unsigned defaultValue) const$/;"	f	class:tinyxml2::XMLElement
+UnsignedValue	tinyxml2.h	/^    unsigned UnsignedValue() const			{$/;"	f	class:tinyxml2::XMLAttribute
+Untracked	tinyxml2.h	/^    int Untracked() const {$/;"	f	class:tinyxml2::MemPoolT
+Update	simhash/cppjieba/limonp/Md5.hpp	/^  void Update($/;"	f	class:limonp::MD5
+Update	simhash/limonp/Md5.hpp	/^  void Update($/;"	f	class:limonp::MD5
+Upper	simhash/cppjieba/limonp/StringUtil.hpp	/^inline string& Upper(string& str) {$/;"	f	namespace:limonp
+Upper	simhash/limonp/StringUtil.hpp	/^inline string& Upper(string& str) {$/;"	f	namespace:limonp
+UserWordWeightOption	simhash/cppjieba/DictTrie.hpp	/^  enum UserWordWeightOption {$/;"	g	class:cppjieba::DictTrie
+Utf8ToUnicode	simhash/cppjieba/limonp/StringUtil.hpp	/^bool Utf8ToUnicode(const char * const str, size_t len, Uint16Container& vec) {$/;"	f	namespace:limonp
+Utf8ToUnicode	simhash/cppjieba/limonp/StringUtil.hpp	/^bool Utf8ToUnicode(const string& str, Uint16Container& vec) {$/;"	f	namespace:limonp
+Utf8ToUnicode	simhash/limonp/StringUtil.hpp	/^bool Utf8ToUnicode(const char * const str, size_t len, Uint16Container& vec) {$/;"	f	namespace:limonp
+Utf8ToUnicode	simhash/limonp/StringUtil.hpp	/^bool Utf8ToUnicode(const string& str, Uint16Container& vec) {$/;"	f	namespace:limonp
+Utf8ToUnicode32	simhash/cppjieba/limonp/StringUtil.hpp	/^bool Utf8ToUnicode32(const string& str, Uint32Container& vec) {$/;"	f	namespace:limonp
+Utf8ToUnicode32	simhash/limonp/StringUtil.hpp	/^bool Utf8ToUnicode32(const string& str, Uint32Container& vec) {$/;"	f	namespace:limonp
+Value	tinyxml2.cc	/^const char* XMLAttribute::Value() const$/;"	f	class:tinyxml2::XMLAttribute
+Value	tinyxml2.cc	/^const char* XMLNode::Value() const$/;"	f	class:tinyxml2::XMLNode
+Visit	tinyxml2.cc	/^bool XMLPrinter::Visit( const XMLComment& comment )$/;"	f	class:tinyxml2::XMLPrinter
+Visit	tinyxml2.cc	/^bool XMLPrinter::Visit( const XMLDeclaration& declaration )$/;"	f	class:tinyxml2::XMLPrinter
+Visit	tinyxml2.cc	/^bool XMLPrinter::Visit( const XMLText& text )$/;"	f	class:tinyxml2::XMLPrinter
+Visit	tinyxml2.cc	/^bool XMLPrinter::Visit( const XMLUnknown& unknown )$/;"	f	class:tinyxml2::XMLPrinter
+Visit	tinyxml2.h	/^    virtual bool Visit( const XMLComment& \/*comment*\/ )				{$/;"	f	class:tinyxml2::XMLVisitor
+Visit	tinyxml2.h	/^    virtual bool Visit( const XMLDeclaration& \/*declaration*\/ )		{$/;"	f	class:tinyxml2::XMLVisitor
+Visit	tinyxml2.h	/^    virtual bool Visit( const XMLText& \/*text*\/ )					{$/;"	f	class:tinyxml2::XMLVisitor
+Visit	tinyxml2.h	/^    virtual bool Visit( const XMLUnknown& \/*unknown*\/ )				{$/;"	f	class:tinyxml2::XMLVisitor
+VisitEnter	tinyxml2.cc	/^bool XMLPrinter::VisitEnter( const XMLDocument& doc )$/;"	f	class:tinyxml2::XMLPrinter
+VisitEnter	tinyxml2.cc	/^bool XMLPrinter::VisitEnter( const XMLElement& element, const XMLAttribute* attribute )$/;"	f	class:tinyxml2::XMLPrinter
+VisitEnter	tinyxml2.h	/^    virtual bool VisitEnter( const XMLDocument& \/*doc*\/ )			{$/;"	f	class:tinyxml2::XMLVisitor
+VisitEnter	tinyxml2.h	/^    virtual bool VisitEnter( const XMLElement& \/*element*\/, const XMLAttribute* \/*firstAttribute*\/ )	{$/;"	f	class:tinyxml2::XMLVisitor
+VisitExit	tinyxml2.cc	/^bool XMLPrinter::VisitExit( const XMLElement& element )$/;"	f	class:tinyxml2::XMLPrinter
+VisitExit	tinyxml2.h	/^    virtual bool VisitExit( const XMLDocument& \/*doc*\/ )			{$/;"	f	class:tinyxml2::XMLPrinter
+VisitExit	tinyxml2.h	/^    virtual bool VisitExit( const XMLDocument& \/*doc*\/ )			{$/;"	f	class:tinyxml2::XMLVisitor
+VisitExit	tinyxml2.h	/^    virtual bool VisitExit( const XMLElement& \/*element*\/ )			{$/;"	f	class:tinyxml2::XMLVisitor
+Viterbi	simhash/cppjieba/HMMSegment.hpp	/^  void Viterbi(Unicode::const_iterator begin, $/;"	f	class:cppjieba::HMMSegment
+Wait	simhash/cppjieba/limonp/Condition.hpp	/^  void Wait() {$/;"	f	class:limonp::Condition
+Wait	simhash/limonp/Condition.hpp	/^  void Wait() {$/;"	f	class:limonp::Condition
+WebPage	PageLibPreprocessor.cc	/^WebPage::WebPage(string &doc,$/;"	f	class:ll::WebPage
+WebPage	PageLibPreprocessor.h	/^class WebPage$/;"	c	namespace:ll
+WeightCompare	simhash/cppjieba/DictTrie.hpp	/^  static bool WeightCompare(const DictUnit& lhs, const DictUnit& rhs) {$/;"	f	class:cppjieba::DictTrie
+Whitespace	tinyxml2.h	/^enum Whitespace {$/;"	g	namespace:tinyxml2
+WhitespaceMode	tinyxml2.h	/^    Whitespace WhitespaceMode() const	{$/;"	f	class:tinyxml2::XMLDocument
+WordFreqCompare	PageLibPreprocessor.cc	/^struct WordFreqCompare$/;"	s	namespace:ll	file:
+WordWeightMax	simhash/cppjieba/DictTrie.hpp	/^    WordWeightMax,$/;"	e	enum:cppjieba::DictTrie::UserWordWeightOption
+WordWeightMedian	simhash/cppjieba/DictTrie.hpp	/^    WordWeightMedian,$/;"	e	enum:cppjieba::DictTrie::UserWordWeightOption
+WordWeightMin	simhash/cppjieba/DictTrie.hpp	/^    WordWeightMin,$/;"	e	enum:cppjieba::DictTrie::UserWordWeightOption
+Worker	simhash/cppjieba/limonp/Thread.hpp	/^  static void * Worker(void * data) {$/;"	f	class:limonp::IThread
+Worker	simhash/cppjieba/limonp/ThreadPool.hpp	/^    Worker(ThreadPool* pool): ptThreadPool_(pool) {$/;"	f	class:limonp::ThreadPool::Worker
+Worker	simhash/cppjieba/limonp/ThreadPool.hpp	/^  class Worker: public IThread {$/;"	c	class:limonp::ThreadPool
+Worker	simhash/limonp/Thread.hpp	/^  static void * Worker(void * data) {$/;"	f	class:limonp::IThread
+Worker	simhash/limonp/ThreadPool.hpp	/^    Worker(ThreadPool* pool): ptThreadPool_(pool) {$/;"	f	class:limonp::ThreadPool::Worker
+Worker	simhash/limonp/ThreadPool.hpp	/^  class Worker: public IThread {$/;"	c	class:limonp::ThreadPool
+Write	tinyxml2.cc	/^void XMLPrinter::Write( const char* data, size_t size )$/;"	f	class:tinyxml2::XMLPrinter
+Write	tinyxml2.h	/^    inline void Write( const char* data )           { Write( data, strlen( data ) ); }$/;"	f	class:tinyxml2::XMLPrinter
+XCHECK	simhash/cppjieba/limonp/Logging.hpp	18;"	d
+XCHECK	simhash/limonp/Logging.hpp	18;"	d
+XLOG	simhash/cppjieba/limonp/Logging.hpp	17;"	d
+XLOG	simhash/limonp/Logging.hpp	17;"	d
+XMLAttribute	tinyxml2.h	/^    XMLAttribute() : _name(), _value(),_parseLineNum( 0 ), _next( 0 ), _memPool( 0 ) {}$/;"	f	class:tinyxml2::XMLAttribute
+XMLAttribute	tinyxml2.h	/^class TINYXML2_LIB XMLAttribute$/;"	c	namespace:tinyxml2
+XMLComment	tinyxml2.cc	/^XMLComment::XMLComment( XMLDocument* doc ) : XMLNode( doc )$/;"	f	class:tinyxml2::XMLComment
+XMLComment	tinyxml2.h	/^class TINYXML2_LIB XMLComment : public XMLNode$/;"	c	namespace:tinyxml2
+XMLConstHandle	tinyxml2.h	/^    XMLConstHandle( const XMLConstHandle& ref ) : _node( ref._node ) {$/;"	f	class:tinyxml2::XMLConstHandle
+XMLConstHandle	tinyxml2.h	/^    explicit XMLConstHandle( const XMLNode& node ) : _node( &node ) {$/;"	f	class:tinyxml2::XMLConstHandle
+XMLConstHandle	tinyxml2.h	/^    explicit XMLConstHandle( const XMLNode* node ) : _node( node ) {$/;"	f	class:tinyxml2::XMLConstHandle
+XMLConstHandle	tinyxml2.h	/^class TINYXML2_LIB XMLConstHandle$/;"	c	namespace:tinyxml2
+XMLDeclaration	tinyxml2.cc	/^XMLDeclaration::XMLDeclaration( XMLDocument* doc ) : XMLNode( doc )$/;"	f	class:tinyxml2::XMLDeclaration
+XMLDeclaration	tinyxml2.h	/^class TINYXML2_LIB XMLDeclaration : public XMLNode$/;"	c	namespace:tinyxml2
+XMLDocument	tinyxml2.cc	/^XMLDocument::XMLDocument( bool processEntities, Whitespace whitespaceMode ) :$/;"	f	class:tinyxml2::XMLDocument
+XMLDocument	tinyxml2.h	/^class TINYXML2_LIB XMLDocument : public XMLNode$/;"	c	namespace:tinyxml2
+XMLElement	tinyxml2.cc	/^XMLElement::XMLElement( XMLDocument* doc ) : XMLNode( doc ),$/;"	f	class:tinyxml2::XMLElement
+XMLElement	tinyxml2.h	/^class TINYXML2_LIB XMLElement : public XMLNode$/;"	c	namespace:tinyxml2
+XMLError	tinyxml2.h	/^enum XMLError {$/;"	g	namespace:tinyxml2
+XMLHandle	tinyxml2.h	/^    XMLHandle( const XMLHandle& ref ) : _node( ref._node ) {$/;"	f	class:tinyxml2::XMLHandle
+XMLHandle	tinyxml2.h	/^    explicit XMLHandle( XMLNode& node ) : _node( &node ) {$/;"	f	class:tinyxml2::XMLHandle
+XMLHandle	tinyxml2.h	/^    explicit XMLHandle( XMLNode* node ) : _node( node ) {$/;"	f	class:tinyxml2::XMLHandle
+XMLHandle	tinyxml2.h	/^class TINYXML2_LIB XMLHandle$/;"	c	namespace:tinyxml2
+XMLNode	tinyxml2.cc	/^XMLNode::XMLNode( XMLDocument* doc ) :$/;"	f	class:tinyxml2::XMLNode
+XMLNode	tinyxml2.h	/^class TINYXML2_LIB XMLNode$/;"	c	namespace:tinyxml2
+XMLPrinter	tinyxml2.cc	/^XMLPrinter::XMLPrinter( FILE* file, bool compact, int depth ) :$/;"	f	class:tinyxml2::XMLPrinter
+XMLPrinter	tinyxml2.h	/^class TINYXML2_LIB XMLPrinter : public XMLVisitor$/;"	c	namespace:tinyxml2
+XMLText	tinyxml2.h	/^    explicit XMLText( XMLDocument* doc )	: XMLNode( doc ), _isCData( false )	{}$/;"	f	class:tinyxml2::XMLText
+XMLText	tinyxml2.h	/^class TINYXML2_LIB XMLText : public XMLNode$/;"	c	namespace:tinyxml2
+XMLUnknown	tinyxml2.cc	/^XMLUnknown::XMLUnknown( XMLDocument* doc ) : XMLNode( doc )$/;"	f	class:tinyxml2::XMLUnknown
+XMLUnknown	tinyxml2.h	/^class TINYXML2_LIB XMLUnknown : public XMLNode$/;"	c	namespace:tinyxml2
+XMLUtil	tinyxml2.h	/^class TINYXML2_LIB XMLUtil$/;"	c	namespace:tinyxml2
+XMLVisitor	tinyxml2.h	/^class TINYXML2_LIB XMLVisitor$/;"	c	namespace:tinyxml2
+XML_CAN_NOT_CONVERT_TEXT	tinyxml2.h	/^    XML_CAN_NOT_CONVERT_TEXT,$/;"	e	enum:tinyxml2::XMLError
+XML_ELEMENT_DEPTH_EXCEEDED	tinyxml2.h	/^	XML_ELEMENT_DEPTH_EXCEEDED,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_COUNT	tinyxml2.h	/^	XML_ERROR_COUNT$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_EMPTY_DOCUMENT	tinyxml2.h	/^    XML_ERROR_EMPTY_DOCUMENT,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_FILE_COULD_NOT_BE_OPENED	tinyxml2.h	/^    XML_ERROR_FILE_COULD_NOT_BE_OPENED,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_FILE_NOT_FOUND	tinyxml2.h	/^    XML_ERROR_FILE_NOT_FOUND,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_FILE_READ_ERROR	tinyxml2.h	/^    XML_ERROR_FILE_READ_ERROR,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_MISMATCHED_ELEMENT	tinyxml2.h	/^    XML_ERROR_MISMATCHED_ELEMENT,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_PARSING	tinyxml2.h	/^    XML_ERROR_PARSING,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_PARSING_ATTRIBUTE	tinyxml2.h	/^    XML_ERROR_PARSING_ATTRIBUTE,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_PARSING_CDATA	tinyxml2.h	/^    XML_ERROR_PARSING_CDATA,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_PARSING_COMMENT	tinyxml2.h	/^    XML_ERROR_PARSING_COMMENT,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_PARSING_DECLARATION	tinyxml2.h	/^    XML_ERROR_PARSING_DECLARATION,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_PARSING_ELEMENT	tinyxml2.h	/^    XML_ERROR_PARSING_ELEMENT,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_PARSING_TEXT	tinyxml2.h	/^    XML_ERROR_PARSING_TEXT,$/;"	e	enum:tinyxml2::XMLError
+XML_ERROR_PARSING_UNKNOWN	tinyxml2.h	/^    XML_ERROR_PARSING_UNKNOWN,$/;"	e	enum:tinyxml2::XMLError
+XML_NO_ATTRIBUTE	tinyxml2.h	/^    XML_NO_ATTRIBUTE,$/;"	e	enum:tinyxml2::XMLError
+XML_NO_TEXT_NODE	tinyxml2.h	/^    XML_NO_TEXT_NODE,$/;"	e	enum:tinyxml2::XMLError
+XML_SUCCESS	tinyxml2.h	/^    XML_SUCCESS = 0,$/;"	e	enum:tinyxml2::XMLError
+XML_WRONG_ATTRIBUTE_TYPE	tinyxml2.h	/^    XML_WRONG_ATTRIBUTE_TYPE,$/;"	e	enum:tinyxml2::XMLError
+YELLOW	simhash/cppjieba/limonp/Colors.hpp	/^  YELLOW,$/;"	e	enum:limonp::Color
+YELLOW	simhash/limonp/Colors.hpp	/^  YELLOW,$/;"	e	enum:limonp::Color
+__MD5_H__	simhash/cppjieba/limonp/Md5.hpp	2;"	d
+__MD5_H__	simhash/limonp/Md5.hpp	2;"	d
+__context_t	simhash/cppjieba/limonp/Md5.hpp	/^  struct __context_t {$/;"	s	class:limonp::MD5
+__context_t	simhash/limonp/Md5.hpp	/^  struct __context_t {$/;"	s	class:limonp::MD5
+_allocated	tinyxml2.h	/^    int _allocated;		\/\/ objects allocated$/;"	m	class:tinyxml2::DynArray
+_attributePool	tinyxml2.h	/^    MemPoolT< sizeof(XMLAttribute) > _attributePool;$/;"	m	class:tinyxml2::XMLDocument
+_blockPtrs	tinyxml2.h	/^    DynArray< Block*, 10 > _blockPtrs;$/;"	m	class:tinyxml2::MemPoolT
+_buffer	tinyxml2.h	/^    DynArray< char, 20 > _buffer;$/;"	m	class:tinyxml2::XMLPrinter
+_charBuffer	tinyxml2.h	/^    char*			_charBuffer;$/;"	m	class:tinyxml2::XMLDocument
+_closingType	tinyxml2.h	/^    ElementClosingType _closingType;$/;"	m	class:tinyxml2::XMLElement
+_commentPool	tinyxml2.h	/^    MemPoolT< sizeof(XMLComment) >	 _commentPool;$/;"	m	class:tinyxml2::XMLDocument
+_compactMode	tinyxml2.h	/^	bool _compactMode;$/;"	m	class:tinyxml2::XMLPrinter
+_conf	PageLibPreprocessor.h	/^    Configuration &_conf;$/;"	m	class:ll::PageLibPreprocessor
+_conf	pageLib.hpp	/^    Configuration &_conf;$/;"	m	class:PageLib
+_configMap	Configuration.hpp	/^    map<string,string> _configMap;$/;"	m	class:ll::Configuration
+_currentAllocs	tinyxml2.h	/^    int _currentAllocs;$/;"	m	class:tinyxml2::MemPoolT
+_depth	tinyxml2.h	/^    int _depth;$/;"	m	class:tinyxml2::XMLPrinter
+_doc	PageLibPreprocessor.h	/^    string _doc;    \/\/整篇文档，包含xml在内$/;"	m	class:ll::WebPage
+_docContent	PageLibPreprocessor.h	/^    string _docContent; \/\/文档内容$/;"	m	class:ll::WebPage
+_docId	PageLibPreprocessor.h	/^    int  _docId; \/\/文档id$/;"	m	class:ll::WebPage
+_docSummary	PageLibPreprocessor.h	/^    string _docSummary; \/\/文档摘要，需自动生成，不是固定的$/;"	m	class:ll::WebPage
+_docTitle	PageLibPreprocessor.h	/^    string _docTitle;   \/\/文档标题$/;"	m	class:ll::WebPage
+_docUrl	PageLibPreprocessor.h	/^    string _docUrl; \/\/文档URL$/;"	m	class:ll::WebPage
+_document	tinyxml2.h	/^		XMLDocument * _document;$/;"	m	class:tinyxml2::XMLDocument::DepthTracker
+_document	tinyxml2.h	/^    XMLDocument*	_document;$/;"	m	class:tinyxml2::XMLNode
+_elementJustOpened	tinyxml2.h	/^    bool _elementJustOpened;$/;"	m	class:tinyxml2::XMLPrinter
+_elementPool	tinyxml2.h	/^    MemPoolT< sizeof(XMLElement) >	 _elementPool;$/;"	m	class:tinyxml2::XMLDocument
+_end	tinyxml2.h	/^    char*   _end;$/;"	m	class:tinyxml2::StrPair
+_entityFlag	tinyxml2.h	/^    bool _entityFlag[ENTITY_RANGE];$/;"	m	class:tinyxml2::XMLPrinter
+_errorID	tinyxml2.h	/^    XMLError		_errorID;$/;"	m	class:tinyxml2::XMLDocument
+_errorLineNum	tinyxml2.h	/^    int             _errorLineNum;$/;"	m	class:tinyxml2::XMLDocument
+_errorNames	tinyxml2.cc	/^const char* XMLDocument::_errorNames[XML_ERROR_COUNT] = {$/;"	m	class:tinyxml2::XMLDocument	file:
+_errorNames	tinyxml2.h	/^	static const char* _errorNames[XML_ERROR_COUNT];$/;"	m	class:tinyxml2::XMLDocument
+_errorStr	tinyxml2.h	/^    mutable StrPair	_errorStr;$/;"	m	class:tinyxml2::XMLDocument
+_extractor	simhash/Simhasher.hpp	/^            KeywordExtractor _extractor;$/;"	m	class:simhash::Simhasher
+_filepath	Configuration.hpp	/^    string _filepath;$/;"	m	class:ll::Configuration
+_firstChild	tinyxml2.h	/^    XMLNode*		_firstChild;$/;"	m	class:tinyxml2::XMLNode
+_firstElement	tinyxml2.h	/^    bool _firstElement;$/;"	m	class:tinyxml2::XMLPrinter
+_flags	tinyxml2.h	/^    int     _flags;$/;"	m	class:tinyxml2::StrPair
+_fp	tinyxml2.h	/^    FILE* _fp;$/;"	m	class:tinyxml2::XMLPrinter
+_hasher	simhash/Simhasher.hpp	/^            jenkins _hasher;$/;"	m	class:simhash::Simhasher
+_indexlib	testDelete.cc	/^    vector<pair<string,string>> _indexlib;  \/\/存索引文件$/;"	m	class:ReadLib	file:
+_invertIndexTable	PageLibPreprocessor.h	/^    unordered_map<string, vector<pair<int, double>>> _invertIndexTable;   \/\/ 倒排索引表对象$/;"	m	class:ll::PageLibPreprocessor
+_isCData	tinyxml2.h	/^    bool _isCData;$/;"	m	class:tinyxml2::XMLText
+_jieba	PageLibPreprocessor.h	/^    CppJieba _jieba;$/;"	m	class:ll::PageLibPreprocessor
+_jieba	SplitTool.h	/^        Jieba *_jieba;$/;"	m	class:ll::CppJieba
+_lastChild	tinyxml2.h	/^    XMLNode*		_lastChild;$/;"	m	class:tinyxml2::XMLNode
+_maxAllocs	tinyxml2.h	/^    int _maxAllocs;$/;"	m	class:tinyxml2::MemPoolT
+_mem	tinyxml2.h	/^    T*  _mem;$/;"	m	class:tinyxml2::DynArray
+_memPool	tinyxml2.h	/^    MemPool*		_memPool;$/;"	m	class:tinyxml2::XMLNode
+_memPool	tinyxml2.h	/^    MemPool*        _memPool;$/;"	m	class:tinyxml2::XMLAttribute
+_nAllocs	tinyxml2.h	/^    int _nAllocs;$/;"	m	class:tinyxml2::MemPoolT
+_nUntracked	tinyxml2.h	/^    int _nUntracked;$/;"	m	class:tinyxml2::MemPoolT
+_name	tinyxml2.h	/^    mutable StrPair _name;$/;"	m	class:tinyxml2::XMLAttribute
+_next	tinyxml2.h	/^    XMLAttribute*   _next;$/;"	m	class:tinyxml2::XMLAttribute
+_next	tinyxml2.h	/^    XMLNode*		_next;$/;"	m	class:tinyxml2::XMLNode
+_node	tinyxml2.h	/^    XMLNode* _node;$/;"	m	class:tinyxml2::XMLHandle
+_node	tinyxml2.h	/^    const XMLNode* _node;$/;"	m	class:tinyxml2::XMLConstHandle
+_offsetLib	PageLibPreprocessor.h	/^    unordered_map<int, pair<int, int> >  _offsetLib;    \/\/ 网页偏移库对象$/;"	m	class:ll::PageLibPreprocessor
+_offsetLib	pageLib.hpp	/^    vector<pair<string,string>> _offsetLib; \/\/存放位置信息$/;"	m	class:PageLib
+_pageLib	PageLibPreprocessor.h	/^    vector<WebPage> _pageLib;  \/\/ 网页库的容器对象$/;"	m	class:ll::PageLibPreprocessor
+_parent	tinyxml2.h	/^    XMLNode*		_parent;$/;"	m	class:tinyxml2::XMLNode
+_parseCurLineNum	tinyxml2.h	/^    int				_parseCurLineNum;$/;"	m	class:tinyxml2::XMLDocument
+_parseLineNum	tinyxml2.h	/^    int             _parseLineNum;$/;"	m	class:tinyxml2::XMLAttribute
+_parseLineNum	tinyxml2.h	/^    int             _parseLineNum;$/;"	m	class:tinyxml2::XMLNode
+_parsingDepth	tinyxml2.h	/^	int				_parsingDepth;$/;"	m	class:tinyxml2::XMLDocument
+_pool	tinyxml2.h	/^    T   _pool[INITIAL_SIZE];$/;"	m	class:tinyxml2::DynArray
+_prev	tinyxml2.h	/^    XMLNode*		_prev;$/;"	m	class:tinyxml2::XMLNode
+_processEntities	tinyxml2.h	/^    bool			_processEntities;$/;"	m	class:tinyxml2::XMLDocument
+_processEntities	tinyxml2.h	/^    bool _processEntities;$/;"	m	class:tinyxml2::XMLPrinter
+_restrictedEntityFlag	tinyxml2.h	/^    bool _restrictedEntityFlag[ENTITY_RANGE];$/;"	m	class:tinyxml2::XMLPrinter
+_root	tinyxml2.h	/^    Item* _root;$/;"	m	class:tinyxml2::MemPoolT
+_rootAttribute	tinyxml2.h	/^    XMLAttribute* _rootAttribute;$/;"	m	class:tinyxml2::XMLElement
+_simhasher	judgeEqual.h	/^    Simhasher *_simhasher;$/;"	m	class:SimHarh
+_size	tinyxml2.h	/^    int _size;			\/\/ number objects in use$/;"	m	class:tinyxml2::DynArray
+_stack	tinyxml2.h	/^    DynArray< const char*, 10 > _stack;$/;"	m	class:tinyxml2::XMLPrinter
+_start	tinyxml2.h	/^    char*   _start;$/;"	m	class:tinyxml2::StrPair
+_textDepth	tinyxml2.h	/^    int _textDepth;$/;"	m	class:tinyxml2::XMLPrinter
+_textPool	tinyxml2.h	/^    MemPoolT< sizeof(XMLText) >		 _textPool;$/;"	m	class:tinyxml2::XMLDocument
+_topN	judgeEqual.h	/^    size_t _topN;$/;"	m	class:SimHarh
+_topWords	PageLibPreprocessor.h	/^    vector<string> _topWords;  \/\/词频最高的前20个词$/;"	m	class:ll::WebPage
+_unlinked	tinyxml2.h	/^	DynArray<XMLNode*, 10> _unlinked;$/;"	m	class:tinyxml2::XMLDocument
+_userData	tinyxml2.h	/^	void*			_userData;$/;"	m	class:tinyxml2::XMLNode
+_value	tinyxml2.h	/^    mutable StrPair	_value;$/;"	m	class:tinyxml2::XMLNode
+_value	tinyxml2.h	/^    mutable StrPair _value;$/;"	m	class:tinyxml2::XMLAttribute
+_vecFiles	pageLib.hpp	/^    vector<string> _vecFiles; \/\/存放格式化后的网页容器$/;"	m	class:PageLib
+_whitespaceMode	tinyxml2.h	/^    Whitespace		_whitespaceMode;$/;"	m	class:tinyxml2::XMLDocument
+_wordsMap	PageLibPreprocessor.h	/^    map<string,int> _wordsMap;  \/\/保存每篇文档的所有词语和词频，不包括停用词$/;"	m	class:ll::WebPage
+_writeBOM	tinyxml2.h	/^    bool			_writeBOM;$/;"	m	class:tinyxml2::XMLDocument
+active_node_infos_	simhash/cppjieba/DictTrie.hpp	/^  deque<DictUnit> active_node_infos_; \/\/ must not be vector$/;"	m	class:cppjieba::DictTrie
+arg1_	simhash/cppjieba/limonp/Closure.hpp	/^  Arg1 arg1_;$/;"	m	class:limonp::Closure1
+arg1_	simhash/cppjieba/limonp/Closure.hpp	/^  Arg1 arg1_;$/;"	m	class:limonp::Closure2
+arg1_	simhash/cppjieba/limonp/Closure.hpp	/^  Arg1 arg1_;$/;"	m	class:limonp::Closure3
+arg1_	simhash/cppjieba/limonp/Closure.hpp	/^  Arg1 arg1_;$/;"	m	class:limonp::ObjClosure1
+arg1_	simhash/cppjieba/limonp/Closure.hpp	/^  Arg1 arg1_;$/;"	m	class:limonp::ObjClosure2
+arg1_	simhash/cppjieba/limonp/Closure.hpp	/^  Arg1 arg1_;$/;"	m	class:limonp::ObjClosure3
+arg1_	simhash/limonp/Closure.hpp	/^  Arg1 arg1_;$/;"	m	class:limonp::Closure1
+arg1_	simhash/limonp/Closure.hpp	/^  Arg1 arg1_;$/;"	m	class:limonp::Closure2
+arg1_	simhash/limonp/Closure.hpp	/^  Arg1 arg1_;$/;"	m	class:limonp::Closure3
+arg1_	simhash/limonp/Closure.hpp	/^  Arg1 arg1_;$/;"	m	class:limonp::ObjClosure1
+arg1_	simhash/limonp/Closure.hpp	/^  Arg1 arg1_;$/;"	m	class:limonp::ObjClosure2
+arg1_	simhash/limonp/Closure.hpp	/^  Arg1 arg1_;$/;"	m	class:limonp::ObjClosure3
+arg2_	simhash/cppjieba/limonp/Closure.hpp	/^  Arg2 arg2_;$/;"	m	class:limonp::Closure2
+arg2_	simhash/cppjieba/limonp/Closure.hpp	/^  Arg2 arg2_;$/;"	m	class:limonp::Closure3
+arg2_	simhash/cppjieba/limonp/Closure.hpp	/^  Arg2 arg2_;$/;"	m	class:limonp::ObjClosure2
+arg2_	simhash/cppjieba/limonp/Closure.hpp	/^  Arg2 arg2_;$/;"	m	class:limonp::ObjClosure3
+arg2_	simhash/limonp/Closure.hpp	/^  Arg2 arg2_;$/;"	m	class:limonp::Closure2
+arg2_	simhash/limonp/Closure.hpp	/^  Arg2 arg2_;$/;"	m	class:limonp::Closure3
+arg2_	simhash/limonp/Closure.hpp	/^  Arg2 arg2_;$/;"	m	class:limonp::ObjClosure2
+arg2_	simhash/limonp/Closure.hpp	/^  Arg2 arg2_;$/;"	m	class:limonp::ObjClosure3
+arg3_	simhash/cppjieba/limonp/Closure.hpp	/^  Arg3 arg3_;$/;"	m	class:limonp::Closure3
+arg3_	simhash/cppjieba/limonp/Closure.hpp	/^  Arg3 arg3_;$/;"	m	class:limonp::ObjClosure3
+arg3_	simhash/limonp/Closure.hpp	/^  Arg3 arg3_;$/;"	m	class:limonp::Closure3
+arg3_	simhash/limonp/Closure.hpp	/^  Arg3 arg3_;$/;"	m	class:limonp::ObjClosure3
+args_	simhash/cppjieba/limonp/ArgvContext.hpp	/^  vector<string> args_;$/;"	m	class:limonp::ArgvContext
+args_	simhash/limonp/ArgvContext.hpp	/^  vector<string> args_;$/;"	m	class:limonp::ArgvContext
+begin	simhash/cppjieba/Jieba.hpp	/^    size_t begin;$/;"	m	struct:cppjieba::Jieba::LocWord
+begin	simhash/cppjieba/PreFilter.hpp	/^    Unicode::const_iterator begin;$/;"	m	struct:cppjieba::PreFilter::Range
+begin	simhash/cppjieba/limonp/LocalVector.hpp	/^  const_iterator begin() const {$/;"	f	class:limonp::LocalVector
+begin	simhash/limonp/LocalVector.hpp	/^  const_iterator begin() const {$/;"	f	class:limonp::LocalVector
+binaryStringToUint64	simhash/Simhasher.hpp	/^            static uint64_t binaryStringToUint64(const string& bin)$/;"	f	class:simhash::Simhasher
+buffer	simhash/cppjieba/limonp/Md5.hpp	/^    unsigned char buffer[64];                         \/* input buffer *\/$/;"	m	struct:limonp::MD5::__context_t
+buffer	simhash/limonp/Md5.hpp	/^    unsigned char buffer[64];                         \/* input buffer *\/$/;"	m	struct:limonp::MD5::__context_t
+buffer_	simhash/cppjieba/limonp/LocalVector.hpp	/^  T buffer_[LOCAL_VECTOR_BUFFER_SIZE];$/;"	m	class:limonp::LocalVector
+buffer_	simhash/limonp/LocalVector.hpp	/^  T buffer_[LOCAL_VECTOR_BUFFER_SIZE];$/;"	m	class:limonp::LocalVector
+buildInvertIndexTable	PageLibPreprocessor.cc	/^void PageLibPreprocessor::buildInvertIndexTable()$/;"	f	class:ll::PageLibPreprocessor
+calcTopK	PageLibPreprocessor.cc	/^void WebPage::calcTopK(vector<string> &wordsVec,set<string> &stopWordList)$/;"	f	class:ll::WebPage
+callfopen	tinyxml2.cc	/^static FILE* callfopen( const char* filepath, const char* mode )$/;"	f	namespace:tinyxml2
+capacity	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^  size_t capacity() const {$/;"	f	class:limonp::BoundedBlockingQueue
+capacity	simhash/cppjieba/limonp/LocalVector.hpp	/^  size_t capacity() const {$/;"	f	class:limonp::LocalVector
+capacity	simhash/limonp/BoundedBlockingQueue.hpp	/^  size_t capacity() const {$/;"	f	class:limonp::BoundedBlockingQueue
+capacity	simhash/limonp/LocalVector.hpp	/^  size_t capacity() const {$/;"	f	class:limonp::LocalVector
+capacity_	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  const size_t capacity_;$/;"	m	class:limonp::BoundedQueue
+capacity_	simhash/cppjieba/limonp/LocalVector.hpp	/^  size_t capacity_;$/;"	m	class:limonp::LocalVector
+capacity_	simhash/limonp/BoundedQueue.hpp	/^  const size_t capacity_;$/;"	m	class:limonp::BoundedQueue
+capacity_	simhash/limonp/LocalVector.hpp	/^  size_t capacity_;$/;"	m	class:limonp::LocalVector
+circular_buffer_	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  vector<T> circular_buffer_;$/;"	m	class:limonp::BoundedQueue
+circular_buffer_	simhash/limonp/BoundedQueue.hpp	/^  vector<T> circular_buffer_;$/;"	m	class:limonp::BoundedQueue
+clear	simhash/cppjieba/limonp/LocalVector.hpp	/^  void clear() {$/;"	f	class:limonp::LocalVector
+clear	simhash/limonp/LocalVector.hpp	/^  void clear() {$/;"	f	class:limonp::LocalVector
+computerNum	judgeEqual.h	/^    u_int64_t computerNum(string str)$/;"	f	class:SimHarh
+const_iterator	simhash/cppjieba/limonp/LocalVector.hpp	/^  typedef const T* const_iterator ;$/;"	t	class:limonp::LocalVector
+const_iterator	simhash/limonp/LocalVector.hpp	/^  typedef const T* const_iterator ;$/;"	t	class:limonp::LocalVector
+context	simhash/cppjieba/limonp/Md5.hpp	/^  } context ;$/;"	m	class:limonp::MD5	typeref:struct:limonp::MD5::__context_t
+context	simhash/limonp/Md5.hpp	/^  } context ;$/;"	m	class:limonp::MD5	typeref:struct:limonp::MD5::__context_t
+count	simhash/cppjieba/limonp/Md5.hpp	/^    UINT4 count[2];        \/* number of bits, modulo 2^64 (lsb first) *\/$/;"	m	struct:limonp::MD5::__context_t
+count	simhash/limonp/Md5.hpp	/^    UINT4 count[2];        \/* number of bits, modulo 2^64 (lsb first) *\/$/;"	m	struct:limonp::MD5::__context_t
+cppjieba	simhash/cppjieba/DictTrie.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/FullSegment.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/HMMModel.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/HMMSegment.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/Jieba.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/KeywordExtractor.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/LevelSegment.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/MPSegment.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/MixSegment.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/PosTagger.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/PreFilter.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/QuerySegment.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/SegmentBase.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/TransCode.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	simhash/cppjieba/Trie.hpp	/^namespace cppjieba {$/;"	n
+create	pageLib.hpp	/^void PageLib::create() \/\/将网页保存在ector中$/;"	f	class:PageLib
+cursor_	simhash/cppjieba/PreFilter.hpp	/^  Unicode::const_iterator cursor_;$/;"	m	class:cppjieba::PreFilter
+cutRedundantPages	PageLibPreprocessor.cc	/^void PageLibPreprocessor::cutRedundantPages()$/;"	f	class:ll::PageLibPreprocessor
+dictTrie_	simhash/cppjieba/FullSegment.hpp	/^  const DictTrie* dictTrie_;$/;"	m	class:cppjieba::FullSegment
+dictTrie_	simhash/cppjieba/MPSegment.hpp	/^  const DictTrie* dictTrie_;$/;"	m	class:cppjieba::MPSegment
+dict_trie_	simhash/cppjieba/Jieba.hpp	/^  DictTrie dict_trie_;$/;"	m	class:cppjieba::Jieba
+digestChars	simhash/cppjieba/limonp/Md5.hpp	/^  char digestChars[ 33 ] ;$/;"	m	class:limonp::MD5
+digestChars	simhash/limonp/Md5.hpp	/^  char digestChars[ 33 ] ;$/;"	m	class:limonp::MD5
+digestFile	simhash/cppjieba/limonp/Md5.hpp	/^  const char* digestFile( const char *filename ) {$/;"	f	class:limonp::MD5
+digestFile	simhash/limonp/Md5.hpp	/^  const char* digestFile( const char *filename ) {$/;"	f	class:limonp::MD5
+digestMemory	simhash/cppjieba/limonp/Md5.hpp	/^  const char* digestMemory( BYTE *memchunk, int len ) {$/;"	f	class:limonp::MD5
+digestMemory	simhash/limonp/Md5.hpp	/^  const char* digestMemory( BYTE *memchunk, int len ) {$/;"	f	class:limonp::MD5
+digestRaw	simhash/cppjieba/limonp/Md5.hpp	/^  BYTE digestRaw[ 16 ] ;$/;"	m	class:limonp::MD5
+digestRaw	simhash/limonp/Md5.hpp	/^  BYTE digestRaw[ 16 ] ;$/;"	m	class:limonp::MD5
+digestString	simhash/cppjieba/limonp/Md5.hpp	/^  const char* digestString(const char *string ) {$/;"	f	class:limonp::MD5
+digestString	simhash/limonp/Md5.hpp	/^  const char* digestString(const char *string ) {$/;"	f	class:limonp::MD5
+dir	readfile.h	/^char dir[100] = ".\/rss源语料";$/;"	v
+doProcess	PageLibPreprocessor.cc	/^void PageLibPreprocessor::doProcess()$/;"	f	class:ll::PageLibPreprocessor
+emitProbB	simhash/cppjieba/HMMModel.hpp	/^  EmitProbMap emitProbB;$/;"	m	struct:cppjieba::HMMModel
+emitProbE	simhash/cppjieba/HMMModel.hpp	/^  EmitProbMap emitProbE;$/;"	m	struct:cppjieba::HMMModel
+emitProbM	simhash/cppjieba/HMMModel.hpp	/^  EmitProbMap emitProbM;$/;"	m	struct:cppjieba::HMMModel
+emitProbS	simhash/cppjieba/HMMModel.hpp	/^  EmitProbMap emitProbS;$/;"	m	struct:cppjieba::HMMModel
+emitProbVec	simhash/cppjieba/HMMModel.hpp	/^  vector<EmitProbMap* > emitProbVec;$/;"	m	struct:cppjieba::HMMModel
+empty	simhash/cppjieba/limonp/LocalVector.hpp	/^  bool empty() const {$/;"	f	class:limonp::LocalVector
+empty	simhash/limonp/LocalVector.hpp	/^  bool empty() const {$/;"	f	class:limonp::LocalVector
+end	simhash/cppjieba/Jieba.hpp	/^    size_t end;$/;"	m	struct:cppjieba::Jieba::LocWord
+end	simhash/cppjieba/PreFilter.hpp	/^    Unicode::const_iterator end;$/;"	m	struct:cppjieba::PreFilter::Range
+end	simhash/cppjieba/limonp/LocalVector.hpp	/^  const_iterator end() const {$/;"	f	class:limonp::LocalVector
+end	simhash/limonp/LocalVector.hpp	/^  const_iterator end() const {$/;"	f	class:limonp::LocalVector
+entities	tinyxml2.cc	/^static const Entity entities[NUM_ENTITIES] = {$/;"	m	namespace:tinyxml2	file:
+err_	simhash/cppjieba/limonp/FileLock.hpp	/^  string err_;$/;"	m	class:limonp::FileLock
+err_	simhash/limonp/FileLock.hpp	/^  string err_;$/;"	m	class:limonp::FileLock
+extract	simhash/Simhasher.hpp	/^            bool extract(const string& text, vector<pair<string,double> > & res, size_t topN) const$/;"	f	class:simhash::Simhasher
+fd_	simhash/cppjieba/limonp/FileLock.hpp	/^  int fd_;$/;"	m	class:limonp::FileLock
+fd_	simhash/limonp/FileLock.hpp	/^  int fd_;$/;"	m	class:limonp::FileLock
+final	simhash/jenkins.h	60;"	d
+fullSeg_	simhash/cppjieba/QuerySegment.hpp	/^  FullSegment fullSeg_;$/;"	m	class:cppjieba::QuerySegment
+full_seg_	simhash/cppjieba/Jieba.hpp	/^  FullSegment full_seg_;$/;"	m	class:cppjieba::Jieba
+fun_	simhash/cppjieba/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::Closure0
+fun_	simhash/cppjieba/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::Closure1
+fun_	simhash/cppjieba/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::Closure2
+fun_	simhash/cppjieba/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::Closure3
+fun_	simhash/cppjieba/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::ObjClosure0
+fun_	simhash/cppjieba/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::ObjClosure1
+fun_	simhash/cppjieba/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::ObjClosure2
+fun_	simhash/cppjieba/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::ObjClosure3
+fun_	simhash/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::Closure0
+fun_	simhash/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::Closure1
+fun_	simhash/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::Closure2
+fun_	simhash/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::Closure3
+fun_	simhash/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::ObjClosure0
+fun_	simhash/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::ObjClosure1
+fun_	simhash/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::ObjClosure2
+fun_	simhash/limonp/Closure.hpp	/^  Funct fun_;$/;"	m	class:limonp::ObjClosure3
+getAllFilesName	readfile.h	/^vector<string> getAllFilesName( const char * dir_name  )$/;"	f
+getConfigMap	Configuration.hpp	/^    map<string,string> &getConfigMap()$/;"	f	class:ll::Configuration
+getDoc	PageLibPreprocessor.h	/^    string getDoc() {return _doc;} \/\/获取文档$/;"	f	class:ll::WebPage
+getDocId	PageLibPreprocessor.h	/^    int getDocId() { return _docId;  }  \/\/获取文档的docid$/;"	f	class:ll::WebPage
+getStopWordList	Configuration.hpp	/^set<std::string> & getStopWordList()$/;"	f	class:ll::Configuration
+getSum	testDelete.cc	/^    int getSum()$/;"	f	class:ReadLib
+getTitle	PageLibPreprocessor.h	/^    string getTitle() {return _docTitle;}$/;"	f	class:ll::WebPage
+getUrl	PageLibPreprocessor.h	/^    string getUrl() {return _docUrl;}$/;"	f	class:ll::WebPage
+getWordsMap	PageLibPreprocessor.h	/^    map<string, int> & getWordsMap() {return _wordsMap;}    \/\/获取文档的词频统计map$/;"	f	class:ll::WebPage
+hashlittle2	simhash/jenkins.h	/^		void hashlittle2($/;"	f	struct:simhash::jenkins
+head_	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  size_t head_;$/;"	m	class:limonp::BoundedQueue
+head_	simhash/limonp/BoundedQueue.hpp	/^  size_t head_;$/;"	m	class:limonp::BoundedQueue
+hmmSeg_	simhash/cppjieba/MixSegment.hpp	/^  HMMSegment hmmSeg_;$/;"	m	class:cppjieba::MixSegment
+hmm_seg_	simhash/cppjieba/Jieba.hpp	/^  HMMSegment hmm_seg_;$/;"	m	class:cppjieba::Jieba
+idfAverage_	simhash/cppjieba/KeywordExtractor.hpp	/^  double idfAverage_;$/;"	m	class:cppjieba::KeywordExtractor
+idfMap_	simhash/cppjieba/KeywordExtractor.hpp	/^  unordered_map<string, double> idfMap_;$/;"	m	class:cppjieba::KeywordExtractor
+init_	simhash/cppjieba/limonp/LocalVector.hpp	/^  void init_() {$/;"	f	class:limonp::LocalVector
+init_	simhash/limonp/LocalVector.hpp	/^  void init_() {$/;"	f	class:limonp::LocalVector
+isEqual	simhash/Simhasher.hpp	/^            static bool isEqual(uint64_t lhs, uint64_t rhs, unsigned short n = 3)$/;"	f	class:simhash::Simhasher
+isJoined	simhash/cppjieba/limonp/Thread.hpp	/^  bool isJoined;$/;"	m	class:limonp::IThread
+isJoined	simhash/limonp/Thread.hpp	/^  bool isJoined;$/;"	m	class:limonp::IThread
+isNeedDestroy_	simhash/cppjieba/FullSegment.hpp	/^  bool isNeedDestroy_;$/;"	m	class:cppjieba::FullSegment
+isNeedDestroy_	simhash/cppjieba/HMMSegment.hpp	/^  bool isNeedDestroy_;$/;"	m	class:cppjieba::HMMSegment
+isNeedDestroy_	simhash/cppjieba/MPSegment.hpp	/^  bool isNeedDestroy_;$/;"	m	class:cppjieba::MPSegment
+isStarted	simhash/cppjieba/limonp/Thread.hpp	/^  bool isStarted;$/;"	m	class:limonp::IThread
+isStarted	simhash/limonp/Thread.hpp	/^  bool isStarted;$/;"	m	class:limonp::IThread
+itemData	tinyxml2.h	/^        char    itemData[ITEM_SIZE];$/;"	m	union:tinyxml2::MemPoolT::Item
+items	tinyxml2.h	/^        Item items[ITEMS_PER_BLOCK];$/;"	m	struct:tinyxml2::MemPoolT::Block
+jenkins	simhash/jenkins.h	/^	struct jenkins {$/;"	s	namespace:simhash
+judgeEqueal	judgeEqual.h	/^    bool judgeEqueal(string l,string r)  \/\/判断两个字符串是否相似$/;"	f	class:SimHarh
+judgeEquealNum	judgeEqual.h	/^    bool judgeEquealNum(u_int64_t l,u_int64_t r) \/\/通过simharh码直接比较$/;"	f	class:SimHarh
+length	tinyxml2.cc	/^    int length;$/;"	m	struct:tinyxml2::Entity	file:
+level_	simhash/cppjieba/limonp/Logging.hpp	/^  size_t level_;$/;"	m	class:limonp::Logger
+level_	simhash/limonp/Logging.hpp	/^  size_t level_;$/;"	m	class:limonp::Logger
+level_seg_	simhash/cppjieba/Jieba.hpp	/^  LevelSegment level_seg_;$/;"	m	class:cppjieba::Jieba
+limonp	simhash/cppjieba/limonp/ArgvContext.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/BlockingQueue.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/BoundedQueue.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/Closure.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/Colors.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/Condition.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/Config.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/FileLock.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/LocalVector.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/Logging.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/Md5.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/MutexLock.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/NonCopyable.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/StringUtil.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/Thread.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/cppjieba/limonp/ThreadPool.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/ArgvContext.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/BlockingQueue.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/BoundedBlockingQueue.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/BoundedQueue.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/Closure.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/Colors.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/Condition.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/Config.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/FileLock.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/LocalVector.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/Logging.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/Md5.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/MutexLock.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/NonCopyable.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/StringUtil.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/Thread.hpp	/^namespace limonp {$/;"	n
+limonp	simhash/limonp/ThreadPool.hpp	/^namespace limonp {$/;"	n
+ll	Configuration.hpp	/^namespace ll$/;"	n
+ll	PageLibPreprocessor.cc	/^namespace ll$/;"	n	file:
+ll	PageLibPreprocessor.h	/^namespace ll$/;"	n
+ll	SplitTool.h	/^namespace ll$/;"	n
+main	simhash/test1/test.cc	/^int main()$/;"	f
+main	testDelete.cc	/^int main()$/;"	f
+make	simhash/Simhasher.hpp	/^            bool make(const string& text, size_t topN, uint64_t& v64) const$/;"	f	class:simhash::Simhasher
+make	simhash/Simhasher.hpp	/^            bool make(const string& text, size_t topN, vector<pair<uint64_t, double> >& res) const$/;"	f	class:simhash::Simhasher
+map_	simhash/cppjieba/limonp/Config.hpp	/^  map<string, string> map_;$/;"	m	class:limonp::Config
+map_	simhash/limonp/Config.hpp	/^  map<string, string> map_;$/;"	m	class:limonp::Config
+maxWordLen_	simhash/cppjieba/QuerySegment.hpp	/^  size_t maxWordLen_;$/;"	m	class:cppjieba::QuerySegment
+max_weight_	simhash/cppjieba/DictTrie.hpp	/^  double max_weight_;$/;"	m	class:cppjieba::DictTrie
+md5File	simhash/cppjieba/limonp/Md5.hpp	/^inline bool md5File(const char* filepath, std::string& res) {$/;"	f	namespace:limonp
+md5File	simhash/limonp/Md5.hpp	/^inline bool md5File(const char* filepath, std::string& res) {$/;"	f	namespace:limonp
+md5String	simhash/cppjieba/limonp/Md5.hpp	/^inline bool md5String(const char* str, std::string& res) {$/;"	f	namespace:limonp
+md5String	simhash/limonp/Md5.hpp	/^inline bool md5String(const char* str, std::string& res) {$/;"	f	namespace:limonp
+median_weight_	simhash/cppjieba/DictTrie.hpp	/^  double median_weight_;$/;"	m	class:cppjieba::DictTrie
+min_weight_	simhash/cppjieba/DictTrie.hpp	/^  double min_weight_;$/;"	m	class:cppjieba::DictTrie
+mix	simhash/jenkins.h	50;"	d
+mixSeg_	simhash/cppjieba/QuerySegment.hpp	/^  MixSegment mixSeg_;$/;"	m	class:cppjieba::QuerySegment
+mix_seg_	simhash/cppjieba/Jieba.hpp	/^  MixSegment mix_seg_;$/;"	m	class:cppjieba::Jieba
+model_	simhash/cppjieba/HMMSegment.hpp	/^  const HMMModel* model_;$/;"	m	class:cppjieba::HMMSegment
+model_	simhash/cppjieba/Jieba.hpp	/^  HMMModel model_;$/;"	m	class:cppjieba::Jieba
+mpSeg_	simhash/cppjieba/LevelSegment.hpp	/^  MPSegment mpSeg_;$/;"	m	class:cppjieba::LevelSegment
+mpSeg_	simhash/cppjieba/MixSegment.hpp	/^  MPSegment mpSeg_;$/;"	m	class:cppjieba::MixSegment
+mp_seg_	simhash/cppjieba/Jieba.hpp	/^  MPSegment mp_seg_;$/;"	m	class:cppjieba::Jieba
+mpss_	simhash/cppjieba/limonp/ArgvContext.hpp	/^  map<string, string> mpss_;$/;"	m	class:limonp::ArgvContext
+mpss_	simhash/limonp/ArgvContext.hpp	/^  map<string, string> mpss_;$/;"	m	class:limonp::ArgvContext
+mutex_	simhash/cppjieba/limonp/BlockingQueue.hpp	/^  mutable MutexLock mutex_;$/;"	m	class:limonp::BlockingQueue
+mutex_	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^  mutable MutexLock          mutex_;$/;"	m	class:limonp::BoundedBlockingQueue
+mutex_	simhash/cppjieba/limonp/Condition.hpp	/^  MutexLock& mutex_;$/;"	m	class:limonp::Condition
+mutex_	simhash/cppjieba/limonp/MutexLock.hpp	/^  MutexLock & mutex_;$/;"	m	class:limonp::MutexLockGuard
+mutex_	simhash/cppjieba/limonp/MutexLock.hpp	/^  pthread_mutex_t mutex_;$/;"	m	class:limonp::MutexLock
+mutex_	simhash/limonp/BlockingQueue.hpp	/^  mutable MutexLock mutex_;$/;"	m	class:limonp::BlockingQueue
+mutex_	simhash/limonp/BoundedBlockingQueue.hpp	/^  mutable MutexLock          mutex_;$/;"	m	class:limonp::BoundedBlockingQueue
+mutex_	simhash/limonp/Condition.hpp	/^  MutexLock& mutex_;$/;"	m	class:limonp::Condition
+mutex_	simhash/limonp/MutexLock.hpp	/^  MutexLock & mutex_;$/;"	m	class:limonp::MutexLockGuard
+mutex_	simhash/limonp/MutexLock.hpp	/^  pthread_mutex_t mutex_;$/;"	m	class:limonp::MutexLock
+next	simhash/cppjieba/Trie.hpp	/^  NextMap *next;$/;"	m	class:cppjieba::TrieNode
+next	tinyxml2.h	/^        Item*   next;$/;"	m	union:tinyxml2::MemPoolT::Item
+nextPos	simhash/cppjieba/Trie.hpp	/^  size_t nextPos;$/;"	m	struct:cppjieba::Dag
+nexts	simhash/cppjieba/Trie.hpp	/^  LocalVector<pair<size_t, const DictUnit*> > nexts;$/;"	m	struct:cppjieba::Dag
+notEmpty_	simhash/cppjieba/limonp/BlockingQueue.hpp	/^  Condition         notEmpty_;$/;"	m	class:limonp::BlockingQueue
+notEmpty_	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^  Condition                  notEmpty_;$/;"	m	class:limonp::BoundedBlockingQueue
+notEmpty_	simhash/limonp/BlockingQueue.hpp	/^  Condition         notEmpty_;$/;"	m	class:limonp::BlockingQueue
+notEmpty_	simhash/limonp/BoundedBlockingQueue.hpp	/^  Condition                  notEmpty_;$/;"	m	class:limonp::BoundedBlockingQueue
+notFull_	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^  Condition                  notFull_;$/;"	m	class:limonp::BoundedBlockingQueue
+notFull_	simhash/limonp/BoundedBlockingQueue.hpp	/^  Condition                  notFull_;$/;"	m	class:limonp::BoundedBlockingQueue
+ok_	simhash/cppjieba/limonp/FileLock.hpp	/^  bool ok_;$/;"	m	class:limonp::FileLock
+ok_	simhash/limonp/FileLock.hpp	/^  bool ok_;$/;"	m	class:limonp::FileLock
+operator ()	PageLibPreprocessor.cc	/^    bool operator()(const pair<string, int> & left, const pair<string, int> & right)$/;"	f	struct:ll::WordFreqCompare
+operator ()	simhash/jenkins.h	/^		uint64_t operator()(const char* data, size_t len, uint64_t s) const {$/;"	f	struct:simhash::jenkins
+operator <	PageLibPreprocessor.cc	/^bool operator < (const WebPage & lhs, const WebPage & rhs)$/;"	f	namespace:ll
+operator <<	simhash/cppjieba/Trie.hpp	/^inline ostream & operator << (ostream& os, const DictUnit& unit) {$/;"	f	namespace:cppjieba
+operator <<	simhash/cppjieba/limonp/ArgvContext.hpp	/^inline ostream& operator << (ostream& os, const ArgvContext& args) {$/;"	f	namespace:limonp
+operator <<	simhash/cppjieba/limonp/Config.hpp	/^inline ostream& operator << (ostream& os, const Config& config) {$/;"	f	namespace:limonp
+operator <<	simhash/cppjieba/limonp/LocalVector.hpp	/^ostream & operator << (ostream& os, const LocalVector<T>& vec) {$/;"	f	namespace:limonp
+operator <<	simhash/cppjieba/limonp/StdExtension.hpp	/^basic_string<T> & operator << (basic_string<T> & s, ifstream & ifs) {$/;"	f	namespace:std
+operator <<	simhash/cppjieba/limonp/StdExtension.hpp	/^ofstream & operator << (ofstream & ofs, const basic_string<T>& s) {$/;"	f	namespace:std
+operator <<	simhash/cppjieba/limonp/StdExtension.hpp	/^ostream& operator << (ostream& os, const deque<T>& dq) {$/;"	f	namespace:std
+operator <<	simhash/cppjieba/limonp/StdExtension.hpp	/^ostream& operator << (ostream& os, const map<T1, T2>& mp) {$/;"	f	namespace:std
+operator <<	simhash/cppjieba/limonp/StdExtension.hpp	/^ostream& operator << (ostream& os, const pair<T1, T2>& pr) {$/;"	f	namespace:std
+operator <<	simhash/cppjieba/limonp/StdExtension.hpp	/^ostream& operator << (ostream& os, const set<T>& st) {$/;"	f	namespace:std
+operator <<	simhash/cppjieba/limonp/StdExtension.hpp	/^ostream& operator << (ostream& os, const std::unordered_map<T1, T2>& mp) {$/;"	f	namespace:std
+operator <<	simhash/cppjieba/limonp/StdExtension.hpp	/^ostream& operator << (ostream& os, const vector<T>& v) {$/;"	f	namespace:std
+operator <<	simhash/cppjieba/limonp/StdExtension.hpp	/^string& operator << (string& str, const T& obj) {$/;"	f	namespace:std
+operator <<	simhash/limonp/ArgvContext.hpp	/^inline ostream& operator << (ostream& os, const ArgvContext& args) {$/;"	f	namespace:limonp
+operator <<	simhash/limonp/Config.hpp	/^inline ostream& operator << (ostream& os, const Config& config) {$/;"	f	namespace:limonp
+operator <<	simhash/limonp/LocalVector.hpp	/^ostream & operator << (ostream& os, const LocalVector<T>& vec) {$/;"	f	namespace:limonp
+operator <<	simhash/limonp/StdExtension.hpp	/^basic_string<T> & operator << (basic_string<T> & s, ifstream & ifs) {$/;"	f	namespace:std
+operator <<	simhash/limonp/StdExtension.hpp	/^ofstream & operator << (ofstream & ofs, const basic_string<T>& s) {$/;"	f	namespace:std
+operator <<	simhash/limonp/StdExtension.hpp	/^ostream& operator << (ostream& os, const deque<T>& dq) {$/;"	f	namespace:std
+operator <<	simhash/limonp/StdExtension.hpp	/^ostream& operator << (ostream& os, const map<T1, T2>& mp) {$/;"	f	namespace:std
+operator <<	simhash/limonp/StdExtension.hpp	/^ostream& operator << (ostream& os, const pair<T1, T2>& pr) {$/;"	f	namespace:std
+operator <<	simhash/limonp/StdExtension.hpp	/^ostream& operator << (ostream& os, const set<T>& st) {$/;"	f	namespace:std
+operator <<	simhash/limonp/StdExtension.hpp	/^ostream& operator << (ostream& os, const std::unordered_map<T1, T2>& mp) {$/;"	f	namespace:std
+operator <<	simhash/limonp/StdExtension.hpp	/^ostream& operator << (ostream& os, const vector<T>& v) {$/;"	f	namespace:std
+operator <<	simhash/limonp/StdExtension.hpp	/^string& operator << (string& str, const T& obj) {$/;"	f	namespace:std
+operator =	simhash/cppjieba/limonp/LocalVector.hpp	/^  LocalVector<T>& operator = (const LocalVector<T>& vec) {$/;"	f	class:limonp::LocalVector
+operator =	simhash/limonp/LocalVector.hpp	/^  LocalVector<T>& operator = (const LocalVector<T>& vec) {$/;"	f	class:limonp::LocalVector
+operator =	tinyxml2.h	/^    XMLConstHandle& operator=( const XMLConstHandle& ref )							{$/;"	f	class:tinyxml2::XMLConstHandle
+operator =	tinyxml2.h	/^    XMLHandle& operator=( const XMLHandle& ref )							{$/;"	f	class:tinyxml2::XMLHandle
+operator ==	PageLibPreprocessor.cc	/^bool operator == (const WebPage & lhs, const WebPage & rhs) $/;"	f	namespace:ll
+operator []	simhash/cppjieba/limonp/ArgvContext.hpp	/^  string operator [](const string& key) const {$/;"	f	class:limonp::ArgvContext
+operator []	simhash/cppjieba/limonp/ArgvContext.hpp	/^  string operator [](size_t i) const {$/;"	f	class:limonp::ArgvContext
+operator []	simhash/cppjieba/limonp/Config.hpp	/^  const char* operator [] (const char* key) const {$/;"	f	class:limonp::Config
+operator []	simhash/cppjieba/limonp/LocalVector.hpp	/^  T& operator [] (size_t i) {$/;"	f	class:limonp::LocalVector
+operator []	simhash/cppjieba/limonp/LocalVector.hpp	/^  const T& operator [] (size_t i) const {$/;"	f	class:limonp::LocalVector
+operator []	simhash/limonp/ArgvContext.hpp	/^  string operator [](const string& key) const {$/;"	f	class:limonp::ArgvContext
+operator []	simhash/limonp/ArgvContext.hpp	/^  string operator [](size_t i) const {$/;"	f	class:limonp::ArgvContext
+operator []	simhash/limonp/Config.hpp	/^  const char* operator [] (const char* key) const {$/;"	f	class:limonp::Config
+operator []	simhash/limonp/LocalVector.hpp	/^  T& operator [] (size_t i) {$/;"	f	class:limonp::LocalVector
+operator []	simhash/limonp/LocalVector.hpp	/^  const T& operator [] (size_t i) const {$/;"	f	class:limonp::LocalVector
+operator []	tinyxml2.h	/^    T& operator[](int i)				{$/;"	f	class:tinyxml2::DynArray
+operator []	tinyxml2.h	/^    const T& operator[](int i) const	{$/;"	f	class:tinyxml2::DynArray
+operator bool	simhash/cppjieba/limonp/Config.hpp	/^  operator bool () {$/;"	f	class:limonp::Config
+operator bool	simhash/limonp/Config.hpp	/^  operator bool () {$/;"	f	class:limonp::Config
+pInfo	simhash/cppjieba/Trie.hpp	/^  const DictUnit * pInfo;$/;"	m	struct:cppjieba::Dag
+p_	simhash/cppjieba/limonp/Closure.hpp	/^  Obj* p_;$/;"	m	class:limonp::ObjClosure0
+p_	simhash/cppjieba/limonp/Closure.hpp	/^  Obj* p_;$/;"	m	class:limonp::ObjClosure1
+p_	simhash/cppjieba/limonp/Closure.hpp	/^  Obj* p_;$/;"	m	class:limonp::ObjClosure2
+p_	simhash/cppjieba/limonp/Closure.hpp	/^  Obj* p_;$/;"	m	class:limonp::ObjClosure3
+p_	simhash/limonp/Closure.hpp	/^  Obj* p_;$/;"	m	class:limonp::ObjClosure0
+p_	simhash/limonp/Closure.hpp	/^  Obj* p_;$/;"	m	class:limonp::ObjClosure1
+p_	simhash/limonp/Closure.hpp	/^  Obj* p_;$/;"	m	class:limonp::ObjClosure2
+p_	simhash/limonp/Closure.hpp	/^  Obj* p_;$/;"	m	class:limonp::ObjClosure3
+pattern	tinyxml2.cc	/^    const char* pattern;$/;"	m	struct:tinyxml2::Entity	file:
+pcond_	simhash/cppjieba/limonp/Condition.hpp	/^  pthread_cond_t pcond_;$/;"	m	class:limonp::Condition
+pcond_	simhash/limonp/Condition.hpp	/^  pthread_cond_t pcond_;$/;"	m	class:limonp::Condition
+pos_tagger_	simhash/cppjieba/Jieba.hpp	/^  PosTagger pos_tagger_;$/;"	m	class:cppjieba::Jieba
+print	simhash/cppjieba/limonp/StdExtension.hpp	32;"	d
+print	simhash/limonp/StdExtension.hpp	32;"	d
+private	simhash/cppjieba/limonp/ForcePublic.hpp	4;"	d
+private	simhash/limonp/ForcePublic.hpp	4;"	d
+processDoc	PageLibPreprocessor.cc	/^void WebPage::processDoc(const string &doc,$/;"	f	class:ll::WebPage
+protected	simhash/cppjieba/limonp/ForcePublic.hpp	5;"	d
+protected	simhash/limonp/ForcePublic.hpp	5;"	d
+ptThreadPool_	simhash/cppjieba/limonp/ThreadPool.hpp	/^    ThreadPool * ptThreadPool_;$/;"	m	class:limonp::ThreadPool::Worker
+ptThreadPool_	simhash/limonp/ThreadPool.hpp	/^    ThreadPool * ptThreadPool_;$/;"	m	class:limonp::ThreadPool::Worker
+ptValue	simhash/cppjieba/Trie.hpp	/^  const DictUnit *ptValue;$/;"	m	class:cppjieba::TrieNode
+ptr_	simhash/cppjieba/limonp/LocalVector.hpp	/^  T * ptr_;$/;"	m	class:limonp::LocalVector
+ptr_	simhash/limonp/LocalVector.hpp	/^  T * ptr_;$/;"	m	class:limonp::LocalVector
+push_back	simhash/cppjieba/limonp/LocalVector.hpp	/^  void push_back(const T& t) {$/;"	f	class:limonp::LocalVector
+push_back	simhash/limonp/LocalVector.hpp	/^  void push_back(const T& t) {$/;"	f	class:limonp::LocalVector
+query_seg_	simhash/cppjieba/Jieba.hpp	/^  QuerySegment query_seg_;$/;"	m	class:cppjieba::Jieba
+queue_	simhash/cppjieba/limonp/BlockingQueue.hpp	/^  std::queue<T>     queue_;$/;"	m	class:limonp::BlockingQueue
+queue_	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^  BoundedQueue<T>  queue_;$/;"	m	class:limonp::BoundedBlockingQueue
+queue_	simhash/cppjieba/limonp/ThreadPool.hpp	/^  BoundedBlockingQueue<ClosureInterface*> queue_;$/;"	m	class:limonp::ThreadPool
+queue_	simhash/limonp/BlockingQueue.hpp	/^  std::queue<T>     queue_;$/;"	m	class:limonp::BlockingQueue
+queue_	simhash/limonp/BoundedBlockingQueue.hpp	/^  BoundedQueue<T>  queue_;$/;"	m	class:limonp::BoundedBlockingQueue
+queue_	simhash/limonp/ThreadPool.hpp	/^  BoundedBlockingQueue<ClosureInterface*> queue_;$/;"	m	class:limonp::ThreadPool
+readInfoFromFile	PageLibPreprocessor.cc	/^void PageLibPreprocessor::readInfoFromFile()$/;"	f	class:ll::PageLibPreprocessor
+readLib	testDelete.cc	/^    string readLib(int num)  \/\/num代表网页库编号$/;"	f	class:ReadLib
+reserve	simhash/cppjieba/limonp/LocalVector.hpp	/^  void reserve(size_t size) {$/;"	f	class:limonp::LocalVector
+reserve	simhash/limonp/LocalVector.hpp	/^  void reserve(size_t size) {$/;"	f	class:limonp::LocalVector
+root_	simhash/cppjieba/Trie.hpp	/^  TrieNode* root_;$/;"	m	class:cppjieba::Trie
+rot	simhash/jenkins.h	48;"	d
+rune	simhash/cppjieba/Trie.hpp	/^  Rune rune;$/;"	m	struct:cppjieba::Dag
+segment_	simhash/cppjieba/KeywordExtractor.hpp	/^  MixSegment segment_;$/;"	m	class:cppjieba::KeywordExtractor
+segment_	simhash/cppjieba/PosTagger.hpp	/^  MixSegment segment_;$/;"	m	class:cppjieba::PosTagger
+sentence_	simhash/cppjieba/PreFilter.hpp	/^  Unicode sentence_;$/;"	m	class:cppjieba::PreFilter
+showmap	testDelete.cc	/^    void showmap()$/;"	f	class:ReadLib
+simhash	simhash/Simhasher.hpp	/^namespace simhash$/;"	n
+simhash	simhash/jenkins.h	/^namespace simhash {$/;"	n
+size	simhash/cppjieba/limonp/BoundedBlockingQueue.hpp	/^  size_t size() const {$/;"	f	class:limonp::BoundedBlockingQueue
+size	simhash/cppjieba/limonp/LocalVector.hpp	/^  size_t size() const {$/;"	f	class:limonp::LocalVector
+size	simhash/limonp/BoundedBlockingQueue.hpp	/^  size_t size() const {$/;"	f	class:limonp::BoundedBlockingQueue
+size	simhash/limonp/LocalVector.hpp	/^  size_t size() const {$/;"	f	class:limonp::LocalVector
+size_	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  size_t size_;$/;"	m	class:limonp::BoundedQueue
+size_	simhash/cppjieba/limonp/LocalVector.hpp	/^  size_t size_;$/;"	m	class:limonp::LocalVector
+size_	simhash/limonp/BoundedQueue.hpp	/^  size_t size_;$/;"	m	class:limonp::BoundedQueue
+size_	simhash/limonp/LocalVector.hpp	/^  size_t size_;$/;"	m	class:limonp::LocalVector
+size_type	simhash/cppjieba/limonp/LocalVector.hpp	/^  typedef size_t size_type;$/;"	t	class:limonp::LocalVector
+size_type	simhash/limonp/LocalVector.hpp	/^  typedef size_t size_type;$/;"	t	class:limonp::LocalVector
+sset_	simhash/cppjieba/limonp/ArgvContext.hpp	/^  set<string> sset_;$/;"	m	class:limonp::ArgvContext
+sset_	simhash/limonp/ArgvContext.hpp	/^  set<string> sset_;$/;"	m	class:limonp::ArgvContext
+startProb	simhash/cppjieba/HMMModel.hpp	/^  double startProb[STATUS_SUM];$/;"	m	struct:cppjieba::HMMModel
+statMap	simhash/cppjieba/HMMModel.hpp	/^  char statMap[STATUS_SUM];$/;"	m	struct:cppjieba::HMMModel
+state	simhash/cppjieba/limonp/Md5.hpp	/^    UINT4 state[4];                                   \/* state (ABCD) *\/$/;"	m	struct:limonp::MD5::__context_t
+state	simhash/limonp/Md5.hpp	/^    UINT4 state[4];                                   \/* state (ABCD) *\/$/;"	m	struct:limonp::MD5::__context_t
+static_node_infos_	simhash/cppjieba/DictTrie.hpp	/^  vector<DictUnit> static_node_infos_;$/;"	m	class:cppjieba::DictTrie
+std	simhash/cppjieba/limonp/StdExtension.hpp	/^namespace std {$/;"	n
+std	simhash/limonp/StdExtension.hpp	/^namespace std {$/;"	n
+stopWordList_	Configuration.hpp	/^    set<std::string> stopWordList_;$/;"	m	class:ll::Configuration
+stopWords_	simhash/cppjieba/KeywordExtractor.hpp	/^  unordered_set<string> stopWords_;$/;"	m	class:cppjieba::KeywordExtractor
+store	pageLib.hpp	/^void PageLib::store()$/;"	f	class:PageLib
+storeOnDisk	PageLibPreprocessor.cc	/^void PageLibPreprocessor::storeOnDisk()$/;"	f	class:ll::PageLibPreprocessor
+stream_	simhash/cppjieba/limonp/Logging.hpp	/^  std::ostringstream stream_;$/;"	m	class:limonp::Logger
+stream_	simhash/limonp/Logging.hpp	/^  std::ostringstream stream_;$/;"	m	class:limonp::Logger
+symbols_	simhash/cppjieba/PreFilter.hpp	/^  const unordered_set<Rune>& symbols_;$/;"	m	class:cppjieba::PreFilter
+symbols_	simhash/cppjieba/SegmentBase.hpp	/^  unordered_set<Rune> symbols_;$/;"	m	class:cppjieba::SegmentBase
+tag	simhash/cppjieba/Trie.hpp	/^  string tag;$/;"	m	struct:cppjieba::DictUnit
+tail_	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  size_t tail_;$/;"	m	class:limonp::BoundedQueue
+tail_	simhash/limonp/BoundedQueue.hpp	/^  size_t tail_;$/;"	m	class:limonp::BoundedQueue
+thread_	simhash/cppjieba/limonp/Thread.hpp	/^  pthread_t thread_;$/;"	m	class:limonp::IThread
+thread_	simhash/limonp/Thread.hpp	/^  pthread_t thread_;$/;"	m	class:limonp::IThread
+threads_	simhash/cppjieba/limonp/ThreadPool.hpp	/^  vector<IThread*> threads_;$/;"	m	class:limonp::ThreadPool
+threads_	simhash/limonp/ThreadPool.hpp	/^  vector<IThread*> threads_;$/;"	m	class:limonp::ThreadPool
+tinyxml2	tinyxml2.cc	/^namespace tinyxml2$/;"	n	file:
+tinyxml2	tinyxml2.h	/^namespace tinyxml2$/;"	n
+toBinaryString	simhash/Simhasher.hpp	/^            static void toBinaryString(uint64_t req, string& res)$/;"	f	class:simhash::Simhasher
+transProb	simhash/cppjieba/HMMModel.hpp	/^  double transProb[STATUS_SUM][STATUS_SUM];$/;"	m	struct:cppjieba::HMMModel
+trie_	simhash/cppjieba/DictTrie.hpp	/^  Trie * trie_;$/;"	m	class:cppjieba::DictTrie
+user_dict_single_chinese_word_	simhash/cppjieba/DictTrie.hpp	/^  unordered_set<Rune> user_dict_single_chinese_word_;$/;"	m	class:cppjieba::DictTrie
+user_word_default_weight_	simhash/cppjieba/DictTrie.hpp	/^  double user_word_default_weight_;$/;"	m	class:cppjieba::DictTrie
+value	tinyxml2.cc	/^    char value;$/;"	m	struct:tinyxml2::Entity	file:
+value_type	simhash/cppjieba/limonp/LocalVector.hpp	/^  typedef T value_type;$/;"	t	class:limonp::LocalVector
+value_type	simhash/limonp/LocalVector.hpp	/^  typedef T value_type;$/;"	t	class:limonp::LocalVector
+weight	simhash/cppjieba/Trie.hpp	/^  double weight;$/;"	m	struct:cppjieba::Dag
+weight	simhash/cppjieba/Trie.hpp	/^  double weight;$/;"	m	struct:cppjieba::DictUnit
+word	simhash/cppjieba/Jieba.hpp	/^    string word;$/;"	m	struct:cppjieba::Jieba::LocWord
+word	simhash/cppjieba/Trie.hpp	/^  Unicode word;$/;"	m	struct:cppjieba::DictUnit
+writeBoolFalse	tinyxml2.cc	/^const char* XMLUtil::writeBoolFalse = "false";$/;"	m	class:tinyxml2::XMLUtil	file:
+writeBoolFalse	tinyxml2.h	/^	static const char* writeBoolFalse;$/;"	m	class:tinyxml2::XMLUtil
+writeBoolTrue	tinyxml2.cc	/^const char* XMLUtil::writeBoolTrue  = "true";$/;"	m	class:tinyxml2::XMLUtil	file:
+writeBoolTrue	tinyxml2.h	/^	static const char* writeBoolTrue;$/;"	m	class:tinyxml2::XMLUtil
+writeToString	simhash/cppjieba/limonp/Md5.hpp	/^  void writeToString() {$/;"	f	class:limonp::MD5
+writeToString	simhash/limonp/Md5.hpp	/^  void writeToString() {$/;"	f	class:limonp::MD5
+~ArgvContext	simhash/cppjieba/limonp/ArgvContext.hpp	/^  ~ArgvContext() {$/;"	f	class:limonp::ArgvContext
+~ArgvContext	simhash/limonp/ArgvContext.hpp	/^  ~ArgvContext() {$/;"	f	class:limonp::ArgvContext
+~BoundedQueue	simhash/cppjieba/limonp/BoundedQueue.hpp	/^  ~BoundedQueue() {$/;"	f	class:limonp::BoundedQueue
+~BoundedQueue	simhash/limonp/BoundedQueue.hpp	/^  ~BoundedQueue() {$/;"	f	class:limonp::BoundedQueue
+~Closure0	simhash/cppjieba/limonp/Closure.hpp	/^  virtual ~Closure0() {$/;"	f	class:limonp::Closure0
+~Closure0	simhash/limonp/Closure.hpp	/^  virtual ~Closure0() {$/;"	f	class:limonp::Closure0
+~Closure1	simhash/cppjieba/limonp/Closure.hpp	/^  virtual ~Closure1() {$/;"	f	class:limonp::Closure1
+~Closure1	simhash/limonp/Closure.hpp	/^  virtual ~Closure1() {$/;"	f	class:limonp::Closure1
+~Closure2	simhash/cppjieba/limonp/Closure.hpp	/^  virtual ~Closure2() {$/;"	f	class:limonp::Closure2
+~Closure2	simhash/limonp/Closure.hpp	/^  virtual ~Closure2() {$/;"	f	class:limonp::Closure2
+~Closure3	simhash/cppjieba/limonp/Closure.hpp	/^  virtual ~Closure3() {$/;"	f	class:limonp::Closure3
+~Closure3	simhash/limonp/Closure.hpp	/^  virtual ~Closure3() {$/;"	f	class:limonp::Closure3
+~ClosureInterface	simhash/cppjieba/limonp/Closure.hpp	/^  virtual ~ClosureInterface() {$/;"	f	class:limonp::ClosureInterface
+~ClosureInterface	simhash/limonp/Closure.hpp	/^  virtual ~ClosureInterface() {$/;"	f	class:limonp::ClosureInterface
+~Condition	simhash/cppjieba/limonp/Condition.hpp	/^  ~Condition() {$/;"	f	class:limonp::Condition
+~Condition	simhash/limonp/Condition.hpp	/^  ~Condition() {$/;"	f	class:limonp::Condition
+~Configuration	Configuration.hpp	/^    ~Configuration() {}$/;"	f	class:ll::Configuration
+~CppJieba	SplitTool.h	/^    ~CppJieba() $/;"	f	class:ll::CppJieba
+~DepthTracker	tinyxml2.h	/^		~DepthTracker() {$/;"	f	class:tinyxml2::XMLDocument::DepthTracker
+~DictTrie	simhash/cppjieba/DictTrie.hpp	/^  ~DictTrie() {$/;"	f	class:cppjieba::DictTrie
+~DynArray	tinyxml2.h	/^    ~DynArray() {$/;"	f	class:tinyxml2::DynArray
+~FileLock	simhash/cppjieba/limonp/FileLock.hpp	/^  ~FileLock() {$/;"	f	class:limonp::FileLock
+~FileLock	simhash/limonp/FileLock.hpp	/^  ~FileLock() {$/;"	f	class:limonp::FileLock
+~FullSegment	simhash/cppjieba/FullSegment.hpp	/^  ~FullSegment() {$/;"	f	class:cppjieba::FullSegment
+~HMMModel	simhash/cppjieba/HMMModel.hpp	/^  ~HMMModel() {$/;"	f	struct:cppjieba::HMMModel
+~HMMSegment	simhash/cppjieba/HMMSegment.hpp	/^  ~HMMSegment() {$/;"	f	class:cppjieba::HMMSegment
+~IThread	simhash/cppjieba/limonp/Thread.hpp	/^  virtual ~IThread() {$/;"	f	class:limonp::IThread
+~IThread	simhash/limonp/Thread.hpp	/^  virtual ~IThread() {$/;"	f	class:limonp::IThread
+~Jieba	simhash/cppjieba/Jieba.hpp	/^  ~Jieba() {$/;"	f	class:cppjieba::Jieba
+~KeywordExtractor	simhash/cppjieba/KeywordExtractor.hpp	/^  ~KeywordExtractor() {$/;"	f	class:cppjieba::KeywordExtractor
+~LevelSegment	simhash/cppjieba/LevelSegment.hpp	/^  ~LevelSegment() {$/;"	f	class:cppjieba::LevelSegment
+~LocalVector	simhash/cppjieba/limonp/LocalVector.hpp	/^  ~LocalVector() {$/;"	f	class:limonp::LocalVector
+~LocalVector	simhash/limonp/LocalVector.hpp	/^  ~LocalVector() {$/;"	f	class:limonp::LocalVector
+~Logger	simhash/cppjieba/limonp/Logging.hpp	/^  ~Logger() {$/;"	f	class:limonp::Logger
+~Logger	simhash/limonp/Logging.hpp	/^  ~Logger() {$/;"	f	class:limonp::Logger
+~MPSegment	simhash/cppjieba/MPSegment.hpp	/^  ~MPSegment() {$/;"	f	class:cppjieba::MPSegment
+~MemPool	tinyxml2.h	/^    virtual ~MemPool() {}$/;"	f	class:tinyxml2::MemPool
+~MemPoolT	tinyxml2.h	/^    ~MemPoolT() {$/;"	f	class:tinyxml2::MemPoolT
+~MixSegment	simhash/cppjieba/MixSegment.hpp	/^  ~MixSegment() {$/;"	f	class:cppjieba::MixSegment
+~MutexLock	simhash/cppjieba/limonp/MutexLock.hpp	/^  ~MutexLock() {$/;"	f	class:limonp::MutexLock
+~MutexLock	simhash/limonp/MutexLock.hpp	/^  ~MutexLock() {$/;"	f	class:limonp::MutexLock
+~MutexLockGuard	simhash/cppjieba/limonp/MutexLock.hpp	/^  ~MutexLockGuard() {$/;"	f	class:limonp::MutexLockGuard
+~MutexLockGuard	simhash/limonp/MutexLock.hpp	/^  ~MutexLockGuard() {$/;"	f	class:limonp::MutexLockGuard
+~NonCopyable	simhash/cppjieba/limonp/NonCopyable.hpp	/^  ~NonCopyable() {$/;"	f	class:limonp::NonCopyable
+~NonCopyable	simhash/limonp/NonCopyable.hpp	/^  ~NonCopyable() {$/;"	f	class:limonp::NonCopyable
+~ObjClosure0	simhash/cppjieba/limonp/Closure.hpp	/^  virtual ~ObjClosure0() {$/;"	f	class:limonp::ObjClosure0
+~ObjClosure0	simhash/limonp/Closure.hpp	/^  virtual ~ObjClosure0() {$/;"	f	class:limonp::ObjClosure0
+~ObjClosure1	simhash/cppjieba/limonp/Closure.hpp	/^  virtual ~ObjClosure1() {$/;"	f	class:limonp::ObjClosure1
+~ObjClosure1	simhash/limonp/Closure.hpp	/^  virtual ~ObjClosure1() {$/;"	f	class:limonp::ObjClosure1
+~ObjClosure2	simhash/cppjieba/limonp/Closure.hpp	/^  virtual ~ObjClosure2() {$/;"	f	class:limonp::ObjClosure2
+~ObjClosure2	simhash/limonp/Closure.hpp	/^  virtual ~ObjClosure2() {$/;"	f	class:limonp::ObjClosure2
+~ObjClosure3	simhash/cppjieba/limonp/Closure.hpp	/^  virtual ~ObjClosure3() {$/;"	f	class:limonp::ObjClosure3
+~ObjClosure3	simhash/limonp/Closure.hpp	/^  virtual ~ObjClosure3() {$/;"	f	class:limonp::ObjClosure3
+~PageLibPreprocessor	PageLibPreprocessor.h	/^    ~PageLibPreprocessor() {}$/;"	f	class:ll::PageLibPreprocessor
+~PosTagger	simhash/cppjieba/PosTagger.hpp	/^  ~PosTagger() {$/;"	f	class:cppjieba::PosTagger
+~PreFilter	simhash/cppjieba/PreFilter.hpp	/^  ~PreFilter() {$/;"	f	class:cppjieba::PreFilter
+~QuerySegment	simhash/cppjieba/QuerySegment.hpp	/^  ~QuerySegment() {$/;"	f	class:cppjieba::QuerySegment
+~SegmentBase	simhash/cppjieba/SegmentBase.hpp	/^  ~SegmentBase() {$/;"	f	class:cppjieba::SegmentBase
+~SimHarh	judgeEqual.h	/^    ~SimHarh()$/;"	f	class:SimHarh
+~Simhasher	simhash/Simhasher.hpp	/^            ~Simhasher(){};$/;"	f	class:simhash::Simhasher
+~SplitTool	SplitTool.h	/^    ~SplitTool() {}$/;"	f	class:ll::SplitTool
+~StrPair	tinyxml2.cc	/^StrPair::~StrPair()$/;"	f	class:tinyxml2::StrPair
+~ThreadPool	simhash/cppjieba/limonp/ThreadPool.hpp	/^  ~ThreadPool() {$/;"	f	class:limonp::ThreadPool
+~ThreadPool	simhash/limonp/ThreadPool.hpp	/^  ~ThreadPool() {$/;"	f	class:limonp::ThreadPool
+~Trie	simhash/cppjieba/Trie.hpp	/^  ~Trie() {$/;"	f	class:cppjieba::Trie
+~Worker	simhash/cppjieba/limonp/ThreadPool.hpp	/^    virtual ~Worker() {$/;"	f	class:limonp::ThreadPool::Worker
+~Worker	simhash/limonp/ThreadPool.hpp	/^    virtual ~Worker() {$/;"	f	class:limonp::ThreadPool::Worker
+~XMLAttribute	tinyxml2.h	/^    virtual ~XMLAttribute()	{}$/;"	f	class:tinyxml2::XMLAttribute
+~XMLComment	tinyxml2.cc	/^XMLComment::~XMLComment()$/;"	f	class:tinyxml2::XMLComment
+~XMLDeclaration	tinyxml2.cc	/^XMLDeclaration::~XMLDeclaration()$/;"	f	class:tinyxml2::XMLDeclaration
+~XMLDocument	tinyxml2.cc	/^XMLDocument::~XMLDocument()$/;"	f	class:tinyxml2::XMLDocument
+~XMLElement	tinyxml2.cc	/^XMLElement::~XMLElement()$/;"	f	class:tinyxml2::XMLElement
+~XMLNode	tinyxml2.cc	/^XMLNode::~XMLNode()$/;"	f	class:tinyxml2::XMLNode
+~XMLPrinter	tinyxml2.h	/^    virtual ~XMLPrinter()	{}$/;"	f	class:tinyxml2::XMLPrinter
+~XMLText	tinyxml2.h	/^    virtual ~XMLText()												{}$/;"	f	class:tinyxml2::XMLText
+~XMLUnknown	tinyxml2.cc	/^XMLUnknown::~XMLUnknown()$/;"	f	class:tinyxml2::XMLUnknown
+~XMLVisitor	tinyxml2.h	/^    virtual ~XMLVisitor() {}$/;"	f	class:tinyxml2::XMLVisitor
