@@ -10,6 +10,8 @@ using namespace std;
 namespace ll
 {
 
+#define SUMMARYNUM 2 //简要信息行数
+
 WebPage::WebPage(string &doc,
                  Configuration &config,CppJieba &jieba)
     : _doc(doc)
@@ -75,12 +77,6 @@ struct WordFreqCompare
 void WebPage::setdocId(int id)
 {
     _docId = id;
-    _doc =  "<doc>\n"
-        "    <docid>" + std::to_string(id)+ "</docid>\n"
-        "    <url>" + _docUrl + "</url>\n"
-        "    <title>" + _docTitle +"</title>\n"
-        "    <content>" + _docContent + "</content>\n"
-        "</doc>";
 }
 
 void WebPage::calcTopK(vector<string> &wordsVec,set<string> &stopWordList)
@@ -117,6 +113,35 @@ void WebPage::calcTopK(vector<string> &wordsVec,set<string> &stopWordList)
 #endif
 }
 
+string WebPage::getSummary(const vector<string> & queryWords)
+{
+    vector<string> summaryVec;
+
+    istringstream iss(_docContent);
+    string line;
+    while(getline(iss,line,'\n'))
+    {
+        for(auto word : queryWords)
+        {
+            if(line.find(word) != string::npos)
+            {
+                summaryVec.push_back(line);
+                break;
+            }
+        }
+        if(summaryVec.size() >= SUMMARYNUM) //控制简要信息的数量
+        {   break;  }
+    }
+
+    string summary;
+    for(auto line : summaryVec)
+    {
+        summary.append(line).append("\n");
+    }
+    return summary;
+}
+
+
 //判断两个网页是否相似,通过比较关键词的相关性
 bool operator == (const WebPage & lhs, const WebPage & rhs) 
 {
@@ -125,6 +150,7 @@ bool operator == (const WebPage & lhs, const WebPage & rhs)
     for(;lIter != lhs._topWords.end(); ++lIter)
     {
         commNum += std::count(rhs._topWords.begin(), rhs._topWords.end(), *lIter);
+
     }
 
     int lhsNum = lhs._topWords.size();
@@ -153,7 +179,7 @@ void PageLibPreprocessor::doProcess()
     readInfoFromFile();
     time_t t1 = time(NULL);
     cutRedundantPages();
-    /* buildInvertIndexTable(); //移动到修改id后，store函数中*/
+    buildInvertIndexTable();
     time_t t2 = time(NULL);
     printf("preprocess time: %ld s\n", (t2 - t1));
 
@@ -298,19 +324,15 @@ void PageLibPreprocessor::storeOnDisk()
         cout << "new page or offset lib ofstream open error!" << endl;
     }
 
-    int id=0;
     for(auto & page : _pageLib)
     {
-        /* int id = page.getDocId(); */
-        page.setdocId(id);
+        int id = page.getDocId();
         int length = page.getDoc().size();
         ofstream::pos_type offset = ofsPageLib.tellp();
         ofsPageLib << page.getDoc();
         ofsOffsetLib << id << '\t' << offset << '\t' << length << '\n';
-        id++;
     }
 
-    buildInvertIndexTable();
     ofsPageLib.close();
     ofsOffsetLib.close();
 

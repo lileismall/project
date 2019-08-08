@@ -83,22 +83,23 @@ int main()
 
     PageLibPreprocessor pretest(conf);
     pretest.readInfoFromFile();
-    pretest.buildInvertIndexTable();
+    /* pretest.buildInvertIndexTable(); */
     pretest.cutRedundantPages();
     pretest.storeOnDisk();
 
-    ReadLib test;
-    string dict = test.readLib(0);
-    string dict2 = test.readLib(1);
-    WebPage web(dict,conf,jieba);
-    WebPage web2(dict2,conf,jieba);
-    cout << web.getUrl() << endl;
-    cout << web2.getUrl() << endl;
-    cout << web.getTitle() << endl;
-    cout << web.getDocId() << endl;
-    cout << web2.getDocId() << endl;
-    cout << "两个网页是否相似:" << int(web==web2) << endl;
-    cout << "两个网页是否相似:" << int(web==web) << endl;
+
+    /* ReadLib test; */
+    /* string dict = test.readLib(0); */
+    /* string dict2 = test.readLib(1); */
+    /* WebPage web(dict,conf,jieba); */
+    /* WebPage web2(dict2,conf,jieba); */
+    /* cout << web.getUrl() << endl; */
+    /* cout << web2.getUrl() << endl; */
+    /* cout << web.getTitle() << endl; */
+    /* cout << web.getDocId() << endl; */
+    /* cout << web2.getDocId() << endl; */
+    /* cout << "两个网页是否相似:" << int(web==web2) << endl; */
+    /* cout << "两个网页是否相似:" << int(web==web) << endl; */
     
 
     /* test.showmap(); */

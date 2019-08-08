@@ -29,7 +29,7 @@ public:
 private:
     Configuration &_conf;
     vector<string> _vecFiles; //存放格式化后的网页容器
-    vector<pair<string,string>> _offsetLib; //存放位置信息
+    vector<pair<int,int>> _offsetLib; //存放位置信息
 };
 
 void PageLib::create() //将网页保存在ector中
@@ -135,7 +135,7 @@ void PageLib::store()
         size_t lenth =  s.size(); //网页长度
         /* std::string seek = std::to_string(docId++) +"\t"+ std::to_string(offset) */
         /*     +"\t" + std::to_string(lenth) + "\n"; */
-        pair<string,string> set(to_string(offset),to_string(lenth));
+        pair<int,int> set(offset,lenth);
         /* _offsetLib[to_string(docId)] = set; */
         _offsetLib.push_back(set);
         ofs << s; //保存网页

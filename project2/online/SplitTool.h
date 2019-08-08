@@ -1,7 +1,6 @@
 #pragma once
 #include "../include/cppjieba/include/cppjieba/Jieba.hpp"
-#include "Configuration.hpp"
-/* #include "judgeEqual.h" */
+#include "Configuration.h"
 
 using namespace cppjieba;
 
@@ -41,11 +40,7 @@ public:
         /* : _conf(conf) */
     /* {} */
 
-    ~CppJieba() 
-    {
-        if(_jieba)
-            delete _jieba;
-    }
+    ~CppJieba() {}
 
     vector<string> cut(const string &sentence) override
     {
@@ -62,6 +57,7 @@ public:
 private:
         Jieba *_jieba;
     /* Configuration &_conf; */
+
 };
 
 //class EngJieba

@@ -2744,7 +2744,7 @@ malingcat评论: 想象地名
 评价: 力荐
 </content>
 </doc><doc>
-    <docid>28</docid>
+    <docid>26</docid>
     <url>https://book.douban.com/review/8142679/</url>
     <title>我想陪你说说家国之外 (评论: 宋末大变局.四川风云  上册)</title>
     <content>
@@ -2753,7 +2753,7 @@ malingcat评论: 想象地名
 评价: 力荐
 </content>
 </doc><doc>
-    <docid>29</docid>
+    <docid>27</docid>
     <url>https://book.douban.com/review/8127681/</url>
     <title>一本温暖而治愈的友人帐 (评论: 夏目友人帐)</title>
     <content>
@@ -2762,7 +2762,7 @@ malingcat评论: 想象地名
 评价: 力荐
 </content>
 </doc><doc>
-    <docid>31</docid>
+    <docid>28</docid>
     <url>https://book.douban.com/review/8130532/</url>
     <title>真我至上：灵魂对肉体的背叛 (评论: 丹麦女孩)</title>
     <content>
@@ -2771,7 +2771,7 @@ malingcat评论: 想象地名
 评价: 力荐
 </content>
 </doc><doc>
-    <docid>32</docid>
+    <docid>29</docid>
     <url>https://book.douban.com/review/8134157/</url>
     <title>“润物细无声”的习惯养成策略 (评论: 微习惯)</title>
     <content>
@@ -2780,7 +2780,7 @@ malingcat评论: 想象地名
 评价: 力荐
 </content>
 </doc><doc>
-    <docid>33</docid>
+    <docid>30</docid>
     <url>https://book.douban.com/review/8125359/</url>
     <title>像国王一样吃法国大餐 (评论: 愿上帝保佑法兰西厨子)</title>
     <content>
@@ -2789,7 +2789,7 @@ malingcat评论: 想象地名
 评价: 力荐
 </content>
 </doc><doc>
-    <docid>34</docid>
+    <docid>31</docid>
     <url>https://book.douban.com/review/8142993/</url>
     <title>可持续发展是资源未来的发展方向 (评论: 图解全球资源真相)</title>
     <content>
@@ -2798,7 +2798,7 @@ malingcat评论: 想象地名
 评价: 力荐
 </content>
 </doc><doc>
-    <docid>35</docid>
+    <docid>32</docid>
     <url>http://blog.jobbole.com/107047/</url>
     <title>c 语言宏定义 #define 的理解与资料整理</title>
     <content>
@@ -3065,7 +3065,7 @@ a++;}while(0)
 
 c 语言宏定义 #define 的理解与资料整理，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>36</docid>
+    <docid>33</docid>
     <url>http://blog.jobbole.com/107038/</url>
     <title>程序员如何保持身体健康？</title>
     <content>最近听说公司的几个同事都大病了一场，有的还进行了大的手术，差点跟阎王爷报道了。努力工作固然重要，但是一定注意身体，身体不好了，随着来的就是，工作和生活双失。
@@ -3093,7 +3093,7 @@ c 语言宏定义 #define 的理解与资料整理，首发于文章 - 伯乐在
 程序员不能简单的做码农，日子也要过的精彩。平时可以多学习一些技能，像健身、乒乓球、羽毛球、溜冰、唱歌、保龄球、钢琴、吉他、做家常菜等等。可以帮助你把日子过的精彩些，要往自己身上多投资。
 程序员如何保持身体健康？，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>37</docid>
+    <docid>34</docid>
     <url>http://blog.jobbole.com/107021/</url>
     <title>全栈必备：DevOps</title>
     <content>全栈不仅是一个研发多面手，而且必须要关注产品的最终交付，以及线上服务的稳定运行。工具化使开发、交付、运维紧密地联系在一起，于是DevOps 逐渐成为了全栈们手中的利器，但由于DevOps的复杂性，如果没有科学的人员、流程与工具相配合，DevOps根本无从谈起，因此，DevOps 更是一柄双刃剑。
@@ -3142,7 +3142,7 @@ DevOps 的成功与技术、流程和组织的全面支撑是密不可分的。�
 
 全栈必备：DevOps，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>38</docid>
+    <docid>35</docid>
     <url>http://blog.jobbole.com/107033/</url>
     <title>C++ 的强制类型转换</title>
     <content>Q:什么是C风格转换？什么是static_cast, dynamic_cast 以及 reinterpret_cast？区别是什么？为什么要注意？
@@ -3206,7 +3206,7 @@ reinterpret_cast 是特意用于底层的强制转型，导致实现依赖（imp
 
 C++ 的强制类型转换，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>39</docid>
+    <docid>36</docid>
     <url>http://blog.jobbole.com/107012/</url>
     <title>Go net/http 超时机制完全手册</title>
     <content>当用Go写HTTP的服务器和客户端的时候，超时处理总是最易犯错和最微妙的地方之一。错误可能来自很多地方，一个错误可能等待很长时间没有结果，直到网络故障或者进程挂起。
@@ -3398,7 +3398,7 @@ req = req.WithContext(ctx)
 Context好处还在于如果parent context被取消的时候(在context.WithCancel调用的时候传递进来的)，子context也会取消， 命令会进行传递。
 Go net/http 超时机制完全手册，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>40</docid>
+    <docid>37</docid>
     <url>http://blog.jobbole.com/107030/</url>
     <title>6 个月才解决了这个小 Bug</title>
     <content>我曾经为一家美国著名的国防承包商工作过。我很高兴我做到了，因为它是我一直的梦想；但我也很高兴有机会继续前进。我学到了很多，遇到超多了不起的家伙，而且只要我活着，就永远不会缩写另外一个变量。
@@ -3419,7 +3419,7 @@ Go net/http 超时机制完全手册，首发于文章 - 伯乐在线。</conten
 简而言之，我花费了 6 个月的时间去查找一个错误的字母，而它是一个比我多 26 年工作经验的工程师所犯的输入错误。
 6 个月才解决了这个小 Bug，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>41</docid>
+    <docid>38</docid>
     <url>http://blog.jobbole.com/107027/</url>
     <title>全栈必备：Git</title>
     <content>
@@ -3704,7 +3704,7 @@ Deleted branch hotfix-1.2.1 (was abbe5d6).
 
 全栈必备：Git，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>42</docid>
+    <docid>39</docid>
     <url>http://blog.jobbole.com/107025/</url>
     <title>后端成长之路：从菜鸟到架构</title>
     <content>
@@ -3792,7 +3792,7 @@ Java核心技术 卷II
 
 后端成长之路：从菜鸟到架构，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>43</docid>
+    <docid>40</docid>
     <url>http://blog.jobbole.com/107018/</url>
     <title>一些实用的 Laravel 小技巧</title>
     <content>Laravel 中一些常用的小技巧，额，说不定你就用上了。。。
@@ -3988,7 +3988,7 @@ $commentable-&gt;comments()-&gt;save($comment);保存评论的时候并不知道
 以上经验来自Xblog，示例均可以在Xblog找到
 一些实用的 Laravel 小技巧，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>44</docid>
+    <docid>41</docid>
     <url>http://blog.jobbole.com/107004/</url>
     <title>深入Go UDP编程</title>
     <content>用户数据报协议（User Datagram Protocol，缩写为UDP），又称用户数据报文协议，是一个简单的面向数据报(package-oriented)的传输层协议，正式规范为RFC 768。UDP只提供数据的不可靠传递，它一旦把应用程序发给网络层的数据发送出去，就不保留数据备份（所以UDP有时候也被认为是不可靠的数据报协议）。UDP在IP数据报的头部仅仅加入了复用和数据校验。
@@ -4436,7 +4436,7 @@ http://baike.baidu.com/view/2032315.htm
 
 深入Go UDP编程，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>45</docid>
+    <docid>42</docid>
     <url>http://blog.jobbole.com/106995/</url>
     <title>测试自动化后，我们还需要QA吗？</title>
     <content>QA的职责
@@ -4502,7 +4502,7 @@ What is Agile testing &#8211; How does automation help?
 《敏捷软件测试》
 测试自动化后，我们还需要QA吗？，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>46</docid>
+    <docid>43</docid>
     <url>http://blog.jobbole.com/106992/</url>
     <title>C++ 文件操作详解</title>
     <content>C++ 通过以下几个类支持文件的输入输出：
@@ -4808,7 +4808,7 @@ file2.seekp(1234,ios::beg);//把文件的写指针从文件开头向后移1234�
 
 C++ 文件操作详解，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>47</docid>
+    <docid>44</docid>
     <url>http://blog.jobbole.com/106940/</url>
     <title>漫画算法：最小栈的实现</title>
     <content>
@@ -4859,7 +4859,7 @@ C++ 文件操作详解，首发于文章 - 伯乐在线。</content>
 
 漫画算法：最小栈的实现，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>48</docid>
+    <docid>45</docid>
     <url>http://blog.jobbole.com/106981/</url>
     <title>Go 中的锁源码实现：Mutex</title>
     <content>上一篇文章《当我们谈论锁，我们谈什么》 中我提到了锁，准确地说是信号量（semaphore, mutext是semaphore的一种）的实现方式有两种：wait的时候忙等待或者阻塞自己。//忙等待
@@ -5134,7 +5134,7 @@ func (root *semaRoot) dequeue(s *sudog) {
 
 Go 中的锁源码实现：Mutex，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>49</docid>
+    <docid>46</docid>
     <url>http://blog.jobbole.com/106933/</url>
     <title>Linux 新的API signalfd、timerfd、eventfd使用说明</title>
     <content>三种新的fd加入linux内核的的版本：
@@ -5377,7 +5377,7 @@ int main( int argc, char **argv ){
 
 Linux 新的API signalfd、timerfd、eventfd使用说明，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>50</docid>
+    <docid>47</docid>
     <url>http://blog.jobbole.com/106922/</url>
     <title>一个屌丝程序猿的人生（39）</title>
     <content>
@@ -5431,7 +5431,7 @@ Linux 新的API signalfd、timerfd、eventfd使用说明，首发于文章 - 伯
 
 一个屌丝程序猿的人生（39），首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>51</docid>
+    <docid>48</docid>
     <url>http://blog.jobbole.com/106923/</url>
     <title>C++ 内存分配(new，operator new)详解</title>
     <content>本文主要讲述C++ new运算符和operator new, placement new之间的种种关联，new的底层实现，以及operator new的重载和一些在内存池，STL中的应用。
@@ -5813,7 +5813,7 @@ operator new[]返回的是0x005b668 而最后new运算符返回给p的是0x005b6
 注：其实在malloc源码中也有内存池的运用，而且也比较复杂。最近在参考dlmalloc版本和STL空间适配器，真没有想到一个内存分配能涉及这么多的东西。
 C++ 内存分配(new，operator new)详解，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>52</docid>
+    <docid>49</docid>
     <url>http://blog.jobbole.com/106919/</url>
     <title>制作你的第一个 Atom 文本编辑器插件</title>
     <content>序言
@@ -6202,7 +6202,7 @@ scrape() {
 现在你知道怎么去 “hack” Atom 的基本原理了，通过 分叉 sourcefetch 这个仓库并添加你的特性 来随心所欲地实践你所学到的知识。
 制作你的第一个 Atom 文本编辑器插件，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>53</docid>
+    <docid>50</docid>
     <url>http://blog.jobbole.com/106910/</url>
     <title>QA，从 1.0 到 4.0</title>
     <content>迄今为止，敏捷开发方法在各个公司都有了长足的发展，曾经的测试人员慢慢的在向QA职能过渡，但依然很多人不了解QA和测试的区别是什么。
@@ -6244,7 +6244,7 @@ QA的领域虽然相对受限，但幸运的是角色相对不受限。在日常
 真正的全功能，并不是单纯意义上让QA去做Dev，而是最大程度弱化角色的概念，逐步强调和培养技能多元化。如何把对需求的理解能力强化为业务分析能力，把质量控制能力强化为项目管理能力。强化自身的优势，跳出自己的舒适区，使自己能够轻松胜任。这样我们才不会在看到去QA和QA消亡之类的观点后，无所适从。
 QA，从 1.0 到 4.0，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>54</docid>
+    <docid>51</docid>
     <url>http://blog.jobbole.com/106912/</url>
     <title>C++ 虚函数和虚继承浅析</title>
     <content>本文针对C++里的虚函数，虚继承表现和原理进行一些简单分析，有不对的地方请指出。下面都是以VC2008编译器对这两种机制内部实现为例。
@@ -6429,87 +6429,87 @@ D从B，C类派生出来，而B和C又同时虚继承了A。输出的结构是12
 
 C++ 虚函数和虚继承浅析，首发于文章 - 伯乐在线。</content>
 </doc><doc>
-    <docid>55</docid>
+    <docid>52</docid>
     <url>http://www.smzdm.com/p/6544825/</url>
     <title>SALONPAS 撒隆巴斯 镇痛贴 140枚*2件 153.8元包邮包税，2件起购</title>
     <content>好评镇痛贴，近期好价~宝贝格子目前售价76.9元，2件起购，包邮包税，近期好价格，需要的可以入手了。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>56</docid>
+    <docid>53</docid>
     <url>http://www.smzdm.com/p/6544775/</url>
     <title>双11预售：《CLAMP 魔卡少女樱》库洛牌完全复刻版套装 官方版 337元包邮（40元定金，11.11付尾款需用券）</title>
     <content>隐藏着黑暗力量的钥匙啊，在我面前显示你真正的力量，与你定下契约的小樱命令你，封印解除~天猫国际目前开启双11预售活动，支付定金40元，可在11月11日当天享受定金膨胀优惠，再叠加满300减20优惠券，实付337元包邮，朋友们，是时候证明自己是一枚合格的樱厨了~本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>57</docid>
+    <docid>54</docid>
     <url>http://www.smzdm.com/p/6544604/</url>
     <title>DECATHLON 迪卡侬 DOMYOS WAW 女士运动上衣  29.9元</title>
     <content>天鹅绒，运动自如~天猫迪卡侬旗舰店目前上衣售价29.9元，原价129元，尺码十分齐全，实属入手好价。穿着舒适，有需要的可以下手了~本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>58</docid>
+    <docid>55</docid>
     <url>http://www.smzdm.com/p/6544818/</url>
     <title>凑单品：Cadet 宠物零食 整只鸡胸肉170g  8.9元</title>
     <content>100%纯肉质，适口性佳~狗民网商城目前售价8.9元，来到之前推荐的好价格，需要的可以凑单入手。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>59</docid>
+    <docid>56</docid>
     <url>http://www.smzdm.com/p/6544729/</url>
     <title>双11预售：Ronshen 容声 BCD-639WD11HYA 639升 对开门冰箱  2849元包邮（预付100元定金）</title>
     <content>支持App远程操控，639升大容量对开门冰箱历史新低。天猫容声官方旗舰店目前开启双11预售，预售价3299元，现支付100元定金可抵扣150元并赠送400元专用优惠券，在11月11日1点支付尾款后，可做到实付2849元包邮到手的好价，刷新推荐历史价格新低，已是目前为止全网电商渠道最优报价，有需要的朋友可以关注一下。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>60</docid>
+    <docid>57</docid>
     <url>http://www.smzdm.com/p/6544724/</url>
     <title>双11预售：illy 意利 意式浓缩深度烘焙咖啡粉 250g*2罐 94元（定金10元，11.11付尾款）</title>
     <content>深度烘焙，香味浓郁~天猫国际海外直营当前售价114元，可用定金15元，抵30，11.11付尾款。虽然有税，但可领一张免税券，还可在天猫国际首页进口商品5元无门槛优惠券，下单实付94元包邮，折47元/瓶，入手好价。喜欢的可以入手。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>61</docid>
+    <docid>58</docid>
     <url>http://www.smzdm.com/p/6544431/</url>
     <title>双11预售：Danisa 丹麦皇冠 风味曲奇饼干 908g 56元含税包邮（需10元定金，11.11付尾款）</title>
     <content>天猫国际attent海外旗舰店目前售价61元，可支付10元定金抵15元，11月11日支付46元尾款，实际到手56元含税包邮，近期低价，喜欢这个口味的值友可以关注。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>62</docid>
+    <docid>59</docid>
     <url>http://www.smzdm.com/p/6544805/</url>
     <title>Tefal 特福 钛铸涂层红点设计不粘锅平底锅 D47419 28cm 196元 </title>
     <content>红点技术，控制油温~西集网目前售价196元，来到之前推荐的好价格，需要的可以入手了。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>63</docid>
+    <docid>60</docid>
     <url>http://www.smzdm.com/p/6543856/</url>
     <title>拼单好价，移动端：Pelikan 百利金 P480系列 钢笔 F尖 亮绿色*4件 287.16元包邮，合71.79元/件</title>
     <content>高口碑入门钢笔，多色可选，拼单好价。京东全球购移动端目前售价99元，购买4件参加满299减50活动，再叠加全球购满299-100券，实付287.16元包邮到手，每件折合低至71.79元。新低价。目前蓝色，红色和绿色均是好价。可根据颜色喜好拼单购入。喜欢的朋友不要错过。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>64</docid>
+    <docid>61</docid>
     <url>http://www.smzdm.com/p/6544766/</url>
     <title>WMF 厨房套装 压力锅快易锅6.5L+中华炒锅32cm+煎锅平底锅24cm 1599元包邮</title>
     <content>套锅历史低价，蒸焖炖汤均可~亚马逊中国目前售价1599元包邮，低于历史推荐好价。淘宝同款套装（不含炒锅铲）售价5000元以上。这次的价格优势较大，需要的值友可以关注一下。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>65</docid>
+    <docid>62</docid>
     <url>http://www.smzdm.com/p/6544370/</url>
     <title>双11预售：Puritan's Pride 普丽普莱 双倍氨糖软骨素 240粒*2瓶 169元+22.49元税费（需30元定金，需用券）</title>
     <content>双倍浓度，缓解关节疼痛~聚划算普丽普莱海外旗舰店目前售价219元，可付30元定金抵60元，11月11日支付尾款159元，再叠加20元优惠券，实付169元包邮，另需税费22.49元。折后含税每瓶95元左右，有需要的值友可以关注一下。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>66</docid>
+    <docid>63</docid>
     <url>http://www.smzdm.com/p/6543826/</url>
     <title>预售：WHALEY 微鲸 WTV55K1J 55英寸 4K平板电视 2499元包邮</title>
     <content>10bit面板，赠品丰富，55英寸4K预约好价。苏宁易购目前售价2699元，11月1日0点至1点下单立减200，实付2499元到手。持平历史最低价。前500名还可获得价格199元手环及一年微鲸会员。相比于天猫预售，不必支付定金就可以做到同价。55英寸4K不到2500就能入手还是比较合适的。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>67</docid>
+    <docid>64</docid>
     <url>http://www.smzdm.com/p/6544490/</url>
     <title>MEIZU 魅族 MX6 全网通手机 1609元包邮(1639-30)</title>
     <content>4GB+32GB，双色温闪光灯，近期好价。新蛋中国目前售价1639元，可以使用蛋券“sm60”做到1609元到手的价格，有兴趣的值友可以关注一下。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>68</docid>
+    <docid>65</docid>
     <url>http://www.smzdm.com/p/6544737/</url>
     <title>LANCOME 兰蔻 水份缘舒缓系列套装 2件套 599元包邮包税</title>
     <content>日霜+晚霜组合，清爽不油腻，入手好价~网易考拉海购目前售价599元，下单包邮包税。入手好价，有需要的值友可考虑下手~本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>69</docid>
+    <docid>66</docid>
     <url>http://www.smzdm.com/p/6544734/</url>
     <title>SUPOR 苏泊尔 YS24ED 好帮手不锈钢压力锅 24cm+美厨三层蒸锅 26CM 254元包邮（双重优惠后）</title>
     <content>双重安全阀门，导热均匀~1号店目前售价299元，参加满199减80活动，还可叠加使用满299减50优惠券，凑单售价85元的蒸锅，双重优惠后实付254元，折合近期好价格。更多商品可以到活动页面挑选，另外可以用券的页面在此。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>70</docid>
+    <docid>67</docid>
     <url>http://www.smzdm.com/p/6544606/</url>
     <title>凑单品：NUK Vario Cup多色带盖婴儿防漏 学饮杯 12个月以上 39元</title>
     <content>材质安全，宽口径，有防漏垫片，税前好价。京东全球购目前报价39元，持平之前推荐价格，算上税费也是好价，适合凑单带回，有需要的朋友可以入手。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>71</docid>
+    <docid>68</docid>
     <url>http://www.smzdm.com/p/6544371/</url>
     <title>双11预售：Onitsuka Tiger 鬼塚虎 OKT037 中性款休闲T恤 135元（15元定金，11.11付尾款）</title>
     <content>嘘~萌不萌~天猫Onitsuka Tiger官方旗舰店双11预售价为145元，定金15元，双11可低付25元，最终实付135元。还有类似款也是好价。
@@ -6522,42 +6522,42 @@ C++ 虚函数和虚继承浅析，首发于文章 - 伯乐在线。</content>
                             
                         	本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>72</docid>
+    <docid>69</docid>
     <url>http://www.smzdm.com/p/6544615/</url>
     <title>tutuanna 300D 纯色加厚踩脚裤  79元</title>
     <content>入手好价，有需可入~ 天猫精选tutuanna旗舰店目前售价79元，不包邮，可凑单至129元包邮带回。需要注意的是只有一个尺码可选，适用于身高150~165cm的妹子，此外店内还有满159元减10元、满259元减20元等优惠券可领，有需要的值友可考虑下手。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>73</docid>
+    <docid>70</docid>
     <url>http://www.smzdm.com/p/6544673/</url>
     <title>2016双11预售：Tong Tai 童泰 秋冬季 婴儿睡袋加厚款 79元包邮（10元定金，11.11付尾款）</title>
     <content>分腿睡袋，安全拉链，秋冬加厚款~天猫童泰旗舰店目前售价99元，10定金可抵30，下单实付79元，平日售价在150左右，还有一款黄色也是同价。有需要的家长可以关注。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>74</docid>
+    <docid>71</docid>
     <url>http://www.smzdm.com/p/6544593/</url>
     <title>双11预售：皇上皇 金福 五花腊肉 500g 51元包邮（用券）（定金10元，11.11付尾款）</title>
     <content>肥瘦均匀，微醺酒香，地道广式风味~天猫皇上皇旗舰店目前售价59元，可用10元抵15元，11.11付尾款，同时可在店铺首页领取3元无门槛优惠券，下单实付51元包邮，入手好价。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>75</docid>
+    <docid>72</docid>
     <url>http://www.smzdm.com/p/6544226/</url>
     <title>SIEMENS 西门子 SK23E800TI 嵌入式洗碗机 2580元包邮</title>
     <content>6套清洗容量，冷凝烘干，近期好价。国美在线目前特价至2580元包邮，再到近期好价，有需求的不要错过。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>76</docid>
+    <docid>73</docid>
     <url>http://www.smzdm.com/p/6544660/</url>
     <title>GUCCI 古驰 133483 3G200 双G提花图案羊毛围巾 ￥1299+￥154.58含税直邮（约￥1454）</title>
     <content>降低196元。多色可选，经典双G，柔软舒适~京东全球购目前售价1299元，多色可选，加上154.58元的税费，到手约1454元，比之前推荐的降低196元。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>77</docid>
+    <docid>74</docid>
     <url>http://www.smzdm.com/p/6544708/</url>
     <title>WMF 福腾宝 Perfect 压力锅 6.5 L 1059元包邮</title>
     <content>不锈钢中加入18%铬+10%镍，更防锈耐腐蚀~亚马逊中国目前售价1059元，持平之前推荐的秒杀价格，需要的可以看下。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>78</docid>
+    <docid>75</docid>
     <url>http://www.smzdm.com/p/6544699/</url>
     <title>凑单品：THERMOS 膳魔师 APA-800 保温杯清洁器 109元</title>
     <content>终于找到清洗保温杯的正确姿势了~西集网目前售价109元，来到之前推荐的好价格，需要的可以凑单入手。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>79</docid>
+    <docid>76</docid>
     <url>http://www.smzdm.com/p/6543607/</url>
     <title>九点夜读：《红楼梦日历》、《牡丹亭日历》 日历之周——感悟古典文学之美</title>
     <content>每晚九点，每天两册，主题灵活，夜夜精彩。各位值友大家好，这里是九点夜读，我是当值小编夜读君。从本周一开始，夜读开启了为期五天的“日历之周”，我们将从市面纷繁的日历中按主题挑选一些特色产品推荐给大家，以供各位读者品鉴、收藏或者送礼。今晚我们的推荐的是两本大家耳熟能详，且颇有文艺风的日历,《红楼梦日历》《牡丹亭日历》献给热爱文学的朋友们。&nbsp;
@@ -6578,32 +6578,32 @@ C++ 虚函数和虚继承浅析，首发于文章 - 伯乐在线。</content>
                             
                         	封面赏析特色介绍日历以白先勇先生所创作的青春版《牡丹亭》剧照为日历配图，搭配原著的故事剧情和其中俏皮有趣的宾白以及婉转典丽的唱词为主体内容，其中穿插点缀了导演、演员和摄影师的手记，有关《牡丹亭》相关的昆曲知识，让读者在品读牡丹亭“生者可以死，死可以生”的爱情故事和至情至性之美的同时，进一步领略昆曲的美感与韵味。作者介绍汤显祖，字义仍，号海若、若士、清远道人，明代戏曲家和文学家。万历年间曾任礼部祠祭司主事等职，后因目睹官僚腐败而上书谏言被贬，后愤而辞官，潜心于戏剧及诗词创作，最终创作出《牡丹亭》《南柯记》和《邯郸记》《紫钗记》等戏剧，成为继关汉卿之后的又一位伟大的戏剧家。书摘配图小编点评情不知所起，一往而情深，生者可以死，死者可以生。作为昆曲中最为经典的曲目之一，在缱绻瑰丽的唱词中，杜丽娘对于爱情的勇敢追求和对自由的向往曾经拨动了多少少女的心弦？在每个人的青春岁月中又有多少人为此而甘愿付出灵魂之爱。即便岁月已逝，青春苍凉，甚至是昆曲也已没落成小众的爱好，但终归还会有一些人会念出“原来姹紫嫣红开遍，似这般都付与断井颓垣。良辰美景奈何天，赏心乐事谁家院？”的唱词来，这就足够了。往期推荐《亲子日历》、《高考日历》 日历之周——私人定制的实用之选《单向历》、《笺谱日历》 日历之周——365天的文艺之旅更多往期瞅我....（瞅啥瞅，快来订阅）如何订阅：九点夜读是什么值得买（SMZDM.COM）最新的图书专栏，以丰富值友视野，传播优质图书为己任，不以价格为主要判断依据。专栏每晚九点左右准时推出，以限定关键词为条件，每天甄选2册优质作品，题材及风格不限，唯二的判断标准就是有价值+好看。感兴趣的朋友只要在手机APP端打开本文，点击右上角订阅按钮，添加相关的“九点夜读”标签，然后回到首页的右上角“我的订阅”中进行推送设置，即可在第一时间收到我们每期的更新内容。夜读精彩，你我相伴。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>80</docid>
+    <docid>77</docid>
     <url>http://www.smzdm.com/p/6540563/</url>
     <title>Ventry 温特瑞 泰国天然乳胶欧罗枕/面包枕 429元包邮（需用券）</title>
     <content>专为爱睡高枕的你设计~西集网售价459元，使用本站满299立减30元的优惠券，实付429元包邮到手，使用积分还能做到更便宜。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>81</docid>
+    <docid>78</docid>
     <url>http://www.smzdm.com/p/6544192/</url>
     <title>27日6点开始，移动端：POVOS 奔腾 S1556 电水壶 1.5L 59元</title>
     <content>食品级304不锈钢、加厚双层材质，再到好价。京东移动端将于26日6点特价至59元，近期好价。近期有需求的朋友可以留意。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>82</docid>
+    <docid>79</docid>
     <url>http://www.smzdm.com/p/6544304/</url>
     <title>双11预售：Crocs 卡骆驰 中性 11001 沙滩洞洞鞋 184元（30元定金，11.11付尾款）</title>
     <content>经典款~天猫crocs户外旗舰店双11预售价199元，现在付定金30元，双11时可抵用45元，最终实付184元包邮，喜欢的可以考虑~本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>83</docid>
+    <docid>80</docid>
     <url>http://www.smzdm.com/p/6544671/</url>
     <title>Finish 亮碟 洗碗机机体清洁剂 250ml*10件 199元包邮（299-200）</title>
     <content>清除顽固污渍，保护被碗碟和洗碗机不受腐蚀~京东目前售价39.9元，参加满399减200活动，下单10件，满减后实付199元，折合19.9元/件，近期好价格，适合拼单入手。本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>84</docid>
+    <docid>81</docid>
     <url>http://www.smzdm.com/p/6544339/</url>
     <title>Jabra 捷波朗 Eclipse 智能通话蓝牙耳机 557元包邮</title>
     <content>价格实惠、功能强大。京东全球购自营售价498元&nbsp;Jabra 捷波朗 ECLIPSE 壹石 （需缴纳11.9%跨境电商综合税）共557元本文来自什么值得买网站（www.smzdm.com）。</content>
 </doc><doc>
-    <docid>85</docid>
+    <docid>82</docid>
     <url>http://songshuhui.net/archives/96601</url>
     <title>小朋友的涂鸦（三）：地图的魔术</title>
     <content>本文作者：方弦
@@ -6661,7 +6661,7 @@ k=5的四组解，蒙A. Zvonkine惠允
 这些预测又从何而来？镜像对称跟系数又有什么关系？要说清楚，就不得不提及二部地图的另一个名字——儿童涂鸦（dessin d'enfant），还有这个术语的创造者，也是现代代数几何的奠基者，伟大的数学家，亚历山大·格罗滕迪克。
 </content>
 </doc><doc>
-    <docid>86</docid>
+    <docid>83</docid>
     <url>http://songshuhui.net/archives/96581</url>
     <title>小朋友的涂鸦（二）：球面覆盖</title>
     <content>本文作者：方弦
@@ -6743,7 +6743,7 @@ k=5的四组解，蒙A. Zvonkine惠允
 说了半天，云里雾里的，这又有什么意义？
 </content>
 </doc><doc>
-    <docid>87</docid>
+    <docid>84</docid>
     <url>http://songshuhui.net/archives/96565</url>
     <title>小朋友的涂鸦（一）：从8和9说起</title>
     <content>本文作者：方弦
@@ -6800,7 +6800,7 @@ Alan Baker
 这是什么魔法？
 </content>
 </doc><doc>
-    <docid>88</docid>
+    <docid>85</docid>
     <url>http://songshuhui.net/archives/96650</url>
     <title>胃难受？快去考古研究所做个检查，证明你来自未来！</title>
     <content>本文作者：Sheldon
@@ -6820,7 +6820,7 @@ Alan Baker
 本文已发表于《不存在日报》
 </content>
 </doc><doc>
-    <docid>89</docid>
+    <docid>86</docid>
     <url>http://songshuhui.net/archives/96628</url>
     <title>一分钟看懂2016年诺贝尔化学奖</title>
     <content>本文作者：Sheldon
@@ -6837,7 +6837,7 @@ Alan Baker
 
 </content>
 </doc><doc>
-    <docid>90</docid>
+    <docid>87</docid>
     <url>http://songshuhui.net/archives/96622</url>
     <title>一分钟看懂2016年诺贝尔物理学奖</title>
     <content>本文作者：Sheldon
@@ -6849,7 +6849,7 @@ Alan Baker
 
 </content>
 </doc><doc>
-    <docid>91</docid>
+    <docid>88</docid>
     <url>https://xbeta.info/rule-41.htm</url>
     <title>[转]反对修订《美国联邦刑事诉讼规则和证据规则》第 41 条</title>
     <content>收到一位国外朋友的邮件，建议转发对美国拟修订第41条规则的抵制。大概研究了一下， 《美国联邦刑事诉讼规则和证据规则》第 41 条为「搜查和扣押」 。美国政府准备修订相关条款，而该修订行为会对个人信息安全造成损害。美国很多科技媒体、社群、个人，都在抵制这一修订。转发一下，也欢迎大家发表意见。毕竟，这个世界是紧密联系在一起的！
@@ -6872,7 +6872,7 @@ reject rule 41 changes
 如果美国国会不采取行动，这条新规则的更新则将于2016年12月1日生效。这就是我们必须大声疾呼，要求否决这一规则修订的原因。在社交网络和你的博客上分享这条帖子吧。
 -- http://xbeta.info　　( 6793ee6ca67cfacc9d4333d9ae43a11b)</content>
 </doc><doc>
-    <docid>92</docid>
+    <docid>89</docid>
     <url>https://xbeta.info/maibu-watch.htm</url>
     <title>麦步智能手表试用体验：超长待机是硬道理，开放平台是未来</title>
     <content>2 周前，收到麦步智能手表的邮件：介绍其特点，询问试用意向。读完邮件，印象很好：文字、配图都比较详细，也写了不少针我的个性内容，十分用心。而智能手表作为新兴事物，难免存在众多不足。无论当下领先一点、落后一点，只要用心，坚持就能做好。介绍的产品特点——智能手表上的番茄钟 app、超长待机，又继续增加了印象分。我进而看其官网，见到「极客实验室」、「麦步应用遵循知识共享协议」的用语，印象分继续加持。于是，接受试用，等待发货。
@@ -6948,7 +6948,7 @@ reject rule 41 changes
 PS：如果大家有兴趣，可以留言，说不定能争取更多流转试用的机会。
 -- http://xbeta.info　　( 6793ee6ca67cfacc9d4333d9ae43a11b)</content>
 </doc><doc>
-    <docid>93</docid>
+    <docid>90</docid>
     <url>https://xbeta.info/activepresenter.htm</url>
     <title>【转载+补充】最强免费萤幕录影软体 ActivePresenter 教学影片神器</title>
     <content>2016-04-12 更新：感恩 yuxiaoxu 网友，AP 的简体/繁体中文语言包已经翻译并发布了。大家可以下载后，解压到 AP 安装目录的 ……\ActivePresenter\locales\ 下，然后 view → language 切换到「简体中文」，重新启动即可生效。下载 http://xici800.cn/5opXo2
@@ -7070,7 +7070,7 @@ Windows 上有很多免费萤幕录影软体，例如我之前介绍过的：免
 「 ActivePresenter 」或许不是最简单易用的萤幕录影软体，但却是最强大的教学影片製作工具，想要製作数位教材的老师、训练人员、产品客服，都值得好好利用。（转载结束）
 -- http://xbeta.info　　( 6793ee6ca67cfacc9d4333d9ae43a11b)</content>
 </doc><doc>
-    <docid>94</docid>
+    <docid>91</docid>
     <url>https://xbeta.info/aiya.htm</url>
     <title>[已结束]过完节，关爱一下牙齿吧~</title>
     <content>【2016-02-26 星期五 更新】活动结束，已经给如下朋友发出邮件（按评论所留邮箱），请按要求于2月28日中午前提供收货地址。prcgolf 补习生 心如新入 Baldur Rockey 蠢蛋小丑鱼
@@ -7089,7 +7089,7 @@ Windows 上有很多免费萤幕录影软体，例如我之前介绍过的：免
 Who Will Write My Essay For Me Thank god for thousands of viruses incessantly caused him college paperweights Our name of truehearted reversive customers whobuy essaysof the highest timbre from us is getting yearner day by day. Buy Sociology Essays Online Secure Hua had demonstrated so rapidly that in the close an with-it, outside
 -- http://xbeta.info　　( 6793ee6ca67cfacc9d4333d9ae43a11b)</content>
 </doc><doc>
-    <docid>95</docid>
+    <docid>92</docid>
     <url>https://xbeta.info/irfanview-v441.htm</url>
     <title>顶级免费看图软件IrfanView v4.41发布：提供平板UI</title>
     <content>顶级免费看图软件 IrfanView 升级到 v4.41，加强了对平板电脑的支持。推荐平板用户尝试、反馈。现翻译其版本更新日志，以示支持。  [下载IrfanView 4.41]
@@ -7116,7 +7116,7 @@ Added PlugIns-Installer options for: /silent and /folder (Check FAQs page)
 Some fixes (Auto color correction, PNG compression, UNC-Paths in 64-bit)
 -- http://xbeta.info　　( 6793ee6ca67cfacc9d4333d9ae43a11b)</content>
 </doc><doc>
-    <docid>96</docid>
+    <docid>93</docid>
     <url>https://xbeta.info/wechat.htm</url>
     <title>欢迎加入微信：一些准备工作</title>
     <content>因工作繁忙，本博客更新日益减少。
@@ -7126,7 +7126,7 @@ Some fixes (Auto color correction, PNG compression, UNC-Paths in 64-bit)
 
 -- http://xbeta.info　　( 6793ee6ca67cfacc9d4333d9ae43a11b)</content>
 </doc><doc>
-    <docid>97</docid>
+    <docid>94</docid>
     <url>https://xbeta.info/ditto.htm</url>
     <title>Ditto:首选的剪贴板增强软件（更新）</title>
     <content>注重效率的用户都喜欢剪贴板增强软件[1]。早期，我推荐免费小巧的 ClipX 和 CLCL 。而最近几年，善用佳软明确推荐：Ditto 是最好的免费剪贴板增强软件，是提高效率的首选方案。
@@ -7264,7 +7264,7 @@ Ditto v3.16.8.0 新增了如下功能：按下热键（默认ctrl+`）后，弹�
 
 -- http://xbeta.info　　( 6793ee6ca67cfacc9d4333d9ae43a11b)</content>
 </doc><doc>
-    <docid>98</docid>
+    <docid>95</docid>
     <url>https://xbeta.info/clipx-clcl-ditto.htm</url>
     <title>剪贴板增强软件综述:CLCL,ClipX,Ditto等（更新CLCL v2.0）</title>
     <content>剪贴板是一个伟大的创新。它让跨程序、跨文档传递数据变得前所未有的轻松，让 Ctrl+C、Ctrl+V （或Ctrl+Insert、Shift+Insert）成为最常用的快捷键。但是，windows 自身的剪贴板管理功能太弱（只能容纳一条记录），远不足以发挥剪贴板的真正功能。于是，世界各地的程序员开发了上百种增强工具，来“升级”剪贴板。
@@ -7425,7 +7425,7 @@ clip magic
 2005-09-09：初稿。
 -- http://xbeta.info　　( 6793ee6ca67cfacc9d4333d9ae43a11b)</content>
 </doc><doc>
-    <docid>99</docid>
+    <docid>96</docid>
     <url>https://xbeta.info/rightnote.htm</url>
     <title>RightNote:让Evernote支持树状目录的经典桌面笔记软件</title>
     <content>2015-8-20更新：点击查看flash演示，内容：基本界面；设置项；与Evernote集成。
@@ -7516,7 +7516,7 @@ Evernote同步：Evernote同步功能允许你在任意移动设备、桌面或�
 &#8211; 新:Evernote 同步：全面支持所有的 Evernote 笔记元素，包括图片、checkboxes、锁定、附件。可通过任意移动设备、桌面 (Mac/Windows) 、浏览器访问同步的笔记。
 -- http://xbeta.info　　( 6793ee6ca67cfacc9d4333d9ae43a11b)</content>
 </doc><doc>
-    <docid>100</docid>
+    <docid>97</docid>
     <url>https://xbeta.info/freewb-history.htm</url>
     <title>极点五笔完整更新历史: v1.0-v7.2内测版（2012-01-16）</title>
     <content>极点五笔是善用佳软使用超过10年的输入法。出于感激和对优秀软件的宣传，很希望为它做点事情。考虑到极点五笔没有官方的完整版本更新记录，特此整理如下，供极点爱好者参考。
@@ -7938,7 +7938,7 @@ xbeta：感谢杜老师在极点5.0中更正了极点设置后VIM会崩溃的问
 （完。文章最后更新于2015年8月18日）
 -- http://xbeta.info　　( 6793ee6ca67cfacc9d4333d9ae43a11b)</content>
 </doc><doc>
-    <docid>101</docid>
+    <docid>98</docid>
     <url>http://www.portablesoft.org/emeditor-pro/</url>
     <title>EmEditor 16.1.3 简体中文便携版 - 强大文本编辑器</title>
     <content>EmEditor Professional 以运行轻巧、敏捷而又功能强大、丰富著称，作为简单好用的文本编辑器，EmEditor 支持多种配置，可自定义颜色、字体、工具栏、快捷键、行距等，支持文本列块选择、无限撤消/重做等，是替代记事本的最佳编辑器。
@@ -7975,7 +7975,7 @@ Notepad2-mod 4.2.25.980 - 轻量级文本编辑器、代替记事本的最佳选
 
 </content>
 </doc><doc>
-    <docid>102</docid>
+    <docid>99</docid>
     <url>http://www.portablesoft.org/fotosketcher/</url>
     <title>强大图片素描化工具 - FotoSketcher 3.20 绿色免安装版</title>
     <content>FotoSketcher 是一款很简便且强大的图片素描化工具，处理速度很快，可以帮助你创建类似真实素描的艺术作品。
@@ -8009,7 +8009,7 @@ Photo Collage Studio绿色便携版：数码照片拼贴工具
 
 </content>
 </doc><doc>
-    <docid>103</docid>
+    <docid>100</docid>
     <url>http://www.portablesoft.org/win64ast/</url>
     <title>Win64AST 1.10 Beta6 - 支持64位Windows的ARK、内核级的高级系统工具</title>
     <content>Rootkit 通常是指加载到操作系统内核中的恶意软件，因为其代码运行在特权模式之下，极具危险性。有 Rootkit，就需要 Anti Rootkit，用到的就是 ARK 工具。
@@ -8079,7 +8079,7 @@ NirLauncher 1.18.23 - 便携式 NirSoft 软件合集
 
 </content>
 </doc><doc>
-    <docid>104</docid>
+    <docid>101</docid>
     <url>http://www.portablesoft.org/snipaste/</url>
     <title>Snipaste 1.6 绿色便携版 - 简单但强大的截图+贴图工具</title>
     <content>在 V2EX 闲逛时发现了一个很有意思的截图软件：Snipaste，作者 levie 用了三年的业余时间开发了这一个很特别的截图 + 标注 + 贴图工具。我下载看了下，Snipaste 的截图功能已经很丰富了，基本常见的截图模式和操作都支持，使用的是类似 QQ 截图界面，但比 QQ 截图做的更好用，功能更强大些。
@@ -8116,7 +8116,7 @@ TechSmith SnagIt Studio汉化绿色版：优秀的全能截图工具
 
 </content>
 </doc><doc>
-    <docid>105</docid>
+    <docid>102</docid>
     <url>http://www.portablesoft.org/notepad2-mod-portable/</url>
     <title>Notepad2-mod 4.2.25.980 - 轻量级文本编辑器、代替记事本的最佳选择</title>
     <content>Notepad2 是一个相当优秀的轻量级文本编辑器。Notepad2 是基于 Scintilla 开发，体积小巧、运行快速，与系统默认记事本具备相同资源消耗，但提供了大量实用功能，如代码高亮、编码转换、行号显示、多步 Ctrl+Z、增强的查找替换等等，是代替系统默认 Notepad 的极致选择。
@@ -8166,7 +8166,7 @@ EmEditor 16.1.3 简体中文便携版 - 强大文本编辑器
 
 </content>
 </doc><doc>
-    <docid>106</docid>
+    <docid>103</docid>
     <url>http://www.portablesoft.org/google-chrome/</url>
     <title>谷歌浏览器 (Google Chrome) 52.0.2743.116 绿色免安装版+便携版</title>
     <content>Google Chrome 是由 Google 开发的一款设计简单、运行高效、支持扩展的浏览器，它基于高速 WebKit/Blink 内核和高性能 JavaScript V8 引擎，在支持多标签浏览的基础上，提供顺畅的浏览体验，并且每个标签都在独立的沙箱内运行，安全性大大提高。
@@ -8222,7 +8222,7 @@ Opera Next 17.0.1241.28 便携版 - Opera Chromium 内核浏览器
 
 </content>
 </doc><doc>
-    <docid>107</docid>
+    <docid>104</docid>
     <url>http://www.portablesoft.org/everything-portable/</url>
     <title>Everything 1.4.0.713 Beta 便携版 - 最快最好用的文件搜索工具，新增64位版</title>
     <content>Everything 大家应该比较熟悉了，这是目前速度最快的文件名搜索工具，可以极速搜索、瞬间定位文件，在输入搜索词时即时显示匹配结果，是每一个用户都需要安装的效率工具。
@@ -8260,7 +8260,7 @@ Quick Search 1.1.0.189汉化绿色版：快速文件名搜索工具
 
 </content>
 </doc><doc>
-    <docid>108</docid>
+    <docid>105</docid>
     <url>http://www.portablesoft.org/mkvtoolnix/</url>
     <title>MKVToolNix 9.3.1 - MKV无损剪辑、分割、封装、合并工具</title>
     <content>MKV 是一种优秀的多媒体容器格式，它可把多种不同编码的视频及16条或以上不同格式的音频和语言不同的字幕封装到一个 MKV 文件中，而 MKVToolNix 是一款免费开源的 MKV 编辑器和工具集，能够合成、编辑  Matroska MKV 文件。
@@ -8308,7 +8308,7 @@ idoo Video Editor 3.0.0 便携版 - 强大的多功能视频编辑器
 
 </content>
 </doc><doc>
-    <docid>109</docid>
+    <docid>106</docid>
     <url>http://www.portablesoft.org/axure-rp-pro/</url>
     <title>快速产品原型设计软件 - Axure RP Pro 8.0.0.3303 汉化绿色版 (正式版)</title>
     <content>Axure RP Pro 是一个产品经理必备的交互原型设计工具，能够高效率制作产品原型，快速绘制线框图、流程图、网站架构图、示意图、HTML 模版等。
@@ -8366,7 +8366,7 @@ Adobe Fireworks CS4英文/简体中文/繁体中文绿色特别版
 
 </content>
 </doc><doc>
-    <docid>110</docid>
+    <docid>107</docid>
     <url>http://www.portablesoft.org/qtranslate-portable/</url>
     <title>QTranslate 5.7.0.3 - 优秀的全语种多引擎实时翻译工具</title>
     <content>QTranslate 是一个轻量级的免费电子词典，通过集成各大在线翻译引擎实现便捷的实时翻译。QTranslate 帮助你更好地利用在线翻译工具，目前支持 Babylon、Definr、Google Search、Google Translate、ImTranslator、Microsoft Translator、Multitran、Promt、Reverso、SDL、Wikipedia、WordReference、Yandex、有道翻译等翻译引擎或信息服务。
@@ -8399,7 +8399,7 @@ Lingoes 灵格斯词霸 2.9.1 绿色便携版
 
 </content>
 </doc><doc>
-    <docid>111</docid>
+    <docid>108</docid>
     <url>http://www.geekfan.net/13985/</url>
     <title>亮瞎眼的特斯拉线圈</title>
     <content>
@@ -8552,7 +8552,7 @@ Step 13： 亮瞎双眼的时候到了
 &nbsp;
 亮瞎眼的特斯拉线圈，首发于极客范 - GeekFan.net。</content>
 </doc><doc>
-    <docid>112</docid>
+    <docid>109</docid>
     <url>http://www.geekfan.net/13978/</url>
     <title>DIY修炼：舵机知识扫盲</title>
     <content>
@@ -8679,7 +8679,7 @@ Q.运动中的绘图机器人
 
 DIY修炼：舵机知识扫盲，首发于极客范 - GeekFan.net。</content>
 </doc><doc>
-    <docid>113</docid>
+    <docid>110</docid>
     <url>http://www.geekfan.net/13971/</url>
     <title>【神级DIY】自制无线控制“甲壳虫”机器人</title>
     <content>【导读】拥有一个自己会跑会跳的机器人是许多人小时候的一个梦想，如今这个梦想你可以实现了！此次电子元件技术网带来大师级别的DIY，自己动手就能做的机器人，做一个送给家里的小朋友绝对自信心爆棚啊！
@@ -8727,7 +8727,7 @@ camworks 出刀路
 
 【神级DIY】自制无线控制“甲壳虫”机器人，首发于极客范 - GeekFan.net。</content>
 </doc><doc>
-    <docid>114</docid>
+    <docid>111</docid>
     <url>http://www.geekfan.net/13956/</url>
     <title>DIY：制作曲面感光元件的针孔相机</title>
     <content>我们曾介绍不少自制针孔相机，而通常都是使用已经提供好的纸模来制作。而来自加拿大的摄影师 Matt Bechberger，则分享了一个非常完整的针孔相机制作指引，包括了数学上及物理学上的讲解，相机通过弯曲胶卷曝光的办法，令胶卷可以均匀曝光，极大地消除了画面的暗角！很好玩哦~。如果你也想自制一台如此认真的针孔相机，可以来参考参考！
@@ -8847,7 +8847,7 @@ camworks 出刀路
 
 DIY：制作曲面感光元件的针孔相机，首发于极客范 - GeekFan.net。</content>
 </doc><doc>
-    <docid>115</docid>
+    <docid>112</docid>
     <url>http://www.geekfan.net/13945/</url>
     <title>DIY：拆了收录机，做个机器人</title>
     <content>
@@ -8892,7 +8892,7 @@ DIY：制作曲面感光元件的针孔相机，首发于极客范 - GeekFan.net
 整个过程用时比我想象的要长。总共用了50个多小时，不过整个过程很有趣。我还会对这个机器人做一些改进，比如给它身上加一些灯和可移动零件，并给这些灯加上控制开关。我还想知道如何能将机器人的嘴变得能够显示音量大小，并让它根据所播放的声音眨眼。如果你知道，请跟我联系或者在评论中告知我。能变废为宝是一件很棒的事，我会做更多这类大小的机器人。
 DIY：拆了收录机，做个机器人，首发于极客范 - GeekFan.net。</content>
 </doc><doc>
-    <docid>116</docid>
+    <docid>113</docid>
     <url>http://www.geekfan.net/13941/</url>
     <title>极客DIY：轻松使用树莓派控制灯</title>
     <content>
@@ -8956,7 +8956,7 @@ demo2:
 ·https://github.com/TheGreenToaster/web-pins/
 极客DIY：轻松使用树莓派控制灯，首发于极客范 - GeekFan.net。</content>
 </doc><doc>
-    <docid>117</docid>
+    <docid>114</docid>
     <url>http://www.geekfan.net/13924/</url>
     <title>自主机器人：你的私人WALL·E</title>
     <content>
@@ -9259,7 +9259,7 @@ Du-Bro是美国的一家生产模型配件的公司，很遗憾我没找到这�
 
 自主机器人：你的私人WALL·E，首发于极客范 - GeekFan.net。</content>
 </doc><doc>
-    <docid>118</docid>
+    <docid>115</docid>
     <url>http://www.geekfan.net/13900/</url>
     <title>牛人自制加特林水枪，让你度过丧心病狂的夏天</title>
     <content>
@@ -9383,7 +9383,7 @@ V2PARTS.PDF
 
 牛人自制加特林水枪，让你度过丧心病狂的夏天，首发于极客范 - GeekFan.net。</content>
 </doc><doc>
-    <docid>119</docid>
+    <docid>116</docid>
     <url>http://www.geekfan.net/13876/</url>
     <title>自制拉风电动滑板，回头率太高有点不习惯</title>
     <content>创意是参照了@动力老男孩的一篇文章，最初的想法是DIY一个可穿戴的动力轮，像鞋子一样穿在脚上，不用的时候可以自动折叠收在小腿和膝盖处，用的时候可以伸张成轮子电力驱动快速前进，有点像哪吒的风火轮，主要是受《变形金刚》和《钢铁侠》两部电影毒害太深。后来发现水平极其有限，买了很多零件设备却做不出个所以然，东西都搁置在一边大半年。有天在网上看到动力老男孩的视频是把活力板改装成动力滑板，觉得我所有的材料都有了，就是差一块活力板了，于是速上某宝买了一块。然后就是水到渠成了。
@@ -9686,7 +9686,7 @@ DC-2.5-2.1
 视频：
 自制拉风电动滑板，回头率太高有点不习惯，首发于极客范 - GeekFan.net。</content>
 </doc><doc>
-    <docid>120</docid>
+    <docid>117</docid>
     <url>http://www.geekfan.net/13847/</url>
     <title>人人都能玩航拍 手把手教你装4轴</title>
     <content>
@@ -9808,7 +9808,7 @@ APC 1147 螺旋桨，单价12.5元
 
 人人都能玩航拍 手把手教你装4轴，首发于极客范 - GeekFan.net。</content>
 </doc><doc>
-    <docid>121</docid>
+    <docid>118</docid>
     <url>http://www.phonekr.com/material-playground-flamingo/</url>
     <title>[Material Playground] Flamingo</title>
     <content>不知道你是否还记得第一届 Material Design Awards 的各位获奖者们? 这些应用在今天看来依然是非常优秀的应用, 如果还没用过的话请尽量试用一番. 今天要介绍的这款应用, 就是来自于第一届 Material Design Award 得主, Weather Timeline 的开发者 Sam Ruston 的一款新应用 —— Flamingo.
@@ -9833,7 +9833,7 @@ Play Store 连接: Flamingo for Twitter ($0.99)
 
 </content>
 </doc><doc>
-    <docid>122</docid>
+    <docid>119</docid>
     <url>http://www.phonekr.com/motion-growth-communications/</url>
     <title>Material Design 更新: 动效, 增长与用户教育</title>
     <content>今天, Material Design 迎来了毫无预兆的一个大更新, 突然地完善了 (本应在两年前就有的) 动效设计讲解与加入了面向中小团队与个人开发者的初体验设计指导.
@@ -9859,7 +9859,7 @@ Introduction &#8211; Growth &amp; Communication &#8211; Google Design
 初体验设计的模块中, 包括了非常常用而至关重要的空界面设计, 内容定制模块, 功能介绍等等, 都附有详细的设计图.
 </content>
 </doc><doc>
-    <docid>123</docid>
+    <docid>120</docid>
     <url>http://www.phonekr.com/material-bottom-navigation/</url>
     <title>Bottom Navigation —— 如果要用, 请认真用</title>
     <content>在 π 日, Google 对 Material Design 进行了大家期盼已久 (说句实话, 这里的 ｢期盼已久｣ 换作 ｢又惧又期待｣ 会比较合适吧) 的更新, 加入了对 bottom navigation 的明确规范.
@@ -9903,7 +9903,7 @@ Bottom navigation 可以有不同的颜色;
 
 </content>
 </doc><doc>
-    <docid>124</docid>
+    <docid>121</docid>
     <url>http://www.phonekr.com/so-happy-birthday-material/</url>
     <title>So… Happy Birthday, Material!</title>
     <content>(标题请配合 Matías Duarte 在 Material Now 演讲开头中的致辞服用)
@@ -9928,7 +9928,7 @@ Bottom navigation 可以有不同的颜色;
 在这个重要的日子, 我要大张旗鼓地为 Material Design 庆祝生日. Happy birthday, material!
 </content>
 </doc><doc>
-    <docid>125</docid>
+    <docid>122</docid>
     <url>http://www.phonekr.com/bilibili-for-android-redesign/</url>
     <title>Material Design in Action — 哔哩哔哩动画 Android 客户端</title>
     <content>前言
@@ -10006,7 +10006,7 @@ v4.0.0 加入了“关注”、“发现”和“游戏”三个 Tab 项目。�
 彩蛋：好想看Nova做的啊啊啊啊！
 </content>
 </doc><doc>
-    <docid>126</docid>
+    <docid>123</docid>
     <url>http://www.phonekr.com/you_didnt_see_immersive_mode/</url>
     <title>你说你看到了沉浸模式，你可能只是见到鬼了</title>
     <content>
@@ -10043,7 +10043,7 @@ Google 在 Android 4.4 的 API 描述页面里提到了“Translucent system UI 
 如果你能理解这一点，请再也不要弄混这两个完全不一样的东西了。
 </content>
 </doc><doc>
-    <docid>127</docid>
+    <docid>124</docid>
     <url>http://www.phonekr.com/chromebook-pixel-ls-2015-gallery/</url>
     <title>发几张 Chromebook Pixel LS 2015 的图片</title>
     <content>
@@ -10062,7 +10062,7 @@ Google 在 Android 4.4 的 API 描述页面里提到了“Translucent system UI 
 
 </content>
 </doc><doc>
-    <docid>128</docid>
+    <docid>125</docid>
     <url>http://www.phonekr.com/unveil-white-nexus-4/</url>
     <title>揭开白色 Nexus 4 的面纱</title>
     <content>一直以来, 我心目中最美的 Nexus 手机一直是 Nexus 4. 直到今天, 我还在使用它作为设计稿预览机, 并为它制作 Photoshop UI Kit. 不幸 (或者说是有幸?) 的事情是我的第一台 Nexus 4 在陪伴我两年之后电池开始鼓包, 音量下也已经完全失灵. 现在二手 Nexus 4 的价格已经算是白菜价了, 我便毫不犹豫地订购了一台白色 Nexus 4.
@@ -10105,7 +10105,7 @@ Nexus 4 的外包装. 和 Nexus 7 的盒子风格一致, 一看就是姐弟 (你
 唉? 你还想看更多的内容? 唉呀唉呀这只不过是篇赶时间写的开箱文, 不要想太多啦~ 其他的内容, 我会在晚些的正式评测里写的, 包你满意~
 </content>
 </doc><doc>
-    <docid>129</docid>
+    <docid>126</docid>
     <url>http://www.phonekr.com/yuan-ti-ku-redesign/</url>
     <title>Material Design in Action — 猿题库</title>
     <content>猿题库是一款免费的手机做题软件，在中学学生中拥有一定的人气。
@@ -10177,7 +10177,7 @@ Drawer 在原版就已经出现了，于是我只对 Drawer 样式做了修改�
 祝大家在 2015 年一切顺利~
 </content>
 </doc><doc>
-    <docid>130</docid>
+    <docid>127</docid>
     <url>http://www.phonekr.com/android-share-in-mainland-china/</url>
     <title>被 ｢阉割｣ 的分享与应用间的墙</title>
     <content>经常使用国内应用的读者应该不会对这个题目感到陌生 —— 很多国内大公司的应用都自己 ｢实现｣ 了一套 ｢独特｣ 的分享方式, 里面只有自己家的应用, 想分享给其他应用要么得费点儿心思找入口,  要么根本就不允许.
@@ -10192,7 +10192,7 @@ Drawer 在原版就已经出现了，于是我只对 Drawer 样式做了修改�
 &nbsp;
 </content>
 </doc><doc>
-    <docid>131</docid>
+    <docid>128</docid>
     <url>http://www.phonekr.com/do-not-get-tricked-by-data/</url>
     <title>｢数据? 那是什么? 能吃么? 好吃么?｣</title>
     <content>在近一年前, 腾讯终于扭扭捏捏地把微信改成了靠近 Android Design 的样子. 虽然外表有那么点儿 Android Design 的味道, 但设计却十分糟烂, 被无数用户吐槽. 结果到了八月, 微信又把 UI 改回了 iOS 风格.
@@ -10206,7 +10206,7 @@ Drawer 在原版就已经出现了，于是我只对 Drawer 样式做了修改�
 产品经理也当然没必要满嘴 Android Design 或者 Action Overflow, 但是如果他们不知道如何用好 Android Design 或者 Action Overflow, 就是他们的失职.
 </content>
 </doc><doc>
-    <docid>132</docid>
+    <docid>129</docid>
     <url>http://www.phonekr.com/overview-is-the-new-recents/</url>
     <title>Overview, Android 中新的 Recents 界面</title>
     <content>在 Android 5.0 中, 原先的 ｢最近任务｣(Recents) 界面被 ｢概览｣(Overview) 界面替换了.
@@ -10222,7 +10222,7 @@ Drawer 在原版就已经出现了，于是我只对 Drawer 样式做了修改�
 这些新特性如果好好使用的话, 对于提升一个应用的易用性也好辨识度也好, 都是有极大意义的.
 </content>
 </doc><doc>
-    <docid>133</docid>
+    <docid>130</docid>
     <url>http://www.phonekr.com/material-thickness/</url>
     <title>｢质感｣ 的 ｢厚度｣</title>
     <content>如果你有看过 Material Design, 那也许会对这个描述有印象:
@@ -10236,7 +10236,7 @@ Material has varying x &amp; y dimensions (measured in dps) and a uniform thickn
 Material 有固定的厚度, 然后呢? 实际上, Material 的厚度应该是一个虚数. 你可以把它想象成一张无限薄却不透明的材料. 但是 Google 显然不可能用这种暧昧的描述. 而在 Material Design 中, 基本不存在 &#8220;0.5dp&#8221; 这样的数值, Material Design 的网格也是以 8dp 为单位存在, Google 同样不能采用 &#8220;0.1dp thick&#8221; 这样的表述. 但是 Material 必须有厚度. 这个时候, 拿一个最小整数单位来提示 &#8220;这个东西有厚度&#8221;, 就只能选择 1dp 了.
 </content>
 </doc><doc>
-    <docid>134</docid>
+    <docid>131</docid>
     <url>http://www.phonekr.com/material-design-on-ios/</url>
     <title>对于 Google 在 iOS 上采用 Material Design 这种事情, 我还是挺欢迎的</title>
     <content>自从 Material Design 发布之后, Google 就陆陆续续在 iOS 上把几个重要的自家应用的风格改成了 Material Design. 而在此之前, Google 的几个 iOS 应用基本上都是遵循苹果的 Human Interface Guideline 来制作的.
@@ -10251,7 +10251,7 @@ Google 当初在订制 Material Design Guideline 的时候, 就已经把跨 iOS 
 做得好, 自然大家喜欢, 做得不好, 大家自然就骂了.
 </content>
 </doc><doc>
-    <docid>135</docid>
+    <docid>132</docid>
     <url>http://www.phonekr.com/best-of-2014/</url>
     <title>NovaDNG 2014 年度应用</title>
     <content>又到了一年一度写年终总结的时候了&#8230; 这一年因为参加了工作的缘故, 锋客这边文章的更新频率大幅下降了, 所以这几天我会搬运一些知乎上的回答过来.
@@ -10281,7 +10281,7 @@ Google 当初在订制 Material Design Guideline 的时候, 就已经把跨 iOS 
 以上就是 NovaDNG 的 2014 年 Android App 精选集~
 </content>
 </doc><doc>
-    <docid>136</docid>
+    <docid>133</docid>
     <url>http://www.phonekr.com/android-ui-design-kit-5-0-nexus-4/</url>
     <title>Android UI 设计工具 (Photoshop, Android 5.0, Nexus 4)</title>
     <content>Material Design UI Toolkit for Nexus 4 版本 0.1 发布.
@@ -10297,7 +10297,7 @@ Google 当初在订制 Material Design Guideline 的时候, 就已经把跨 iOS 
 下载地址: 度盘, Google Drive
 </content>
 </doc><doc>
-    <docid>137</docid>
+    <docid>134</docid>
     <url>http://www.phonekr.com/android-tablet-is-doomed/</url>
     <title>Google 大概是真的打算放弃 Android 平板了</title>
     <content>本来这篇文章的目的是打算好好黑一下 Nexus 9 的, 毕竟手上这台 Nexus 9 的黑点实在是太多了. 但是没想到 HTC 大概已经听到了众 Nexus 9 用户的不满, 塌陷的音量键, 松软的后盖这两个制造工艺问题在新出货的 Nexus 9 上已经得到了解决, 可以取暖的功能随着 Android 5.0.1 也已经取消了, 所以黑点的话恐怕真的没多少了.
@@ -10339,7 +10339,7 @@ Google 发布 Material Design 也不是一天两天的事情了, 但是现在很
 乌鸦老师问: Android 平板还有未来吗? 这个问题的答案, 我不知道.
 </content>
 </doc><doc>
-    <docid>138</docid>
+    <docid>135</docid>
     <url>http://www.phonekr.com/navigation-drawer-where-does-it-belong/</url>
     <title>导航抽屉到底归属于哪个层级?</title>
     <content>这篇文章译自 +Juhani Lehtimäki 的博文 Navigation Drawer &#8211; Where Does it Belong in the View Hierarchy? 英文能力过关的同学可以直接去看原文~
@@ -10377,7 +10377,7 @@ Material Design | Layout
 
 </content>
 </doc><doc>
-    <docid>139</docid>
+    <docid>136</docid>
     <url>http://www.phonekr.com/ux-is-king/</url>
     <title>用户体验为王 —— Android 设计师 Taylor Ling 访谈</title>
     <content>
@@ -10460,7 +10460,7 @@ Taylor Ling 的日常是什么样的? 
 锻炼你的眼睛. 适当地吹毛求疵, 对自己做的事情抱有热忱. 如果你热衷于生活与工作, 一切都会顺利的.
 </content>
 </doc><doc>
-    <docid>140</docid>
+    <docid>137</docid>
     <url>http://www.phonekr.com/mx-4-and-mtk/</url>
     <title>MX 4 与联发科</title>
     <content>这是一篇来自不愿意透露姓名的网友的投稿
@@ -10483,7 +10483,7 @@ MediaTek 6595 魅族定制版”。在这里，魅族并没有用更为人所熟
 魅族，你觉得呢？
 </content>
 </doc><doc>
-    <docid>141</docid>
+    <docid>138</docid>
     <url>http://www.phonekr.com/source-han-sans/</url>
     <title>思源黑体, 一款好用的开源中文字体</title>
     <content>昨天 (在中国其实是今天), Adobe 公司联合 Google 共同发布了一款开源字体 —— 思源黑体. 这款字体由 Adobe, Google, Iwata, Sandoll 和常州 Sinotype 五家公司共同合作完成, 可以说是前所未有的由五家公司共同合作完成的字体. 正因如此, 思源黑体提供了非常完备的 Pan-CJK 字符支持, 基本可以说完美支持简繁中文, 日文汉字和韩文汉字, 并且包含 Source Sans 字体家族的拉丁文, 希腊文和西里尔文字形. 与此同时, 思源黑体家族还包含了从 Extra Light 到 Heavy 七种字重. 另外, Source Han Pro 是一款开源字体, 你可以在 GitHub 上查看和 Fork 它,  或者在 Google Noto Font 和 Adobe Typekit 上免费下载使用.
@@ -10494,7 +10494,7 @@ MediaTek 6595 魅族定制版”。在这里，魅族并没有用更为人所熟
 希望在下一个版本的 Android 中, Google 能把思源黑体作为 Android 中默认的 CJK 字体.
 </content>
 </doc><doc>
-    <docid>142</docid>
+    <docid>139</docid>
     <url>http://www.phonekr.com/dont-use-splash-screen-on-your-app/</url>
     <title>Splash Screen 是魔鬼, 不要在你的应用中加入这东西!</title>
     <content>回国快一年了. 既然人在国内, 就免不了用到各式各样的国产应用. 而偏偏安卓应用的质量还大多不太能看, 问题数不胜数. 我写下这篇文章, 借此来谈谈在安卓应用上最常见的一个问题: Splash Screen.
@@ -10519,7 +10519,7 @@ iOS 应用利用这样的一张启动画面, 令用户认为应用已经载入, 
 这篇文章的部分观点整理自 +Cyril Mottier 的博客 Splash Screens Are Evil, Don’t Use Them! 与 +Roman Nurik 的博客 A mobile design anecdote on perceived latency and touch feedback &#8212; Fast can sometimes feel slow.
 </content>
 </doc><doc>
-    <docid>143</docid>
+    <docid>140</docid>
     <url>http://www.phonekr.com/quickpic-beta-testing/</url>
     <title>快图浏览开始 Beta 测试啦~</title>
     <content>Google+ Community: QuickPic Beta
@@ -10529,7 +10529,7 @@ iOS 应用利用这样的一张启动画面, 令用户认为应用已经载入, 
 
 </content>
 </doc><doc>
-    <docid>144</docid>
+    <docid>141</docid>
     <url>http://www.phonekr.com/android-niceties/</url>
     <title>团队成员的 Android 实用美观小工具推荐(不定期更新)</title>
     <content>
@@ -10825,7 +10825,7 @@ Mapsaurus 是一款可以帮你找到与一款应用相似的应用的应用(哎
 下载地址: Play Store
 </content>
 </doc><doc>
-    <docid>145</docid>
+    <docid>142</docid>
     <url>http://www.phonekr.com/navigation-drawer-done-right/</url>
     <title>正确的使用 Navigation Drawer</title>
     <content>译注: 这篇文章来自博客 Android UI/UX, 作者为 Taylor Ling.
@@ -10848,7 +10848,7 @@ Mapsaurus 是一款可以帮你找到与一款应用相似的应用的应用(哎
 延伸阅读: 由饭本前设计师 +Stephen Day 写的《从 Google+ 更新说说 Navigation Drawer》
 </content>
 </doc><doc>
-    <docid>146</docid>
+    <docid>143</docid>
     <url>http://www.phonekr.com/mipad/</url>
     <title>小米平板的变数</title>
     <content>
@@ -10865,7 +10865,7 @@ Mapsaurus 是一款可以帮你找到与一款应用相似的应用的应用(哎
 最后说句题外话, 如果有开发者愿意为 Android 平板 (而不是只为小米平板) 适配自己的应用, 请参看: Building a Dynamic UI with Fragments, Multi-pane Layouts, Android Design in Action —— 编与集.
 </content>
 </doc><doc>
-    <docid>147</docid>
+    <docid>144</docid>
     <url>http://www.phonekr.com/adia-luoo-redesign/</url>
     <title>Android Design in Action —— 以落网为例</title>
     <content>
@@ -10959,7 +10959,7 @@ Drawer
 最后感谢刘文慧将落网推荐给我~
 </content>
 </doc><doc>
-    <docid>148</docid>
+    <docid>145</docid>
     <url>http://www.phonekr.com/google-camera/</url>
     <title>Google Camera 初体验</title>
     <content>就在不久之前, Android 4.4 上的自带相机更新为了 Google Camera. 这个更新是个从图标到体验的从内而外的大更新.
@@ -10981,7 +10981,7 @@ Drawer
 下载地址: Google Camera
 </content>
 </doc><doc>
-    <docid>149</docid>
+    <docid>146</docid>
     <url>http://www.phonekr.com/android-popup-and-dialog-ui/</url>
     <title>Android 弹出窗口与对话框 UI 设计</title>
     <content>本文译自 Tim Green 在 Medium 上的博客里发的文章 Android Popup &amp; Dialog UI. 英文能力过关的同学可以跳过我的渣翻译直接看原文了.
@@ -11002,7 +11002,7 @@ Drawer
 我相信随着 Android 版本的迭代, 我们会看到越来越多的应用采用这种从屏幕底部滑入的对话框.
 </content>
 </doc><doc>
-    <docid>150</docid>
+    <docid>147</docid>
     <url>http://www.phonekr.com/mi-troika/</url>
     <title>小米移动的三驾马车</title>
     <content>
@@ -11031,7 +11031,7 @@ MIUI, 是小米公司的生存和立足之本. 在前 4.0 时代, 小米靠着 M
 接过了来自由于受竞争者和用户需求减弱冲击而动力疲软的 MIUI 的接力棒, 小米系统正式成为小米移动三驾马车的主马. 尽管小米手机被国内传统厂商借鉴模式并在渠道和宣传上打压而且一时无法摆脱低端印象, 但是小米系统在准高端用户领域做出了积极的尝试. 由此, 小米通过小米系统, MIUI 和小米手机这台三驾马车, 进一步扩展了自身互联网服务的受众群体, 高低搭配远近结合, 完成了小米移动的中盘布局, 堪称完美的妙着. 
 </content>
 </doc><doc>
-    <docid>151</docid>
+    <docid>148</docid>
     <url>http://www.phonekr.com/a-new-journey/</url>
     <title>A New Journey</title>
     <content>
@@ -11050,7 +11050,7 @@ MIUI, 是小米公司的生存和立足之本. 在前 4.0 时代, 小米靠着 M
 文: TingTalk
 </content>
 </doc><doc>
-    <docid>152</docid>
+    <docid>149</docid>
     <url>http://www.phonekr.com/tensei-21/</url>
     <title>异闻录 21：高难度暴力杀人事件</title>
     <content>
@@ -11138,7 +11138,7 @@ EA 表示，即使 GameSpy 关停多人游戏服务，依然会继续保证对 
 最终，三名中学生因为购买游戏机发生内讧先后向警方举报同伙而被一网打尽。
 </content>
 </doc><doc>
-    <docid>153</docid>
+    <docid>150</docid>
     <url>http://www.phonekr.com/about-my-near-future/</url>
     <title>关于未来, 以及一些才不是怎么样都好呢的事情…</title>
     <content>
@@ -11167,7 +11167,7 @@ NovaDNG 依然将工作之余的自己看作一个学生. 进了新公司之后,
 就让我在这里尽情的矫情一回吧.
 </content>
 </doc><doc>
-    <docid>154</docid>
+    <docid>151</docid>
     <url>http://www.phonekr.com/tensei-20/</url>
     <title>异闻录 20：我们中出了个叛徒</title>
     <content>
@@ -11281,7 +11281,7 @@ iPhone 5s 对 iPhone 5c 说：
 
 </content>
 </doc><doc>
-    <docid>155</docid>
+    <docid>152</docid>
     <url>http://www.phonekr.com/tensei-19/</url>
     <title>异闻录 19：总统，药不能停</title>
     <content>
@@ -11407,7 +11407,7 @@ Android 继续友好地把 Windows 按在地上揍了一顿：
 
 </content>
 </doc><doc>
-    <docid>156</docid>
+    <docid>153</docid>
     <url>http://www.phonekr.com/tensei-18/</url>
     <title>异闻录 18：猴族危机</title>
     <content>
@@ -11535,7 +11535,7 @@ EA 和索尼相视大笑，把酒言欢。
 旁听的 Google 代表无辜地望着庭上的律师，无可奈何地苦笑了。
 </content>
 </doc><doc>
-    <docid>157</docid>
+    <docid>154</docid>
     <url>http://www.phonekr.com/save-my-time-save-my-life-link-bubble/</url>
     <title>Save My Time, Save My Life —— Link Bubble</title>
     <content>如果你也和我一样是一个重度 Twitter 和 Google+ 用户, 而且更经常在手机上使用这两个客户端, 你可能会遇到一个问题: 当你打开一个来自 tweet/post 的链接时, 你不得不从 Twitter/G+ 客户端跳转到 Chrome/你的默认浏览器, 等网页加载完, 看文章, 然后再跳回客户端. 有时候更讨厌的是, 由于经过了短链接处理 (Twitter/bit.ly/goo.gl), 一个原本应该在 YouTube 里打开的链接依然强迫你跳转到 Chrome, 等 Chrome 解析短链接, 然后再跳转到 YouTube&#8230; 这个过程既毫无意义又让人烦躁, 而且最重要的是, 它让你花了很多完全没必要的时间在等待上.
@@ -11578,7 +11578,7 @@ Link Bubble 有免费版. 等你觉得你需要高级版的功能的时候再花
 下载地址: Play Store (Free)|Play Store (Pro) (需要和免费版一起安装)
 </content>
 </doc><doc>
-    <docid>158</docid>
+    <docid>155</docid>
     <url>http://www.phonekr.com/serendipitous-ideas/</url>
     <title>Muzei —— 意外之念</title>
     <content>这篇文章译自 Muzei 开发者, 我们的老朋友 Roman Nurik 在 Medium 上发布的一篇博客, 讲述了 Muzei 诞生的经历.
@@ -11622,7 +11622,7 @@ DashClock 与白色
 于是, 耶, 这毫无疑问是件关于想法是如何形成的, 有趣的事儿.  DashClock 是从一个将他引向美观的锁屏应用的新 API 中诞生的. 而 Muzei 则是从一个为了解决 DashClock 那苦逼的可见性产生的问题中成型的, 但是它却达到了一个全新的高度. 它变成了一个通过开源与扩展性刺激开发者的途径. 它酿就了一件我用来纪念我在 Android 中喜爱的事物与我有幸居住的这个旖旎城市的纪念品. 但最重要的是, 它化作了一条通过我们人类在这个星球上留下的优美的艺术品给人们带去灵感的路. 
 </content>
 </doc><doc>
-    <docid>159</docid>
+    <docid>156</docid>
     <url>http://www.phonekr.com/navigation-anti-patterns/</url>
     <title>Android Design in Action —— 十大导航错误</title>
     <content>
@@ -11697,7 +11697,7 @@ Drawer 虽然有能力承载多个导航层级, 但是正确的做法不是这�
 最后, 一如既往的感谢 +Roman Nurik 和 +Nick Butcher 的 Android Design in Action 活动.
 </content>
 </doc><doc>
-    <docid>160</docid>
+    <docid>157</docid>
     <url>http://www.phonekr.com/iuni-and-more/</url>
     <title>极客公园环聊日常 —— 由 IUNI 引发的杂谈</title>
     <content>今天晚上龚叔 (+Carlos Gong) 在环聊里转发了一条 IUNI 的微博, 引发了一场挺有启发的讨论.
@@ -12011,42 +12011,42 @@ Geoffrey.R Hsu &#8211; 8:32 PM
 Carlos Gong
 </content>
 </doc><doc>
-    <docid>161</docid>
+    <docid>158</docid>
     <url>http://www.geekpark.net/topics/217084</url>
     <title>在拉斯维加斯，我经历了一场智能化生活的洗礼</title>
     <content>作者：龟途慢慢</content>
 </doc><doc>
-    <docid>162</docid>
+    <docid>159</docid>
     <url>http://www.geekpark.net/topics/217080</url>
     <title>Quip 模式难以复制，因为中国市场缺的是 Google Docs</title>
     <content>作者：早优夫斯基</content>
 </doc><doc>
-    <docid>163</docid>
+    <docid>160</docid>
     <url>http://www.geekpark.net/topics/217083</url>
     <title>提醒你出门带伞这件小事，背后是价值百亿的蓝海</title>
     <content>作者：杨雪</content>
 </doc><doc>
-    <docid>164</docid>
+    <docid>161</docid>
     <url>http://www.geekpark.net/topics/217081</url>
     <title>细数社交巨无霸 Facebook 与美国媒体的「爱恨情仇」</title>
     <content>作者：黑板报值日生</content>
 </doc><doc>
-    <docid>165</docid>
+    <docid>162</docid>
     <url>http://www.geekpark.net/topics/217079</url>
     <title>OV 销量同时超越华为，苹果放出新 MacBook Pro 真机图 | 2016 年 10 月 26 日</title>
     <content>作者：colorvc</content>
 </doc><doc>
-    <docid>167</docid>
+    <docid>163</docid>
     <url>http://www.geekpark.net/topics/217074</url>
     <title>从 iPhone 到自动驾驶，我们所经历的智能化时代</title>
     <content>作者：拉风的极客</content>
 </doc><doc>
-    <docid>169</docid>
+    <docid>164</docid>
     <url>http://www.geekpark.net/topics/217070</url>
     <title>年轻人的第一款电动牙刷：素士声波牙刷 X3 使用体验</title>
     <content>作者：谁是大英雄</content>
 </doc><doc>
-    <docid>181</docid>
+    <docid>165</docid>
     <url>http://www.ifanr.com/737451?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>Google 发布了一款办公神器，剑指微软的 Surface Hub</title>
     <content>
@@ -12105,7 +12105,7 @@ G Suite 包含了一系列可以被应用于办公领域的服务，其中有 Gm
 
  </content>
 </doc><doc>
-    <docid>182</docid>
+    <docid>166</docid>
     <url>http://www.ifanr.com/737392?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>为了让你在国外花钱更方便，这些公司也是拼了</title>
     <content>
@@ -12175,7 +12175,7 @@ G Suite 包含了一系列可以被应用于办公领域的服务，其中有 Gm
 
  </content>
 </doc><doc>
-    <docid>183</docid>
+    <docid>167</docid>
     <url>http://www.ifanr.com/737357?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>“美国滴滴”Lyft CEO 否认公司在售，但靠“补贴大法”还可以撑多久？</title>
     <content>
@@ -12232,7 +12232,7 @@ John Zimmer 不断强调 Lyft 订单数量的上升，却避而不谈盈利计�
 
  </content>
 </doc><doc>
-    <docid>184</docid>
+    <docid>168</docid>
     <url>http://www.ifanr.com/737296?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>逼宫亚马逊，Google Express 又放大招了</title>
     <content>
@@ -12291,7 +12291,7 @@ Google Express 总经理布莱恩•艾略特 （Brian•Elliott）的发言强�
 
  </content>
 </doc><doc>
-    <docid>185</docid>
+    <docid>169</docid>
     <url>http://www.ifanr.com/737354?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>柳青说滴滴要展开国际化扩张，但这是一件不容易的事</title>
     <content>
@@ -12348,7 +12348,7 @@ Lyft 与 Uber 在美国市场的竞争已有很长时间，本来 Lyft 与滴滴
 
  </content>
 </doc><doc>
-    <docid>186</docid>
+    <docid>170</docid>
     <url>http://www.ifanr.com/737231?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>Uber 自动驾驶全球首秀：193 公里和 5 万罐啤酒的完美征途</title>
     <content>
@@ -12415,7 +12415,7 @@ Otto 的自动驾驶系统虽然不能完全取代司机，但无疑能提高运
 
  </content>
 </doc><doc>
-    <docid>187</docid>
+    <docid>171</docid>
     <url>http://www.ifanr.com/737080?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>瑞典政府：只要带相机的无人机都不能飞！</title>
     <content>
@@ -12445,7 +12445,7 @@ Otto 的自动驾驶系统虽然不能完全取代司机，但无疑能提高运
 
  </content>
 </doc><doc>
-    <docid>188</docid>
+    <docid>172</docid>
     <url>http://www.ifanr.com/737136?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>苹果的汽车操作系统，可能是“黑莓出品”</title>
     <content>
@@ -12469,7 +12469,7 @@ Dan Dodge（图片来自 investottawa.ca）
 
  </content>
 </doc><doc>
-    <docid>189</docid>
+    <docid>173</docid>
     <url>http://www.ifanr.com/737040?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>Google 光纤撂挑子了，超高速网络想说爱你不容易</title>
     <content>
@@ -12500,7 +12500,7 @@ Google 光纤从 2011 年 3 月开始上线，目前该服务已经拓展至美�
 
  </content>
 </doc><doc>
-    <docid>190</docid>
+    <docid>174</docid>
     <url>http://www.ifanr.com/736607?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>为了运送 88 包棉花，这两家银行用上了区块链和物联网</title>
     <content>
@@ -12560,7 +12560,7 @@ Google 光纤从 2011 年 3 月开始上线，目前该服务已经拓展至美�
 
  </content>
 </doc><doc>
-    <docid>191</docid>
+    <docid>175</docid>
     <url>http://www.ifanr.com/737087?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>刚拿到 5000 万美元的 Hyperloop One，打算再融资 2.5 亿美元</title>
     <content>
@@ -12610,7 +12610,7 @@ Hyperloop One 自成立以来，筹集的资金已达 1.6 亿美元。Hyperloop 
 
  </content>
 </doc><doc>
-    <docid>192</docid>
+    <docid>176</docid>
     <url>http://www.ifanr.com/737013?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>词错率降低至 5.9%，微软今日发布用于语音识别技术的“认知工具包”</title>
     <content>
@@ -12656,7 +12656,7 @@ Hyperloop One 自成立以来，筹集的资金已达 1.6 亿美元。Hyperloop 
 
  </content>
 </doc><doc>
-    <docid>193</docid>
+    <docid>177</docid>
     <url>http://www.ifanr.com/736513?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>美国《消费者报告》汽车可靠性排名出炉，特斯拉沦为垫底之一</title>
     <content>
@@ -12706,7 +12706,7 @@ Q70 操作相当敏捷，转向和行驶稳定，后排宽敞的 L 型座椅十�
 
  </content>
 </doc><doc>
-    <docid>194</docid>
+    <docid>178</docid>
     <url>http://www.ifanr.com/737015?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>几乎确认：新款 MacBook Pro 将搭配 OLED 触控按键和 Touch ID</title>
     <content>
@@ -12740,7 +12740,7 @@ Q70 操作相当敏捷，转向和行驶稳定，后排宽敞的 L 型座椅十�
 
  </content>
 </doc><doc>
-    <docid>195</docid>
+    <docid>179</docid>
     <url>http://www.ifanr.com/736986?utm_source=rss&utm_medium=rss&utm_campaign=</url>
     <title>对话网约车：外地司机的愤怒，京籍司机的尴尬</title>
     <content>
@@ -12808,7 +12808,7 @@ Q70 操作相当敏捷，转向和行驶稳定，后排宽敞的 L 型座椅十�
 
  </content>
 </doc><doc>
-    <docid>207</docid>
+    <docid>180</docid>
     <url>https://coolshell.cn/articles/18094.html</url>
     <title>如何免费的让网站启用HTTPS</title>
     <content>今天，我把CoolShell变成https的安全访问了。我承认这件事有点晚了，因为之前的HTTP的问题也有网友告诉我，被国内的电信运营商在访问我的网站时加入了一些弹窗广告。另外，HTTP的网站在搜索引擎中的rank会更低。所以，这事早就应该干了。现在用HTTP访问CoolShell会被得到一个 301 的HTTPS的跳转。下面我分享一下启用HTTPS的过程。
@@ -12885,7 +12885,7 @@ include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 相关文章从“黑掉Github”学Web安全开发关于移动端的钓鱼式攻击HTTP API 认证授权术你会做Web上的用户登录功能吗？Web工程师的工具箱bash代码注入的安全漏洞
 </content>
 </doc><doc>
-    <docid>211</docid>
+    <docid>181</docid>
     <url>https://coolshell.cn/articles/19464.html</url>
     <title>如何超过大多数人</title>
     <content>当你看到这篇文章的标题，你一定对这篇文章产生了巨大的兴趣，因为你的潜意识在告诉你，这是一本人生的“武林秘籍”，而且还是左耳朵写的，一定有干货满满，只要读完，一定可以练就神功并找到超过大多数人的快车道和捷径……然而…… 当你看到我这样开篇时，你一定会觉得我马上就要有个转折，告诉你这是不可能的，一切都需要付出和努力……然而，你错了，这篇文章还真就是一篇“秘籍”，只要你把这些“秘籍”用起来，你就一定可以超过大多数人。而且，这篇文章只有我这个“人生导师”可以写得好。毕竟，我的生命过到了十六进制2B的年纪，踏入这个社会已超过20年，舍我其谁呢？！
@@ -12968,7 +12968,7 @@ P.S. 这篇文章借鉴于《如何写出无法维护的代码》一文的风格
 相关文章技术人员的发展之路什么是工程师文化？这多年来我一直在钻研的技术关于高可用的系统「我只是认真」聊聊工匠情怀互联网之子 &#8211; Aaron Swartz
 </content>
 </doc><doc>
-    <docid>212</docid>
+    <docid>182</docid>
     <url>https://coolshell.cn/articles/19395.html</url>
     <title>HTTP API 认证授权术</title>
     <content>我们知道，HTTP是无状态的，所以，当我们需要获得用户是否在登录的状态时，我们需要检查用户的登录状态，一般来说，用户的登录成功后，服务器会发一个登录凭证（又被叫作Token），就像你去访问某个公司，在前台被认证过合法后，这个公司的前台会给你的一个访客卡一样，之后，你在这个公司内去到哪都用这个访客卡来开门，而不再校验你是哪一个人。在计算机的世界里，这个登录凭证的相关数据会放在两种地方，一个地方在用户端，以Cookie的方式（一般不会放在浏览器的Local Storage，因为这很容易出现登录凭证被XSS攻击），另一个地方是放在服务器端，又叫Session的方式（SessonID存于Cookie）。
@@ -13271,7 +13271,7 @@ HMAC中无论是MD5还是SHA1/SHA2，其计算都是非常快的，RSA的非对�
 相关文章从“黑掉Github”学Web安全开发如何免费的让网站启用HTTPS关于移动端的钓鱼式攻击从 MongoDB “赎金事件” 看安全问题C语言的整型溢出问题bash代码注入的安全漏洞
 </content>
 </doc><doc>
-    <docid>213</docid>
+    <docid>183</docid>
     <url>https://coolshell.cn/articles/19307.html</url>
     <title>StackOverflow 2019 程序员调查</title>
     <content>前些天，StackOverflow 发布了 2019年的年度程序员调查，这个调查报查有90000名程序员参与，这份调度报告平均花了20分钟，可见，这份报告有很多的问题，也是很详细的。这份报告有一些地方，让我有了一些思考。
@@ -13400,7 +13400,7 @@ Java圈 &#8211; Java、Spring
 相关文章关于高可用的系统技术人员的发展之路什么是工程师文化？这多年来我一直在钻研的技术Leetcode 编程训练从Gitlab误删除数据库想到的
 </content>
 </doc><doc>
-    <docid>214</docid>
+    <docid>184</docid>
     <url>https://coolshell.cn/articles/19271.html</url>
     <title>“努力就会成功”</title>
     <content> 那一年，我加入了某知名公司的某知名部门，在办公室中，我看到了到处都挂着——“努力就会成功”的条幅，这个部门中大多数员工的邮件签名都会有“努力就会成功”，我感到一种热血沸腾的气氛，这是我在多年工作来都没有感受到的，当时挺高兴地能和这样一群人工作，也没多想。直到有一天，我看到这些高级的软件工程师们把自己关在又挤又吵的会议室中，拼命地加班，真是拼命，周一到周日，每天早上10点到凌晨3点甚至凌晨5点，连国庆节都来上班，就在这样的环境和状态下，连续干了三个多月……上线前，QA找到了1000多个bug（你没看错，就是一千多个），最后这个项目用了1年多的时间来返工，本来一个6-8个月的项目，团队被打了鸡血想在3个月内完成，最终却花了近两年的时间来返工……（要知道，我以前在外国公司工作，外国老板看到团队在长时间加班会感到焦虑的，因为加班通常代表着有不好的事情正在发生……）
@@ -13437,7 +13437,7 @@ Work Smart
 相关文章什么是工程师文化？从Code Review 谈如何做技术关于高可用的系统技术人员的发展之路让我们来谈谈分工互联网之子 &#8211; Aaron Swartz
 </content>
 </doc><doc>
-    <docid>215</docid>
+    <docid>185</docid>
     <url>https://coolshell.cn/articles/19219.html</url>
     <title>打造高效的工作环境 – Shell 篇</title>
     <content>注：本文由雷俊(Javaer/Emacser)和我一起编辑，所以文章版权归雷俊与我共同所有，转载者必需注明出处和我们两位作者。原文最早发于酷壳微信公众号，后来我又做了一些修改，再发到博客这边。
@@ -13672,7 +13672,7 @@ https://terminalsare.sexy/
 相关文章应该知道的Linux技巧你可能不知道的ShellDocker基础技术：AUFSbash代码注入的安全漏洞Docker基础技术：DeviceMapperDocker基础技术：Linux Namespace（下）
 </content>
 </doc><doc>
-    <docid>216</docid>
+    <docid>186</docid>
     <url>https://coolshell.cn/articles/19085.html</url>
     <title>谈谈我的“三观”</title>
     <content>也许是人到了四十多了，敢写这么大的命题，我也醉了，不过，我还是想把我的想法记录下来，算是对我思考的一个snapshot，给未来的我看看，要么被未来的我打脸，要么打未来我的脸。无论怎么样，我觉得对我自己都很有意义。注意，这篇文章是长篇大论。
@@ -13746,7 +13746,7 @@ Small minds discuss people
 相关文章技术人员的发展之路什么是工程师文化？这多年来我一直在钻研的技术关于高可用的系统Leetcode 编程训练「我只是认真」聊聊工匠情怀
 </content>
 </doc><doc>
-    <docid>217</docid>
+    <docid>187</docid>
     <url>https://coolshell.cn/articles/18654.html</url>
     <title>记一次Kubernetes/Docker网络排障</title>
     <content>昨天周五晚上，临下班的时候，用户给我们报了一个比较怪异的Kubernetes集群下的网络不能正常访问的问题，让我们帮助查看一下，我们从下午5点半左右一直跟进到晚上十点左右，在远程不能访问用户机器只能远程遥控用户的情况找到了的问题。这个问题比较有意思，我个人觉得其中的调查用到的的命令以及排障的一些方法可以分享一下，所以写下了这篇文章。
@@ -13883,7 +13883,7 @@ Docker components explained
 相关文章Docker基础技术：Linux CGroupDocker基础技术：DeviceMapperDocker基础技术：AUFSDocker基础技术：Linux Namespace（下）Docker基础技术：Linux Namespace（上）Linux PID 1 和 Systemd
 </content>
 </doc><doc>
-    <docid>218</docid>
+    <docid>188</docid>
     <url>https://coolshell.cn/articles/18360.html</url>
     <title>程序员练级攻略（2018)  与我的专栏</title>
     <content>写极客时间8个月了，我的专栏现在有一定的积累了，今天想自己推荐一下。因为最新的系列《程序员练级攻略（2018）版》正在连载中，而且文章积累量到了我也有比较足的自信向大家推荐我的这个专栏了。推荐就从最新的这一系统的文章开始。
@@ -13932,7 +13932,7 @@ Docker components explained
 相关文章关于高可用的系统程序员技术练级攻略从Gitlab误删除数据库想到的对技术的态度如何学好C语言Leetcode 编程训练
 </content>
 </doc><doc>
-    <docid>219</docid>
+    <docid>189</docid>
     <url>https://coolshell.cn/articles/18246.html</url>
     <title>关于我”极客时间“的专栏</title>
     <content>不少朋友都知道我在“极客时间”上开了一个收费专栏，这个专栏会开设大约一年的时间，一共会发布104篇文章。现在，我在上面以每周两篇文章的频率已发布了27篇文章了，也就是差不多两个半月的时间。新的一年开始了，写专栏这个事对我来说是第一次，在这个过程中有一些感想，所以，我想在这里说一下这些感受和一些相关的故事，算是一个记录，也算是对我专栏的正式介绍，还希望能得到、大家的喜欢和指点。（当然，CoolShell这边还是会持续更新的）
@@ -14006,7 +14006,7 @@ Docker components explained
 相关文章DHH 谈混合移动应用开发Google Inbox如何跨平台重用代码？HTML6 展望两本电子书一些文章资源和趣闻一些非常有意思的杂项资源
 </content>
 </doc><doc>
-    <docid>220</docid>
+    <docid>190</docid>
     <url>https://coolshell.cn/articles/18190.html</url>
     <title>Go语言、Docker 和新技术</title>
     <content>上个月，作为 Go 语言的三位创始人之一，Unix 老牌黑客罗勃·派克（Rob Pike）在新文章“Go: Ten years and climbing”中，回顾了一下 Go 语言的发展过程。其中提到，Go 语言这十年的迅猛发展大到连他们自己都没有想到，并且还成为了云计算领域中新一代的开发语言。还提到了，中国程序员对 Go 语言的热爱完全超出了他们的想象，甚至他们都不敢相信是真的。
@@ -14096,7 +14096,7 @@ PaaS 层是承上启下的关键技术，任何一个不重视 PaaS 的公司，
 相关文章Go语言的修饰器编程Go 语言简介（上）— 语法Go 语言简介（下）— 特性Docker基础技术：Linux Namespace（上）Docker基础技术：DeviceMapperDocker基础技术：Linux Namespace（下）
 </content>
 </doc><doc>
-    <docid>221</docid>
+    <docid>191</docid>
     <url>https://coolshell.cn/articles/18140.html</url>
     <title>关于Facebook 的 React 专利许可证</title>
     <content>随着Apache、百度、Wordpress都在和Facebook的React.js以及其专利许可证划清界限，似乎大家又在讨论Facebook的这个BSD+PATENT的许可证问题了。这让我想起了之前在Medium读过的一篇文章——《React, Facebook, and the Revocable Patent License, Why It&#8217;s a Paper》，我觉得那篇文章写的不错，而且还是一个会编程的律师写的，所以有必要把这篇文章传播到中文社区这边来。注意，我不会全部翻译，我只是用我的语言来负责搬运内容和观点，我只想通过这篇文章让大家了解一下这个世界以及专利相关的知识，这样可以避免你看到某乎的“怎么看待XXX”这类的问题时人云亦云，能有自己的独立思考和自我判断。;-)
@@ -14157,7 +14157,7 @@ Patent Liability &#8211; 专利的责任和损害是两件事，非专业人士�
 相关文章扎克伯格的一封信：关于Facebook IPOQuora使用到的技术程序员练级攻略（2018)  与我的专栏Facebook 的系统架构Facebook全球关系网AWS 的 S3 故障回顾和思考
 </content>
 </doc><doc>
-    <docid>223</docid>
+    <docid>192</docid>
     <url>https://coolshell.cn/articles/18024.html</url>
     <title>API设计原则 – Qt官网的设计实践总结</title>
     <content>（感谢好友 @李鼎 翻译此文）
@@ -14712,7 +14712,7 @@ Qt 3有一整套类用来把完成增量加载的图片传递给一个动画 —
 相关文章从Gitlab误删除数据库想到的关于高可用的系统千万不要把 bool 设计成函数参数Leetcode 编程训练如何写出无法维护的代码一个“蝇量级” C 语言协程库
 </content>
 </doc><doc>
-    <docid>224</docid>
+    <docid>193</docid>
     <url>https://coolshell.cn/articles/17998.html</url>
     <title>Linux PID 1 和 Systemd</title>
     <content>要说清 Systemd，得先从Linux操作系统的启动说起。Linux 操作系统的启动首先从 BIOS 开始，然后由 Boot Loader 载入内核，并初始化内核。内核初始化的最后一步就是启动 init 进程。这个进程是系统的第一个进程，PID 为 1，又叫超级进程，也叫根进程。它负责产生其他所有用户进程。所有的进程都会被挂在这个进程下，如果这个进程退出了，那么所有的进程都被 kill 。如果一个子进程的父进程退了，那么这个子进程会被挂到 PID 1 下面。（注：PID 0 是内核的一部分，主要用于内进换页，参看：Process identifier）
@@ -14841,7 +14841,7 @@ LinuxVoice：Lennart Poettering 专访
 相关文章vfork 挂掉的一个问题Docker基础技术：AUFSDocker基础技术：Linux Namespace（上）Unix传奇(上篇)Docker基础技术：Linux Namespace（下）Docker基础技术：Linux CGroup
 </content>
 </doc><doc>
-    <docid>225</docid>
+    <docid>194</docid>
     <url>https://coolshell.cn/articles/17972.html</url>
     <title>我看绩效考核</title>
     <content>（本来，这篇文章应该在5月份完成，我拖延症让我今天才完成）

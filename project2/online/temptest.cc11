@@ -1,0 +1,29 @@
+
+#include "WordQuery.h"
+#include <iostream>
+
+using namespace std;
+using namespace ll;
+
+int main()
+{
+    Configuration conf("../conf/conf");
+    WordQuery test(conf);
+    test.loadLibrary();
+    vector<string> querwords{"早起的鸟有虫子吃"};
+    vector<pair<int,vector<double>>> result;
+    test.executeQuery(querwords,result);
+    string str;
+    while(cin >> str)
+    {
+        cout << test.doQuery(str) << endl;
+    }
+
+    /* for(auto &s : result) */
+    /* { */
+    /*     cout << s.first << ":" << s.second << endl; */
+    /* } */
+
+    return 0;
+}
+
